@@ -7,6 +7,102 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2023/08/17/chris-ramsay-is.html",
+				
+				"content_html": "<p>Chris Ramsay is doing some amazing documentary work on Projekt Stargate and Remote Viewing.</p>\n\n<p><a href=\"https://www.patreon.com/Area52investigations\">Area52 Patreon with lots of uncut interview footage and remote viewing experiments by Chris himself</a></p>\n\n<p><a href=\"https://youtube.com/@Area52Investigations\">Area52 YouTube Channel with properly edited documentary episodes</a></p>\n\n<p>🎥</p>\n",
+				"content_text": "Chris Ramsay is doing some amazing documentary work on Projekt Stargate and Remote Viewing.\n\n[Area52 Patreon with lots of uncut interview footage and remote viewing experiments by Chris himself](https://www.patreon.com/Area52investigations)\n\n[Area52 YouTube Channel with properly edited documentary episodes](https://youtube.com/@Area52Investigations)\n\n🎥\n",
+				"date_published": "2023-08-17T15:44:51+02:00",
+				"url": "https://alexanderkucera.com/2023/08/17/chris-ramsay-is.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/16/really-undecided-on.html",
+				
+				"content_html": "<p>Really undecided on how to proceed. On one hand simply using Micro.blog for blogging is easy and simple. On the other using my own blog setup scratches my nerd itch and saves me $5 a month.</p>\n",
+				"content_text": "Really undecided on how to proceed. On one hand simply using Micro.blog for blogging is easy and simple. On the other using my own blog setup scratches my nerd itch and saves me $5 a month. \n",
+				"date_published": "2023-08-16T08:51:44+02:00",
+				"url": "https://alexanderkucera.com/2023/08/16/really-undecided-on.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/15/id-like-to.html",
+				
+				"content_html": "<p>I‘d like to consider myself a writer, yet have not really written anything in years. I‘d like to consider myself a coder, yet haven‘t coded anything in years. What am I these days? 🧐</p>\n",
+				"content_text": "I‘d like to consider myself a writer, yet have not really written anything in years. I‘d like to consider myself a coder, yet haven‘t coded anything in years. What am I these days? 🧐\n",
+				"date_published": "2023-08-15T15:57:34+02:00",
+				"url": "https://alexanderkucera.com/2023/08/15/id-like-to.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/14/i-finally-managed.html",
+				
+				"content_html": "<p>I finally managed to get <a href=\"http://babylondreams.de\">babylondreams.de</a> up and running again. I replaced the old Kirby CMS site with a simple HTML based version. My Kirby version was too old to run under modern PHP and upgrading Kirby to a more recent version did my head in. So no more Kirby and all HTML. At least I can edit that directly if I need to.</p>\n",
+				"content_text": "I finally managed to get [babylondreams.de](http://babylondreams.de) up and running again. I replaced the old Kirby CMS site with a simple HTML based version. My Kirby version was too old to run under modern PHP and upgrading Kirby to a more recent version did my head in. So no more Kirby and all HTML. At least I can edit that directly if I need to.\n",
+				"date_published": "2023-08-14T16:04:31+02:00",
+				"url": "https://alexanderkucera.com/2023/08/14/i-finally-managed.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/14/so-let-me.html",
+				
+				"content_html": "<p>So let me get this straight, <a href=\"https://micro.blog/sunlit\">@sunlit</a> is a photo sharing app that does not allow me to take photos? That seems rather limiting, doesn‘t it? 📷</p>\n",
+				"content_text": "So let me get this straight, [@sunlit](https://micro.blog/sunlit) is a photo sharing app that does not allow me to take photos? That seems rather limiting, doesn‘t it? 📷\n",
+				"date_published": "2023-08-14T15:13:12+02:00",
+				"url": "https://alexanderkucera.com/2023/08/14/so-let-me.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/13/small-town-politicians.html",
+				
+				"content_html": "<p>Small town politicians are the worst. Listening to one discuss with my wife right now. The level of hubris and „you have no idea what you are talking about“ is astounding.</p>\n",
+				"content_text": "Small town politicians are the worst. Listening to one discuss with my wife right now. The level of hubris and „you have no idea what you are talking about“ is astounding.\n",
+				"date_published": "2023-08-13T17:43:57+02:00",
+				"url": "https://alexanderkucera.com/2023/08/13/small-town-politicians.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/11/drawing-box-at.html",
+				
+				"content_html": "<p>Drawing box at our local IKEA. 🎨</p>\n\n<p><img src=\"uploads/2023/284df033ff.jpg\" width=\"600\" height=\"450\" alt=\"\"></p>\n",
+				"content_text": "Drawing box at our local IKEA. 🎨\n\n<img src=\"uploads/2023/284df033ff.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"date_published": "2023-08-11T14:11:37+02:00",
+				"url": "https://alexanderkucera.com/2023/08/11/drawing-box-at.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/11/i-remember-twitter.html",
+				
+				"content_html": "<p>I remember Twitter clients having some sort of timeline sync. Was it called Tweetmarker? I wonder if Micro.blog supports something similar <a href=\"https://micro.blog/manton\">@manton</a>? Currently I am scrolling past read posts on different apps and different devices each time I am checking my timeline.</p>\n",
+				"content_text": "I remember Twitter clients having some sort of timeline sync. Was it called Tweetmarker? I wonder if Micro.blog supports something similar [@manton](https://micro.blog/manton)? Currently I am scrolling past read posts on different apps and different devices each time I am checking my timeline.\n",
+				"date_published": "2023-08-11T08:32:27+02:00",
+				"url": "https://alexanderkucera.com/2023/08/11/i-remember-twitter.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/10/reading-about-webmentions.html",
+				
+				"content_html": "<p>Reading about Webmentions reminds me why I never really liked all that „new web stuff“ for my own sites. It is the same issue I have with GUI programs I have written in the past. Knowing what goes on behind the curtain makes it all feel extremely fragile to me. 👨‍💻📝📚</p>\n",
+				"content_text": "\nReading about Webmentions reminds me why I never really liked all that „new web stuff“ for my own sites. It is the same issue I have with GUI programs I have written in the past. Knowing what goes on behind the curtain makes it all feel extremely fragile to me. 👨‍💻📝📚\n",
+				"date_published": "2023-08-10T15:36:16+02:00",
+				"url": "https://alexanderkucera.com/2023/08/10/reading-about-webmentions.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/10/it-should-be.html",
+				
+				"content_html": "<p>It should be noted that one cannot add <a href=\"https://micro.blog/manton\">@manton</a>‘s book about Micro.blog to the reading list. Boo! 📚</p>\n",
+				"content_text": "It should be noted that one cannot add [@manton](https://micro.blog/manton)‘s book about Micro.blog to the reading list. Boo! 📚\n",
+				"date_published": "2023-08-10T14:51:44+02:00",
+				"url": "https://alexanderkucera.com/2023/08/10/it-should-be.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/08/just-in-case.html",
+				
+				"content_html": "<p>Just in case anyone is in the area. We are hosting a children’s flea market during this year’s Goisemer Kerwe.</p>\n\n<p><img src=\"uploads/2023/27f2b83c02.jpg\" width=\"424\" height=\"600\" alt=\"\"></p>\n",
+				"content_text": "Just in case anyone is in the area. We are hosting a children’s flea market during this year’s Goisemer Kerwe. \n\n<img src=\"uploads/2023/27f2b83c02.jpg\" width=\"424\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-08-08T14:18:42+02:00",
+				"url": "https://alexanderkucera.com/2023/08/08/just-in-case.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/07/eggplant-tomatoes-swiss.html",
+				
+				"content_html": "<p>Eggplant, tomatoes, Swiss chard, minced meat and puff pastry. What could go wrong?\n🍆🍅🥬🔪🥩🥐🤤</p>\n\n<p><img src=\"uploads/2023/b7cc19141e.jpg\" width=\"600\" height=\"450\" alt=\"\"></p>\n",
+				"content_text": "Eggplant, tomatoes, Swiss chard, minced meat and puff pastry. What could go wrong?\n🍆🍅🥬🔪🥩🥐🤤\n\n<img src=\"uploads/2023/b7cc19141e.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"date_published": "2023-08-07T12:56:25+02:00",
+				"url": "https://alexanderkucera.com/2023/08/07/eggplant-tomatoes-swiss.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2023/08/07/this-weeks-swimming.html",
 				
 				"content_html": "<p>This week‘s swimming lessons for the little one have been postponed by a week. It is just too cold outside. In the middle of August. Crazy weather. ⛈️🏊</p>\n",
@@ -129,12 +225,212 @@
 				"url": "https://alexanderkucera.com/2023/07/31/after-years-of.html"
 			},
 			{
+				"id": "http://AlexKucera.micro.blog/2019/06/27/yesterday-i-came.html",
+				
+				"content_html": "<hr />\n\n<p>Yesterday I came across one of the most German things I have seen in a long time. Apparently there is such a thing as an &ldquo;Arbeitsschutzgetränk&rdquo;, which means &ldquo;worker protection drink&rdquo;. In essence it is an isotonic drink for workers in high heat work places. But I find it hilarious that we Germans felt the need to come up with a convoluted word for it.</p>\n",
+				"content_text": "----\n\nYesterday I came across one of the most German things I have seen in a long time. Apparently there is such a thing as an \"Arbeitsschutzgetränk\", which means \"worker protection drink\". In essence it is an isotonic drink for workers in high heat work places. But I find it hilarious that we Germans felt the need to come up with a convoluted word for it.\n",
+				"date_published": "2019-06-27T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2019/06/27/yesterday-i-came.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/09/28/go-ahead-dont.html",
+				
+				"content_html": "<hr />\n\n<p>Go ahead. Don’t vote. You don’t want to anyway.</p>\n\n<p><a href=\"https://www.youtube.com/watch?v=t0e9guhV35o\">YouTube Link</a></p>\n",
+				"content_text": "----\n\nGo ahead. Don’t vote. You don’t want to anyway. \n\n[YouTube Link](https://www.youtube.com/watch?v=t0e9guhV35o)\n",
+				"date_published": "2018-09-28T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/09/28/go-ahead-dont.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/09/05/drive-act-is.html",
+				
+				"content_html": "<hr />\n\n<p>Drive Act 2 is on Kickstarter! Go get it if you even remotely like science fiction and/or comedy.</p>\n\n<iframe width=\"480\" height=\"270\" src=\"https://www.kickstarter.com/projects/smallfish/drive-act-2-hardcover-or-get-acts-1-and-2/widget/video.html\" frameborder=\"0\" scrolling=\"no\"> </iframe>\n",
+				"content_text": "----\n\nDrive Act 2 is on Kickstarter! Go get it if you even remotely like science fiction and/or comedy.\n\n<iframe width=\"480\" height=\"270\" src=\"https://www.kickstarter.com/projects/smallfish/drive-act-2-hardcover-or-get-acts-1-and-2/widget/video.html\" frameborder=\"0\" scrolling=\"no\"> </iframe>\n",
+				"date_published": "2018-09-05T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/09/05/drive-act-is.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/08/20/020000.html",
+				
+				"content_html": "<hr />\n\n<p><img src=\"https://alexanderkucera.com/uploads/2023/620682a0a6.jpg\" alt=\"\" /></p>\n",
+				"content_text": "\n----\n\n![](https://alexanderkucera.com/uploads/2023/620682a0a6.jpg)\n",
+				"date_published": "2018-08-20T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/08/20/020000.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2018/07/31/ok-lets-see.html",
 				
 				"content_html": "<p>Ok. Let’s see. I’ll be trying out posting to Micro.blog directly again for a while. Usually I post to my Kirby blog, but my workflow for that is just a bit convoluted. It might be nice to have a more immediate workflow for a change.</p>\n",
 				"content_text": "Ok. Let’s see. I’ll be trying out posting to Micro.blog directly again for a while. Usually I post to my Kirby blog, but my workflow for that is just a bit convoluted. It might be nice to have a more immediate workflow for a change. \n",
 				"date_published": "2018-07-31T14:53:52+02:00",
 				"url": "https://alexanderkucera.com/2018/07/31/ok-lets-see.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/06/29/went-to-a.html",
+				
+				"content_html": "<hr />\n\n<p>Went to a vascular surgeon today for a checkup. Apparently I have “the veins of a twenty year old”.</p>\n",
+				"content_text": "----\n\nWent to a vascular surgeon today for a checkup. Apparently I have “the veins of a twenty year old”.\n",
+				"date_published": "2018-06-29T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/06/29/went-to-a.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/06/12/im-at-a.html",
+				
+				"content_html": "<hr />\n\n<p>I’m at a lack for words. -&gt; <a href=\"https://www.newyorker.com/science/elements/looking-for-life-on-a-flat-earth\">Flat Earth</a></p>\n",
+				"content_text": "----\n\nI’m at a lack for words. -> [Flat Earth](https://www.newyorker.com/science/elements/looking-for-life-on-a-flat-earth)\n",
+				"date_published": "2018-06-12T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/06/12/im-at-a.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/06/11/the-commercial-i.html",
+				
+				"content_html": "<hr />\n\n<p>The commercial I did for Kaufland is online. It was a fun two weeks of compositing and grading.</p>\n\n<p><a href=\"https://vimeo.com/269612246\">Kaufland Table Vimeo</a></p>\n",
+				"content_text": "----\n\nThe commercial I did for Kaufland is online. It was a fun two weeks of compositing and grading. \n\n[Kaufland Table Vimeo](https://vimeo.com/269612246)\n",
+				"date_published": "2018-06-11T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/06/11/the-commercial-i.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/05/31/good-morning-hamburg.html",
+				
+				"content_html": "<hr />\n\n<p>Good morning Hamburg!\n<img src=\"https://alexanderkucera.com/uploads/2023/401e9e447f.jpg\" alt=\"\" /></p>\n",
+				"content_text": "----\n\nGood morning Hamburg!\n![](https://alexanderkucera.com/uploads/2023/401e9e447f.jpg)\n",
+				"date_published": "2018-05-31T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/05/31/good-morning-hamburg.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/05/31/oh-boy-i.html",
+				
+				"content_html": "<hr />\n\n<p>Oh boy! I didn’t expect this. Looks like I’ll be working with Blender in a professional setting for the first time since 2005.</p>\n",
+				"content_text": "----\n\nOh boy! I didn’t expect this. Looks like I’ll be working with Blender in a professional setting for the first time since 2005.\n",
+				"date_published": "2018-05-31T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/05/31/oh-boy-i.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/05/30/hamburg-here-i.html",
+				
+				"content_html": "<hr />\n\n<p>Hamburg here I come again. Two weeks of sunshine (right Hamburg?), shopping, meeting friends…and oh yeah work.</p>\n",
+				"content_text": "----\n\nHamburg here I come again. Two weeks of sunshine (right Hamburg?), shopping, meeting friends…and oh yeah work. \n",
+				"date_published": "2018-05-30T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/05/30/hamburg-here-i.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/05/16/prepping-the-vrscene.html",
+				"title": "5 - Prepping the vrscene GUI Intro Video",
+				"content_html": "<hr />\n\n<p>Text: Recording while waiting for 3D scenes to load. Creating an intro video for an application is so not my thing…</p>\n\n<p><a href=\"https://alexanderkucera.com/uploads/2023/5-prepping-the-vrscene-gui-intro-video.mp3\">Episode 5 Audio</a></p>\n\n<p>Duration: 3:00</p>\n\n<p><audio src=\"https://alexanderkucera.com/uploads/2023/5-prepping-the-vrscene-gui-intro-video.mp3\"></p>\n",
+				"content_text": "----\n\nText: Recording while waiting for 3D scenes to load. Creating an intro video for an application is so not my thing…\n\n[Episode 5 Audio](https://alexanderkucera.com/uploads/2023/5-prepping-the-vrscene-gui-intro-video.mp3)\n\nDuration: 3:00\n\n<audio src=\"https://alexanderkucera.com/uploads/2023/5-prepping-the-vrscene-gui-intro-video.mp3\">\n",
+				"date_published": "2018-05-16T17:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/05/16/prepping-the-vrscene.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/04/28/fmx-closing-thoughts.html",
+				"title": "4 - FMX Closing Thoughts",
+				"content_html": "<hr />\n\n<p>Text: Taking a look back at last week.</p>\n\n<p><a href=\"https://alexanderkucera.com/uploads/2023/4-fmx-closing-thoughts.mp3\">Episode 4 Audio</a></p>\n\n<p>Duration: 3:25</p>\n\n<p><audio src=\"https://alexanderkucera.com/uploads/2023/4-fmx-closing-thoughts.mp3\"></p>\n",
+				"content_text": "----\n\nText: Taking a look back at last week.\n\n[Episode 4 Audio](https://alexanderkucera.com/uploads/2023/4-fmx-closing-thoughts.mp3)\n\nDuration: 3:25\n\n<audio src=\"https://alexanderkucera.com/uploads/2023/4-fmx-closing-thoughts.mp3\">\n",
+				"date_published": "2018-04-28T18:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/04/28/fmx-closing-thoughts.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/04/26/fmx-day.html",
+				"title": "FMX Day 3",
+				"content_html": "<hr />\n\n<p>Text: Looking back at day 2 of FMX 2018.</p>\n\n<p><a href=\"https://alexanderkucera.com/uploads/2023/3-fmx-day-2.mp3\">Episode 3 Audio</a></p>\n\n<p>Duration: 2:56</p>\n\n<p><audio src=\"https://alexanderkucera.com/uploads/2023/3-fmx-day-2.mp3\"></p>\n",
+				"content_text": "----\n\nText: Looking back at day 2 of FMX 2018.\n\n[Episode 3 Audio](https://alexanderkucera.com/uploads/2023/3-fmx-day-2.mp3)\n\nDuration: 2:56\n\n<audio src=\"https://alexanderkucera.com/uploads/2023/3-fmx-day-2.mp3\">\n",
+				"date_published": "2018-04-26T13:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/04/26/fmx-day.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/04/25/episode-fmx-day.html",
+				"title": "Episode 2 - FMX Day 1",
+				"content_html": "<hr />\n\n<p>Text: Quick recap of the first day of FMX and outlook of the second day.</p>\n\n<p><a href=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">Episode 2 Audio</a></p>\n\n<p>Duration: 4:33</p>\n\n<p><audio src=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">\n<p><a href=\"/transcripts/2023/08/11/383.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "----\n\nText: Quick recap of the first day of FMX and outlook of the second day.\n\n[Episode 2 Audio](https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3)\n\nDuration: 4:33\n\n<audio src=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">\n<p><a href=\"/transcripts/2023/08/11/383.html\" class=\"transcript_link\">Transcript</a>\n",
+				"date_published": "2018-04-25T10:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/04/25/episode-fmx-day.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/04/23/episode.html",
+				"title": "Episode 1",
+				"content_html": "<hr />\n\n<p>Text: Welcome to my little podcasting experiment. Let’s see how this goes…</p>\n\n<p><a href=\"https://alexanderkucera.com/uploads/2023/babylondreams-cast-episode-1.mp3\">Episode 1 Audio</a></p>\n\n<p>Duration: 0:30</p>\n\n<p><audio src=\"https://alexanderkucera.com/uploads/2023/babylondreams-cast-episode-1.mp3\"></p>\n",
+				"content_text": "----\n\nText: Welcome to my little podcasting experiment. Let’s see how this goes…\n\n[Episode 1 Audio](https://alexanderkucera.com/uploads/2023/babylondreams-cast-episode-1.mp3)\n\nDuration: 0:30\n\n<audio src=\"https://alexanderkucera.com/uploads/2023/babylondreams-cast-episode-1.mp3\">\n",
+				"date_published": "2018-04-23T10:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/04/23/episode.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/03/29/ill-never-understand.html",
+				
+				"content_html": "<hr />\n\n<p>I’ll never understand how people don’t make seat reservations while booking their train ticket</p>\n",
+				"content_text": "----\n\nI’ll never understand how people don’t make seat reservations while booking their train ticket\n",
+				"date_published": "2018-03-29T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/03/29/ill-never-understand.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/03/28/im-getting-to.html",
+				
+				"content_html": "<hr />\n\n<p>I’m getting to play with the Milo MoCo today. Fun times ahead.</p>\n\n<p><img src=\"https://alexanderkucera.com/uploads/2023/c39b75b93f.jpg\" alt=\"Milo Motion Control\" /></p>\n",
+				"content_text": "----\n\nI’m getting to play with the Milo MoCo today. Fun times ahead. \n\n![Milo Motion Control](https://alexanderkucera.com/uploads/2023/c39b75b93f.jpg)\n",
+				"date_published": "2018-03-28T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/03/28/im-getting-to.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/02/14/in-the-office.html",
+				
+				"content_html": "<hr />\n\n<p>In the office this afternoon. I can’t wait to get the last few (known) bugs of vrscene GUI squashed. Then it’s on to figuring out trial mode and licensing.</p>\n",
+				"content_text": "----\n\nIn the office this afternoon. I can’t wait to get the last few (known) bugs of vrscene GUI squashed. Then it’s on to figuring out trial mode and licensing. \n",
+				"date_published": "2018-02-14T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/02/14/in-the-office.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/02/06/ahpink-eye-iritishow.html",
+				
+				"content_html": "<hr />\n\n<p>Ah…pink eye (iritis)…how I’ve missed you. Not.</p>\n",
+				"content_text": "----\n\nAh…pink eye (iritis)…how I’ve missed you. Not. \n",
+				"date_published": "2018-02-06T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/02/06/ahpink-eye-iritishow.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/01/18/testpost.html",
+				
+				"content_html": "<hr />\n\n<p>Testpost</p>\n",
+				"content_text": "----\n\nTestpost\n",
+				"date_published": "2018-01-18T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/01/18/testpost.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/01/11/life-me-boom.html",
+				
+				"content_html": "<hr />\n\n<p>Life:0 Me:38 Boom</p>\n",
+				"content_text": "----\n\nLife:0 Me:38 Boom\n",
+				"date_published": "2018-01-11T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/01/11/life-me-boom.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2018/01/10/finally-managed-to.html",
+				
+				"content_html": "<hr />\n\n<p>Finally managed to play 5 Minute Dungeon with Robin and Monika. It was awesome and they loved it as well. Highly recommended</p>\n",
+				"content_text": "----\n\nFinally managed to play 5 Minute Dungeon with Robin and Monika. It was awesome and they loved it as well. Highly recommended\n",
+				"date_published": "2018-01-10T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2018/01/10/finally-managed-to.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/11/06/certifying-three-tb.html",
+				
+				"content_html": "<hr />\n\n<p>Certifying three 3TB HDDs is testing my patience.</p>\n",
+				"content_text": "----\n\nCertifying three 3TB HDDs is testing my patience.\n",
+				"date_published": "2017-11-06T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/11/06/certifying-three-tb.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/11/06/this-is-pretty.html",
+				
+				"content_html": "<hr />\n\n<p>This is pretty cool tech. <a href=\"https://letsenhance.io/\">Let&rsquo;s enhance</a></p>\n",
+				"content_text": "----\n\nThis is pretty cool tech. [Let's enhance](https://letsenhance.io/)\n",
+				"date_published": "2017-11-06T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/11/06/this-is-pretty.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/09/25/today-the-cable.html",
+				
+				"content_html": "<hr />\n\n<p>Today the cable technician will finally enable Internet access in the new office. Then I can move to the new rooms. About time.</p>\n",
+				"content_text": "----\n\nToday the cable technician will finally enable Internet access in the new office. Then I can move to the new rooms. About time.\n",
+				"date_published": "2017-09-25T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/09/25/today-the-cable.html"
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2017/09/13/soiphone-x-eh.html",
@@ -145,12 +441,236 @@
 				"url": "https://alexanderkucera.com/2017/09/13/soiphone-x-eh.html"
 			},
 			{
+				"id": "http://AlexKucera.micro.blog/2017/09/13/soiphone-x-interesting.html",
+				
+				"content_html": "<hr />\n\n<p>So…iPhone X. Interesting. 🙂</p>\n",
+				"content_text": "----\n\nSo…iPhone X. Interesting. 🙂\n",
+				"date_published": "2017-09-13T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/09/13/soiphone-x-interesting.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/09/10/listening-to-what.html",
+				
+				"content_html": "<hr />\n\n<p>Listening to <a href=\"https://www.samharris.org/podcast/item/what-you-need-to-know-about-climate-change\">What You Need to Know About Climate Change with Sam Harris</a>. Some interesting thoughts in there.</p>\n",
+				"content_text": "----\n\nListening to [What You Need to Know About Climate Change with Sam Harris](https://www.samharris.org/podcast/item/what-you-need-to-know-about-climate-change). Some interesting thoughts in there.\n",
+				"date_published": "2017-09-10T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/09/10/listening-to-what.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/09/04/the-perks-of.html",
+				
+				"content_html": "<hr />\n\n<p>The perks of getting review copies.</p>\n\n<p><img src=\"https://alexanderkucera.com/uploads/2023/b707ee18e7.jpg\" alt=\"Blackmagic Fusion Studio 9 Dongle\" /></p>\n",
+				"content_text": "----\n\nThe perks of getting review copies. \n\n![Blackmagic Fusion Studio 9 Dongle](https://alexanderkucera.com/uploads/2023/b707ee18e7.jpg)\n",
+				"date_published": "2017-09-04T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/09/04/the-perks-of.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/09/02/i-did-an.html",
+				
+				"content_html": "<hr />\n\n<p>I did an impromptu coding job two days ago and it was loads of fun. I could go for more paid development work actually. Much more straightforward then doing 3D animations.</p>\n",
+				"content_text": "----\n\nI did an impromptu coding job two days ago and it was loads of fun. I could go for more paid development work actually. Much more straightforward then doing 3D animations.\n",
+				"date_published": "2017-09-02T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/09/02/i-did-an.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/08/25/the-village-country.html",
+				
+				"content_html": "<hr />\n\n<p>The village country fair is about to start. Three days of eating hearty food, lots of wine</p>\n",
+				"content_text": "----\n\nThe village country fair is about to start. Three days of eating hearty food, lots of wine\n",
+				"date_published": "2017-08-25T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/08/25/the-village-country.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/08/22/my-affinity-designer.html",
+				
+				"content_html": "<hr />\n\n<p>My Affinity Designer Workbook has arrived and it is gorgeous.\n<img src=\"https://alexanderkucera.com/uploads/2023/67da0892c9.jpg\" alt=\"\" /></p>\n",
+				"content_text": "----\n\nMy Affinity Designer Workbook has arrived and it is gorgeous. \n![](https://alexanderkucera.com/uploads/2023/67da0892c9.jpg)\n",
+				"date_published": "2017-08-22T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/08/22/my-affinity-designer.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/08/11/neat-a-new.html",
+				
+				"content_html": "<hr />\n\n<p>Neat. A new Screenflow version. And it has some nice new features. But wow. The full price these days is double (or even more?) then what I paid for it a couple of versions back. But the upgrade price is perfectly fair.</p>\n",
+				"content_text": "----\n\nNeat. A new Screenflow version. And it has some nice new features. But wow. The full price these days is double (or even more?) then what I paid for it a couple of versions back. But the upgrade price is perfectly fair.\n",
+				"date_published": "2017-08-11T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/08/11/neat-a-new.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/24/great-discussion-although.html",
+				
+				"content_html": "<hr />\n\n<p>Great discussion. Although I must say I have a hard time to see Scott Adams&rsquo; point of view. It&rsquo;s just too detached from what I consider ethical.\n— <a href=\"https://castro.fm/episode/H8i6N5\">Sam Harris and Scott Adams discuss Trump</a></p>\n",
+				"content_text": "----\n\nGreat discussion. Although I must say I have a hard time to see Scott Adams' point of view. It's just too detached from what I consider ethical. \n— [Sam Harris and Scott Adams discuss Trump](https://castro.fm/episode/H8i6N5)\n",
+				"date_published": "2017-07-24T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/24/great-discussion-although.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/24/work-life-balance.html",
+				
+				"content_html": "<hr />\n\n<p>Work life balance by definition means you won&rsquo;t excel in either. So be suspicious of people that claim to be at the top of their field and have a great work life balance.\n— <a href=\"https://castro.fm/episode/Qqscu5\">Why Everything You Know About Success Is (Mostly) Wrong</a></p>\n",
+				"content_text": "----\n\nWork life balance by definition means you won't excel in either. So be suspicious of people that claim to be at the top of their field and have a great work life balance.\n— [Why Everything You Know About Success Is (Mostly) Wrong](https://castro.fm/episode/Qqscu5)\n",
+				"date_published": "2017-07-24T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/24/work-life-balance.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/16/zelda-today-gotta.html",
+				
+				"content_html": "<hr />\n\n<p>Zelda today. Gotta crack those Master Sword trials.</p>\n",
+				"content_text": "----\n\nZelda today. Gotta crack those Master Sword trials.\n",
+				"date_published": "2017-07-16T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/16/zelda-today-gotta.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/15/looking-at-my.html",
+				
+				"content_html": "<hr />\n\n<p>Looking at my TestFlight I have amassed quite the beta app collection by now.</p>\n",
+				"content_text": "----\n\nLooking at my TestFlight I have amassed quite the beta app collection by now.\n",
+				"date_published": "2017-07-15T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/15/looking-at-my.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/15/on-the-playground.html",
+				
+				"content_html": "<hr />\n\n<p>On the playground with the kids. Great weather. Happy kids. No stress. Camera at the ready. Perfect.</p>\n",
+				"content_text": "----\n\nOn the playground with the kids. Great weather. Happy kids. No stress. Camera at the ready. Perfect.\n",
+				"date_published": "2017-07-15T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/15/on-the-playground.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/15/working-the-water.html",
+				
+				"content_html": "<hr />\n\n<p>Working the water pump. A man&rsquo;s summer workout.</p>\n",
+				"content_text": "----\n\nWorking the water pump. A man's summer workout.\n",
+				"date_published": "2017-07-15T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/15/working-the-water.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/13/nailed-my-git.html",
+				
+				"content_html": "<hr />\n\n<p>Nailed my Git workflow. Now any changes on the site such as Micropub posts or quick HTML/CSS fixes will find their way back to the Git repo and also any changes from the repo from my desktop or iOS will get published to the site. Awesome.</p>\n",
+				"content_text": "----\n\nNailed my Git workflow. Now any changes on the site such as Micropub posts or quick HTML/CSS fixes will find their way back to the Git repo and also any changes from the repo from my desktop or iOS will get published to the site. Awesome.\n",
+				"date_published": "2017-07-13T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/13/nailed-my-git.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/12/triggering-a-git.html",
+				
+				"content_html": "<hr />\n\n<p>Triggering a Git commit from the server works. iOS workflow still on hold because of a bug. And desktop triggering almost there. This was easier then expected.</p>\n",
+				"content_text": "----\n\nTriggering a Git commit from the server works. iOS workflow still on hold because of a bug. And desktop triggering almost there. This was easier then expected.\n",
+				"date_published": "2017-07-12T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/12/triggering-a-git.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/11/so-close-on.html",
+				
+				"content_html": "<hr />\n\n<p>So close on a solution to combine Micropub posting with my Git workflow.</p>\n",
+				"content_text": "----\n\nSo close on a solution to combine Micropub posting with my Git workflow.\n",
+				"date_published": "2017-07-11T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/11/so-close-on.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/10/one-more-test.html",
+				
+				"content_html": "<hr />\n\n<p>One more test. Sorry. 🙄</p>\n",
+				"content_text": "----\n\nOne more test. Sorry. 🙄\n",
+				"date_published": "2017-07-10T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/10/one-more-test.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/10/testing-micropub-posting.html",
+				
+				"content_html": "<hr />\n\n<p>Testing MicroPub posting from the micro.blog iOS app.</p>\n",
+				"content_text": "----\n\nTesting MicroPub posting from the micro.blog iOS app.\n",
+				"date_published": "2017-07-10T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/10/testing-micropub-posting.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/08/i-hate-it.html",
+				
+				"content_html": "<hr />\n\n<p>I hate it when people argue with me about something I never said</p>\n",
+				"content_text": "----\n\nI hate it when people argue with me about something I never said\n",
+				"date_published": "2017-07-08T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/08/i-hate-it.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/05/great-start-to.html",
+				
+				"content_html": "<hr />\n\n<p>Great start to the day. Wanting to tackle the project changes that accumulated during my downtime aaand…</p>\n\n<p>I cannot find the change notes from the client… 😐</p>\n\n<p>Way to stay organized Alex! <em>sigh</em></p>\n",
+				"content_text": "----\n\nGreat start to the day. Wanting to tackle the project changes that accumulated during my downtime aaand… \n\nI cannot find the change notes from the client… 😐 \n\nWay to stay organized Alex! *sigh*\n",
+				"date_published": "2017-07-05T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/05/great-start-to.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/07/04/in-a-waiting.html",
+				
+				"content_html": "<hr />\n\n<p>In a waiting room. Again…</p>\n\n<p>I&rsquo;m getting tired of waiting rooms.</p>\n",
+				"content_text": "----\n\nIn a waiting room. Again…\n\nI'm getting tired of waiting rooms. \n",
+				"date_published": "2017-07-04T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/07/04/in-a-waiting.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/06/29/testing-webmentions-with.html",
+				
+				"content_html": "<hr />\n\n<p>Testing Webmentions with Kirby&rsquo;s <a href=\"https://github.com/bastianallgeier/kirby-webmentions\">Webmention plugin</a>. Probably not going to work. Let&rsquo;s see…\n<a href=\"https://webmention.rocks/test/1\">Test 1</a></p>\n",
+				"content_text": "----\n\nTesting Webmentions with Kirby's <a href=\"https://github.com/bastianallgeier/kirby-webmentions\">Webmention plugin</a>. Probably not going to work. Let's see…\n<a href=\"https://webmention.rocks/test/1\">Test 1</a>\n",
+				"date_published": "2017-06-29T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/06/29/testing-webmentions-with.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/06/04/a-cold-is.html",
+				
+				"content_html": "<hr />\n\n<p>A cold is nothing to sneeze at.</p>\n",
+				"content_text": "----\n\nA cold is nothing to sneeze at. \n",
+				"date_published": "2017-06-04T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/06/04/a-cold-is.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/05/26/a-deer-just.html",
+				
+				"content_html": "<hr />\n\n<p>A deer just bounced past us on our after lunch stroll. The perks of living on the countryside.</p>\n",
+				"content_text": "----\n\nA deer just bounced past us on our after lunch stroll. The perks of living on the countryside. \n",
+				"date_published": "2017-05-26T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/05/26/a-deer-just.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2017/05/19/my-betterback-arrived.html",
 				
 				"content_html": "<p>My BetterBack arrived yesterday and it is pretty great I must say.\n<a href=\"https://www.kickstarter.com/projects/1123408990/betterback-therapy-improve-posture-back-pain\">www.kickstarter.com/projects/&hellip;</a></p>\n",
 				"content_text": "My BetterBack arrived yesterday and it is pretty great I must say.\n[www.kickstarter.com/projects/...](https://www.kickstarter.com/projects/1123408990/betterback-therapy-improve-posture-back-pain)\n",
 				"date_published": "2017-05-19T15:59:10+02:00",
 				"url": "https://alexanderkucera.com/2017/05/19/my-betterback-arrived.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/05/13/willow-laughed-for.html",
+				
+				"content_html": "<hr />\n\n<p>Willow laughed for the first time. The first laugh has something magical.</p>\n",
+				"content_text": "----\n\nWillow laughed for the first time. The first laugh has something magical.\n",
+				"date_published": "2017-05-13T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/05/13/willow-laughed-for.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/05/03/looks-like-i.html",
+				
+				"content_html": "<hr />\n\n<p>Looks like I went to bed too late last night. So I&rsquo;m calling it a day for today and am catching up on some rest</p>\n",
+				"content_text": "----\n\nLooks like I went to bed too late last night. So I'm calling it a day for today and am catching up on some rest\n",
+				"date_published": "2017-05-03T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/05/03/looks-like-i.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/05/02/interesting-a-live.html",
+				
+				"content_html": "<hr />\n\n<p>Interesting. A live connection between modo and other apps (working for Unreal at this point) is coming to modo 11.1\nPush scenes wholesale back and forth including asset and geometry changes.</p>\n",
+				"content_text": "----\n\nInteresting. A live connection between modo and other apps (working for Unreal at this point) is coming to modo 11.1\nPush scenes wholesale back and forth including asset and geometry changes.\n",
+				"date_published": "2017-05-02T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/05/02/interesting-a-live.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/05/02/on-my-way.html",
+				
+				"content_html": "<hr />\n\n<p>On my way to FMX. It looks to be a fun week. I hope to meet many old friends and colleagues and meet lots of new faces.</p>\n",
+				"content_text": "----\n\nOn my way to FMX. It looks to be a fun week. I hope to meet many old friends and colleagues and meet lots of new faces. \n",
+				"date_published": "2017-05-02T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/05/02/on-my-way.html"
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2017/04/29/sick-in-bed.html",
@@ -171,8 +691,8 @@
 			{
 				"id": "http://AlexKucera.micro.blog/2017/04/26/its-here-and.html",
 				
-				"content_html": "<p>It&rsquo;s here and it&rsquo;s gorgeous!</p>\n\n<p><img src=\"http://AlexKucera.micro.blog/uploads/2017/157fa345d4.jpg\" width=\"600\" height=\"600\" style=\"height: auto\" /></p>\n",
-				"content_text": "It's here and it's gorgeous!\n\n<img src=\"http://AlexKucera.micro.blog/uploads/2017/157fa345d4.jpg\" width=\"600\" height=\"600\" style=\"height: auto\" />\n",
+				"content_html": "<p>It&rsquo;s here and it&rsquo;s gorgeous!</p>\n\n<p><img src=\"uploads/2017/157fa345d4.jpg\" width=\"600\" height=\"600\" style=\"height: auto\" /></p>\n",
+				"content_text": "It's here and it's gorgeous!\n\n<img src=\"uploads/2017/157fa345d4.jpg\" width=\"600\" height=\"600\" style=\"height: auto\" />\n",
 				"date_published": "2017-04-26T06:05:11+02:00",
 				"url": "https://alexanderkucera.com/2017/04/26/its-here-and.html"
 			},
@@ -183,6 +703,70 @@
 				"content_text": "First micro.blog post. So exciting. I love what @manton built here. Is that how you mention someone? Probably not. Hehe. So much to learn. \n",
 				"date_published": "2017-04-26T04:49:05+02:00",
 				"url": "https://alexanderkucera.com/2017/04/26/first-microblog-post.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/02/11/so-much-for.html",
+				
+				"content_html": "<hr />\n\n<p>So much for fake VFX.\n<a href=\"https://vimeo.com/202516691\">Vimeo Link</a>\nGreat idea and execution guys!</p>\n",
+				"content_text": "----\n\nSo much for fake VFX. \n[Vimeo Link](https://vimeo.com/202516691) \nGreat idea and execution guys!\n",
+				"date_published": "2017-02-11T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/02/11/so-much-for.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/02/07/houdini-is-looking.html",
+				
+				"content_html": "<hr />\n\n<p>Houdini 16 is looking pretty awesome. I really need to find the time to learn it one of these days. <a href=\"https://vimeo.com/202435893\">Houdini 16</a></p>\n",
+				"content_text": "----\n\nHoudini 16 is looking pretty awesome. I really need to find the time to learn it one of these days. [Houdini 16](https://vimeo.com/202435893)\n",
+				"date_published": "2017-02-07T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/02/07/houdini-is-looking.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/02/05/today-i-started.html",
+				
+				"content_html": "<hr />\n\n<p>￼Today I started meditating again. It felt good. I really need to get a more regular schedule going again.</p>\n",
+				"content_text": "----\n\n￼Today I started meditating again. It felt good. I really need to get a more regular schedule going again.\n",
+				"date_published": "2017-02-05T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/02/05/today-i-started.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/01/30/shipment-on-holdi.html",
+				
+				"content_html": "<hr />\n\n<p>￼&rdquo;Shipment on hold&rdquo;\nI find it astounding that you can order something from the US and it takes less then a day to arrive in Germany only to be stuck in customs for over a week now. Seriously?!</p>\n",
+				"content_text": "----\n\n￼\"Shipment on hold\"\nI find it astounding that you can order something from the US and it takes less then a day to arrive in Germany only to be stuck in customs for over a week now. Seriously?!\n",
+				"date_published": "2017-01-30T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/01/30/shipment-on-holdi.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/01/29/one-last-push.html",
+				
+				"content_html": "<hr />\n\n<p>One last push. Come one guys!</p>\n\n<p><a href=\"https://www.kickstarter.com/projects/manton/indie-microblogging-owning-your-short-form-writing\">Indie Microblogging: owning your short-form writing</a></p>\n",
+				"content_text": "----\n\nOne last push. Come one guys! \n\n[Indie Microblogging: owning your short-form writing](https://www.kickstarter.com/projects/manton/indie-microblogging-owning-your-short-form-writing)\n",
+				"date_published": "2017-01-29T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/01/29/one-last-push.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/01/29/todays-goal-take.html",
+				
+				"content_html": "<hr />\n\n<p>￼Today&rsquo;s goal: take a bubble bath.\n(I know. I try to not set my goals too high. Also, achieving this goal is harder then it sounds.)</p>\n",
+				"content_text": "----\n\n￼Today's goal: take a bubble bath. \n(I know. I try to not set my goals too high. Also, achieving this goal is harder then it sounds.)\n",
+				"date_published": "2017-01-29T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/01/29/todays-goal-take.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/01/28/pancakes-for-breakfast.html",
+				
+				"content_html": "<hr />\n\n<p>￼Pancakes for breakfast make for a great Saturday starter.</p>\n",
+				"content_text": "----\n\n￼Pancakes for breakfast make for a great Saturday starter. \n",
+				"date_published": "2017-01-28T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/01/28/pancakes-for-breakfast.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2017/01/27/first-microblog-test.html",
+				
+				"content_html": "<hr />\n\n<p>First micro.blog test post via Alfred and Git push. So exciting!</p>\n",
+				"content_text": "----\n\nFirst micro.blog test post via Alfred and Git push. So exciting!\n",
+				"date_published": "2017-01-27T02:00:00+02:00",
+				"url": "https://alexanderkucera.com/2017/01/27/first-microblog-test.html"
 			}
 	]
 }
