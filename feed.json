@@ -7,10 +7,67 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2023/08/23/this-will-be.html",
+				
+				"content_html": "<p>This will be us in about 2 hours if all goes well. Barbie movie if anyone is interested. 📽</p>\n\n<p><img src=\"uploads/2023/3c833fa7aa.jpg\" width=\"600\" height=\"600\" alt=\"\"></p>\n",
+				"content_text": "This will be us in about 2 hours if all goes well. Barbie movie if anyone is interested. 📽\n\n<img src=\"uploads/2023/3c833fa7aa.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-08-23T15:57:23+02:00",
+				"url": "https://alexanderkucera.com/2023/08/23/this-will-be.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/22/hmmhome-made-burgers.html",
+				
+				"content_html": "<p>Hmm…home made burgers tonight? 🍔</p>\n",
+				"content_text": "Hmm…home made burgers tonight? 🍔\n",
+				"date_published": "2023-08-22T13:42:07+02:00",
+				"url": "https://alexanderkucera.com/2023/08/22/hmmhome-made-burgers.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/22/ive-started-to.html",
+				
+				"content_html": "<p>I‘ve started to write again. Feels nice. It is a bit slow and tedious, but I do enjoy using Ulysses again. Also using ChatGPT as a writing coach is fun. 📝</p>\n",
+				"content_text": "I‘ve started to write again. Feels nice. It is a bit slow and tedious, but I do enjoy using Ulysses again. Also using ChatGPT as a writing coach is fun. 📝\n",
+				"date_published": "2023-08-22T13:39:50+02:00",
+				"url": "https://alexanderkucera.com/2023/08/22/ive-started-to.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/18/goulash-vienna-style.html",
+				"title": "Goulash Vienna Style",
+				"content_html": "\n\n<p>I am uncertain if I ever posted this, but I just found this write-up of one of my favourite recipes. It always reminds me of home.</p>\n\n<p><img src=\"https://img.chefkoch-cdn.de/ck.de/rezepte/88/88095/442391-960x720-wiener-saftgulasch-wie-ich-es-mache.jpg\" alt=\"\" /></p>\n\n<p>Serves 4</p>\n\n<p>Takes at least 3 hours, better more</p>\n\n<h2 id=\"ingredients\">Ingredients:</h2>\n\n<ul>\n<li>1 kg beef</li>\n<li>800g onions</li>\n<li>4 cloves garlic</li>\n<li>1 teaspoon caraway</li>\n<li>1 tablespoon marjoram</li>\n<li>4 tablespoon paprika powder</li>\n<li>1 tablespoon (white wine) vinegar</li>\n<li>Salt</li>\n<li>Pepper</li>\n<li>1 teaspoon tomato paste</li>\n<li>lard or sunflower seed oil</li>\n<li>broth</li>\n</ul>\n\n<h2 id=\"directions\">Directions</h2>\n\n<ul>\n<li>Dice the onions into rough cubes.</li>\n<li>Dice the beef into 2-4 cm cubes</li>\n<li>Heat the lard/oil and fry the onions slowly to a dark brown. Don’t burn them!</li>\n<li>Purée the onions with a mixer or immersion blender</li>\n<li>Add the cut up garlic, caraway, marjoram, paprika, and vinegar and mix well</li>\n<li>add a bit of water and let it simmer for 1,5h to let the flavours develop</li>\n<li>After the 1,5h is up, add the meat and fill with water or broth. The amount is a bit to taste. The meat should still be visible and not swim in water. Add too much and the sauce gets too thin, add too little and you can always thin it later.</li>\n<li>Simmer for 3 hours or more on low heat. The longer, the better. In the end, you should have a nice deep red colour and a layer of fat swimming on the top.</li>\n<li>Stir everything to mix in the fat.</li>\n<li>Season with salt and pepper.</li>\n</ul>\n\n<p>Best prepared the day before. Or even two days before. It gets better with every re-heating.</p>\n\n<p>Eat with baguette, pasta or spätzle. Some heathens eat it with rice.</p>\n\n<p>🥘</p>\n",
+				"content_text": "I am uncertain if I ever posted this, but I just found this write-up of one of my favourite recipes. It always reminds me of home.\n\n![](https://img.chefkoch-cdn.de/ck.de/rezepte/88/88095/442391-960x720-wiener-saftgulasch-wie-ich-es-mache.jpg)\n\nServes 4\n\nTakes at least 3 hours, better more\n\n## Ingredients: \n* 1 kg beef \n* 800g onions\n* 4 cloves garlic\n* 1 teaspoon caraway\n* 1 tablespoon marjoram\n* 4 tablespoon paprika powder\n* 1 tablespoon (white wine) vinegar\n* Salt\n* Pepper\n* 1 teaspoon tomato paste\n* lard or sunflower seed oil\n* broth\n\n## Directions\n* Dice the onions into rough cubes.\n* Dice the beef into 2-4 cm cubes\n* Heat the lard/oil and fry the onions slowly to a dark brown. Don’t burn them!\n* Purée the onions with a mixer or immersion blender \n* Add the cut up garlic, caraway, marjoram, paprika, and vinegar and mix well\n* add a bit of water and let it simmer for 1,5h to let the flavours develop\n* After the 1,5h is up, add the meat and fill with water or broth. The amount is a bit to taste. The meat should still be visible and not swim in water. Add too much and the sauce gets too thin, add too little and you can always thin it later.\n* Simmer for 3 hours or more on low heat. The longer, the better. In the end, you should have a nice deep red colour and a layer of fat swimming on the top.\n* Stir everything to mix in the fat.\n* Season with salt and pepper.\n\nBest prepared the day before. Or even two days before. It gets better with every re-heating.\n\nEat with baguette, pasta or spätzle. Some heathens eat it with rice.\n\n🥘\n\n",
+				"date_published": "2023-08-18T15:12:17+02:00",
+				"url": "https://alexanderkucera.com/2023/08/18/goulash-vienna-style.html",
+				"tags": ["Recipes"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/18/now-for-an.html",
+				
+				"content_html": "<p>Now for an image that is attached to the Ulysses post. I expect this to fail, but let‘s see.</p>\n\n<p><img src=\"https://alexanderkucera.com/uploads/2023/9562ea7724.jpeg\" alt=\"Self-portrait\" /></p>\n",
+				"content_text": "Now for an image that is attached to the Ulysses post. I expect this to fail, but let‘s see.\n\n![Self-portrait](https://alexanderkucera.com/uploads/2023/9562ea7724.jpeg)\n\n\n",
+				"date_published": "2023-08-18T11:12:10+02:00",
+				"url": "https://alexanderkucera.com/2023/08/18/now-for-an.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/18/image-posting-test.html",
+				
+				"content_html": "<p><img src=\"https://alexanderkucera.com/uploads/2023/157fa345d4.jpg\" alt=\"Dave Kellet‘s Gift to me. A drawing of Nosh.\" /></p>\n\n<p>Image posting test. Since is just a simple URL, I expect it to work without any issues.</p>\n",
+				"content_text": "![Dave Kellet‘s Gift to me. A drawing of Nosh.](https://alexanderkucera.com/uploads/2023/157fa345d4.jpg)\n\nImage posting test. Since is just a simple URL, I expect it to work without any issues.\n\n",
+				"date_published": "2023-08-18T11:09:29+02:00",
+				"url": "https://alexanderkucera.com/2023/08/18/image-posting-test.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/08/18/microblog-posting-test.html",
+				"title": "Micro.blog posting test",
+				"content_html": "<p>I will be posting a couple of tests now. Please disregard.</p>\n\n<p>- The Author</p>\n",
+				"content_text": "I will be posting a couple of tests now. Please disregard.\n\n\\- The Author\n\n",
+				"date_published": "2023-08-18T11:06:41+02:00",
+				"url": "https://alexanderkucera.com/2023/08/18/microblog-posting-test.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2023/08/17/chris-ramsay-is.html",
 				
-				"content_html": "<p>Chris Ramsay is doing some amazing documentary work on Projekt Stargate and Remote Viewing.</p>\n\n<p><a href=\"https://www.patreon.com/Area52investigations\">Area52 Patreon with lots of uncut interview footage and remote viewing experiments by Chris himself</a></p>\n\n<p><a href=\"https://youtube.com/@Area52Investigations\">Area52 YouTube Channel with properly edited documentary episodes</a></p>\n\n<p>🎥</p>\n",
-				"content_text": "Chris Ramsay is doing some amazing documentary work on Projekt Stargate and Remote Viewing.\n\n[Area52 Patreon with lots of uncut interview footage and remote viewing experiments by Chris himself](https://www.patreon.com/Area52investigations)\n\n[Area52 YouTube Channel with properly edited documentary episodes](https://youtube.com/@Area52Investigations)\n\n🎥\n",
+				"content_html": "<p>Chris Ramsay is doing some amazing documentary work on <a href=\"https://en.wikipedia.org/wiki/Stargate_Project\">Project Stargate</a> and <a href=\"https://en.wikipedia.org/wiki/Remote_viewing\">Remote Viewing</a>.</p>\n\n<p><a href=\"https://www.patreon.com/Area52investigations\">Area52 Patreon</a> with lots of uncut interview footage and remote viewing experiments by Chris himself</p>\n\n<p><a href=\"https://youtube.com/@Area52Investigations\">Area52 YouTube Channel</a> with properly edited documentary episodes</p>\n\n<p>🍿</p>\n",
+				"content_text": "Chris Ramsay is doing some amazing documentary work on [Project Stargate](https://en.wikipedia.org/wiki/Stargate_Project) and [Remote Viewing](https://en.wikipedia.org/wiki/Remote_viewing).\n\n[Area52 Patreon](https://www.patreon.com/Area52investigations) with lots of uncut interview footage and remote viewing experiments by Chris himself\n\n[Area52 YouTube Channel](https://youtube.com/@Area52Investigations) with properly edited documentary episodes\n\n🍿\n",
 				"date_published": "2023-08-17T15:44:51+02:00",
 				"url": "https://alexanderkucera.com/2023/08/17/chris-ramsay-is.html"
 			},
@@ -339,8 +396,8 @@
 			{
 				"id": "http://AlexKucera.micro.blog/2018/04/25/episode-fmx-day.html",
 				"title": "Episode 2 - FMX Day 1",
-				"content_html": "<hr />\n\n<p>Text: Quick recap of the first day of FMX and outlook of the second day.</p>\n\n<p><a href=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">Episode 2 Audio</a></p>\n\n<p>Duration: 4:33</p>\n\n<p><audio src=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">\n<p><a href=\"/transcripts/2023/08/11/383.html\" class=\"transcript_link\">Transcript</a></p>\n",
-				"content_text": "----\n\nText: Quick recap of the first day of FMX and outlook of the second day.\n\n[Episode 2 Audio](https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3)\n\nDuration: 4:33\n\n<audio src=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">\n<p><a href=\"/transcripts/2023/08/11/383.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<hr />\n\n<p>Text: Quick recap of the first day of FMX and outlook of the second day.</p>\n\n<p><a href=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">Episode 2 Audio</a></p>\n\n<p>Duration: 4:33</p>\n\n<p><audio src=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">\n<p><a href=\"https://alexanderkucera.com/transcripts/2023/08/11/383.html\" class=\"transcript_link\">Transcript</a></p>\n",
+				"content_text": "----\n\nText: Quick recap of the first day of FMX and outlook of the second day.\n\n[Episode 2 Audio](https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3)\n\nDuration: 4:33\n\n<audio src=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">\n<p><a href=\"https://alexanderkucera.com/transcripts/2023/08/11/383.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2018-04-25T10:00:00+02:00",
 				"url": "https://alexanderkucera.com/2018/04/25/episode-fmx-day.html"
 			},
