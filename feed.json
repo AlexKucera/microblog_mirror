@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2023/09/20/at-the-radiology.html",
+				
+				"content_html": "<p>At the radiology department getting a thorax scan. The joys of regular checkups.</p>\n",
+				"content_text": "At the radiology department getting a thorax scan. The joys of regular checkups. \n",
+				"date_published": "2023-09-20T15:22:20+02:00",
+				"url": "https://alexanderkucera.com/2023/09/20/at-the-radiology.html",
+				"tags": ["Kidneys"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2023/09/16/man-i-am.html",
+				
+				"content_html": "<p>Man, I am very much not a social person. We have a school celebration today and I couldn’t care less about “talking to people”.</p>\n",
+				"content_text": "Man, I am very much not a social person. We have a school celebration today and I couldn’t care less about “talking to people”.\n",
+				"date_published": "2023-09-16T13:41:49+02:00",
+				"url": "https://alexanderkucera.com/2023/09/16/man-i-am.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2023/09/13/ive-stumbled-upon.html",
 				
 				"content_html": "<p>I‘ve stumbled upon a great German cooking channel and have binge watched it for days now. Check it out: <a href=\"https://youtube.com/@KochenimTal?si=CMH8Ca9kjFBAxVr_\">Kochen im Tal</a></p>\n",
