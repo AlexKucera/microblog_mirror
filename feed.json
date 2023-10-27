@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2023/10/08/we-went-to.html",
+				
+				"content_html": "<p>We went to <a href=\"https://kletterwaldspeyer.de/\">Kletterwald Speyer</a> yesterday and today I am sore and bruised as hell. So a couch day full of pain it is.</p>\n",
+				"content_text": "We went to [Kletterwald Speyer](https://kletterwaldspeyer.de/) yesterday and today I am sore and bruised as hell. So a couch day full of pain it is. \n",
+				"date_published": "2023-10-08T15:14:39+02:00",
+				"url": "https://alexanderkucera.com/2023/10/08/we-went-to.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2023/10/05/one-thing-i.html",
 				
 				"content_html": "<p>One thing I always wondered about game development: in order to make the game (and test the game) wouldn‘t the game developer need to be the best player for the game as well? I mean, how do you make a super hard game without being able to play through and best the most difficult parts? Or come up with the hardest puzzles? Meaning game developers would need to be the best gamers as well?</p>\n",
