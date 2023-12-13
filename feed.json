@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2023/12/13/sitting-in-the.html",
+				
+				"content_html": "<p>Sitting in the car, waiting to pick up my son from school, blasting Tubthumbing at full volume. Good times. 🎵</p>\n",
+				"content_text": "Sitting in the car, waiting to pick up my son from school, blasting Tubthumbing at full volume. Good times. 🎵\n",
+				"date_published": "2023-12-13T15:42:08+02:00",
+				"url": "https://alexanderkucera.com/2023/12/13/sitting-in-the.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2023/10/27/apple-again-hikes.html",
 				
 				"content_html": "<p><a href=\"https://daringfireball.net/2023/10/apple_again_hikes_prices_for_services\">Apple Again Hikes Prices for Its Media Services</a></p>\n\n<p>Not sure how I feel about this yet myself. Budget is getting stretched a bit thin.</p>\n",
@@ -41,8 +49,8 @@
 			{
 				"id": "http://AlexKucera.micro.blog/2023/09/25/dinner-thoughts-for.html",
 				
-				"content_html": "<p>Dinner thoughts for today: chicken breast with pan sauce, ginger stir fried greens and some rice with a bit of chicken stock for flavor. 👨‍🍳🍚🥘🥬🍗</p>\n\n<p>(Image courtesy of MidJourney)\n<img src=\"uploads/2023/cbb4ec0b8f.jpg\" width=\"600\" height=\"600\" alt=\"\"></p>\n",
-				"content_text": "Dinner thoughts for today: chicken breast with pan sauce, ginger stir fried greens and some rice with a bit of chicken stock for flavor. 👨‍🍳🍚🥘🥬🍗\n\n(Image courtesy of MidJourney)\n<img src=\"uploads/2023/cbb4ec0b8f.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_html": "<p>Dinner thoughts for today: chicken breast with pan sauce, ginger stir fried greens and some rice with a bit of chicken stock for flavor. 👨‍🍳🍚🥘🥬🍗</p>\n\n<p>(Image courtesy of MidJourney)\n<img src=\"https://cdn.uploads.micro.blog/239/2023/cbb4ec0b8f.jpg\" width=\"600\" height=\"600\" alt=\"\"></p>\n",
+				"content_text": "Dinner thoughts for today: chicken breast with pan sauce, ginger stir fried greens and some rice with a bit of chicken stock for flavor. 👨‍🍳🍚🥘🥬🍗\n\n(Image courtesy of MidJourney)\n<img src=\"https://cdn.uploads.micro.blog/239/2023/cbb4ec0b8f.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2023-09-25T10:07:01+02:00",
 				"url": "https://alexanderkucera.com/2023/09/25/dinner-thoughts-for.html"
 			},
