@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/05/03/getting-into-rowing.html",
+				
+				"content_html": "<p>Getting into rowing. Dark Horse Rowing has a great intro series on YouTube. → <a href=\"https://youtube.com/playlist?list=PLUg8ybh0Y3Cr3CiQ2sUJrPO2Qeq_nFUCU&amp;si=gDHVfvDJeR5zPNc8\">Rowing Fundamentals</a></p>\n",
+				"content_text": "Getting into rowing. Dark Horse Rowing has a great intro series on YouTube. → [Rowing Fundamentals](https://youtube.com/playlist?list=PLUg8ybh0Y3Cr3CiQ2sUJrPO2Qeq_nFUCU&si=gDHVfvDJeR5zPNc8)\n",
+				"date_published": "2024-05-03T10:35:10+02:00",
+				"url": "https://alexanderkucera.com/2024/05/03/getting-into-rowing.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/04/17/instead-of-striking.html",
 				
 				"content_html": "<p>Instead of striking back at Iran, Israel could should actual strength by showing restraint.</p>\n",
@@ -41,8 +49,8 @@
 			{
 				"id": "http://AlexKucera.micro.blog/2024/04/03/whats-for-dinner.html",
 				
-				"content_html": "<p>What’s for dinner? For us it’s steak with buttered veggies and rice. 🍚🥩🥕</p>\n\n<p>(Image courtesy of MidJourney)</p>\n\n<p><img src=\"uploads/2024/616bb710b9.jpg\" width=\"600\" height=\"600\" alt=\"\"></p>\n",
-				"content_text": "What’s for dinner? For us it’s steak with buttered veggies and rice. 🍚🥩🥕\n\n(Image courtesy of MidJourney)\n\n<img src=\"uploads/2024/616bb710b9.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_html": "<p>What’s for dinner? For us it’s steak with buttered veggies and rice. 🍚🥩🥕</p>\n\n<p>(Image courtesy of MidJourney)</p>\n\n<p><img src=\"https://cdn.uploads.micro.blog/239/2024/616bb710b9.jpg\" width=\"600\" height=\"600\" alt=\"\"></p>\n",
+				"content_text": "What’s for dinner? For us it’s steak with buttered veggies and rice. 🍚🥩🥕\n\n(Image courtesy of MidJourney)\n\n<img src=\"https://cdn.uploads.micro.blog/239/2024/616bb710b9.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-04-03T11:05:18+02:00",
 				"url": "https://alexanderkucera.com/2024/04/03/whats-for-dinner.html",
 				"tags": ["Cooking"]
