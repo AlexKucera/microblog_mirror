@@ -7,6 +7,31 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/06/27/another-hot-day.html",
+				
+				"content_html": "<p>Another hot day today. 30°C and almost 80% humidity. This is going to be fun…</p>\n",
+				"content_text": "Another hot day today. 30°C and almost 80% humidity. This is going to be fun…\n",
+				"date_published": "2024-06-27T08:53:56+02:00",
+				"url": "https://alexanderkucera.com/2024/06/27/another-hot-day.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/06/25/i-just-ran.html",
+				
+				"content_html": "<p>I just ran my first proper D&amp;D session. It was chaotic. I did a decently poor job. And the players had great fun and I loved it.</p>\n",
+				"content_text": "I just ran my first proper D&D session. It was chaotic. I did a decently poor job. And the players had great fun and I loved it. \n",
+				"date_published": "2024-06-25T22:53:23+02:00",
+				"url": "https://alexanderkucera.com/2024/06/25/i-just-ran.html",
+				"tags": ["Dungeons \u0026 Dragons "]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/06/21/over-three-hours.html",
+				
+				"content_html": "<p>Over three hours in the ER. And all that for a bandage. Sigh.</p>\n",
+				"content_text": "Over three hours in the ER. And all that for a bandage. Sigh. \n",
+				"date_published": "2024-06-21T23:51:55+02:00",
+				"url": "https://alexanderkucera.com/2024/06/21/over-three-hours.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/06/21/at-the-emergency.html",
 				
 				"content_html": "<p>At the emergency room once again. Life with kids. What can I say? I guess once a year is the tradition in our household.</p>\n",
