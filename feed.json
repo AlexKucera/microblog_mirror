@@ -7,6 +7,32 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/08/19/im-raum-in.html",
+				
+				"content_html": "<p>Im [raum16] in der Nähe vom Bahnhof Neustadt. Die Kinder haben hier fünf Tage lang „KunstFerien“. Ich bin mal gespannt was am Ende der Woche rauskommt.</p>\n",
+				"content_text": "Im [raum16] in der Nähe vom Bahnhof Neustadt. Die Kinder haben hier fünf Tage lang „KunstFerien“. Ich bin mal gespannt was am Ende der Woche rauskommt. \n",
+				"date_published": "2024-08-19T09:12:22+02:00",
+				"url": "https://alexanderkucera.com/2024/08/19/im-raum-in.html",
+				"tags": ["Dorfkultur"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/08/15/whats-up-with.html",
+				
+				"content_html": "<p>What’s up with all these Patreon recommendations I get all of a sudden from all my creators?</p>\n",
+				"content_text": "What’s up with all these Patreon recommendations I get all of a sudden from all my creators?\n",
+				"date_published": "2024-08-15T20:35:52+02:00",
+				"url": "https://alexanderkucera.com/2024/08/15/whats-up-with.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/08/13/my-two-favorite.html",
+				
+				"content_html": "<p>My two favorite Call of Cthulhu Keepers right now are <a href=\"https://youtube.com/@goodtimesociety?si=onnBksRDMepu61ws\">Becca Scott</a> ands <a href=\"https://youtube.com/playlist?list=PLJNnec52PzjOlCr7gVTu4ym6SlEQIadJx&amp;si=qveRAdNm3rBHcpXD\">Mark Meer</a>.</p>\n",
+				"content_text": "My two favorite Call of Cthulhu Keepers right now are [Becca Scott](https://youtube.com/@goodtimesociety?si=onnBksRDMepu61ws) ands [Mark Meer](https://youtube.com/playlist?list=PLJNnec52PzjOlCr7gVTu4ym6SlEQIadJx&si=qveRAdNm3rBHcpXD).\n",
+				"date_published": "2024-08-13T13:23:32+02:00",
+				"url": "https://alexanderkucera.com/2024/08/13/my-two-favorite.html",
+				"tags": ["TTRPG"]
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/08/09/today-was-the.html",
 				
 				"content_html": "<p>Today was the first time my wife and my son were dressing my surgery wound. They both were really troopers. It’s not an easy a task since there is a large gaping hole in my upper arm they need to interact with. I’m not sure I could do it without them.</p>\n",
@@ -120,7 +146,7 @@
 				"content_text": "Tonight we are having session two of our DnD group. I’m hoping it goes better for the party then last session (where we had a TPK). Either way, they are all pumped and are having fun regardless. As will I. \n",
 				"date_published": "2024-07-23T15:30:59+02:00",
 				"url": "https://alexanderkucera.com/2024/07/23/tonight-we-are.html",
-				"tags": ["Dungeons \u0026 Dragons "]
+				"tags": ["TTRPG"]
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2024/07/22/my-blood-pressure.html",
@@ -194,7 +220,7 @@
 				"content_text": "My Foundry VTT journey continues. Last Tuesday we had our first session of Lost Mines of Phandelver and I promptly kill our party. It was a bit unbalanced due to only two of four players showing up and them insisting to pretend like the other party members didn’t exist. \n\nBut we all still had fun and they instantly proceeded to create new characters. \n\nAlso, I’m slowly—or actually rather fast—running out of server space with all the extra modules I’m installing. Uberspace by default gives you 10GB of disk space, most of which is taken up by my wife’s email account. She’s not great at inbox zero…\n\nAnyway, you can book an extra 10GB for €3 a month, which I did. But now I’m also running close to that limit thanks to some modules that require several GB of space. And now I’m pondering where it is worth the extra €6 a month to self-host and the flexibility that brings or if I should buy access to The Forge for about €4,50 a month and safe myself the headache. \n",
 				"date_published": "2024-07-05T19:12:15+02:00",
 				"url": "https://alexanderkucera.com/2024/07/05/foundry-vtt-selfhosting.html",
-				"tags": ["Dungeons \u0026 Dragons "]
+				"tags": ["TTRPG"]
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2024/07/05/why-do-printers.html",
@@ -211,7 +237,7 @@
 				"content_text": "Session One of our Lost Mines of Phandelver DnD campaign starts tonight. I’m very excited. \n",
 				"date_published": "2024-07-02T09:48:28+02:00",
 				"url": "https://alexanderkucera.com/2024/07/02/session-one-of.html",
-				"tags": ["Dungeons \u0026 Dragons "]
+				"tags": ["TTRPG"]
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2024/07/01/oh-my-god.html",
@@ -305,7 +331,7 @@
 				"content_text": "I am having way too much fun building out my Foundry VTT world with AI tools. Lots of Theatre of the Mind images with the help of [MidJourney](https://www.midjourney.com), [ElevenLabs](https://suno.com/me) voices provide narration, and now I have a singing bard thanks to [suno](https://suno.com/). \n\nI cannot wait for my players to experience it all. \n",
 				"date_published": "2024-06-28T15:45:53+02:00",
 				"url": "https://alexanderkucera.com/2024/06/28/love-me-some.html",
-				"tags": ["Dungeons \u0026 Dragons "]
+				"tags": ["TTRPG"]
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2024/06/28/heute-mittag-gibts.html",
@@ -347,7 +373,7 @@
 				"content_text": "I just ran my first proper D&D session. It was chaotic. I did a decently poor job. And the players had great fun and I loved it. \n",
 				"date_published": "2024-06-25T22:53:23+02:00",
 				"url": "https://alexanderkucera.com/2024/06/25/i-just-ran.html",
-				"tags": ["Dungeons \u0026 Dragons "]
+				"tags": ["TTRPG"]
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2024/06/21/over-three-hours.html",
@@ -414,7 +440,7 @@
 				"content_text": "Almost done converting the “The Lost Mine of Phandelver” campaign into a Foundry VTT Game World. \n✔️ Maps loaded in.\n✔️ Walls and doors drawn\n✔️ Enemies and other NPCs placed on map (shoutout to [AI Monster Importer](https://foundryvtt.com/packages/llm-text-content-importer))\n✔️ Imported the whole campaign text into Journals\n✔️ Convert all “read to the group” text into audio narration with the help of [ElevenLabs’](https://elevenlabs.io) voice “[John Doe - Intimate](https://elevenlabs.io/app/voice-lab/share/e9a6840c69b79812b77ea81fa11d55aaf80dcf1938fa0137bf7f514f67f75c99/7fbQ7yJuEo56rYjrYaEh)”\n\nStill to be done:\n\n* Getting familiar with a few add-modules to make playtime smoother\n* Search out appropriate music and ambience sounds\n",
 				"date_published": "2024-06-03T21:05:08+02:00",
 				"url": "https://alexanderkucera.com/2024/06/03/almost-done-converting.html",
-				"tags": ["Dungeons \u0026 Dragons "]
+				"tags": ["TTRPG"]
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2024/06/02/wow-icq-was.html",
@@ -431,7 +457,7 @@
 				"content_text": "I recently discovered [Foundry VTT](https://foundryvtt.com/) as a way to play role playing games with my friends from all over there the world. \n\nI have spent a few days transferring a D&D campaign to digital format and it is coming together just greatly. Great maps with flickering lights, atmospheric background music. \n\nAnd I even found a way to have all the story hooks being read by a great AI narrator via [ElevenLabs](https://elevenlabs.io). They have a great Michael Kramer like voice (John Doe - Intimate) and I was able to get the whole campaign vocalized for just €5. \n",
 				"date_published": "2024-06-02T09:39:00+02:00",
 				"url": "https://alexanderkucera.com/2024/06/02/foundry-vtt-and.html",
-				"tags": ["Dungeons \u0026 Dragons "]
+				"tags": ["TTRPG"]
 			},
 			{
 				"id": "http://AlexKucera.micro.blog/2024/05/21/switching-hosting-from.html",
