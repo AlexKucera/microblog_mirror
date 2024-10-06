@@ -7,8 +7,41 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/10/04/testing-obsidian.html",
+				"title": "Testing Obsidian",
+				"content_html": "<p>I’m just playing around a both with Obsidian for iOS and how the Micro.blog integration works.</p>\n",
+				"content_text": "I’m just playing around a both with Obsidian for iOS and how the Micro.blog integration works. \n",
+				"date_published": "2024-10-04T16:36:48+02:00",
+				"url": "https://alexanderkucera.com/2024/10/04/testing-obsidian.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/04/today-is-fasting.html",
+				
+				"content_html": "<p>Today is fasting day and also workout day. I need to get my arm back in shape after it got a hole the size of a tennis ball cut into my triceps.</p>\n",
+				"content_text": "Today is fasting day and also workout day. I need to get my arm back in shape after it got a hole the size of a tennis ball cut into my triceps. \n",
+				"date_published": "2024-10-04T12:45:53+02:00",
+				"url": "https://alexanderkucera.com/2024/10/04/today-is-fasting.html",
+				"tags": ["Workout"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/02/our-etsy-shop.html",
+				
+				"content_html": "<p>Our <a href=\"https://shop.babylondreams.de\">Etsy shop is online</a>! Come by and check out our shirts. They are super comfy and they look great on you.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Our [Etsy shop is online](https://shop.babylondreams.de)! Come by and check out our shirts. They are super comfy and they look great on you.\n\n<img src=\"uploads/2024/dc31d13053.jpg\" width=\"600\" height=\"506\" alt=\"\">\n",
+				"date_published": "2024-10-02T18:15:58+02:00",
+				"url": "https://alexanderkucera.com/2024/10/02/our-etsy-shop.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/02/prepping-about-graphics.html",
+				
+				"content_html": "<p>Prepping about 30 graphics for my new Etsy shop today.</p>\n",
+				"content_text": "Prepping about 30 graphics for my new Etsy shop today.\n",
+				"date_published": "2024-10-02T09:20:31+02:00",
+				"url": "https://alexanderkucera.com/2024/10/02/prepping-about-graphics.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/09/30/discovering-printful-and.html",
-				"title": "Discovering Printful and Etsy: Turning Scribbles into Treasures",
+				"title": "Discovering Printful and Etsy",
 				"content_html": "<p>I recently stumbled upon a fantastic combo during one of our projects: <a href=\"https://www.printful.com/de/give-5-get-5/FO7BEA\">Printful</a> and <a href=\"https://etsy.com\">Etsy</a>. Imagine my excitement when I realized I could turn the hidden scribbles and interim designs from BabylonDreams into something more than just digital clutter!</p>\n<h2 id=\"why-printful-and-etsy\">Why Printful and Etsy?</h2>\n<p>Etsy is like a treasure trove for unique, handmade items, and Printful? They&rsquo;re the magical elves of print-on-demand, transforming our digital designs into physical products seamlessly.</p>\n<h2 id=\"our-new-etsy-shop\">Our New Etsy Shop</h2>\n<p>So, why not share our vibrant mix of styles and topics with the world? That&rsquo;s exactly what we&rsquo;re doing! From quirky sketches to bold, colorful designs perfect for t-shirts and mugs, our new Etsy shop will have a bit of everything for everyone.</p>\n<h2 id=\"stay-tuned\">Stay Tuned!</h2>\n<p>We&rsquo;re almost ready to launch. I can&rsquo;t wait to show you what we&rsquo;ve cooked up. So, get ready to shop!</p>\n",
 				"content_text": "I recently stumbled upon a fantastic combo during one of our projects: [Printful](https://www.printful.com/de/give-5-get-5/FO7BEA) and [Etsy](https://etsy.com). Imagine my excitement when I realized I could turn the hidden scribbles and interim designs from BabylonDreams into something more than just digital clutter!\n\n## Why Printful and Etsy?\n\nEtsy is like a treasure trove for unique, handmade items, and Printful? They're the magical elves of print-on-demand, transforming our digital designs into physical products seamlessly.\n\n## Our New Etsy Shop\n\nSo, why not share our vibrant mix of styles and topics with the world? That's exactly what we're doing! From quirky sketches to bold, colorful designs perfect for t-shirts and mugs, our new Etsy shop will have a bit of everything for everyone.\n\n## Stay Tuned!\n\nWe're almost ready to launch. I can't wait to show you what we've cooked up. So, get ready to shop!\n",
 				"date_published": "2024-09-30T16:09:48+02:00",
@@ -18,7 +51,7 @@
 				"id": "http://AlexKucera.micro.blog/2024/09/27/mein-fitter-freitag.html",
 				
 				"content_html": "<p>Mein Fitter Freitag - 2304ml\nMit Waterllama hydriert und glücklich bleiben! 💦🦙\n<a href=\"https://apps.apple.com/app/apple-store/id1454778585?pt=118451342&amp;ct=tellfriends&amp;mt=8\">Waterllama</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Mein Fitter Freitag - 2304ml\nMit Waterllama hydriert und glücklich bleiben! 💦🦙\n[Waterllama](https://apps.apple.com/app/apple-store/id1454778585?pt=118451342&ct=tellfriends&mt=8)\n\n<img src=\"uploads/2024/79f3077b1f.jpg\" width=\"277\" height=\"600\" alt=\"\">\n",
+				"content_text": "Mein Fitter Freitag - 2304ml\nMit Waterllama hydriert und glücklich bleiben! 💦🦙\n[Waterllama](https://apps.apple.com/app/apple-store/id1454778585?pt=118451342&ct=tellfriends&mt=8)\n\n<img src=\"https://cdn.uploads.micro.blog/239/2024/79f3077b1f.jpg\" width=\"277\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-09-27T23:05:11+02:00",
 				"url": "https://alexanderkucera.com/2024/09/27/mein-fitter-freitag.html"
 			},
@@ -35,7 +68,7 @@
 				"id": "http://AlexKucera.micro.blog/2024/09/24/im-thinking-crispy.html",
 				
 				"content_html": "<p>I‘m thinking crispy fried potatoes with spinach, topped with a fried egg for today‘s lunch.</p>\n<p>(Image courtesy of MidJourney)</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "I‘m thinking crispy fried potatoes with spinach, topped with a fried egg for today‘s lunch.\n\n(Image courtesy of MidJourney)\n\n<img src=\"uploads/2024/9778968da4.png\" width=\"600\" height=\"336\" alt=\"\">\n",
+				"content_text": "I‘m thinking crispy fried potatoes with spinach, topped with a fried egg for today‘s lunch.\n\n(Image courtesy of MidJourney)\n\n<img src=\"https://cdn.uploads.micro.blog/239/2024/9778968da4.png\" width=\"600\" height=\"336\" alt=\"\">\n",
 				"date_published": "2024-09-24T10:27:02+02:00",
 				"url": "https://alexanderkucera.com/2024/09/24/im-thinking-crispy.html",
 				"tags": ["Cooking"]
