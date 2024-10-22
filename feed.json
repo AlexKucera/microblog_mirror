@@ -7,6 +7,102 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/10/21/home-at-last.html",
+				
+				"content_html": "<p>Home at Last!</p>\n",
+				"content_text": "Home at Last!\n",
+				"date_published": "2024-10-21T15:31:28+02:00",
+				"url": "https://alexanderkucera.com/2024/10/21/home-at-last.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/21/and-im-on.html",
+				
+				"content_html": "<p>And I’m on my last leg home sitting in the RE from Karlsruhe to Neustadt. The whole trip was smooth and without delays.</p>\n",
+				"content_text": "And I’m on my last leg home sitting in the RE from Karlsruhe to Neustadt. The whole trip was smooth and without delays. \n",
+				"date_published": "2024-10-21T13:15:45+02:00",
+				"url": "https://alexanderkucera.com/2024/10/21/and-im-on.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/21/second-leg-of.html",
+				
+				"content_html": "<p>Second leg of the journey has started without delay. On the IC to Karlsruhe for the next two hours.</p>\n",
+				"content_text": "Second leg of the journey has started without delay. On the IC to Karlsruhe for the next two hours. \n",
+				"date_published": "2024-10-21T10:19:55+02:00",
+				"url": "https://alexanderkucera.com/2024/10/21/second-leg-of.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/21/currently-listening-to.html",
+				
+				"content_html": "<p>Currently listening to: <a href=\"https://micro.blog/books/9780593135228\">Project Hail Mary: A Novel</a> by Andy Weir 📚\nfor the second time. I love the narration and the story.</p>\n",
+				"content_text": "Currently listening to: [Project Hail Mary: A Novel](https://micro.blog/books/9780593135228) by Andy Weir 📚\r\nfor the second time. I love the narration and the story. \n",
+				"date_published": "2024-10-21T09:03:53+02:00",
+				"url": "https://alexanderkucera.com/2024/10/21/currently-listening-to.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/21/and-this-my.html",
+				
+				"content_html": "<p>And thus my trip back home begins. On the ICE to Nürnberg now.</p>\n",
+				"content_text": "And thus my trip back home begins. On the ICE to Nürnberg now. \n",
+				"date_published": "2024-10-21T09:02:17+02:00",
+				"url": "https://alexanderkucera.com/2024/10/21/and-this-my.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/19/zurck-vom-klassentreffen.html",
+				
+				"content_html": "<p>Zurück vom Klassentreffen. Zirka 48 von 108 Klassenkameraden sind erschienen und die meisten kannte ich sogar noch. Es war schon die alte Truppe wiederzusehen. Im Grunde als wären nicht 25 Jahre vergangen. Fast alle waren noch immer die selben. Vom Aussehen, der Mode, dem Verhalten. Faszinierend.</p>\n",
+				"content_text": "Zurück vom Klassentreffen. Zirka 48 von 108 Klassenkameraden sind erschienen und die meisten kannte ich sogar noch. Es war schon die alte Truppe wiederzusehen. Im Grunde als wären nicht 25 Jahre vergangen. Fast alle waren noch immer die selben. Vom Aussehen, der Mode, dem Verhalten. Faszinierend. \n",
+				"date_published": "2024-10-19T21:23:23+02:00",
+				"url": "https://alexanderkucera.com/2024/10/19/zurck-vom-klassentreffen.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/19/wow-just-wow.html",
+				
+				"content_html": "<p>Wow. Just <a href=\"https://arstechnica.com/ai/2024/10/adobe-shows-off-3d-rotation-tool-for-flat-drawings/\">wow</a></p>\n",
+				"content_text": "Wow. Just [wow](https://arstechnica.com/ai/2024/10/adobe-shows-off-3d-rotation-tool-for-flat-drawings/)\n",
+				"date_published": "2024-10-19T09:35:04+02:00",
+				"url": "https://alexanderkucera.com/2024/10/19/wow-just-wow.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/18/john-gruber-in.html",
+				"title": "Magic Links Are a Bad Idea",
+				"content_html": "<p>John Gruber in his piece <a href=\"https://daringfireball.net/linked/2024/10/17/dhh-argues-against-passkeys\">DHH Argues Against Passkeys</a></p>\n<blockquote>\n<p>Also, I really dislike the practice of replacing passwords with email “magic links”. Autofilling a password from my keychain happens instantly; getting a magic link from email can take minutes sometimes, and even in the fastest case, it’s nowhere near instantaneous. Replacing something very fast — password autofill — with something slower is just a terrible idea. For people who actually prefer email magic links, it’s fine as an option, but it shouldn’t be the default, and it certainly shouldn’t be the only way to sign into an account.</p>\n</blockquote>\n<p>I have to agree. Magic links are more annoying then helpful. I‘d like them to be an option and not the norm. I‘ve had more then one occasion where I had to trigger a magic link several times before it arrived in my inbox. A simple email/password login would have been much more reliable and quicker.</p>\n",
+				"content_text": "John Gruber in his piece [DHH Argues Against Passkeys](https://daringfireball.net/linked/2024/10/17/dhh-argues-against-passkeys)\n\n> Also, I really dislike the practice of replacing passwords with email “magic links”. Autofilling a password from my keychain happens instantly; getting a magic link from email can take minutes sometimes, and even in the fastest case, it’s nowhere near instantaneous. Replacing something very fast — password autofill — with something slower is just a terrible idea. For people who actually prefer email magic links, it’s fine as an option, but it shouldn’t be the default, and it certainly shouldn’t be the only way to sign into an account.\n\nI have to agree. Magic links are more annoying then helpful. I‘d like them to be an option and not the norm. I‘ve had more then one occasion where I had to trigger a magic link several times before it arrived in my inbox. A simple email/password login would have been much more reliable and quicker.\n",
+				"date_published": "2024-10-18T19:46:39+02:00",
+				"url": "https://alexanderkucera.com/2024/10/18/john-gruber-in.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/18/i-just-treated.html",
+				
+				"content_html": "<p>I just treated myself to a <a href=\"https://combustion.inc/products/predictive-thermometer-and-display#\">Combustion Predictive Thermometer &amp; Display</a>. So many use cases. I cannot wait to try it.</p>\n",
+				"content_text": "I just treated myself to a [Combustion Predictive Thermometer & Display](https://combustion.inc/products/predictive-thermometer-and-display#). So many use cases. I cannot wait to try it. \n",
+				"date_published": "2024-10-18T08:08:10+02:00",
+				"url": "https://alexanderkucera.com/2024/10/18/i-just-treated.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/17/finally-on-route.html",
+				
+				"content_html": "<p>Finally on route to my destination.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Finally on route to my destination. \n\n<img src=\"uploads/2024/8a71a59272.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"date_published": "2024-10-17T12:49:29+02:00",
+				"url": "https://alexanderkucera.com/2024/10/17/finally-on-route.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/17/forced-layover-in.html",
+				
+				"content_html": "<p>Forced layover in Munich. The signage was stupid and led me to walk along the train I was supposed to get on. By the time the signage was clear, the train I was walking alongside of the whole time closed its doors and left.</p>\n",
+				"content_text": "Forced layover in Munich. The signage was stupid and led me to walk along the train I was supposed to get on. By the time the signage was clear, the train I was walking alongside of the whole time closed its doors and left. \n",
+				"date_published": "2024-10-17T11:56:01+02:00",
+				"url": "https://alexanderkucera.com/2024/10/17/forced-layover-in.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/17/breakfast-time.html",
+				
+				"content_html": "<p>Breakfast time</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Breakfast time\n\n<img src=\"uploads/2024/52691b31f8.jpg\" width=\"600\" height=\"214\" alt=\"\">\n",
+				"date_published": "2024-10-17T08:29:13+02:00",
+				"url": "https://alexanderkucera.com/2024/10/17/breakfast-time.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/10/17/starting-my-trip.html",
 				
 				"content_html": "<p>Starting my trip to Regensburg. Weather is decent. Not too cold and dry.</p>\n<!-- raw HTML omitted -->\n",
