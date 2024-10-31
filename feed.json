@@ -7,11 +7,44 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/10/27/diving-into-call.html",
+				
+				"content_html": "<p>Diving into <a href=\"https://www.chaosium.com/call-of-cthulhu-rpg/\">Call of Cthulhu</a> setup options for <a href=\"https://foundryvtt.com\">Foundry VTT</a>. Sometimes I enjoy game prep more then actually playing.</p>\n",
+				"content_text": "Diving into [Call of Cthulhu](https://www.chaosium.com/call-of-cthulhu-rpg/) setup options for [Foundry VTT](https://foundryvtt.com). Sometimes I enjoy game prep more then actually playing.\n",
+				"date_published": "2024-10-27T11:52:13+01:00",
+				"url": "https://alexanderkucera.com/2024/10/27/diving-into-call.html",
+				"tags": ["TTRPG"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/26/142627.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "<img src=\"uploads/2024/26b2e2d48e.jpg\" width=\"600\" height=\"600\" alt=\"&quot;Good doesn’t necessarily mean complicated. It means done well.&quot;&10;&10;— Chef Jack Croft - Fallow\">\n",
+				"date_published": "2024-10-26T13:26:27+01:00",
+				"url": "https://alexanderkucera.com/2024/10/26/142627.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/26/chaosium-and-humblebundle.html",
+				
+				"content_html": "<p><a href=\"https://www.chaosium.com\">Chaosium</a> and <a href=\"https://www.humblebundle.com\">HumbleBundle</a> have a massive <a href=\"https://www.humblebundle.com/books/call-cthulhu-chaosium-inc-encore-books\">Call of Cthulhu sale</a> going, which supports the World Wildlife Fund. Go grab yourself some Lovecraftian Horror for an incredible price. I did.</p>\n<p>I also got myself a copy of the new three one-shot adventure book <a href=\"https://www.chaosium.com/call-of-cthulhu-no-time-to-scream-hardcover/\">No Time to Scream</a>.</p>\n",
+				"content_text": "[Chaosium](https://www.chaosium.com) and [HumbleBundle](https://www.humblebundle.com) have a massive [Call of Cthulhu sale](https://www.humblebundle.com/books/call-cthulhu-chaosium-inc-encore-books) going, which supports the World Wildlife Fund. Go grab yourself some Lovecraftian Horror for an incredible price. I did. \n\nI also got myself a copy of the new three one-shot adventure book [No Time to Scream](https://www.chaosium.com/call-of-cthulhu-no-time-to-scream-hardcover/).\n",
+				"date_published": "2024-10-26T05:37:20+01:00",
+				"url": "https://alexanderkucera.com/2024/10/26/chaosium-and-humblebundle.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/10/25/the-interesting-thing.html",
+				
+				"content_html": "<p>The interesting thing about Trump is that he is unable to speak the truth about pretty much anything he says, while also speaking the plain truth about what what he is going to do when in office.</p>\n",
+				"content_text": "The interesting thing about Trump is that he is unable to speak the truth about pretty much anything he says, while also speaking the plain truth about what what he is going to do when in office. \n",
+				"date_published": "2024-10-25T11:15:23+01:00",
+				"url": "https://alexanderkucera.com/2024/10/25/the-interesting-thing.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/10/21/home-at-last.html",
 				
 				"content_html": "<p>Home at Last!</p>\n",
 				"content_text": "Home at Last!\n",
-				"date_published": "2024-10-21T15:31:28+02:00",
+				"date_published": "2024-10-21T14:31:28+01:00",
 				"url": "https://alexanderkucera.com/2024/10/21/home-at-last.html"
 			},
 			{
