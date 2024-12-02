@@ -7,6 +7,71 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/11/29/and-boom-goes.html",
+				
+				"content_html": "<p>And boom goes the FDP.</p>\n",
+				"content_text": "And boom goes the FDP. \n",
+				"date_published": "2024-11-29T17:39:20+01:00",
+				"url": "https://alexanderkucera.com/2024/11/29/and-boom-goes.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/11/28/i-spent-most.html",
+				
+				"content_html": "<p>I spent most of today setting up Sublime Text and PyLint. Also researched what alternatives there are to Sphinx.</p>\n<p>I also studied some of my old code to remember how to do things like setting up a proper logger and traceback.</p>\n<p>It’s a little frustrating that I already knew all this once.</p>\n",
+				"content_text": "I spent most of today setting up Sublime Text and PyLint. Also researched what alternatives there are to Sphinx. \n\nI also studied some of my old code to remember how to do things like setting up a proper logger and traceback. \n\nIt’s a little frustrating that I already knew all this once. \n",
+				"date_published": "2024-11-28T19:10:17+01:00",
+				"url": "https://alexanderkucera.com/2024/11/28/i-spent-most.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/11/27/first-version-of.html",
+				
+				"content_html": "<p>First version of Links is online! It is still missing a few things and needs more polish, but it works.</p>\n<p>→ <a href=\"https://links.alexanderkucera.de/\">Links—a barebones bookmark and archival solution</a></p>\n",
+				"content_text": "First version of Links is online! It is still missing a few things and needs more polish, but it works. \n\n→ [Links—a barebones bookmark and archival solution](https://links.alexanderkucera.de/)\n",
+				"date_published": "2024-11-27T14:01:39+01:00",
+				"url": "https://alexanderkucera.com/2024/11/27/first-version-of.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/11/26/i-just-checked.html",
+				
+				"content_html": "<p>I just checked Links v1.0.0 into my Git repository. Almost ready to deploy!</p>\n",
+				"content_text": "I just checked Links v1.0.0 into my Git repository. Almost ready to deploy!\n",
+				"date_published": "2024-11-26T18:58:24+01:00",
+				"url": "https://alexanderkucera.com/2024/11/26/i-just-checked.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/11/26/just-a-quick.html",
+				
+				"content_html": "<p>Just a quick reminder that I have an Etsy store with unused designs from past projects. They make great presents for the holidays. Especially the gnome ones.</p>\n<p>Also on orders of €50 or more you will get 25% off for the next two weeks.</p>\n<p>→ <a href=\"https://bdscribblewear.etsy.com\">BD ScribbleWear</a></p>\n",
+				"content_text": "Just a quick reminder that I have an Etsy store with unused designs from past projects. They make great presents for the holidays. Especially the gnome ones.\n\nAlso on orders of €50 or more you will get 25% off for the next two weeks.\n\n→ [BD ScribbleWear](https://bdscribblewear.etsy.com)\n",
+				"date_published": "2024-11-26T08:57:16+01:00",
+				"url": "https://alexanderkucera.com/2024/11/26/just-a-quick.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/11/25/slow-progress-on.html",
+				
+				"content_html": "<p>Slow progress on Links today. I didn’t have much time and spent what little I had chasing syntax errors. Here’s to a more successful tomorrow. I’m planning on getting my delete function working, add per user link databases, and add a dummy links collection for when you are not signed in.</p>\n",
+				"content_text": "Slow progress on Links today. I didn’t have much time and spent what little I had chasing syntax errors. Here’s to a more successful tomorrow. I’m planning on getting my delete function working, add per user link databases, and add a dummy links collection for when you are not signed in. \n",
+				"date_published": "2024-11-25T19:08:39+01:00",
+				"url": "https://alexanderkucera.com/2024/11/25/slow-progress-on.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/11/25/programming-can-be.html",
+				
+				"content_html": "<p>Programming can be really annoying when you are having a dense moment. I was searching for a syntax error for probably two hours all in all only to have someone else tell me I was missing a bracket somewhere. Sigh.</p>\n",
+				"content_text": "Programming can be really annoying when you are having a dense moment. I was searching for a syntax error for probably two hours all in all only to have someone else tell me I was missing a bracket somewhere. Sigh.\n",
+				"date_published": "2024-11-25T13:10:21+01:00",
+				"url": "https://alexanderkucera.com/2024/11/25/programming-can-be.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/11/25/when-someone-sends.html",
+				
+				"content_html": "<p>When someone sends me an audio message, my reply will always be to send me a text instead. I have no patience to listen to your rambling to parse what you want to say. Editing your thoughts into something meaningful worth sharing is your job. Not mine.</p>\n",
+				"content_text": "When someone sends me an audio message, my reply will always be to send me a text instead. I have no patience to listen to your rambling to parse what you want to say. Editing your thoughts into something meaningful worth sharing is your job. Not mine. \n",
+				"date_published": "2024-11-25T09:49:59+01:00",
+				"url": "https://alexanderkucera.com/2024/11/25/when-someone-sends.html",
+				"tags": ["Dorfkultur"]
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/11/25/man-im-so.html",
 				
 				"content_html": "<p>Man. I’m so happy I am not on that Facebook train. So many dopes over there.</p>\n",
@@ -35,7 +100,7 @@
 				"id": "http://AlexKucera.micro.blog/2024/11/20/sag-mal-spinn.html",
 				
 				"content_html": "<p>sag mal spinn ich oder hatte die Feeds Liste mal Favicons? Ich hab schon alle Settings durch und finde aber nichts was das Fehlen erklären könnte.</p>\n<p>Cc <a href=\"https://micro.blog/voidstern@graz.social\">@voidstern@graz.social</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "sag mal spinn ich oder hatte die Feeds Liste mal Favicons? Ich hab schon alle Settings durch und finde aber nichts was das Fehlen erklären könnte.\n\nCc [@voidstern@graz.social](https://micro.blog/voidstern@graz.social) \n\n<img src=\"uploads/2024/f8013bd22d.jpg\" width=\"258\" height=\"600\" alt=\"\">\n",
+				"content_text": "sag mal spinn ich oder hatte die Feeds Liste mal Favicons? Ich hab schon alle Settings durch und finde aber nichts was das Fehlen erklären könnte.\n\nCc [@voidstern@graz.social](https://micro.blog/voidstern@graz.social) \n\n<img src=\"https://cdn.uploads.micro.blog/239/2024/f8013bd22d.jpg\" width=\"258\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-11-20T09:02:13+01:00",
 				"url": "https://alexanderkucera.com/2024/11/20/sag-mal-spinn.html"
 			},
