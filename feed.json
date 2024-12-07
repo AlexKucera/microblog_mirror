@@ -7,6 +7,57 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/12/07/i-now-have.html",
+				
+				"content_html": "<p>I now have my own Python module to write Safari WebArchives. Neat. And not too hard to implement.</p>\n<p>So now <a href=\"https://links.alexanderkucera.de/\">Links</a> also saves a WebArchive copy and triggers a Wayback savepoint.</p>\n",
+				"content_text": "I now have my own Python module to write Safari WebArchives. Neat. And not too hard to implement. \n\nSo now [Links](https://links.alexanderkucera.de/) also saves a WebArchive copy and triggers a Wayback savepoint. \n",
+				"date_published": "2024-12-07T12:33:52+01:00",
+				"url": "https://alexanderkucera.com/2024/12/07/i-now-have.html",
+				"tags": ["Coding"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/06/would-you-believer.html",
+				
+				"content_html": "<p>Would you believer it? Not a single mention since I installed the Micro.blog beta build with a fix for notifications. Help me out here folks. Give me some love.</p>\n",
+				"content_text": "Would you believer it? Not a single mention since I installed the Micro.blog beta build with a fix for notifications. Help me out here folks. Give me some love. \n",
+				"date_published": "2024-12-06T12:16:16+01:00",
+				"url": "https://alexanderkucera.com/2024/12/06/would-you-believer.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/06/i-rewrote-my.html",
+				
+				"content_html": "<p>I rewrote my webcatcher Python script yesterday. It is now leaner, meaner and more resilient against failed downloads. <a href=\"https://links.alexanderkucera.de/\">Links</a> is coming together nicely. Pretty much all that is left is a nicer CSS for mobile devices and a web daemon so I can send stuff to Links from my iPhone.</p>\n",
+				"content_text": "I rewrote my webcatcher Python script yesterday. It is now leaner, meaner and more resilient against failed downloads. [Links](https://links.alexanderkucera.de/) is coming together nicely. Pretty much all that is left is a nicer CSS for mobile devices and a web daemon so I can send stuff to Links from my iPhone. \n",
+				"date_published": "2024-12-06T08:03:58+01:00",
+				"url": "https://alexanderkucera.com/2024/12/06/i-rewrote-my.html",
+				"tags": ["Coding"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/05/trying-to-decide.html",
+				
+				"content_html": "<p>Trying to decide between Trafilatua, Newspaper 4K and Readabilty for my Markdown and PDF creation.</p>\n",
+				"content_text": "Trying to decide between Trafilatua, Newspaper 4K and Readabilty for my Markdown and PDF creation. \n",
+				"date_published": "2024-12-05T14:42:39+01:00",
+				"url": "https://alexanderkucera.com/2024/12/05/trying-to-decide.html",
+				"tags": ["Coding"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/03/links-update.html",
+				"title": "Links Update",
+				"content_html": "<p><a href=\"https://links.alexanderkucera.de/\">Links</a>, my barebones bookmark and archival solution is slowly getting better.</p>\n<p>Today I redid the CSS or started to. I still need to reimplement breakpoints for smaller devices.</p>\n<p>Also I finally put the project under Git version control. Version control really is a godsend. The initial learning curve is not nothing. But once you <em>get it</em>, it’s awesome.</p>\n<p>I still need to polish the Python script a bit and make it more error resilient. And then I need to set up a web service for it so I can add links easily via iOS Shortcut.</p>\n<p>Slowly getting there. Bit by bit.</p>\n",
+				"content_text": "[Links](https://links.alexanderkucera.de/), my barebones bookmark and archival solution is slowly getting better. \n\nToday I redid the CSS or started to. I still need to reimplement breakpoints for smaller devices. \n\nAlso I finally put the project under Git version control. Version control really is a godsend. The initial learning curve is not nothing. But once you _get it_, it’s awesome.\n\nI still need to polish the Python script a bit and make it more error resilient. And then I need to set up a web service for it so I can add links easily via iOS Shortcut. \n\nSlowly getting there. Bit by bit. \n",
+				"date_published": "2024-12-03T18:13:21+01:00",
+				"url": "https://alexanderkucera.com/2024/12/03/links-update.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/03/please-help-me.html",
+				"title": "Please help me find good anime",
+				"content_html": "<p>My son is into anime these days. But he’s watching what I can only describe as garbage.</p>\n<p>Either it’s Pokémon style stuff like Hunter x Hunter. People standing around discussing attack modifiers and just a whiff off a story.</p>\n<p>Or it’s full bosomed schoolgirls giggling into the camera.</p>\n<p>Are there no modern anime with proper story and at least a modicum of style?</p>\n<p>In my day I was watching stuff like Princess Mononoke, Ninja Scroll or Vampire Hunter D to name a few. Is there nothing liked that out there today on Amazon Prime or Crunchyroll?</p>\n",
+				"content_text": "My son is into anime these days. But he’s watching what I can only describe as garbage. \n\nEither it’s Pokémon style stuff like Hunter x Hunter. People standing around discussing attack modifiers and just a whiff off a story. \n\nOr it’s full bosomed schoolgirls giggling into the camera.\n\nAre there no modern anime with proper story and at least a modicum of style?\n\nIn my day I was watching stuff like Princess Mononoke, Ninja Scroll or Vampire Hunter D to name a few. Is there nothing liked that out there today on Amazon Prime or Crunchyroll?\n",
+				"date_published": "2024-12-03T12:14:26+01:00",
+				"url": "https://alexanderkucera.com/2024/12/03/please-help-me.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/11/29/and-boom-goes.html",
 				
 				"content_html": "<p>And boom goes the FDP.</p>\n",
