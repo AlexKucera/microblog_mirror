@@ -7,6 +7,55 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2024/12/13/and-as-i.html",
+				
+				"content_html": "<p>And as I slip into bed, I realize, it is indeed Friday the 13th. Good night.</p>\n",
+				"content_text": "And as I slip into bed, I realize, it is indeed Friday the 13th. Good night. \n",
+				"date_published": "2024-12-13T21:40:20+01:00",
+				"url": "https://alexanderkucera.com/2024/12/13/and-as-i.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/10/petition-zur-widerspruchsregelung.html",
+				"title": "Petition zur Widerspruchsregelung für Organspenden",
+				"content_html": "<p>Im Augenblick ist eine Petition am laufen die sich für eine Widerspruchslösung für Organspende einsetzt. Als jemand der auf ein neues Organ wartet, wäre ich für jede Unterschrift persönlich dankbar.</p>\n<p>Je mehr Menschen die Petition unterstützen, desto größer ist die Wahrscheinlichkeit, dass sie Erfolg hat.</p>\n<p>Hier könnt ihr mehr erfahren und unterzeichnen:</p>\n<p>→<a href=\"https://weact.campact.de/petitions/jetzt-widerspruchslosung-fur-organspenden\">Widerspruchsregelung für Organspenden</a></p>\n<p>Vielen Dank!</p>\n<p>Alexander</p>\n",
+				"content_text": "Im Augenblick ist eine Petition am laufen die sich für eine Widerspruchslösung für Organspende einsetzt. Als jemand der auf ein neues Organ wartet, wäre ich für jede Unterschrift persönlich dankbar. \n\nJe mehr Menschen die Petition unterstützen, desto größer ist die Wahrscheinlichkeit, dass sie Erfolg hat. \n\nHier könnt ihr mehr erfahren und unterzeichnen:\n\n→[Widerspruchsregelung für Organspenden](https://weact.campact.de/petitions/jetzt-widerspruchslosung-fur-organspenden)\n\nVielen Dank!\n\nAlexander\n",
+				"date_published": "2024-12-10T12:44:43+01:00",
+				"url": "https://alexanderkucera.com/2024/12/10/petition-zur-widerspruchsregelung.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/09/this-weekend-we.html",
+				
+				"content_html": "<p>This weekend we had our little Christmas market in Geinsheim. MY wife had a stand to inform about the <a href=\"https://www.bewegungspark-geinsheim.de\">Bewegungspark</a> project and it was a great success. Lots of people came by to get informed about the project and its status. Lots of donations. And overall great feedback.</p>\n<p><img src=\"https://alexanderkucera.com/uploads/2024/b60b7ea4dd.jpg\" alt=\"\"></p>\n",
+				"content_text": "This weekend we had our little Christmas market in Geinsheim. MY wife had a stand to inform about the [Bewegungspark](https://www.bewegungspark-geinsheim.de) project and it was a great success. Lots of people came by to get informed about the project and its status. Lots of donations. And overall great feedback.\n\n![](https://alexanderkucera.com/uploads/2024/b60b7ea4dd.jpg)\n",
+				"date_published": "2024-12-09T11:06:54+01:00",
+				"url": "https://alexanderkucera.com/2024/12/09/this-weekend-we.html",
+				"tags": ["Dorfkultur"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/09/want-to-read.html",
+				
+				"content_html": "<p>Want to read: <a href=\"https://micro.blog/books/9781612198552\">How to Do Nothing: Resisting the Attention Economy</a> by Jenny Odell 📚</p>\n",
+				"content_text": "Want to read: [How to Do Nothing: Resisting the Attention Economy](https://micro.blog/books/9781612198552) by Jenny Odell 📚\n",
+				"date_published": "2024-12-09T06:25:45+01:00",
+				"url": "https://alexanderkucera.com/2024/12/09/want-to-read.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/07/no-idea-why.html",
+				
+				"content_html": "<p>No idea why people constantly fiddle with cross-posting and what to post to which service. Seems like a whole lot of busywork to me.</p>\n",
+				"content_text": "No idea why people constantly fiddle with cross-posting and what to post to which service. Seems like a whole lot of busywork to me. \n",
+				"date_published": "2024-12-07T16:28:12+01:00",
+				"url": "https://alexanderkucera.com/2024/12/07/no-idea-why.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2024/12/07/i-get-that.html",
+				
+				"content_html": "<p>I get that different people have different needs. I for one am perfectly happy with the way Micro.blog works. I have enabled cross-posting and it just works.</p>\n<p>The only thing actually broken for me is iOS notifications. I simply don’t get any.</p>\n",
+				"content_text": "I get that different people have different needs. I for one am perfectly happy with the way Micro.blog works. I have enabled cross-posting and it just works.\n\nThe only thing actually broken for me is iOS notifications. I simply don’t get any.\n",
+				"date_published": "2024-12-07T16:27:12+01:00",
+				"url": "https://alexanderkucera.com/2024/12/07/i-get-that.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2024/12/07/i-now-have.html",
 				
 				"content_html": "<p>I now have my own Python module to write Safari WebArchives. Neat. And not too hard to implement.</p>\n<p>So now <a href=\"https://links.alexanderkucera.de/\">Links</a> also saves a WebArchive copy and triggers a Wayback savepoint.</p>\n",
@@ -265,7 +314,7 @@
 				"id": "http://AlexKucera.micro.blog/2024/11/08/workout-done.html",
 				"title": "Workout Done",
 				"content_html": "<p>Blank text</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<p><!-- raw HTML omitted -->Transcript<!-- raw HTML omitted --></p>\n",
-				"content_text": "Blank text\n\n<audio controls=\"controls\" src=\"https://alexanderkucera.com/uploads/2024/bdcda1e329.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://alexanderkucera.com/transcripts/2024/11/08/1626.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_text": "Blank text\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/239/2024/bdcda1e329.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://alexanderkucera.com/transcripts/2024/11/08/1626.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2024-11-08T11:07:45+01:00",
 				"url": "https://alexanderkucera.com/2024/11/08/workout-done.html"
 			},
@@ -797,8 +846,8 @@
 			{
 				"id": "http://AlexKucera.micro.blog/2024/09/07/chorona-chor-in.html",
 				"title": "Chorona Chor in der Kirche Geinsheim",
-				"content_html": "<p>Heute singt der <a href=\"https://www.chorona-buseck.de/\">Chorona Chor</a> in unserer Kirche.</p>\n<p><img src=\"https://alexanderkucera.com/uploads/2024/3fb2716b-c14a-46ff-83e3-5a5c17a09093.jpg\" alt=\"\"></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<p><!-- raw HTML omitted -->Transcript<!-- raw HTML omitted --></p>\n",
-				"content_text": "Heute singt der [Chorona Chor](https://www.chorona-buseck.de/) in unserer Kirche. \n\n![](https://alexanderkucera.com/uploads/2024/3fb2716b-c14a-46ff-83e3-5a5c17a09093.jpg)\n\n<audio controls=\"controls\" src=\"https://alexanderkucera.com/uploads/2024/audio.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://alexanderkucera.com/transcripts/2024/09/07/1466.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_html": "<p>Heute singt der <a href=\"https://www.chorona-buseck.de/\">Chorona Chor</a> in unserer Kirche.</p>\n<p><img src=\"https://cdn.uploads.micro.blog/239/2024/3fb2716b-c14a-46ff-83e3-5a5c17a09093.jpg\" alt=\"\"></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<p><!-- raw HTML omitted -->Transcript<!-- raw HTML omitted --></p>\n",
+				"content_text": "Heute singt der [Chorona Chor](https://www.chorona-buseck.de/) in unserer Kirche. \n\n![](https://cdn.uploads.micro.blog/239/2024/3fb2716b-c14a-46ff-83e3-5a5c17a09093.jpg)\n\n<audio controls=\"controls\" src=\"https://cdn.uploads.micro.blog/239/2024/audio.mp3\" preload=\"metadata\"></audio>\n\n<a href=\"https://alexanderkucera.com/transcripts/2024/09/07/1466.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2024-09-07T17:09:42+01:00",
 				"url": "https://alexanderkucera.com/2024/09/07/chorona-chor-in.html",
 				"tags": ["Dorfkultur"]
@@ -2332,7 +2381,7 @@
 				"id": "http://AlexKucera.micro.blog/2018/04/25/episode-fmx-day.html",
 				"title": "Episode 2 - FMX Day 1",
 				"content_html": "<p>Quick recap of the first day of FMX and outlook of the second day.</p>\n<p>Duration: 4:33</p>\n<!-- raw HTML omitted -->\n<p><!-- raw HTML omitted -->Transcript<!-- raw HTML omitted --></p>\n",
-				"content_text": "Quick recap of the first day of FMX and outlook of the second day.\n\nDuration: 4:33\n\n<audio src=\"https://alexanderkucera.com/uploads/2023/babylondreamscast-episode-2.mp3\">\n\n\n<a href=\"https://alexanderkucera.com/transcripts/2023/08/11/383.html\" class=\"transcript_link\">Transcript</a>\n",
+				"content_text": "Quick recap of the first day of FMX and outlook of the second day.\n\nDuration: 4:33\n\n<audio src=\"https://cdn.uploads.micro.blog/239/2023/babylondreamscast-episode-2.mp3\">\n\n\n<a href=\"https://alexanderkucera.com/transcripts/2023/08/11/383.html\" class=\"transcript_link\">Transcript</a>\n",
 				"date_published": "2018-04-25T09:00:00+01:00",
 				"url": "https://alexanderkucera.com/2018/04/25/episode-fmx-day.html",
 				"tags": ["Podcast"]
