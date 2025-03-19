@@ -7,6 +7,32 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2025/03/15/im-really-bad-at-multitasking.html",
+				
+				"content_html": "<p>I’m really bad at multitasking social connections. Contact to other people goes out the window first when things get busy at home. I can’t even hold an online conversation for weeks at a time. And yet I value my friends. I do hope they know that.</p>\n",
+				"content_text": "I’m really bad at multitasking social connections. Contact to other people goes out the window first when things get busy at home. I can’t even hold an online conversation for weeks at a time. And yet I value my friends. I do hope they know that. \n",
+				"date_published": "2025-03-15T22:09:03+01:00",
+				"url": "https://alexanderkucera.com/2025/03/15/im-really-bad-at-multitasking.html",
+				"tags": ["Dorfkultur"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/03/15/its-really-weird-to-see.html",
+				
+				"content_html": "<p>It’s really weird to see someone you only know as an actor explain visual effects and production logistics and make it actually make sense. Huge props to Ben Stiller and Adam Scott.</p>\n<p><a href=\"https://youtu.be/VOeFQ2ghR3U?si=8mfbHv-5Y21i31kW\">Severance Season 2 First Scene Breakdown</a></p>\n",
+				"content_text": "It’s really weird to see someone you only know as an actor explain visual effects and production logistics and make it actually make sense. Huge props to Ben Stiller and Adam Scott. \n\n[Severance Season 2 First Scene Breakdown](https://youtu.be/VOeFQ2ghR3U?si=8mfbHv-5Y21i31kW)\n",
+				"date_published": "2025-03-15T11:13:50+01:00",
+				"url": "https://alexanderkucera.com/2025/03/15/its-really-weird-to-see.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/03/14/i-really-enjoy-vibe-coding.html",
+				
+				"content_html": "<p>I really enjoy <a href=\"https://en.wikipedia.org/wiki/Vibe_coding\"><em>vibe coding</em></a> as it has become to be known. <a href=\"https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview\">Claude Code</a> to be specific. It really helps me push along my iOS app nicely. Not very cheap, but also not outrageously expensive for the amount of productivity I get from it.</p>\n",
+				"content_text": "I really enjoy [_vibe coding_](https://en.wikipedia.org/wiki/Vibe_coding) as it has become to be known. [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) to be specific. It really helps me push along my iOS app nicely. Not very cheap, but also not outrageously expensive for the amount of productivity I get from it.\n",
+				"date_published": "2025-03-14T08:49:40+01:00",
+				"url": "https://alexanderkucera.com/2025/03/14/i-really-enjoy-vibe-coding.html",
+				"tags": ["Coding"]
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2025/03/13/quick-question-to-all-ios.html",
 				
 				"content_html": "<p>Quick question to all iOS developers. I want to add iCloud Drive to my app. How do I best test this? It seems to write the correct files in Simulator, but Simulator doesn‘t seem to sync properly. Should I go straight to TestFlight and test on my real device?</p>\n",
@@ -26,7 +52,7 @@
 				"id": "http://AlexKucera.micro.blog/2025/02/28/when-you-run-out-of.html",
 				
 				"content_html": "<p>When you run out of of two spools in one print.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "When you run out of of two spools in one print. \n\n<img src=\"uploads/2025/a518ea0a13.jpg\" width=\"600\" height=\"594\" alt=\"\">\n",
+				"content_text": "When you run out of of two spools in one print. \n\n<img src=\"https://cdn.uploads.micro.blog/239/2025/a518ea0a13.jpg\" width=\"600\" height=\"594\" alt=\"\">\n",
 				"date_published": "2025-02-28T13:07:06+01:00",
 				"url": "https://alexanderkucera.com/2025/02/28/when-you-run-out-of.html",
 				"tags": ["3d printing"]
@@ -43,7 +69,7 @@
 				"id": "http://AlexKucera.micro.blog/2025/02/26/d-printing-a-tiny-rose.html",
 				
 				"content_html": "<p>3D printing a tiny rose for my wife’s birthday. I set up two with differently settings so I can pick the one that comes out nicer. I’ve also got some mini paint at the ready to finish it off.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "3D printing a tiny rose for my wife’s birthday. I set up two with differently settings so I can pick the one that comes out nicer. I’ve also got some mini paint at the ready to finish it off. \n\n<img src=\"uploads/2025/806bda3134.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"content_text": "3D printing a tiny rose for my wife’s birthday. I set up two with differently settings so I can pick the one that comes out nicer. I’ve also got some mini paint at the ready to finish it off. \n\n<img src=\"https://cdn.uploads.micro.blog/239/2025/806bda3134.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-02-26T10:36:50+01:00",
 				"url": "https://alexanderkucera.com/2025/02/26/d-printing-a-tiny-rose.html",
 				"tags": ["3d printing"]
