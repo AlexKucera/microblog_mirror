@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2025/05/21/im-trying-a-rather-long.html",
+				
+				"content_html": "<p>I’m trying a rather long walk today for the first time alone. Wish me luck!</p>\n",
+				"content_text": "I’m trying a rather long walk today for the first time alone. Wish me luck!\n",
+				"date_published": "2025-05-21T14:04:05+02:00",
+				"url": "https://alexanderkucera.com/2025/05/21/im-trying-a-rather-long.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/05/14/goodbye-plucky-underdog-richard-yot.html",
+				
+				"content_html": "<p><a href=\"https://richardyot.com/blog/2025/5/13/goodbye-plucky-underdog\">Goodbye, plucky underdog — Richard Yot</a></p>\n<p>It’s been a few years since I last used modo seriously. My work just shifted away from doing 3D to do more compositing. But modo will always have a special place in my heart.</p>\n",
+				"content_text": "[Goodbye, plucky underdog — Richard Yot](https://richardyot.com/blog/2025/5/13/goodbye-plucky-underdog)\n\nIt’s been a few years since I last used modo seriously. My work just shifted away from doing 3D to do more compositing. But modo will always have a special place in my heart. \n",
+				"date_published": "2025-05-14T09:49:22+02:00",
+				"url": "https://alexanderkucera.com/2025/05/14/goodbye-plucky-underdog-richard-yot.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/05/12/slow-progress.html",
+				"title": "Slow progress ",
+				"content_html": "<p>I’m home from hospital for a few days now and it is depressing how weak and generally unwell I still am. I am forcing myself to do daily walks, which slowly helps. But mostly I’m sort of vegetating on the couch or shuffling around the house like a zombie. I’m still anemic so that doesn’t help. I’m really hoping I’ll be back to normal sooner rather than later.</p>\n",
+				"content_text": "I’m home from hospital for a few days now and it is depressing how weak and generally unwell I still am. I am forcing myself to do daily walks, which slowly helps. But mostly I’m sort of vegetating on the couch or shuffling around the house like a zombie. I’m still anemic so that doesn’t help. I’m really hoping I’ll be back to normal sooner rather than later. \n",
+				"date_published": "2025-05-12T15:20:47+02:00",
+				"url": "https://alexanderkucera.com/2025/05/12/slow-progress.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2025/05/08/mostly-fit-for-the-outside.html",
 				"title": "Mostly fit for the outside. I wish.",
 				"content_html": "<p>I am finally out of the hospital! But man, did that place break me down. I felt mostly fit to face the outside again walking around my three short floors. How deluded I was. The only thing that kind of works is walking from the bedroom to the couch. I just went for a walk with my son as safety person. I wanted to see how far I get. The goal was to walk once around the block. I got around the corner (which is right next to our house by the way) and then gave up two houses down. This is still quite a long way to recovery.</p>\n",
