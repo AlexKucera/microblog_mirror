@@ -7,6 +7,48 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2025/06/30/one-of-the-things-that.html",
+				
+				"content_html": "<p>One of the things that annoys me me most about LLMs is that they ruined properly crafted typography. I love to use em dashes. I feel like it shows that I put thought &amp; care into a text. Well, not anymore. Now it says „hey that dude used an AI to write this. Feel free to discard it as not original.“</p>\n",
+				"content_text": "One of the things that annoys me me most about LLMs is that they ruined properly crafted typography. I love to use em dashes. I feel like it shows that I put thought & care into a text. Well, not anymore. Now it says „hey that dude used an AI to write this. Feel free to discard it as not original.“\n",
+				"date_published": "2025-06-30T17:05:50+02:00",
+				"url": "https://alexanderkucera.com/2025/06/30/one-of-the-things-that.html",
+				"tags": ["AI"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/06/29/ive-neglected-links-my-bookmarking.html",
+				
+				"content_html": "<p>I’ve neglected <a href=\"https://links.alexanderkucera.de/about\">Links</a> my bookmarking service. Too much other stuff going on like my wife’s iPad app and a new recipe app I’m trying to develop. Oh and also family life, dialysis and surgery recovery. Too much? Most likely.</p>\n",
+				"content_text": "I’ve neglected [Links](https://links.alexanderkucera.de/about) my bookmarking service. Too much other stuff going on like my wife’s iPad app and a new recipe app I’m trying to develop. Oh and also family life, dialysis and surgery recovery. Too much? Most likely. \n",
+				"date_published": "2025-06-29T18:36:05+02:00",
+				"url": "https://alexanderkucera.com/2025/06/29/ive-neglected-links-my-bookmarking.html",
+				"tags": ["Kidneys","Coding"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/06/29/sitting-at-home-trying-not.html",
+				
+				"content_html": "<p>Sitting at home trying not to melt. 32°C outside. 27°C inside. <a href=\"https://amzn.to/45IYQS9\">Vornado</a> running on high speed.</p>\n",
+				"content_text": "Sitting at home trying not to melt. 32°C outside. 27°C inside. [Vornado](https://amzn.to/45IYQS9) running on high speed. \n",
+				"date_published": "2025-06-29T14:14:19+02:00",
+				"url": "https://alexanderkucera.com/2025/06/29/sitting-at-home-trying-not.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/06/28/micro-blog-photo-challenge-day.html",
+				
+				"content_html": "<p>📷 Micro Blog Photo Challenge Day 28: Ephemeral</p>\n<p><img src=\"https://alexanderkucera.com/uploads/2025/image-20250628-184301-b228ce0d.jpg\" alt=\"Ephemeral ice cubes swimming in lemonade. \"></p>\n",
+				"content_text": "📷 Micro Blog Photo Challenge Day 28: Ephemeral\n\n![Ephemeral ice cubes swimming in lemonade. ](https://alexanderkucera.com/uploads/2025/image-20250628-184301-b228ce0d.jpg)\n",
+				"date_published": "2025-06-28T18:43:33+02:00",
+				"url": "https://alexanderkucera.com/2025/06/28/micro-blog-photo-challenge-day.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/06/26/osteria-scuderia-enjoying-a-nice.html",
+				
+				"content_html": "<p>Osteria Scuderia. <a href=\"http://maps.apple.com/?ll=49.352724,8.138959\">📍</a></p>\n<p>Enjoying a nice summer day with some Spaghetti Carbonara and a glass of bitter lemon.</p>\n",
+				"content_text": "Osteria Scuderia. [📍](http://maps.apple.com/?ll=49.352724,8.138959)\n\nEnjoying a nice summer day with some Spaghetti Carbonara and a glass of bitter lemon. \n",
+				"date_published": "2025-06-26T13:14:55+02:00",
+				"url": "https://alexanderkucera.com/2025/06/26/osteria-scuderia-enjoying-a-nice.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2025/06/25/i-really-like-gitkraken-as.html",
 				
 				"content_html": "<p>I really like GitKraken as my daily Git application. Check it out: <a href=\"https://gitkraken.cello.so/WTPmEygxcYC\">Get GitKraken at 50% off</a></p>\n",
