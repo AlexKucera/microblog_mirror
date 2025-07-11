@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Git Hooks and Merging Changes
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Git Hooks and Merging Changes</h1>
+	
+    <div><time class="dt-published" datetime="2017-05-03T11:32:43&#43;02:00">May 3, 2017</time></div>
+
+	<div class="e-content">
+		<p>Any Git experts around? I am trying to modify the way my site gets updated. Right now I am using a <code>post-receive</code> hook to checkout the most recent commit. And that works great, but with the micro.blog iOS app I was thinking about using that for posting. Only problem is that this is not going to end up in my repo and is being overwritten with the post-receive hook every time I push something to the repo.</p>
+<p>Right now I am using this hook:</p>
+<pre tabindex="0"><code>#!/bin/sh
+WEB_DIR=/home/user/public_html/pathtoblog
+
+# remove any untracked files and directories
+git --work-tree=${WEB_DIR} clean -fd
+
+# force checkout of the latest deploy
+git --work-tree=${WEB_DIR} checkout master --force
+</code></pre><p>Is there a way to modify this so it does not clean <code>WEB_DIR</code> but instead commit/merge any changes from <code>WEB_DIR</code> before checkout?</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
