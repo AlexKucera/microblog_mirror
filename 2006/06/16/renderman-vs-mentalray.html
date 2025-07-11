@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Renderman vs MentalRay Comparison
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Renderman vs MentalRay Comparison</h1>
+	
+    <div><time class="dt-published" datetime="2006-06-16T16:10:06&#43;02:00">Jun 16, 2006</time></div>
+
+	<div class="e-content">
+		<p>Finally I found the time to do my little Renderman - MentalRay comparison. I used Maya 6.5 on a Mac OS X - which comes with MentalRay 3.4.1.5 and the Pixar Renderman for Maya plugin version 1.2 evaluation.</p>
+<p>As test scenes, I used the tutorial scenes that come with the Renderman for Maya plugin. I am aware, that this might be a bit unfair to MentalRay, but my reasoning is that the features I tested should work in both renderers and the test scenes where not specifially pro Renderman anyway. I also tweaked the scenes to get the best out of Renderman <strong>and</strong> MentalRay, so as to not penalize either one.</p>
+<p>The tested features where:</p>
+<ul>
+<li>Displacement</li>
+<li>Motion Blur</li>
+<li>Instances (as a side effect of the Motion Blur test)</li>
+<li>Depth of Field</li>
+<li>Fur and soft shadows</li>
+<li>Reflections</li>
+<li>Global Illumination</li>
+</ul>
+<p>For a side by side comparison of rendered output and rendertimes please download the following PDF → (link: rmanvsmr_forWeb.pdf text: Renderman vs MentalRay comparison)</p>
+<blockquote>
+<p>Update:
+MasterZap over at cgTalk pointed me to a few shortcomings in my tests.
+First he is of the opinion, that I should have used MentalRay’s “Rapid Motion Blur”. Every time I tested this feature, I either got artefacts or it was not significantly faster, so I just didn’t use it here.
+Second, he points out that MentalRay has something similar to Renderman’s DeepShadow Maps. I forgot about them completely. My bad.</p>
+</blockquote>
+<p>###Displacement</p>
+<p>Both renderers can handle really fine displacement really well. However, Renderman wins this contest hands down, as it does displacements with virtually no extra overhead. The surfaces get subdivided into Micropolygons anyway, so the renderer already has the neccessary geometry for displacment. MentalRay however doesn’t handle the large masses of geometry as well and it is much more hassle to tweak it (one has 4 different knobs per object to fiddle around with in MentalRay).</p>
+<p>###Motion Blur…</p>
+<p>Now Motion Blur is MentalRays (and most of the other renderers out there) Achilles heel. They just don’t cut it. Slow, grainy, memory intensive. That is the common knowledge about 3D Motion Blur.</p>
+<p>This is definitely not true for Renderman. Man this renderer flies through it with a quality that is amazing! And the really nice thing about it is, that depending on the scene, Renderman gets even faster with Motion Blur. That is due to the fact, that one is able to give Renderman a second quality parameter for Motion Blur. So you just lower the quality where you won’t see it anyway (meaning in the blurry areas).</p>
+<p>MentalRay on the other hand…just sucks…big time. No wonder people have such an expression of panic in their eyes, whenever rendered Motion Blur is the topic. If I didn’t know it better, I would not touch 3D Motion Blur either.</p>
+<p>###…and Instances
+Rendering the Motion Blur scene without blur, a severe bug in the Pixar plugin is revealed. It renders instances way slower then it should. That is a known bug and the big brother Pixar Renderman doesn’t suffer from this.</p>
+<p>Nevertheless, at the current time MentalRay wins this category easily and superfast.</p>
+<p>###Depth of Field</p>
+<p>Both engines work nearly the same here. Nothing special to report. Fast and nice.</p>
+<p>###Fur and soft shadows</p>
+<p>Well, this one I would say is a matter of personal taste. Renderman renders the fur best with DeepShadowMaps, which is like a shadow map, but with more bells and whistles. MentalRay doesn’t have DeepShadows and has to use Raytracing. That means, MentalRay shadows are always sharp and if you want them soft, you need more samples (=rendertime). The situation is the other way round with Renderman and DeepShadows. The default shadows look a bit blurry, but render fast and to increase the sharpness you have to increase the ShadowMap size and therefor increase rendertime.</p>
+<p>I’d say it’s a draw. If you like sharp shadows, go with MentalRay fur. If you like softer shadows (and I do, as real world shadows are never really sharp) go with Renderman.</p>
+<p>###Reflections</p>
+<p>Now we are entering the domain of MentalRay. It was built from the start as a Raytracing engine. And we can see that instantly in the rendertimes. Renderman however lived happily without Raytracing for ten years (or more) and has just recently (with version 11 I think) got the ability to trace rays.</p>
+<p>###Global Illumination</p>
+<p>Same here. MentalRay wins hands down. It feels right at home with tracing stuff.</p>
+<p>###…but…</p>
+<p>Remember the Motion Blur advantage? Well, it is even more evident with Raytracing. MentalRay may rule with Raytracing, but it is unbelieveably slow with Motion Blur. And it gets rediculous with Raytracing/Global Illumination and Motion Blur at the same time.</p>
+<p>Renderman however, still slow, gets a big speed boost from lowering the quality in the blurred regions. Again fantastic!</p>
+<p>###Fazit</p>
+<p>So as a conclusion I would say, that both renderers have their areas where they shine and it would be a wise thing to know when to use which. All sympathies aside picking the best tool for the job. And if you do not need Motion Blur (or very subtle one that can be faked in post) go MentalRay, but for most other cases I would go Renderman any time.</p>
+<p>For a side by side comparison of rendered output and rendertimes please download the following PDF → <!-- raw HTML omitted -->Renderman vs MentalRay comparison<!-- raw HTML omitted --></p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Directory Structures and Workflow - Part 01
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Directory Structures and Workflow - Part 01</h1>
+	
+    <div><time class="dt-published" datetime="2006-04-12T16:10:06&#43;02:00">Apr 12, 2006</time></div>
+
+	<div class="e-content">
+		<p>Last week we spoke about naming conventions, which got inspired by a topic covered on [Lifehacker] <a href="http://www.lifehacker.com/software/file-management/ask-the-readers-filing-naming-conventions-210104.php">1</a> and [43 Folders] <a href="http://www.43folders.com/2006/10/23/file-naming/">2</a>. A great start to a more streamlined workflow. But what good is a great filename, when you are unable to find your files in the chaotic folder structure you might have?</p>
+<p>For exactly this reason we will talk about how to get an optimized folder structure for multi-media projects. I will obviously have a bias to look at it from a compositors/3D guys/VFX supervisors view, but I am also able to accommodate you editors and other departments.</p>
+<p>What we will end up with is an understanding of what is important in a file and folder structure, so you are able to easily adjust the two templates, that we will discuss, to your needs.</p>
+<p>###Template No.1 - General purpose environment</p>
+<p>This template is geared to a more editing heavy workflow as it seems to be the case in most small TV commercial shops. It also has its room for 3D and compositing, but those are mere means to pimp the editing.</p>
+<p>As the main structure we divide into:</p>
+<ul>
+<li>scene files</li>
+<li>materials</li>
+<li>sound</li>
+<li>output</li>
+<li>provals</li>
+<li>scratch</li>
+<li>temp</li>
+</ul>
+<p>####Scene files</p>
+<p>Obviously all the saved scenes from the involved programs — like FinalCut, Maya, shake or AfterEffects — go in here into their own subfolder. Now these may vary depending on your tools, but at them moment our scene files substructure looks like:</p>
+<ul>
+<li>FinalCut</li>
+<li>DVD</li>
+<li>Maya</li>
+<li>Shake</li>
+<li>Combustion</li>
+<li>Compressor</li>
+<li>Other</li>
+<li>Temp</li>
+</ul>
+<p>As you notice there is a temp folder just like in the main structure. These are supposed to be the brainstorm areas of the folder structure. Everything that goes in here is just dabbling and will not be backed up and the Temp folders will be deleted at the end of the project.</p>
+<p>Now depending on the tool you might want or need to go deeper with your folders. For example, Maya has its own project structure. You could use the default one in the above Maya directory or you could adjust it, so it takes advantage of the folder template we are just creating — which would be a wise choice, because you don’t want to have several folders with the same meaning hanging around.</p>
+<p>####Materials</p>
+<p>Materials is everything coming in from the outside world. Graphics from the client, video clips, sound bytes, word documents and storyboards. All that goes in here.</p>
+<p>Again depending on your individual needs you may subdivide further into:</p>
+<ul>
+<li>Graphics</li>
+<li>Documents</li>
+<li>Fonts</li>
+<li>Subtitles</li>
+<li>Video</li>
+<li>Temp</li>
+</ul>
+<p>Should be pretty clear what to use when, right?</p>
+<p>####Sound</p>
+<p>On most projects there will be sound involved. Music, sound effects, maybe speak. All that goes in here. Again within its own folder, like this:</p>
+<ul>
+<li>Final Mix</li>
+<li>Speak</li>
+<li>Music</li>
+<li>Sound Effects</li>
+<li>DVD soundfiles</li>
+<li>Temp</li>
+</ul>
+<p>####Output</p>
+<p>Now this is our catchall folder for renderings. We render uncompressed material for archiving. We also render back and forth from editing to VFX. The DVD department needs to receive files, etc.</p>
+<p>A folder structure like this looks reasonable:</p>
+<ul>
+<li>Uncompressed</li>
+<li>-&gt;VFX</li>
+<li>&lt;-VFX</li>
+<li>DVD</li>
+<li>Sound</li>
+<li>Temp</li>
+</ul>
+<p>The first folder catches all the uncompressed output from editing. -&gt;VFX is all the stuff that goes into the VFX department and needs 3D or compositing effects applied. The VFX department then renders back to editing (&lt;-VFX) the finished effects.</p>
+<p>What the VFX department does when it has to render intermediate files you ask? That is a very good question. There are two ways to handle this in my opinion.</p>
+<p>The correct way would be to render all the layers and pre-comps into Output/-&gt;VFX because it is something that goes again into the VFX land. I also tend to create a 3Drenders and a 2Drenders folder, so I can split up the sub-folders and files. Otherwise it might get a bit too crowded.</p>
+<p>The lazy way would be to stay in the &lt;-VFX folder. That has the advantage of staying in one folder all the time. Which means human error can be minimized. It happens all too easily that you accidentally render in the wrong VFX folder. And if you have to switch between the two folder (-&gt;VFX and &lt;-VFX) all the time, then it might happen quite easily.</p>
+<p>DVD is obviously the folder where all the DVD files belong. All the m2v and m2a and vob’s and whatnot files only the DVD department can make use of.</p>
+<p>-&gt;Sound catches all the files that go to the sound editing as reference files.</p>
+<p>And Temp is the same as in all the other locations.</p>
+<p>####Approvals</p>
+<p>This is just a simple folder where all the files the customer needs to approve are saved. Preview clips and such.</p>
+<p>####Scratch</p>
+<p>This folder is similar to temp, but has a special meaning for the FinalCup folks. It is the folder where FinalCut renders all the internal caching and pre-render files.</p>
+<p>####Temp</p>
+<p>I said enough about the meaning of the Temp directories in the other paragraphs I think. As the name implies, the Temp folders are there for dabbling and trying things out. It will not be backed up and it also will be deleted at the end of the project.</p>
+<p>It is a sandbox, a playground to try things out.</p>
+<p>####That’s all folks</p>
+<p>That was a rundown on a basic production ready file and folder structure. Combine it with the naming convention I showed you and you have a nearly bullet proof system for all the basic needs of a production.</p>
+<p>And of course don’t be shy to adjust this template to your needs. This system lives from its ability to blend into the working environment. The idea is to make handling files in a project easy and fast, while minimizing the potential sources of human error.</p>
+<p>This is by no means the ultimate word on folder structures and if you have improvements to the above, I am all ears.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
