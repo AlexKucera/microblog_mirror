@@ -1,0 +1,502 @@
+<rss version="2.0">
+  <channel>
+    <title>AI Assisted Writing  on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/categories/ai-assisted-writing/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Fri, 11 Jul 2025 14:52:36 +0200</lastBuildDate>
+    
+    <item>
+      <title>Links Gets a Complete Python Makeover 🐍</title>
+      <link>https://alexanderkucera.com/2025/07/11/links-gets-a-complete-python.html</link>
+      <pubDate>Fri, 11 Jul 2025 14:52:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/11/links-gets-a-complete-python.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;Major refactor brings JavaScript support and eliminates licensing fees.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Remember when I told you about Links &lt;a href=&#34;https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html&#34;&gt;saving your stuff&lt;/a&gt; from the digital void? Well, it just got a complete technical overhaul.&lt;/p&gt;
+&lt;p&gt;The big news: Links now runs on a custom FastAPI Python implementation, ditching Kirby CMS entirely. Plus, it finally handles JavaScript-heavy sites that were previously impossible to archive.&lt;/p&gt;
+&lt;h2 id=&#34;from-php-to-python&#34;&gt;From PHP to Python&lt;/h2&gt;
+&lt;p&gt;The original Links was built on Kirby CMS. Great system, but it came with compromises. Licensed software means ongoing costs. PHP means working within CMS constraints. File-based content management that wasn&amp;rsquo;t quite right for archival workflows.&lt;/p&gt;
+&lt;p&gt;So I rebuilt it from scratch in Python.&lt;/p&gt;
+&lt;p&gt;FastAPI replaced the entire web framework. Clean, fast, and designed for APIs from the ground up. The archiving scripts were already in Python - now everything speaks the same language.&lt;/p&gt;
+&lt;h2 id=&#34;what-this-actually-means&#34;&gt;What This Actually Means&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;No more licensing fees.&lt;/strong&gt; Kirby required a one-time payment. FastAPI is completely open-source. Your self-hosted Links installation is now truly free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slimmer codebase.&lt;/strong&gt; Removed all the CMS bloat. No more fighting with file-based content management. No more PHP/Python context switching. Just focused Python code that does exactly what it needs to do.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JavaScript support.&lt;/strong&gt; The new architecture made it much easier to integrate proper browser engines. Sites that load content dynamically now archive perfectly. Single-page apps, modern e-commerce, social platforms - they all work now.&lt;/p&gt;
+&lt;h2 id=&#34;the-technical-evolution&#34;&gt;The Technical Evolution&lt;/h2&gt;
+&lt;p&gt;Before this refactor, Links would hit a wall with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Single-page applications (SPAs)&lt;/li&gt;
+&lt;li&gt;Modern e-commerce sites&lt;/li&gt;
+&lt;li&gt;Social media platforms&lt;/li&gt;
+&lt;li&gt;Complex dashboard interfaces&lt;/li&gt;
+&lt;li&gt;Any site that builds content after page load&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now it handles them all. The archiving process uses a proper browser engine, waits for JavaScript to execute, then captures everything. Content extraction gets the full picture. AI summaries actually have something meaningful to work with.&lt;/p&gt;
+&lt;h2 id=&#34;still-the-same-simple-experience&#34;&gt;Still the Same Simple Experience&lt;/h2&gt;
+&lt;p&gt;From your perspective, nothing changed. Share a link from iOS. Get the instant feedback. The background magic just got more powerful and more efficient.&lt;/p&gt;
+&lt;p&gt;The system still creates multiple archive formats. AI summaries still work. Full-text search still finds everything. But now it finds everything from sites that were previously impossible to archive properly.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;
+&lt;p&gt;This isn&amp;rsquo;t just a technical curiosity. It&amp;rsquo;s about sustainability and control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cost control.&lt;/strong&gt; No licensing fees means lower barrier to entry for self-hosting. Your digital preservation tool doesn&amp;rsquo;t depend on someone else&amp;rsquo;s business model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technical control.&lt;/strong&gt; Custom FastAPI means the codebase does exactly what&amp;rsquo;s needed. No more working around CMS limitations. No more PHP/Python impedance mismatch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Future-proofing.&lt;/strong&gt; Python ecosystem means better integration with AI tools, archiving libraries, and modern web technologies. When the next big thing comes along, Links can adapt.&lt;/p&gt;
+&lt;h2 id=&#34;production-ready&#34;&gt;Production Ready&lt;/h2&gt;
+&lt;p&gt;This complete rewrite rolled out to the live system at &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;links.alexanderkucera.de&lt;/a&gt;. No downtime. No lost data. No new workflows to learn.&lt;/p&gt;
+&lt;p&gt;Your JavaScript-heavy bookmarks are no longer second-class citizens. And your self-hosted installation just got a lot more sustainable.&lt;/p&gt;
+&lt;h2 id=&#34;the-open-source-future&#34;&gt;The Open Source Future&lt;/h2&gt;
+&lt;p&gt;With the Kirby dependency gone, Links is now completely open-source ready. No licensing complications. No vendor dependencies. Just Python code that preserves your digital discoveries.&lt;/p&gt;
+&lt;p&gt;Digital preservation for the rest of us just got a lot more accessible.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;115 commits became a complete rewrite. Sometimes the best way forward is to rebuild from first principles.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links: The Bookmark Manager That Actually Saves Your Stuff</title>
+      <link>https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html</link>
+      <pubDate>Mon, 07 Jul 2025 12:34:15 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/07/links-the-bookmark-manager-that.html</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all been there. You bookmark something important. Come back weeks later, link is dead. Content vanished, site changed, paywall appeared. The frustration of digital amnesia strikes again.&lt;/p&gt;
+&lt;p&gt;I got tired of losing things I wanted to keep.&lt;/p&gt;
+&lt;h2 id=&#34;from-simple-idea-to-production-reality&#34;&gt;From Simple Idea to Production Reality&lt;/h2&gt;
+&lt;p&gt;Links started as a basic bookmark manager. Just me, trying to organize my web finds. 115 commits later, it&amp;rsquo;s become a full archival system. The evolution from &amp;ldquo;nice to have&amp;rdquo; to &amp;ldquo;can&amp;rsquo;t live without&amp;rdquo; surprised even me.&lt;/p&gt;
+&lt;p&gt;What began as simple URL storage grew into something much more powerful. Each commit taught me something new about what people actually need. Not just bookmarks - real preservation.&lt;/p&gt;
+&lt;h2 id=&#34;the-mobile-revolution-&#34;&gt;The Mobile Revolution 📱&lt;/h2&gt;
+&lt;p&gt;The game-changer was iOS Shortcuts integration. Now I can share from anywhere, archive automatically. Subway reading? One tap saves it. Meeting discovery? Boom, archived. Social media find? Got it.&lt;/p&gt;
+&lt;p&gt;The technical magic happens in two phases. You get instant feedback when you tap &amp;ldquo;Share to Links.&amp;rdquo; Meanwhile, the system spends 5-10 seconds downloading content. Background processing creates multiple archive formats. AI generates summaries. All while you move on with your day.&lt;/p&gt;
+&lt;p&gt;No more &amp;ldquo;I&amp;rsquo;ll save this later&amp;rdquo; mental notes. Just save it now, from wherever you are.&lt;/p&gt;
+&lt;h2 id=&#34;smart-archiving-made-simple&#34;&gt;Smart Archiving Made Simple&lt;/h2&gt;
+&lt;p&gt;Links doesn&amp;rsquo;t just store URLs. It understands content. AI summaries using Claude (with OpenAI fallback) extract meaning from every page. Content extraction that actually works handles even tricky sites.&lt;/p&gt;
+&lt;p&gt;Multiple formats ensure long-term access:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF archives preserve visual layout&lt;/li&gt;
+&lt;li&gt;Markdown conversion creates searchable text&lt;/li&gt;
+&lt;li&gt;WARC files maintain complete page context&lt;/li&gt;
+&lt;li&gt;Structured metadata enables programmatic access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full-text search works across all archived content. Find that thing you saved months ago in seconds.&lt;/p&gt;
+&lt;p&gt;The system handles edge cases gracefully. Broken sites, missing metadata, failed AI calls - it all degrades nicely. You never lose your bookmark, even when things go wrong.&lt;/p&gt;
+&lt;h2 id=&#34;how-links-stands-apart&#34;&gt;How Links Stands Apart&lt;/h2&gt;
+&lt;p&gt;The bookmark manager landscape is crowded. But Links takes a different approach than the competition.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;mymind.com&lt;/strong&gt; uses AI for visual organization and discovery. Beautiful interface, smart tagging, visual search. But it&amp;rsquo;s cloud-hosted, subscription-based, and focused on organization over preservation. When mymind&amp;rsquo;s servers go down, your bookmarks go with them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dewey&lt;/strong&gt; captures content at bookmark time. Great for preservation, but limited mobile integration. &lt;strong&gt;Raindrop.io&lt;/strong&gt; offers visual bookmarking with cloud backup. &lt;strong&gt;LinkAce&lt;/strong&gt; provides self-hosted monitoring with Internet Archive integration.&lt;/p&gt;
+&lt;p&gt;Links combines the best ideas while avoiding common pitfalls:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;File-based storage&lt;/strong&gt; (no database headaches)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-hosted control&lt;/strong&gt; (your data, your rules)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actual content preservation&lt;/strong&gt; (not just pretty organization)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seamless mobile integration&lt;/strong&gt; (because that&amp;rsquo;s where we live now)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI intelligence&lt;/strong&gt; (without the subscription fees)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While others focus on tags, categories, and visual discovery, Links focuses on one thing: making sure your stuff doesn&amp;rsquo;t disappear.&lt;/p&gt;
+&lt;h2 id=&#34;the-long-term-vision&#34;&gt;The Long-Term Vision&lt;/h2&gt;
+&lt;p&gt;Digital preservation shouldn&amp;rsquo;t be complicated. Regular people need tools that work without constant maintenance. Links embraces this philosophy.&lt;/p&gt;
+&lt;p&gt;In an era where websites vanish overnight, Links provides a personal solution. No tags, no categories, no complex workflows. Just chronological organization that makes sense. And yet, everything is still just one full-text search away.&lt;/p&gt;
+&lt;p&gt;Your data lives in human-readable files. No vendor lock-in, no proprietary formats. If you want to move elsewhere, everything exports cleanly.&lt;/p&gt;
+&lt;p&gt;This is digital preservation for the rest of us.&lt;/p&gt;
+&lt;h2 id=&#34;ready-to-use-today&#34;&gt;Ready to Use Today&lt;/h2&gt;
+&lt;p&gt;Links is production-ready right now. All core features work reliably. The mobile integration is smooth. The AI summaries are helpful. The search actually finds things.&lt;/p&gt;
+&lt;p&gt;After 115 commits of refinement, it&amp;rsquo;s almost ready for prime time. I still need to bundle it up for distribution.&lt;/p&gt;
+&lt;p&gt;Until then, you can try Links at &lt;a href=&#34;https://links.alexanderkucera.de&#34;&gt;links.alexanderkucera.de&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Links is open source and self-hostable. Built with Kirby CMS, Python archiving scripts, and a healthy dose of frustration with disappearing content.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why I Embraced AI Assisted Writing for my Blog</title>
+      <link>https://alexanderkucera.com/2025/06/22/why-i-embraced-ai-assisted.html</link>
+      <pubDate>Sun, 22 Jun 2025 14:00:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/22/why-i-embraced-ai-assisted.html</guid>
+      <description>&lt;h2 id=&#34;the-old-way-wasnt-working&#34;&gt;The Old Way Wasn&amp;rsquo;t Working&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve always been a private blogger. No schedule. No pressure. Just me writing when inspiration strikes.&lt;/p&gt;
+&lt;p&gt;That used to be enough.&lt;/p&gt;
+&lt;p&gt;But life has a way of changing the game on you. When kidney issues landed me on dialysis, everything shifted. The energy I once had for longer writing sessions? Gone. The focus needed for those longer posts I loved crafting almost 15 years ago? Scattered.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d sit down with brilliant ideas bouncing around in my head. But translating them into coherent, engaging posts felt like pushing a boulder uphill. The gap between what I wanted to say and what I could actually produce became this frustrating chasm.&lt;/p&gt;
+&lt;p&gt;Writing stopped being joy. It became work.&lt;/p&gt;
+&lt;h2 id=&#34;the-unexpected-journey-to-ai&#34;&gt;The Unexpected Journey to AI&lt;/h2&gt;
+&lt;p&gt;My path to AI-assisted writing didn&amp;rsquo;t start with writing at all.&lt;/p&gt;
+&lt;p&gt;It began with images. MidJourney caught my attention first - the idea of creating visuals from text descriptions fascinated me. I&amp;rsquo;m a coder at heart, so the concept of prompt engineering felt natural.&lt;/p&gt;
+&lt;p&gt;From there, curiosity led me to ChatGPT. Just playing around. Testing limits. Seeing what this AI thing could actually do.&lt;/p&gt;
+&lt;p&gt;TypingMind entered the picture as a better interface for managing these AI conversations. But the real breakthrough came when I discovered Anthropic&amp;rsquo;s Claude models. Something about Claude&amp;rsquo;s responses felt more&amp;hellip; human. More collaborative.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s when I started thinking: if AI can help with images and casual conversations, maybe it can help with the writing that&amp;rsquo;s become so challenging.&lt;/p&gt;
+&lt;h2 id=&#34;what-ai-actually-does-for-my-blog&#34;&gt;What AI Actually Does for My Blog&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what people get wrong about AI writing assistance. They think it&amp;rsquo;s about replacing the writer.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not.&lt;/p&gt;
+&lt;p&gt;For me, AI bridges the gap between having ideas and having the energy to execute them properly. It&amp;rsquo;s like having a research assistant, writing partner, and editor all rolled into one - but one who never gets tired when I need to take breaks.&lt;/p&gt;
+&lt;p&gt;The AI handles the heavy lifting of research. It pulls current facts, finds relevant examples, and organizes information in ways that make sense. When writer&amp;rsquo;s block hits (and with health challenges, it hits more often), the AI helps me push through by generating different angles or approaches I hadn&amp;rsquo;t considered.&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the key: I&amp;rsquo;m still driving the process. Every idea comes from me. Every direction change is my call. The AI just helps me get there without burning through the limited energy I have each day.&lt;/p&gt;
+&lt;p&gt;Since embracing this approach, I&amp;rsquo;ve published more than I have in years. Not because I have a schedule to maintain, but because writing is enjoyable again.&lt;/p&gt;
+&lt;h2 id=&#34;keeping-it-real&#34;&gt;Keeping It Real&lt;/h2&gt;
+&lt;p&gt;Let me be crystal clear about something: if a post doesn&amp;rsquo;t sound like me, it doesn&amp;rsquo;t get published.&lt;/p&gt;
+&lt;p&gt;Period.&lt;/p&gt;
+&lt;p&gt;The AI might help craft sentences or organize thoughts, but every published word has to pass my authenticity test. I work with the AI through multiple iterations, adjusting tone, refining arguments, and polishing until it genuinely feels like something I would write.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t about tricking readers or taking shortcuts. It&amp;rsquo;s about having the tools to express my actual thoughts and ideas when my body isn&amp;rsquo;t cooperating with my creative ambitions.&lt;/p&gt;
+&lt;p&gt;The iterative process is crucial. I&amp;rsquo;ll ask for revisions on specific paragraphs, request tone adjustments, or completely redirect sections that don&amp;rsquo;t feel right. The AI is patient in ways human collaborators might not be - it doesn&amp;rsquo;t get frustrated when I need the fifth version of the same paragraph.&lt;/p&gt;
+&lt;h2 id=&#34;my-current-workflow&#34;&gt;My Current Workflow&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Setup That Changed Everything&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I built my writing process around TypingMind, which lets me create specialized agents with different skills. My &amp;ldquo;Professional Blog Writer&amp;rdquo; agent is like having a writing partner who actually knows me.&lt;/p&gt;
+&lt;p&gt;The agent comes loaded with plugins that do the heavy lifting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity Search for current research and facts&lt;/li&gt;
+&lt;li&gt;Sequential Thinking for structured outlines&lt;/li&gt;
+&lt;li&gt;Memoryplugin to remember my writing style and preferences&lt;/li&gt;
+&lt;li&gt;TubePlus for YouTube content analysis&lt;/li&gt;
+&lt;li&gt;Firecrawl for web scraping when I need specific sources&lt;/li&gt;
+&lt;li&gt;Image Search for visual inspiration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;From Idea to Published Post&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My process is surprisingly simple now. I start with just a topic idea or maybe a short summary of what&amp;rsquo;s bouncing around in my head. Nothing fancy.&lt;/p&gt;
+&lt;p&gt;The AI immediately pulls up research, creates an outline, and we go back and forth until it feels right. Sometimes that&amp;rsquo;s two exchanges. Sometimes it&amp;rsquo;s ten. Depends on the complexity and how clear my initial thoughts were.&lt;/p&gt;
+&lt;p&gt;Then comes the actual writing. Here&amp;rsquo;s where the Memory Plugin really shines - it usually nails my writing style on the first or second attempt because it remembers how I like things phrased, my sentence patterns, even my weird quirks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Back-and-Forth Dance&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When something doesn&amp;rsquo;t feel right, I&amp;rsquo;m specific: &amp;ldquo;Make this section more conversational&amp;rdquo; or &amp;ldquo;This paragraph is too formal for my voice.&amp;rdquo; The AI adjusts, and we keep refining until I hit that moment where I think, &amp;ldquo;Yes, this sounds like me.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The whole thing outputs in Markdown, so I just copy-paste into my blogging software. No reformatting headaches.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why This Works for Me&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The energy I used to burn on research and first drafts now goes into the creative refinement. I&amp;rsquo;m collaborating rather than grinding. And because the AI learns my style over time, each post gets easier to perfect.&lt;/p&gt;
+&lt;h2 id=&#34;looking-forward&#34;&gt;Looking Forward&lt;/h2&gt;
+&lt;p&gt;The future of AI-assisted blogging isn&amp;rsquo;t about replacing writers. It&amp;rsquo;s about amplifying what they are already good at while compensating for their limitations - whether those are time, energy, health, or simply the occasional creative block.&lt;/p&gt;
+&lt;p&gt;For bloggers dealing with similar challenges, my advice is simple: start small. Pick one aspect of your writing process that frustrates you most and see if AI can help with that specific piece. Don&amp;rsquo;t try to revolutionize everything at once.&lt;/p&gt;
+&lt;p&gt;The key is maintaining control. The AI is a tool, not a replacement. Your voice, your ideas, your standards - those don&amp;rsquo;t change. What changes is having the support to express them even when life throws curveballs.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m more excited about blogging now than I&amp;rsquo;ve been in years. Not because AI does the work for me, but because it helps me do the work I want to do, even when my body isn&amp;rsquo;t fully cooperating.&lt;/p&gt;
+&lt;p&gt;And honestly? That&amp;rsquo;s made all the difference.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This post was written with the assistance of Claude AI through TypingMind, following my usual collaborative process of research, outlining, drafting, and refinement until it properly captured my voice and experience.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Productivity Conversation I Didn&#39;t Expect to Have</title>
+      <link>https://alexanderkucera.com/2025/06/21/the-productivity-conversation-i-didnt.html</link>
+      <pubDate>Sat, 21 Jun 2025 10:30:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/21/the-productivity-conversation-i-didnt.html</guid>
+      <description>&lt;p&gt;I sat down to write about productivity. Instead, I accidentally solved my productivity problem.&lt;/p&gt;
+&lt;p&gt;It started with a simple request. I wanted to turn my struggles with overwhelm and chronic illness into a blog post. Multiple interests pulling me in different directions, dialysis eating up twelve hours a week, YouTube consumption replacing creation - the usual productivity paradox.&lt;/p&gt;
+&lt;p&gt;You read more about it &lt;a href=&#34;https://alexanderkucera.com/2025/06/19/pulled-in-too-many-directions.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But something unexpected happened during the conversation with my AI writing assistant. What began as research for a blog post became a real-time case study in how productive conversations actually work.&lt;/p&gt;
+&lt;h2 id=&#34;the-original-problem&#34;&gt;The Original Problem&lt;/h2&gt;
+&lt;p&gt;The setup was familiar to anyone who&amp;rsquo;s ever felt overwhelmed by their own interests. I love coding, cooking, RPGs, fitness, reading. My wife has projects that need my support. I&amp;rsquo;m supposed to be working on an iPad app for her. But instead of making progress on any of it, I find myself watching YouTube videos for hours.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d even found a video that perfectly explained the problem - how our brains get hijacked by consumption, how creation provides more sustainable dopamine hits, how shifting from consumer to contributor changes everything.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/R4MInIP2c-A?si=rW29vhDlEfG-JAx7&#34;&gt;The Habit that forces your brain to stop consuming&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I understood the theory. I just couldn&amp;rsquo;t implement it.&lt;/p&gt;
+&lt;h2 id=&#34;the-conversation-that-changed-everything&#34;&gt;The Conversation That Changed Everything&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;What&amp;rsquo;s your top priority right then?&amp;rdquo; came the question.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Probably the iPadOS app, since finishing that would help my wife greatly.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Simple question. Clear answer. But then something interesting happened.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Those twelve hours of dialysis per week? That&amp;rsquo;s actually prime iPad development time. You could queue up iOS tutorials, work on app wireframes&amp;hellip;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Well, there&amp;rsquo;s no Xcode for iPad,&amp;rdquo; I replied. &amp;ldquo;And my left arm is completely blocked with needles. I can&amp;rsquo;t move it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Sudden silence. Then: &amp;ldquo;Right, of course there&amp;rsquo;s no Xcode for iPad. That was a pretty big oversight on my part.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;what-made-this-conversation-different&#34;&gt;What Made This Conversation Different&lt;/h2&gt;
+&lt;p&gt;Most productivity advice fails because it&amp;rsquo;s generic. It assumes everyone has the same constraints, the same energy levels, the same physical capabilities. The conversation became productive the moment my real constraints got acknowledged.&lt;/p&gt;
+&lt;p&gt;No judgment about not being able to code one-handed during medical treatment. No generic advice about &amp;ldquo;just managing your time better.&amp;rdquo; Instead: &amp;ldquo;What can you realistically do one-handed on an iPad for four hours?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The questions kept getting more specific:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;What does your energy level look like after dialysis?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;When are you actually at your Mac with both arms free?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What makes this app section so complicated?&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each question revealed another layer of reality that typical productivity advice ignores.&lt;/p&gt;
+&lt;h2 id=&#34;the-lessons-hidden-in-the-dialogue&#34;&gt;The Lessons Hidden in the Dialogue&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Assumptions get corrected quickly.&lt;/strong&gt; The Xcode-on-iPad suggestion was wrong, but it got corrected immediately instead of becoming the foundation for useless advice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Constraints clarify priorities.&lt;/strong&gt; Once we established that dialysis time wasn&amp;rsquo;t coding time, it became clear that the real development work had to happen during my four productive in-between days.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Specificity beats generality.&lt;/strong&gt; &amp;ldquo;Work on the app&amp;rdquo; is overwhelming. &amp;ldquo;Identify the next three concrete actions for the app&amp;rdquo; is actionable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questions matter more than answers.&lt;/strong&gt; The breakthrough didn&amp;rsquo;t come from advice. It came from questions that helped me see my situation more clearly.&lt;/p&gt;
+&lt;h2 id=&#34;the-meta-lesson&#34;&gt;The Meta-Lesson&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what I realized: the conversation itself was demonstrating the productivity principle I needed to learn.&lt;/p&gt;
+&lt;p&gt;Instead of consuming more productivity content, I was actively working through my specific situation. Instead of generic advice, I was getting targeted questions. Instead of feeling judged for my limitations, I was finding ways to work with them.&lt;/p&gt;
+&lt;p&gt;The conversation was creation, not consumption. It was collaborative problem-solving in real time.&lt;/p&gt;
+&lt;h2 id=&#34;the-breakthrough-moment&#34;&gt;The Breakthrough Moment&lt;/h2&gt;
+&lt;p&gt;The real breakthrough came when we identified that the missing section of the app wasn&amp;rsquo;t just technically complicated - it was &amp;ldquo;lots of different pieces.&amp;rdquo; Suddenly the overwhelm made sense. It wasn&amp;rsquo;t one elegant problem to solve, but fifteen mini-features that all needed to connect.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;What if you just listed all the different pieces first? Not designing them, not coding them - just creating an inventory.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s when it clicked. The paralysis wasn&amp;rsquo;t about not knowing how to code. It was about not knowing where to start when everything felt connected to everything else.&lt;/p&gt;
+&lt;h2 id=&#34;what-this-means-for-productivity&#34;&gt;What This Means for Productivity&lt;/h2&gt;
+&lt;p&gt;The best productivity hack might be finding someone who asks better questions.&lt;/p&gt;
+&lt;p&gt;Not someone who gives you a system to follow. Not someone who tells you to eliminate distractions. Someone who helps you see your actual constraints clearly, then works with those constraints instead of ignoring them.&lt;/p&gt;
+&lt;p&gt;Generic productivity advice is like generic medical advice - it might work for some people, but it&amp;rsquo;s useless if it doesn&amp;rsquo;t account for your specific situation.&lt;/p&gt;
+&lt;p&gt;The real productivity breakthrough happens when you stop trying to fit your life into someone else&amp;rsquo;s system and start building a system that fits your actual life.&lt;/p&gt;
+&lt;h2 id=&#34;the-ironic-ending&#34;&gt;The Ironic Ending&lt;/h2&gt;
+&lt;p&gt;I started this conversation wanting to write about my productivity problems. I ended up actually solving them.&lt;/p&gt;
+&lt;p&gt;The blog post was supposed to be about the problem. Instead, it became about the solution.&lt;/p&gt;
+&lt;p&gt;Sometimes the most productive thing you can do is have a better conversation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pulled in Too Many Directions: When Chronic Illness Meets Creative Overwhelm</title>
+      <link>https://alexanderkucera.com/2025/06/19/pulled-in-too-many-directions.html</link>
+      <pubDate>Thu, 19 Jun 2025 18:21:01 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/19/pulled-in-too-many-directions.html</guid>
+      <description>&lt;p&gt;I spent four hours yesterday watching YouTube videos about productivity.&lt;/p&gt;
+&lt;p&gt;The irony wasn&amp;rsquo;t lost on me. There I was, consuming content about being productive instead of actually being productive. But here&amp;rsquo;s the thing - I wasn&amp;rsquo;t just being lazy. I was overwhelmed.&lt;/p&gt;
+&lt;p&gt;I have too many interests that all matter to me. I love to code. There&amp;rsquo;s something magical about writing text and making computers do things. I&amp;rsquo;m supposed to be working on an iPadOS app for my wife.&lt;/p&gt;
+&lt;p&gt;I love cooking, which means meal planning and grocery shopping - two huge time sucks.&lt;/p&gt;
+&lt;p&gt;I like working out, though I rarely do it anymore.&lt;/p&gt;
+&lt;p&gt;Roleplaying games fascinate me. I want to set up the next adventure for friends.&lt;/p&gt;
+&lt;p&gt;My wife has her own projects that need my support. Then there&amp;rsquo;s my reading backlog - books, stories, technical manuals.&lt;/p&gt;
+&lt;p&gt;Oh, and I spend twelve hours a week getting dialysis.&lt;/p&gt;
+&lt;h2 id=&#34;the-multi-interest-trap&#34;&gt;The Multi-Interest Trap&lt;/h2&gt;
+&lt;p&gt;Most productivity advice assumes your interests are frivolous. &amp;ldquo;Just eliminate the time-wasters,&amp;rdquo; they say. &amp;ldquo;Focus on what matters.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;But what if everything matters?&lt;/p&gt;
+&lt;p&gt;Coding isn&amp;rsquo;t just a hobby - it&amp;rsquo;s creative problem-solving that feeds my soul. Cooking isn&amp;rsquo;t just sustenance - it&amp;rsquo;s how I care for my family. RPGs aren&amp;rsquo;t escapism - they&amp;rsquo;re collaborative storytelling that connects me with friends. Reading isn&amp;rsquo;t procrastination - it&amp;rsquo;s how I learn and grow.&lt;/p&gt;
+&lt;p&gt;The problem isn&amp;rsquo;t having meaningless hobbies. The problem is having too many meaningful ones.&lt;/p&gt;
+&lt;p&gt;Traditional productivity gurus don&amp;rsquo;t account for this. They assume you&amp;rsquo;re scrolling TikTok for hours, not trying to choose between legitimate creative pursuits. When all your interests have value, choosing becomes paralyzing.&lt;/p&gt;
+&lt;h2 id=&#34;the-chronic-illness-factor&#34;&gt;The Chronic Illness Factor&lt;/h2&gt;
+&lt;p&gt;Then there&amp;rsquo;s the reality most productivity advice ignores completely: chronic illness.&lt;/p&gt;
+&lt;p&gt;I spend four hours, three days a week, lying in a bed with needles in my left arm. I can&amp;rsquo;t move that arm. I can&amp;rsquo;t use both hands. I&amp;rsquo;m physically constrained in ways that make traditional &amp;ldquo;hustle culture&amp;rdquo; advice feel like a cruel joke.&lt;/p&gt;
+&lt;p&gt;My energy fluctuates wildly. Some afternoons after dialysis, I feel energetic. Other days, I&amp;rsquo;m completely drained. The days between treatments are usually my most productive, but that&amp;rsquo;s only four days a week at full capacity.&lt;/p&gt;
+&lt;p&gt;Most productivity experts have never had to plan their creative work around medical treatments. They&amp;rsquo;ve never had to factor in recovery time or energy management. Their advice assumes consistent daily energy levels that simply don&amp;rsquo;t exist for people like me.&lt;/p&gt;
+&lt;h2 id=&#34;the-consumption-trap&#34;&gt;The Consumption Trap&lt;/h2&gt;
+&lt;p&gt;This is where YouTube becomes dangerous.&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re tired, when you&amp;rsquo;re overwhelmed by choices, when you&amp;rsquo;re physically limited, consumption becomes the path of least resistance. Watching someone else code feels productive without requiring the energy that actual coding demands. Food videos scratch the cooking itch without the meal planning overhead.&lt;/p&gt;
+&lt;p&gt;I recently watched a video that hit hard (see &lt;a href=&#34;https://youtu.be/R4MInIP2c-A?si=rW29vhDlEfG-JAx7&#34;&gt;The Habit that forces your brain to stop consuming&lt;/a&gt;). The creator talked about how our brains crave novelty and dopamine, and social media provides artificial hits of both. But creation provides them in more sustainable, meaningful doses.&lt;/p&gt;
+&lt;p&gt;The insight was powerful: shift from being a consumer to being a contributor.&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s what the video didn&amp;rsquo;t address - what happens when your ability to contribute is limited by physical constraints? What happens when you have the drive to create but not always the energy or physical capacity?&lt;/p&gt;
+&lt;h2 id=&#34;adapted-strategies&#34;&gt;Adapted Strategies&lt;/h2&gt;
+&lt;p&gt;The solution isn&amp;rsquo;t to eliminate interests or ignore physical limitations. It&amp;rsquo;s to work smarter with the energy and time you actually have.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Work with your energy patterns, not against them.&lt;/strong&gt; My most productive days are the in-between days. Instead of feeling guilty about low-energy days, I&amp;rsquo;ve started planning for them. Dialysis days are for rest, planning, and light consumption that feeds future creation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Batch similar activities.&lt;/strong&gt; Meal planning happens on Sundays. Coding happens in focused blocks on high-energy days. RPG prep gets batched with other reading activities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Combine interests strategically.&lt;/strong&gt; What if I coded tools for my RPG campaigns? What if I built meal planning apps? What if I listened to coding podcasts while prepping ingredients?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Make consumption serve creation.&lt;/strong&gt; Instead of random YouTube videos, I queue up content that feeds my active projects. iOS development tutorials during dialysis recovery time. Cooking videos during meal planning sessions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Use constraints to make decisions.&lt;/strong&gt; The physical limitation of one-handed iPad use during dialysis actually clarifies what activities are possible. The energy limitation of post-dialysis afternoons helps prioritize what matters most.&lt;/p&gt;
+&lt;h2 id=&#34;its-not-about-choosing-less&#34;&gt;It&amp;rsquo;s Not About Choosing Less&lt;/h2&gt;
+&lt;p&gt;The traditional productivity advice of &amp;ldquo;just focus on one thing&amp;rdquo; doesn&amp;rsquo;t work when you&amp;rsquo;re a creative person with multiple meaningful interests. And it definitely doesn&amp;rsquo;t work when chronic illness adds layers of complexity to your energy management.&lt;/p&gt;
+&lt;p&gt;The real solution is learning to work with your constraints instead of fighting them. Your limitations aren&amp;rsquo;t failures - they&amp;rsquo;re data points that help you make better decisions about how to spend your energy.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m still working on this. Some days I still end up in YouTube rabbit holes instead of making progress on projects that matter. But I&amp;rsquo;m getting better at recognizing when that&amp;rsquo;s happening and why.&lt;/p&gt;
+&lt;p&gt;The goal isn&amp;rsquo;t perfect productivity. It&amp;rsquo;s sustainable creativity within the reality of the life you actually have, not the life productivity gurus assume you&amp;rsquo;re living.&lt;/p&gt;
+&lt;p&gt;Sometimes the most productive thing you can do is take a nap.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Call of Cthulhu Beats D&amp;D at Actually Getting Played</title>
+      <link>https://alexanderkucera.com/2025/06/12/why-call-of-cthulhu-beats.html</link>
+      <pubDate>Thu, 12 Jun 2025 14:26:47 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/12/why-call-of-cthulhu-beats.html</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s be honest about something. How many D&amp;amp;D campaigns have you started that never finished?&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m talking about those epic adventures that were supposed to take your characters from level 1 to 20. The ones that petered out somewhere around level 6. The campaign notes gathering dust on your hard drive.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a reason for this. And it&amp;rsquo;s not that your group lacks commitment.&lt;/p&gt;
+&lt;h2 id=&#34;the-year-long-dd-commitment-problem&#34;&gt;The Year-Long D&amp;amp;D Commitment Problem&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what nobody tells you when you crack open that shiny new D&amp;amp;D adventure book. &lt;strong&gt;Curse of Strahd&lt;/strong&gt; will eat 22-26 sessions of your life. &lt;strong&gt;Tomb of Annihilation&lt;/strong&gt; demands 26-35 sessions. Even the humble &lt;strong&gt;Lost Mines of Phandelver&lt;/strong&gt; - the &amp;ldquo;beginner&amp;rdquo; adventure - clocks in at 30-50 hours of gameplay.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s 6 months to 2 years of regular weekly sessions. For &lt;em&gt;one&lt;/em&gt; campaign.&lt;/p&gt;
+&lt;p&gt;Think about your last group text trying to schedule a session. Now imagine doing that every week for two years straight. While keeping the same characters alive. And remembering what happened in session 12 when you&amp;rsquo;re now on session 31.&lt;/p&gt;
+&lt;p&gt;No wonder most D&amp;amp;D campaigns die a slow death around the third month.&lt;/p&gt;
+&lt;h2 id=&#34;coc-complete-stories-in-bite-sized-chunks&#34;&gt;CoC: Complete Stories in Bite-Sized Chunks&lt;/h2&gt;
+&lt;p&gt;Call of Cthulhu takes a completely different approach. Most scenarios are designed to wrap up in 3-4 hours total.&lt;/p&gt;
+&lt;p&gt;Not 3-4 hours per session for months on end. Three to four hours. Period. Done. Complete story with beginning, middle, and satisfying conclusion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The Haunting&amp;rdquo;&lt;/strong&gt; - the classic starter scenario - takes about 4-6 hours. You can literally run this on a Saturday afternoon and have investigators discover cosmic horror, face an impossible choice, and either save the day or go insane trying. All before dinner.&lt;/p&gt;
+&lt;p&gt;Compare that to starting &lt;strong&gt;Curse of Strahd&lt;/strong&gt; knowing you&amp;rsquo;re signing up for half a year of consistent scheduling. Which one sounds more doable for your actual life?&lt;/p&gt;
+&lt;h2 id=&#34;why-dd-became-a-commitment-sport&#34;&gt;Why D&amp;amp;D Became a Commitment Sport&lt;/h2&gt;
+&lt;p&gt;Don&amp;rsquo;t get me wrong. D&amp;amp;D&amp;rsquo;s design isn&amp;rsquo;t accidental. The level 1-20 progression system demands long story arcs. You need time to grow from &amp;ldquo;I swing my sword&amp;rdquo; to &amp;ldquo;I cast Meteor Swarm and reshape the battlefield.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Published D&amp;amp;D adventures are built around this. They&amp;rsquo;re designed as months-long investments. Epic journeys that require sustained character development and party dynamics.&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the thing. Somewhere along the way, the hobby developed this expectation that &amp;ldquo;real&amp;rdquo; D&amp;amp;D means year-long campaigns. That shorter adventures are just warm-ups for the main event.&lt;/p&gt;
+&lt;p&gt;This turned D&amp;amp;D into a commitment sport. Like training for a marathon when you just wanted to go for a jog.&lt;/p&gt;
+&lt;h2 id=&#34;the-beautiful-efficiency-of-horror&#34;&gt;The Beautiful Efficiency of Horror&lt;/h2&gt;
+&lt;p&gt;Call of Cthulhu works differently because horror works differently.&lt;/p&gt;
+&lt;p&gt;Investigation has a natural story structure. Investigators find clues. Clues lead to revelations. Revelations lead to confrontation with cosmic horror. Confrontation leads to resolution (or madness).&lt;/p&gt;
+&lt;p&gt;This arc fits perfectly into 3-4 hours. The tension builds, reaches a climax, and resolves. No need for seventeen sessions of character development. The story is the star, not the character sheet.&lt;/p&gt;
+&lt;p&gt;Plus, let&amp;rsquo;s talk about character mortality. In CoC, investigators die. Or go insane. Or both. This isn&amp;rsquo;t a bug - it&amp;rsquo;s a feature. It creates natural endpoints to stories.&lt;/p&gt;
+&lt;p&gt;Unlike D&amp;amp;D, where characters grow stronger and more attached over dozens of sessions, CoC investigators are fragile. This makes shorter commitments not just possible, but inevitable.&lt;/p&gt;
+&lt;h2 id=&#34;real-talk-what-this-means-for-your-gaming-group&#34;&gt;Real Talk: What This Means for Your Gaming Group&lt;/h2&gt;
+&lt;p&gt;You know what&amp;rsquo;s great about running &lt;strong&gt;&amp;ldquo;The Haunting&amp;rdquo;&lt;/strong&gt; on a Saturday night? Everyone leaves satisfied. Complete story. Full experience. No cliffhangers requiring next week&amp;rsquo;s session to resolve.&lt;/p&gt;
+&lt;p&gt;Compare that to starting &lt;strong&gt;Descent into Avernus&lt;/strong&gt; and knowing you&amp;rsquo;re committing to 30-40 sessions. That&amp;rsquo;s almost a year of weekly gaming. Miss a few sessions and you&amp;rsquo;re lost. Have one player move away and the whole campaign crumbles.&lt;/p&gt;
+&lt;p&gt;CoC scenarios are perfect for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Groups with busy schedules&lt;/li&gt;
+&lt;li&gt;Players who want variety in their gaming&lt;/li&gt;
+&lt;li&gt;Anyone who&amp;rsquo;s tired of unfinished campaigns&lt;/li&gt;
+&lt;li&gt;New players who don&amp;rsquo;t want to commit to months of sessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can run &lt;strong&gt;&amp;ldquo;The Dead Boarder&amp;rdquo;&lt;/strong&gt; in 2 hours. &lt;strong&gt;&amp;ldquo;The Necropolis&amp;rdquo;&lt;/strong&gt; takes 1-2 hours max. These aren&amp;rsquo;t abbreviated experiences - they&amp;rsquo;re complete horror stories with full narrative arcs.&lt;/p&gt;
+&lt;h2 id=&#34;ready-to-try-some-cosmic-horror&#34;&gt;Ready to Try Some Cosmic Horror?&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re tired of D&amp;amp;D campaigns that never reach their conclusions, give Call of Cthulhu a shot.&lt;/p&gt;
+&lt;p&gt;Start with &lt;strong&gt;&amp;ldquo;The Haunting&amp;rdquo;&lt;/strong&gt; from the starter set. Four hours. Complete experience. Your players will face cosmic horror, make impossible choices, and either triumph or face the consequences of meddling with forces beyond human comprehension.&lt;/p&gt;
+&lt;p&gt;All in one evening.&lt;/p&gt;
+&lt;p&gt;The best part? When it&amp;rsquo;s over, it&amp;rsquo;s actually over. Your group will have experienced a complete story from beginning to end. No scheduling next week&amp;rsquo;s session to find out what happens. No wondering if this campaign will join the graveyard of unfinished adventures.&lt;/p&gt;
+&lt;p&gt;Just the satisfaction of a story well told. And maybe, just maybe, investigators who lived to tell the tale.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Though honestly, where&amp;rsquo;s the fun in that?&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Have you experienced the curse of unfinished D&amp;amp;D campaigns? Or found success with shorter RPG formats? Share your horror stories (gaming or otherwise) in the comments below.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trading Freedom for Efficiency: My Journey from PD to HD</title>
+      <link>https://alexanderkucera.com/2025/06/10/trading-freedom-for-efficiency-my.html</link>
+      <pubDate>Tue, 10 Jun 2025 14:11:01 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/10/trading-freedom-for-efficiency-my.html</guid>
+      <description>&lt;p&gt;After my kidney surgery, everything changed. I had to switch from peritoneal dialysis (PD) to hemodialysis (HD). PD is the type where you dialyze at home through your abdomen. HD is what most people picture - sitting in a clinic hooked to a machine.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t have a choice in this. The surgery made the decision for me.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-miss-most-about-pd&#34;&gt;What I Miss Most About PD&lt;/h2&gt;
+&lt;p&gt;I miss my nights. With PD, I just hooked up before bed. The machine worked while I slept. Eight hours of gentle, continuous cleaning. No alarms, no nurses, no commute.&lt;/p&gt;
+&lt;p&gt;I could roll over. I could get up for water. I could live.&lt;/p&gt;
+&lt;p&gt;Now that freedom is gone. PD was like a gentle stream cleaning my blood all night. HD feels like a pressure washer blasting through me. Both work, but one lets you forget you&amp;rsquo;re sick.&lt;/p&gt;
+&lt;h2 id=&#34;understanding-ultrafiltration&#34;&gt;Understanding Ultrafiltration&lt;/h2&gt;
+&lt;p&gt;Let me explain ultrafiltration. It&amp;rsquo;s just a fancy word for removing extra fluid. Your kidneys normally do this when you pee. Dialysis has to do it artificially.&lt;/p&gt;
+&lt;p&gt;With PD, I could remove about twice as much fluid. The peritoneum - that&amp;rsquo;s your abdominal lining - acts like a filter. Glucose in the dialysis fluid pulls water from your blood. It&amp;rsquo;s osmosis, really.&lt;/p&gt;
+&lt;p&gt;HD uses pressure instead. It forces fluid out through an artificial membrane. It works, but there&amp;rsquo;s a limit. Push too hard and you cramp. Your blood pressure drops. You feel awful.&lt;/p&gt;
+&lt;h2 id=&#34;the-hd-reality&#34;&gt;The HD Reality&lt;/h2&gt;
+&lt;p&gt;Four hours. That&amp;rsquo;s what HD demands from me. Four hours of complete stillness every two days.&lt;/p&gt;
+&lt;p&gt;Try lying perfectly still for four hours. Your arm with the needles can&amp;rsquo;t move. One wrong shift and alarms scream. Blood might leak. The nurses rush over.&lt;/p&gt;
+&lt;p&gt;My back aches after two hours. My legs want to stretch. My mind goes crazy with boredom. I watch the clock like it&amp;rsquo;s my enemy.&lt;/p&gt;
+&lt;p&gt;Some people sleep through it. I can&amp;rsquo;t. I just lie there, waiting.&lt;/p&gt;
+&lt;h2 id=&#34;what-hd-does-better&#34;&gt;What HD Does Better&lt;/h2&gt;
+&lt;p&gt;I have to be fair here. HD removes phosphate and potassium like a champion. These minerals build up when your kidneys fail. Too much potassium stops your heart. Too much phosphate destroys your bones.&lt;/p&gt;
+&lt;p&gt;HD clears them efficiently. Three times a week, boom - levels drop. With PD, it was always a struggle. I took binders with every meal. I avoided certain foods.&lt;/p&gt;
+&lt;p&gt;So yes, HD has its advantages. But at what cost?&lt;/p&gt;
+&lt;h2 id=&#34;the-trade-off-id-make&#34;&gt;The Trade-Off I&amp;rsquo;d Make&lt;/h2&gt;
+&lt;p&gt;Give me back my PD tomorrow. I&amp;rsquo;ll take the phosphate binders. I&amp;rsquo;ll skip the bananas and potatoes. I&amp;rsquo;ll manage the potassium myself.&lt;/p&gt;
+&lt;p&gt;What good is efficient toxin removal if it steals your life? I&amp;rsquo;d rather have good days with some dietary restrictions. HD gives me perfect labs and exhausting treatment days.&lt;/p&gt;
+&lt;p&gt;Quality of life matters. Being able to work matters. Traveling without planning around clinics matters. Sleeping in your own bed every night matters.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d make that trade in a heartbeat.&lt;/p&gt;
+&lt;h2 id=&#34;looking-forward&#34;&gt;Looking Forward&lt;/h2&gt;
+&lt;p&gt;My doctors say I might return to PD eventually. The surgical site needs to heal completely first. I&amp;rsquo;m counting the days.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re choosing between PD and HD, think beyond the medical numbers. Consider your lifestyle. Value your independence. Ask about all your options.&lt;/p&gt;
+&lt;p&gt;HD works well for many people. Some prefer the structure. Some like not managing their own care. That&amp;rsquo;s valid too.&lt;/p&gt;
+&lt;p&gt;But for me? I just want my nights back. I want to wake up dialyzed, not exhausted. I want treatment that fits my life, not life that fits my treatment.&lt;/p&gt;
+&lt;p&gt;Until then, I&amp;rsquo;ll endure my four-hour sessions. I&amp;rsquo;ll appreciate what HD does well. But I&amp;rsquo;ll keep hoping for the day I can go home again.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Remember: every patient is different. What works for me might not work for you. Always discuss your options with your nephrologist.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Relax History AI: When AI Brings History to Life</title>
+      <link>https://alexanderkucera.com/2025/06/08/relax-history-ai-when-ai.html</link>
+      <pubDate>Sun, 08 Jun 2025 19:34:19 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/08/relax-history-ai-when-ai.html</guid>
+      <description>&lt;p&gt;Ever wondered what George Washington really looked like? Not the stiff painting version, but the actual person?&lt;/p&gt;
+&lt;p&gt;What if you could see Marie Curie&amp;rsquo;s actual face? Not just that famous black-and-white photo. Her real, living face with all its expressions.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s exactly what &lt;a href=&#34;https://youtube.com/@relaxhistoryai?si=eBPLAHoD6LA1_cy1&#34;&gt;Relax History AI&lt;/a&gt; does. And it&amp;rsquo;s brilliant.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-relax-history-ai&#34;&gt;What is Relax History AI?&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s a YouTube channel that brings dead people back to life. Well, sort of.&lt;/p&gt;
+&lt;p&gt;They use AI to transform old paintings and descriptions into photorealistic faces. Suddenly, historical figures aren&amp;rsquo;t just names in textbooks. They&amp;rsquo;re people. Real people with eyes that seem to look right at you.&lt;/p&gt;
+&lt;p&gt;The channel creates videos that reimagine everyone from Geronimo to Anastasia Romanov. Each face tells a story. Each image makes history feel closer.&lt;/p&gt;
+&lt;h2 id=&#34;the-magic-behind-the-screen&#34;&gt;The Magic Behind the Screen&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s how it works. The AI analyzes everything available about a historical figure. Paintings, sketches, written descriptions. Even details about their ethnicity and the time period.&lt;/p&gt;
+&lt;p&gt;Then it creates what they probably looked like. Not cartoon versions. Not idealized portraits. Just people.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s like time travel without the paradoxes.&lt;/p&gt;
+&lt;p&gt;The technology adds subtle details too. Skin texture, natural lighting, realistic hair. These aren&amp;rsquo;t Instagram filters. This is serious reconstruction work.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-is-a-brilliant-use-of-ai&#34;&gt;Why This is a Brilliant Use of AI&lt;/h2&gt;
+&lt;p&gt;Most AI applications feel cold. This one creates connection.&lt;/p&gt;
+&lt;p&gt;Think about it. We learn history through dusty portraits and formal paintings. Everyone looks stern. Everyone looks distant. No wonder kids find history boring.&lt;/p&gt;
+&lt;p&gt;But show them what Cleopatra might have really looked like? Now you&amp;rsquo;ve got their attention.&lt;/p&gt;
+&lt;p&gt;This democratizes history in ways textbooks never could. You don&amp;rsquo;t need a PhD to feel connected to these figures. You just need eyes and curiosity.&lt;/p&gt;
+&lt;p&gt;It also preserves cultural memory differently. Not through static images. Through faces that feel alive.&lt;/p&gt;
+&lt;h2 id=&#34;hit-series-that-changed-everything&#34;&gt;Hit Series That Changed Everything&lt;/h2&gt;
+&lt;p&gt;Their &amp;ldquo;20 Historical Icons Brought Back to Life&amp;rdquo; series went viral. For good reason.&lt;/p&gt;
+&lt;p&gt;Each episode features multiple historical figures. George Washington looks less like a dollar bill and more like your stern grandfather. Anastasia Romanov becomes a real teenager, not just a tragic legend.&lt;/p&gt;
+&lt;p&gt;Marie Curie? She looks brilliant and tired. Exactly how you&amp;rsquo;d expect someone who discovered radium to look.&lt;/p&gt;
+&lt;p&gt;Geronimo stares back with intensity that no painting captured. You understand why he was such a formidable leader.&lt;/p&gt;
+&lt;p&gt;These aren&amp;rsquo;t just pictures. They&amp;rsquo;re windows into real lives.&lt;/p&gt;
+&lt;h2 id=&#34;the-future-of-learning-history&#34;&gt;The Future of Learning History&lt;/h2&gt;
+&lt;p&gt;This is what good AI looks like. It doesn&amp;rsquo;t replace human connection. It creates it.&lt;/p&gt;
+&lt;p&gt;Imagine history classes using this technology. Students could &amp;ldquo;meet&amp;rdquo; the people they&amp;rsquo;re studying. The American Revolution becomes less abstract when you can see Washington&amp;rsquo;s actual face.&lt;/p&gt;
+&lt;p&gt;Teachers could show that historical figures were just people. They had bad hair days. They had worry lines. They looked tired sometimes.&lt;/p&gt;
+&lt;p&gt;It changes everything about how we relate to the past.&lt;/p&gt;
+&lt;h2 id=&#34;some-final-thoughts&#34;&gt;Some Final Thoughts&lt;/h2&gt;
+&lt;p&gt;Sure, these reconstructions aren&amp;rsquo;t perfect. We can&amp;rsquo;t know exactly what these people looked like. But that&amp;rsquo;s not really the point.&lt;/p&gt;
+&lt;p&gt;The point is connection. The point is making history human again.&lt;/p&gt;
+&lt;p&gt;When you see Cleopatra as a real person, not just an Elizabeth Taylor movie, something shifts. History stops being about dates and starts being about people.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the real magic here. Not the AI technology itself. But what it helps us see.&lt;/p&gt;
+&lt;p&gt;Dead people were once alive. They had faces. They had expressions. They were just like us.&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s exactly what makes &lt;a href=&#34;https://youtube.com/@relaxhistoryai?si=eBPLAHoD6LA1_cy1&#34;&gt;Relax History AI&lt;/a&gt; such a great use of artificial intelligence. It makes the artificial feel human.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Have you checked out any of their videos yet? Which historical figure would you most like to see brought to life?&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The TACO Revolution: When Fast Food Meets Politics</title>
+      <link>https://alexanderkucera.com/2025/06/08/the-taco-revolution-when-fast.html</link>
+      <pubDate>Sun, 08 Jun 2025 10:21:17 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/08/the-taco-revolution-when-fast.html</guid>
+      <description>&lt;h3 id=&#34;trump-always-chickens-out---a-spicy-new-internet-sensation&#34;&gt;&lt;em&gt;Trump Always Chickens Out&lt;/em&gt; - A Spicy New Internet Sensation&lt;/h3&gt;
+&lt;p&gt;It seems the internet has found its newest obsession, and surprisingly, it involves both politics and Mexican cuisine – sort of. The acronym &amp;ldquo;TACO&amp;rdquo; has been taking over Facebook feeds faster than you can say &amp;ldquo;guacamole,&amp;rdquo; but this particular taco comes with an extra side of political satire.&lt;/p&gt;
+&lt;p&gt;TACO stands for &amp;ldquo;Trump Always Chickens Out,&amp;rdquo; a term originally coined by a Financial Times columnist that has now morphed into a full-blown meme phenomenon. The internet, being the internet, couldn&amp;rsquo;t resist the delicious wordplay opportunities.&lt;/p&gt;
+&lt;h3 id=&#34;why-taco-is-on-the-menu&#34;&gt;Why TACO is on the Menu&lt;/h3&gt;
+&lt;p&gt;Like any good taco, this meme comes with layers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The Shell&lt;/strong&gt;: A crispy exterior of seemingly tough talk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Filling&lt;/strong&gt;: A soft interior of policy reversals and backtracking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Hot Sauce&lt;/strong&gt;: Added spice when Trump himself reacted to a reporter&amp;rsquo;s &amp;ldquo;nasty&amp;rdquo; question about it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The beauty of the TACO meme is that it&amp;rsquo;s both a noun and a verb. &amp;ldquo;Did you see Trump TACO on that trade policy again?&amp;rdquo; has become the new way to describe someone who talks tough but retreats when challenged.&lt;/p&gt;
+&lt;h3 id=&#34;from-drive-thru-to-viral-drive&#34;&gt;From Drive-Thru to Viral Drive&lt;/h3&gt;
+&lt;p&gt;What makes this political fast food so addictive? Perhaps it&amp;rsquo;s the perfect combination of simplicity and substance. In a world of complex political discourse, sometimes all you need is a simple acronym that people can sink their teeth into.&lt;/p&gt;
+&lt;p&gt;As one Facebook user eloquently put it: &amp;ldquo;I used to enjoy Taco Tuesday, but now I enjoy TACO every day of the week.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Whatever your political appetite, you have to admire the internet&amp;rsquo;s ability to wrap complex political commentary in a convenient, hand-held meme format. It&amp;rsquo;s political fast food for the digital age – quick, satisfying, and guaranteed to leave a lasting impression.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Just remember, unlike actual tacos, this one seems to have no problem holding everything together.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Disclaimer: This blog post contains 100% organic humor with no artificial outrage. Consume responsibly.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Great Billionaire Breakup of 2025: Trump vs. Musk</title>
+      <link>https://alexanderkucera.com/2025/06/08/the-great-billionaire-breakup-of.html</link>
+      <pubDate>Sun, 08 Jun 2025 09:18:46 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/08/the-great-billionaire-breakup-of.html</guid>
+      <description>&lt;h2 id=&#34;when-bromance-meets-reality-tv-drama-in-the-age-of-electric-vehicles&#34;&gt;When Bromance Meets Reality TV Drama in the Age of Electric Vehicles&lt;/h2&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In what future historians will surely call &amp;ldquo;The Most 2025 Thing Ever,&amp;rdquo; the Trump-Musk friendship has imploded more spectacularly than a SpaceX test rocket. Grab your popcorn, folks – this billionaire breakup has everything: Tesla tantrums, Twitter tirades, and stock market drama.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-rise-and-fall-of-an-unlikely-bromance&#34;&gt;The Rise and Fall of an Unlikely Bromance&lt;/h2&gt;
+&lt;p&gt;Remember when Trump and Musk were the dynamic duo nobody saw coming? It feels like yesterday they were finishing each other&amp;rsquo;s tweets and making government efficiency memes together. But as we&amp;rsquo;ve learned from every reality TV show ever (and Trump should know this better than anyone), alliances built on shared enemies rarely survive success.&lt;/p&gt;
+&lt;p&gt;The partnership that began with such promise – Musk heading up the Department of Government Efficiency (yes, DOGE, because apparently we&amp;rsquo;re living in a simulation programmed by memelords) – has now devolved into a public spat that makes celebrity divorces look like amicable conscious uncouplings.&lt;/p&gt;
+&lt;h2 id=&#34;the-tesla-tantrum-that-broke-the-internet&#34;&gt;The Tesla Tantrum That Broke the Internet&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Breaking:&lt;/strong&gt; Man who bought $100,000+ friendship token now considering regifting it. More at 11.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In what might be the most expensive &amp;ldquo;take back&amp;rdquo; in friendship history, Trump is reportedly considering selling or giving away the red Tesla he purchased earlier this year to support Musk. It&amp;rsquo;s like returning a friendship bracelet, but with a six-figure price tag and autopilot features.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Trump saying Musk has &amp;lsquo;lost his mind&amp;rsquo; is particularly rich, considering both men are known for their&amp;hellip; let&amp;rsquo;s say &amp;lsquo;unconventional&amp;rsquo; social media presence.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-irony-olympics-gold-medal-moments&#34;&gt;The Irony Olympics: Gold Medal Moments&lt;/h2&gt;
+&lt;h3 id=&#34;1-the-doge-disaster-&#34;&gt;1. The DOGE Disaster 🐕&lt;/h3&gt;
+&lt;p&gt;Musk&amp;rsquo;s Department of Government Efficiency was supposed to streamline government operations. Instead, it seems to have streamlined the path to their friendship&amp;rsquo;s demise. The irony is so thick you could cut it with a Cybertruck&amp;rsquo;s angular edges.&lt;/p&gt;
+&lt;h3 id=&#34;2-the-lost-his-mind-proclamation-&#34;&gt;2. The &amp;ldquo;Lost His Mind&amp;rdquo; Proclamation 🤯&lt;/h3&gt;
+&lt;p&gt;Trump declaring that someone else has &amp;ldquo;lost their mind&amp;rdquo; is like a fish complaining about someone being wet. The pot hasn&amp;rsquo;t just met the kettle; they&amp;rsquo;re having a full-blown Twitter war.&lt;/p&gt;
+&lt;h3 id=&#34;3-the-stock-market-side-eye-&#34;&gt;3. The Stock Market Side-Eye 📉&lt;/h3&gt;
+&lt;p&gt;Tesla shares dropping 14% during their feud is essentially Wall Street&amp;rsquo;s way of saying, &amp;ldquo;Can you two just get along? Some of us have retirement portfolios!&amp;rdquo; The market has spoken, and it&amp;rsquo;s begging for couple&amp;rsquo;s therapy.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;💡 &lt;strong&gt;Fun Fact: The Timeline of Doom&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Early 2025:&lt;/strong&gt; Trump buys red Tesla, friendship rings exchanged (metaphorically)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spring 2025:&lt;/strong&gt; DOGE launches, memes abound, efficiency promised&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;June 2025:&lt;/strong&gt; Public feud erupts, accusations fly, Tesla considered for donation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Future:&lt;/strong&gt; Netflix documentary inevitable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-this-means-for-the-rest-of-us-mortals&#34;&gt;What This Means for the Rest of Us Mortals&lt;/h2&gt;
+&lt;p&gt;Beyond the entertainment value (which, let&amp;rsquo;s be honest, is substantial), this feud represents something more significant: the collision of tech billionaire culture with political reality TV drama. It&amp;rsquo;s what happens when you mix Silicon Valley&amp;rsquo;s &amp;ldquo;move fast and break things&amp;rdquo; with Washington&amp;rsquo;s &amp;ldquo;tweet fast and break relationships.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The implications are real:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tesla stockholders are getting a masterclass in why company valuations shouldn&amp;rsquo;t depend on CEO friendships&lt;/li&gt;
+&lt;li&gt;Government efficiency efforts are learning that you can&amp;rsquo;t DOGE your way out of personality conflicts&lt;/li&gt;
+&lt;li&gt;Twitter (or X, or whatever we&amp;rsquo;re calling it these days) is getting record engagement from rubberneckers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-silver-lining-comedy-gold&#34;&gt;The Silver Lining: Comedy Gold&lt;/h2&gt;
+&lt;p&gt;If there&amp;rsquo;s one thing we can count on in 2025, it&amp;rsquo;s that when two of the world&amp;rsquo;s most powerful and controversial figures have a public falling out, the memes will be legendary. From Tesla return policies to DOGE efficiency jokes, the internet has been feasting on this drama like it&amp;rsquo;s a unlimited buffet of absurdity.&lt;/p&gt;
+&lt;h2 id=&#34;the-bottom-line&#34;&gt;The Bottom Line&lt;/h2&gt;
+&lt;p&gt;The Trump-Musk feud of 2025 will go down in history as either the moment when billionaire bromances jumped the shark, or the greatest reality TV crossover event of all time. Either way, we&amp;rsquo;re all watching, tweeting, and wondering if this is what peak 2025 looks like.&lt;/p&gt;
+&lt;p&gt;As for Trump&amp;rsquo;s red Tesla? Maybe it&amp;rsquo;ll end up in a museum someday, with a plaque reading: &amp;ldquo;Artifact from the Great Billionaire Breakup of 2025 – Handle with Care, May Contain Traces of Irony.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Let’s see where this goes. In the meantime, maybe check your Tesla stock holdings. Just saying.&lt;/strong&gt; 🚗💔📱&lt;/p&gt;
+&lt;p&gt;(This article was written in parts with the help of Claude Opus 4.)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

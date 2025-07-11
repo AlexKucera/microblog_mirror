@@ -1,0 +1,2038 @@
+<rss version="2.0">
+  <channel>
+    <title>2025s on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/2025/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Fri, 11 Jul 2025 14:52:36 +0200</lastBuildDate>
+    
+    <item>
+      <title>Links Gets a Complete Python Makeover 🐍</title>
+      <link>https://alexanderkucera.com/2025/07/11/links-gets-a-complete-python.html</link>
+      <pubDate>Fri, 11 Jul 2025 14:52:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/11/links-gets-a-complete-python.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;Major refactor brings JavaScript support and eliminates licensing fees.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Remember when I told you about Links &lt;a href=&#34;https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html&#34;&gt;saving your stuff&lt;/a&gt; from the digital void? Well, it just got a complete technical overhaul.&lt;/p&gt;
+&lt;p&gt;The big news: Links now runs on a custom FastAPI Python implementation, ditching Kirby CMS entirely. Plus, it finally handles JavaScript-heavy sites that were previously impossible to archive.&lt;/p&gt;
+&lt;h2 id=&#34;from-php-to-python&#34;&gt;From PHP to Python&lt;/h2&gt;
+&lt;p&gt;The original Links was built on Kirby CMS. Great system, but it came with compromises. Licensed software means ongoing costs. PHP means working within CMS constraints. File-based content management that wasn&amp;rsquo;t quite right for archival workflows.&lt;/p&gt;
+&lt;p&gt;So I rebuilt it from scratch in Python.&lt;/p&gt;
+&lt;p&gt;FastAPI replaced the entire web framework. Clean, fast, and designed for APIs from the ground up. The archiving scripts were already in Python - now everything speaks the same language.&lt;/p&gt;
+&lt;h2 id=&#34;what-this-actually-means&#34;&gt;What This Actually Means&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;No more licensing fees.&lt;/strong&gt; Kirby required a one-time payment. FastAPI is completely open-source. Your self-hosted Links installation is now truly free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slimmer codebase.&lt;/strong&gt; Removed all the CMS bloat. No more fighting with file-based content management. No more PHP/Python context switching. Just focused Python code that does exactly what it needs to do.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JavaScript support.&lt;/strong&gt; The new architecture made it much easier to integrate proper browser engines. Sites that load content dynamically now archive perfectly. Single-page apps, modern e-commerce, social platforms - they all work now.&lt;/p&gt;
+&lt;h2 id=&#34;the-technical-evolution&#34;&gt;The Technical Evolution&lt;/h2&gt;
+&lt;p&gt;Before this refactor, Links would hit a wall with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Single-page applications (SPAs)&lt;/li&gt;
+&lt;li&gt;Modern e-commerce sites&lt;/li&gt;
+&lt;li&gt;Social media platforms&lt;/li&gt;
+&lt;li&gt;Complex dashboard interfaces&lt;/li&gt;
+&lt;li&gt;Any site that builds content after page load&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now it handles them all. The archiving process uses a proper browser engine, waits for JavaScript to execute, then captures everything. Content extraction gets the full picture. AI summaries actually have something meaningful to work with.&lt;/p&gt;
+&lt;h2 id=&#34;still-the-same-simple-experience&#34;&gt;Still the Same Simple Experience&lt;/h2&gt;
+&lt;p&gt;From your perspective, nothing changed. Share a link from iOS. Get the instant feedback. The background magic just got more powerful and more efficient.&lt;/p&gt;
+&lt;p&gt;The system still creates multiple archive formats. AI summaries still work. Full-text search still finds everything. But now it finds everything from sites that were previously impossible to archive properly.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;
+&lt;p&gt;This isn&amp;rsquo;t just a technical curiosity. It&amp;rsquo;s about sustainability and control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cost control.&lt;/strong&gt; No licensing fees means lower barrier to entry for self-hosting. Your digital preservation tool doesn&amp;rsquo;t depend on someone else&amp;rsquo;s business model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technical control.&lt;/strong&gt; Custom FastAPI means the codebase does exactly what&amp;rsquo;s needed. No more working around CMS limitations. No more PHP/Python impedance mismatch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Future-proofing.&lt;/strong&gt; Python ecosystem means better integration with AI tools, archiving libraries, and modern web technologies. When the next big thing comes along, Links can adapt.&lt;/p&gt;
+&lt;h2 id=&#34;production-ready&#34;&gt;Production Ready&lt;/h2&gt;
+&lt;p&gt;This complete rewrite rolled out to the live system at &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;links.alexanderkucera.de&lt;/a&gt;. No downtime. No lost data. No new workflows to learn.&lt;/p&gt;
+&lt;p&gt;Your JavaScript-heavy bookmarks are no longer second-class citizens. And your self-hosted installation just got a lot more sustainable.&lt;/p&gt;
+&lt;h2 id=&#34;the-open-source-future&#34;&gt;The Open Source Future&lt;/h2&gt;
+&lt;p&gt;With the Kirby dependency gone, Links is now completely open-source ready. No licensing complications. No vendor dependencies. Just Python code that preserves your digital discoveries.&lt;/p&gt;
+&lt;p&gt;Digital preservation for the rest of us just got a lot more accessible.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;115 commits became a complete rewrite. Sometimes the best way forward is to rebuild from first principles.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links: The Bookmark Manager That Actually Saves Your Stuff</title>
+      <link>https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html</link>
+      <pubDate>Mon, 07 Jul 2025 12:34:15 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/07/links-the-bookmark-manager-that.html</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all been there. You bookmark something important. Come back weeks later, link is dead. Content vanished, site changed, paywall appeared. The frustration of digital amnesia strikes again.&lt;/p&gt;
+&lt;p&gt;I got tired of losing things I wanted to keep.&lt;/p&gt;
+&lt;h2 id=&#34;from-simple-idea-to-production-reality&#34;&gt;From Simple Idea to Production Reality&lt;/h2&gt;
+&lt;p&gt;Links started as a basic bookmark manager. Just me, trying to organize my web finds. 115 commits later, it&amp;rsquo;s become a full archival system. The evolution from &amp;ldquo;nice to have&amp;rdquo; to &amp;ldquo;can&amp;rsquo;t live without&amp;rdquo; surprised even me.&lt;/p&gt;
+&lt;p&gt;What began as simple URL storage grew into something much more powerful. Each commit taught me something new about what people actually need. Not just bookmarks - real preservation.&lt;/p&gt;
+&lt;h2 id=&#34;the-mobile-revolution-&#34;&gt;The Mobile Revolution 📱&lt;/h2&gt;
+&lt;p&gt;The game-changer was iOS Shortcuts integration. Now I can share from anywhere, archive automatically. Subway reading? One tap saves it. Meeting discovery? Boom, archived. Social media find? Got it.&lt;/p&gt;
+&lt;p&gt;The technical magic happens in two phases. You get instant feedback when you tap &amp;ldquo;Share to Links.&amp;rdquo; Meanwhile, the system spends 5-10 seconds downloading content. Background processing creates multiple archive formats. AI generates summaries. All while you move on with your day.&lt;/p&gt;
+&lt;p&gt;No more &amp;ldquo;I&amp;rsquo;ll save this later&amp;rdquo; mental notes. Just save it now, from wherever you are.&lt;/p&gt;
+&lt;h2 id=&#34;smart-archiving-made-simple&#34;&gt;Smart Archiving Made Simple&lt;/h2&gt;
+&lt;p&gt;Links doesn&amp;rsquo;t just store URLs. It understands content. AI summaries using Claude (with OpenAI fallback) extract meaning from every page. Content extraction that actually works handles even tricky sites.&lt;/p&gt;
+&lt;p&gt;Multiple formats ensure long-term access:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF archives preserve visual layout&lt;/li&gt;
+&lt;li&gt;Markdown conversion creates searchable text&lt;/li&gt;
+&lt;li&gt;WARC files maintain complete page context&lt;/li&gt;
+&lt;li&gt;Structured metadata enables programmatic access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full-text search works across all archived content. Find that thing you saved months ago in seconds.&lt;/p&gt;
+&lt;p&gt;The system handles edge cases gracefully. Broken sites, missing metadata, failed AI calls - it all degrades nicely. You never lose your bookmark, even when things go wrong.&lt;/p&gt;
+&lt;h2 id=&#34;how-links-stands-apart&#34;&gt;How Links Stands Apart&lt;/h2&gt;
+&lt;p&gt;The bookmark manager landscape is crowded. But Links takes a different approach than the competition.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;mymind.com&lt;/strong&gt; uses AI for visual organization and discovery. Beautiful interface, smart tagging, visual search. But it&amp;rsquo;s cloud-hosted, subscription-based, and focused on organization over preservation. When mymind&amp;rsquo;s servers go down, your bookmarks go with them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dewey&lt;/strong&gt; captures content at bookmark time. Great for preservation, but limited mobile integration. &lt;strong&gt;Raindrop.io&lt;/strong&gt; offers visual bookmarking with cloud backup. &lt;strong&gt;LinkAce&lt;/strong&gt; provides self-hosted monitoring with Internet Archive integration.&lt;/p&gt;
+&lt;p&gt;Links combines the best ideas while avoiding common pitfalls:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;File-based storage&lt;/strong&gt; (no database headaches)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-hosted control&lt;/strong&gt; (your data, your rules)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actual content preservation&lt;/strong&gt; (not just pretty organization)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seamless mobile integration&lt;/strong&gt; (because that&amp;rsquo;s where we live now)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI intelligence&lt;/strong&gt; (without the subscription fees)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While others focus on tags, categories, and visual discovery, Links focuses on one thing: making sure your stuff doesn&amp;rsquo;t disappear.&lt;/p&gt;
+&lt;h2 id=&#34;the-long-term-vision&#34;&gt;The Long-Term Vision&lt;/h2&gt;
+&lt;p&gt;Digital preservation shouldn&amp;rsquo;t be complicated. Regular people need tools that work without constant maintenance. Links embraces this philosophy.&lt;/p&gt;
+&lt;p&gt;In an era where websites vanish overnight, Links provides a personal solution. No tags, no categories, no complex workflows. Just chronological organization that makes sense. And yet, everything is still just one full-text search away.&lt;/p&gt;
+&lt;p&gt;Your data lives in human-readable files. No vendor lock-in, no proprietary formats. If you want to move elsewhere, everything exports cleanly.&lt;/p&gt;
+&lt;p&gt;This is digital preservation for the rest of us.&lt;/p&gt;
+&lt;h2 id=&#34;ready-to-use-today&#34;&gt;Ready to Use Today&lt;/h2&gt;
+&lt;p&gt;Links is production-ready right now. All core features work reliably. The mobile integration is smooth. The AI summaries are helpful. The search actually finds things.&lt;/p&gt;
+&lt;p&gt;After 115 commits of refinement, it&amp;rsquo;s almost ready for prime time. I still need to bundle it up for distribution.&lt;/p&gt;
+&lt;p&gt;Until then, you can try Links at &lt;a href=&#34;https://links.alexanderkucera.de&#34;&gt;links.alexanderkucera.de&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Links is open source and self-hostable. Built with Kirby CMS, Python archiving scripts, and a healthy dose of frustration with disappearing content.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/07/05/post-by-manton-this-will.html</link>
+      <pubDate>Sat, 05 Jul 2025 18:13:29 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/05/post-by-manton-this-will.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.manton.org/2025/07/05/this-will-be-shocking-to.html&#34;&gt;Post&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/manton&#34;&gt;@manton&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This will be shocking to my Kickstarter backers from 8 years ago: I did some more edits on &lt;a href=&#34;https://book.micro.blog/&#34;&gt;the book&lt;/a&gt; this week. Updated some old things, new thoughts on Mastodon and Bluesky, added a new chapter. Print run will happen this year.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Amaze! &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/07/03/every-big-empire-falls-sooner.html</link>
+      <pubDate>Thu, 03 Jul 2025 16:53:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/03/every-big-empire-falls-sooner.html</guid>
+      <description>&lt;p&gt;Every big empire falls sooner or later. I wonder if we are witnessing Nero’s burning of Rome right now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/07/02/its-c-outside-and-as.html</link>
+      <pubDate>Wed, 02 Jul 2025 22:44:46 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/02/its-c-outside-and-as.html</guid>
+      <description>&lt;p&gt;It’s 30°C outside (and as much inside). Who the hell can sleep with these temperatures‽ I am seriously considering getting up and coding for a bit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links Update </title>
+      <link>https://alexanderkucera.com/2025/07/02/links-update.html</link>
+      <pubDate>Wed, 02 Jul 2025 19:16:48 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/02/links-update.html</guid>
+      <description>&lt;p&gt;I decided to pick up work on &lt;a href=&#34;https://links.alexanderkucera.de/about&#34;&gt;Links&lt;/a&gt; my barebones bookmark manager three days ago. Several dozen commits later it is shaping up nicely.&lt;/p&gt;
+&lt;p&gt;It now has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a nicer more streamlined design&lt;/li&gt;
+&lt;li&gt;working full content search&lt;/li&gt;
+&lt;li&gt;AI based summaries that also work for images (which is great for the search part)&lt;/li&gt;
+&lt;li&gt;editable titles (either manually or AI generated)&lt;/li&gt;
+&lt;li&gt;the archiver now runs as a daemon in the background&lt;/li&gt;
+&lt;li&gt;API access so it works with iOS shortcuts, Python, etc.&lt;/li&gt;
+&lt;li&gt;overall refactoring to be more readable code&lt;/li&gt;
+&lt;li&gt;a randomizer that shows ten random bookmarks&lt;/li&gt;
+&lt;li&gt;updated and expanded the documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still a few things to do though like adding more file types and maybe add thumbnails for other things then images.&lt;/p&gt;
+&lt;p&gt;But it is shaping up nicely and a proper release is visible on the horizon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/07/01/i-wonder-are-proclivity-and.html</link>
+      <pubDate>Tue, 01 Jul 2025 16:39:27 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/01/i-wonder-are-proclivity-and.html</guid>
+      <description>&lt;p&gt;I wonder. Are „proclivity“ and „pathology“ just the favorite words of Jordan Peterson or do all psychology professors talk like that?&lt;/p&gt;
+&lt;p&gt;You could easily get this episode down to half the length if you cut out those two words.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://overcast.fm/+AA7TtJ5CTCg&#34;&gt;558. The Snow White Disney Doesn’t Want You To Know&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/30/one-of-the-things-that.html</link>
+      <pubDate>Mon, 30 Jun 2025 17:05:50 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/30/one-of-the-things-that.html</guid>
+      <description>&lt;p&gt;One of the things that annoys me me most about LLMs is that they ruined properly crafted typography. I love to use em dashes. I feel like it shows that I put thought &amp;amp; care into a text. Well, not anymore. Now it says „hey that dude used an AI to write this. Feel free to discard it as not original.“&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/29/ive-neglected-links-my-bookmarking.html</link>
+      <pubDate>Sun, 29 Jun 2025 18:36:05 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/29/ive-neglected-links-my-bookmarking.html</guid>
+      <description>&lt;p&gt;I’ve neglected &lt;a href=&#34;https://links.alexanderkucera.de/about&#34;&gt;Links&lt;/a&gt; my bookmarking service. Too much other stuff going on like my wife’s iPad app and a new recipe app I’m trying to develop. Oh and also family life, dialysis and surgery recovery. Too much? Most likely.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/29/sitting-at-home-trying-not.html</link>
+      <pubDate>Sun, 29 Jun 2025 14:14:19 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/29/sitting-at-home-trying-not.html</guid>
+      <description>&lt;p&gt;Sitting at home trying not to melt. 32°C outside. 27°C inside. &lt;a href=&#34;https://amzn.to/45IYQS9&#34;&gt;Vornado&lt;/a&gt; running on high speed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/28/micro-blog-photo-challenge-day.html</link>
+      <pubDate>Sat, 28 Jun 2025 18:43:33 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/28/micro-blog-photo-challenge-day.html</guid>
+      <description>&lt;p&gt;📷 Micro Blog Photo Challenge Day 28: Ephemeral&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250628-184301-b228ce0d.jpg&#34; alt=&#34;Ephemeral ice cubes swimming in lemonade. &#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/26/osteria-scuderia-enjoying-a-nice.html</link>
+      <pubDate>Thu, 26 Jun 2025 13:14:55 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/26/osteria-scuderia-enjoying-a-nice.html</guid>
+      <description>&lt;p&gt;Osteria Scuderia. &lt;a href=&#34;http://maps.apple.com/?ll=49.352724,8.138959&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Enjoying a nice summer day with some Spaghetti Carbonara and a glass of bitter lemon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/25/i-really-like-gitkraken-as.html</link>
+      <pubDate>Wed, 25 Jun 2025 11:11:34 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/25/i-really-like-gitkraken-as.html</guid>
+      <description>&lt;p&gt;I really like GitKraken as my daily Git application. Check it out: &lt;a href=&#34;https://gitkraken.cello.so/WTPmEygxcYC&#34;&gt;Get GitKraken at 50% off&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/24/yener-dner-time-for-some.html</link>
+      <pubDate>Tue, 24 Jun 2025 16:27:31 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/24/yener-dner-time-for-some.html</guid>
+      <description>&lt;p&gt;Yener Döner. &lt;a href=&#34;http://maps.apple.com/?ll=49.352530,8.139647&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Time for some Iskender.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Looking for ideas</title>
+      <link>https://alexanderkucera.com/2025/06/23/looking-for-ideas.html</link>
+      <pubDate>Mon, 23 Jun 2025 17:22:59 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/23/looking-for-ideas.html</guid>
+      <description>&lt;p&gt;I had my cataract surgery this afternoon and I&amp;rsquo;m not allowed to read or watch anything on TV or my iPad for three days. I&amp;rsquo;m already feeling somewhat at a loss. I&amp;rsquo;m looking for ideas of what to do that won&amp;rsquo;t strain my eyes and also won&amp;rsquo;t strain my body too much, since I cannot lift heavy weights, do sports, or engage in any other strenuous activities that would increase my blood circulation or blood pressure too much.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/23/that-wasnt-so-bad-only.html</link>
+      <pubDate>Mon, 23 Jun 2025 09:25:56 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/23/that-wasnt-so-bad-only.html</guid>
+      <description>&lt;p&gt;That wasn‘t so bad. Only an hour later and I have checked off all five doctor calls.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/23/ah-the-joy-of-trying.html</link>
+      <pubDate>Mon, 23 Jun 2025 08:41:03 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/23/ah-the-joy-of-trying.html</guid>
+      <description>&lt;p&gt;Ah the joy of trying to get a doctors appointment in Germany on a Monday morning. Sadly, I have to reach five doctors this morning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/22/i-finally-caved-and-paid.html</link>
+      <pubDate>Sun, 22 Jun 2025 19:38:43 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/22/i-finally-caved-and-paid.html</guid>
+      <description>&lt;p&gt;I finally caved and paid for a month of Claude Pro for the work on my iPad app. It should come out cheaper then using API calls for vibe coding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why I Embraced AI Assisted Writing for my Blog</title>
+      <link>https://alexanderkucera.com/2025/06/22/why-i-embraced-ai-assisted.html</link>
+      <pubDate>Sun, 22 Jun 2025 14:00:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/22/why-i-embraced-ai-assisted.html</guid>
+      <description>&lt;h2 id=&#34;the-old-way-wasnt-working&#34;&gt;The Old Way Wasn&amp;rsquo;t Working&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve always been a private blogger. No schedule. No pressure. Just me writing when inspiration strikes.&lt;/p&gt;
+&lt;p&gt;That used to be enough.&lt;/p&gt;
+&lt;p&gt;But life has a way of changing the game on you. When kidney issues landed me on dialysis, everything shifted. The energy I once had for longer writing sessions? Gone. The focus needed for those longer posts I loved crafting almost 15 years ago? Scattered.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d sit down with brilliant ideas bouncing around in my head. But translating them into coherent, engaging posts felt like pushing a boulder uphill. The gap between what I wanted to say and what I could actually produce became this frustrating chasm.&lt;/p&gt;
+&lt;p&gt;Writing stopped being joy. It became work.&lt;/p&gt;
+&lt;h2 id=&#34;the-unexpected-journey-to-ai&#34;&gt;The Unexpected Journey to AI&lt;/h2&gt;
+&lt;p&gt;My path to AI-assisted writing didn&amp;rsquo;t start with writing at all.&lt;/p&gt;
+&lt;p&gt;It began with images. MidJourney caught my attention first - the idea of creating visuals from text descriptions fascinated me. I&amp;rsquo;m a coder at heart, so the concept of prompt engineering felt natural.&lt;/p&gt;
+&lt;p&gt;From there, curiosity led me to ChatGPT. Just playing around. Testing limits. Seeing what this AI thing could actually do.&lt;/p&gt;
+&lt;p&gt;TypingMind entered the picture as a better interface for managing these AI conversations. But the real breakthrough came when I discovered Anthropic&amp;rsquo;s Claude models. Something about Claude&amp;rsquo;s responses felt more&amp;hellip; human. More collaborative.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s when I started thinking: if AI can help with images and casual conversations, maybe it can help with the writing that&amp;rsquo;s become so challenging.&lt;/p&gt;
+&lt;h2 id=&#34;what-ai-actually-does-for-my-blog&#34;&gt;What AI Actually Does for My Blog&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what people get wrong about AI writing assistance. They think it&amp;rsquo;s about replacing the writer.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not.&lt;/p&gt;
+&lt;p&gt;For me, AI bridges the gap between having ideas and having the energy to execute them properly. It&amp;rsquo;s like having a research assistant, writing partner, and editor all rolled into one - but one who never gets tired when I need to take breaks.&lt;/p&gt;
+&lt;p&gt;The AI handles the heavy lifting of research. It pulls current facts, finds relevant examples, and organizes information in ways that make sense. When writer&amp;rsquo;s block hits (and with health challenges, it hits more often), the AI helps me push through by generating different angles or approaches I hadn&amp;rsquo;t considered.&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the key: I&amp;rsquo;m still driving the process. Every idea comes from me. Every direction change is my call. The AI just helps me get there without burning through the limited energy I have each day.&lt;/p&gt;
+&lt;p&gt;Since embracing this approach, I&amp;rsquo;ve published more than I have in years. Not because I have a schedule to maintain, but because writing is enjoyable again.&lt;/p&gt;
+&lt;h2 id=&#34;keeping-it-real&#34;&gt;Keeping It Real&lt;/h2&gt;
+&lt;p&gt;Let me be crystal clear about something: if a post doesn&amp;rsquo;t sound like me, it doesn&amp;rsquo;t get published.&lt;/p&gt;
+&lt;p&gt;Period.&lt;/p&gt;
+&lt;p&gt;The AI might help craft sentences or organize thoughts, but every published word has to pass my authenticity test. I work with the AI through multiple iterations, adjusting tone, refining arguments, and polishing until it genuinely feels like something I would write.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t about tricking readers or taking shortcuts. It&amp;rsquo;s about having the tools to express my actual thoughts and ideas when my body isn&amp;rsquo;t cooperating with my creative ambitions.&lt;/p&gt;
+&lt;p&gt;The iterative process is crucial. I&amp;rsquo;ll ask for revisions on specific paragraphs, request tone adjustments, or completely redirect sections that don&amp;rsquo;t feel right. The AI is patient in ways human collaborators might not be - it doesn&amp;rsquo;t get frustrated when I need the fifth version of the same paragraph.&lt;/p&gt;
+&lt;h2 id=&#34;my-current-workflow&#34;&gt;My Current Workflow&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Setup That Changed Everything&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I built my writing process around TypingMind, which lets me create specialized agents with different skills. My &amp;ldquo;Professional Blog Writer&amp;rdquo; agent is like having a writing partner who actually knows me.&lt;/p&gt;
+&lt;p&gt;The agent comes loaded with plugins that do the heavy lifting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perplexity Search for current research and facts&lt;/li&gt;
+&lt;li&gt;Sequential Thinking for structured outlines&lt;/li&gt;
+&lt;li&gt;Memoryplugin to remember my writing style and preferences&lt;/li&gt;
+&lt;li&gt;TubePlus for YouTube content analysis&lt;/li&gt;
+&lt;li&gt;Firecrawl for web scraping when I need specific sources&lt;/li&gt;
+&lt;li&gt;Image Search for visual inspiration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;From Idea to Published Post&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My process is surprisingly simple now. I start with just a topic idea or maybe a short summary of what&amp;rsquo;s bouncing around in my head. Nothing fancy.&lt;/p&gt;
+&lt;p&gt;The AI immediately pulls up research, creates an outline, and we go back and forth until it feels right. Sometimes that&amp;rsquo;s two exchanges. Sometimes it&amp;rsquo;s ten. Depends on the complexity and how clear my initial thoughts were.&lt;/p&gt;
+&lt;p&gt;Then comes the actual writing. Here&amp;rsquo;s where the Memory Plugin really shines - it usually nails my writing style on the first or second attempt because it remembers how I like things phrased, my sentence patterns, even my weird quirks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Back-and-Forth Dance&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When something doesn&amp;rsquo;t feel right, I&amp;rsquo;m specific: &amp;ldquo;Make this section more conversational&amp;rdquo; or &amp;ldquo;This paragraph is too formal for my voice.&amp;rdquo; The AI adjusts, and we keep refining until I hit that moment where I think, &amp;ldquo;Yes, this sounds like me.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The whole thing outputs in Markdown, so I just copy-paste into my blogging software. No reformatting headaches.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why This Works for Me&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The energy I used to burn on research and first drafts now goes into the creative refinement. I&amp;rsquo;m collaborating rather than grinding. And because the AI learns my style over time, each post gets easier to perfect.&lt;/p&gt;
+&lt;h2 id=&#34;looking-forward&#34;&gt;Looking Forward&lt;/h2&gt;
+&lt;p&gt;The future of AI-assisted blogging isn&amp;rsquo;t about replacing writers. It&amp;rsquo;s about amplifying what they are already good at while compensating for their limitations - whether those are time, energy, health, or simply the occasional creative block.&lt;/p&gt;
+&lt;p&gt;For bloggers dealing with similar challenges, my advice is simple: start small. Pick one aspect of your writing process that frustrates you most and see if AI can help with that specific piece. Don&amp;rsquo;t try to revolutionize everything at once.&lt;/p&gt;
+&lt;p&gt;The key is maintaining control. The AI is a tool, not a replacement. Your voice, your ideas, your standards - those don&amp;rsquo;t change. What changes is having the support to express them even when life throws curveballs.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m more excited about blogging now than I&amp;rsquo;ve been in years. Not because AI does the work for me, but because it helps me do the work I want to do, even when my body isn&amp;rsquo;t fully cooperating.&lt;/p&gt;
+&lt;p&gt;And honestly? That&amp;rsquo;s made all the difference.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This post was written with the assistance of Claude AI through TypingMind, following my usual collaborative process of research, outlining, drafting, and refinement until it properly captured my voice and experience.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From 10 Meters to 1.5 Kilometers</title>
+      <link>https://alexanderkucera.com/2025/06/21/from-meters-to-kilometers.html</link>
+      <pubDate>Sat, 21 Jun 2025 21:25:05 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/21/from-meters-to-kilometers.html</guid>
+      <description>&lt;p&gt;Eight weeks ago, I had open kidney surgery. After being bedridden for most of my three and a half week hospital stay, that final week felt like a triumph.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d graduated from assisted walking to making it down the hospital floor and back on my own. By discharge day, I was walking the entire floor independently. I felt confident. Ready to get back to normal life.&lt;/p&gt;
+&lt;p&gt;That confidence lasted exactly ten meters outside the hospital.&lt;/p&gt;
+&lt;p&gt;Ten meters from my front door, I needed a thirty-second break. Just ten meters. The same distance I&amp;rsquo;d been covering easily in the hospital corridors suddenly felt impossible. After feeling so capable walking those hospital floors, I felt like I&amp;rsquo;d run a marathon.&lt;/p&gt;
+&lt;p&gt;By the end of that first day home, I&amp;rsquo;d managed maybe thirty or forty meters total before admitting complete defeat. The difference between hospital walking and real-world walking hit me like a wall.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I didn&amp;rsquo;t understand then. Hospital floors are designed for recovery. They&amp;rsquo;re flat, climate-controlled, with handrails and places to rest every few meters. The real world has curbs, uneven pavement, weather, and distances that actually matter. Walking a hospital corridor doesn&amp;rsquo;t prepare you for walking to your mailbox.&lt;/p&gt;
+&lt;p&gt;The medical reality is pretty straightforward, but no one really prepares you for the psychological whiplash. After weeks of bed rest followed by successful hospital walking, you think you&amp;rsquo;re ready. Then you discover that three and a half weeks of lying still, even with that final week of corridor walking, has fundamentally changed what your body can handle.&lt;/p&gt;
+&lt;p&gt;Those first few days home were a study in humility I never wanted to take. Each day I&amp;rsquo;d try to walk a little further. Some days I managed it. Other days I didn&amp;rsquo;t. The frustrating part wasn&amp;rsquo;t just the physical limitation—it was accepting that my hospital confidence had been completely misplaced.&lt;/p&gt;
+&lt;p&gt;I started tracking my progress. Not with meters or fancy apps, but with houses. How many houses down the street could I make it before needing a breather? Before I had to turn around? These landmarks became my measuring stick. When my confidence was shattered, making it one house further was concrete proof I was still getting better, even if it didn&amp;rsquo;t feel like it.&lt;/p&gt;
+&lt;p&gt;The breakthrough came gradually, then suddenly. Around week four post-surgery, I realized I wasn&amp;rsquo;t counting steps anymore. Week six, I was walking around the block. Week seven, I made it to the local park and back.&lt;/p&gt;
+&lt;p&gt;Yesterday, I walked 1.5 kilometers in thirty minutes without stopping once. I held a conversation the entire time. Eight weeks after surgery, four and a half weeks after that humbling ten-meter reality check.&lt;/p&gt;
+&lt;p&gt;What strikes me most isn&amp;rsquo;t just the physical progress. It&amp;rsquo;s how hospital walking creates false confidence that real-world recovery quickly corrects. Before surgery, walking was just transportation. Now it&amp;rsquo;s proof that my body works outside controlled environments. Each step feels like a small victory over both the surgery and that initial confidence crash.&lt;/p&gt;
+&lt;p&gt;The research says most open surgery patients don&amp;rsquo;t hit these milestones until week ten or twelve, especially after extended hospital stays. That feels good to hear, but it also makes me realize how misleading hospital walking can be. Your real recovery timeline starts when you leave the building.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re starting your own walking recovery after major surgery and hospitalization, here&amp;rsquo;s what I wish someone had told me. Hospital walking is just the beginning. Don&amp;rsquo;t let that final week of corridor confidence fool you into thinking you&amp;rsquo;re ready for the real world. You&amp;rsquo;re not, and that&amp;rsquo;s completely normal.&lt;/p&gt;
+&lt;p&gt;Track everything once you&amp;rsquo;re home. Write down distances, times, how you felt. After that initial confidence crash, the numbers become your proof of progress when your brain tells you you&amp;rsquo;re moving backwards.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t compare your home walking to your hospital walking. They&amp;rsquo;re completely different activities requiring different energy levels and skills. Hospital floors are recovery training wheels. Real-world walking is the actual test.&lt;/p&gt;
+&lt;p&gt;Consistency beats intensity every single time. I walked every day after discharge, even if it was just to the mailbox. Those tiny daily efforts compound faster than sporadic longer attempts. Your body needs to relearn movement in real environments, not just controlled hospital corridors.&lt;/p&gt;
+&lt;p&gt;Bad days will happen. Last week I had a terrible walking day where everything felt harder than usual. I questioned whether I was actually improving or just fooling myself. The next day I walked further than ever before. Recovery after that kind of confidence crash isn&amp;rsquo;t linear.&lt;/p&gt;
+&lt;p&gt;The mental side of this recovery taught me things I never expected to learn. Humility, for one. Hospital walking had made me feel capable. Real-world walking reminded me I was still healing. Both were necessary parts of the process.&lt;/p&gt;
+&lt;p&gt;It also taught me to celebrate ridiculously small victories. Making it to the corner without stopping. Walking up three stairs without getting winded. Holding a conversation while moving. After that ten-meter wake-up call, these became genuine achievements worth acknowledging.&lt;/p&gt;
+&lt;p&gt;Looking ahead, I&amp;rsquo;m still technically in the recovery window. Open surgery patients don&amp;rsquo;t hit full recovery until month three. That means I&amp;rsquo;ve got another month of potential improvement ahead of me. The thought is both exciting and surreal.&lt;/p&gt;
+&lt;p&gt;My new goal is two kilometers by week ten. Then maybe three by month three. But honestly, I&amp;rsquo;m less focused on the numbers now. The real victory is that walking feels normal again, even outside hospital corridors.&lt;/p&gt;
+&lt;p&gt;Recovery from major surgery isn&amp;rsquo;t just about getting back to where you were. It&amp;rsquo;s about developing a completely different appreciation for what your body can do in real environments, not just controlled ones. Every day I can walk 1.5 kilometers is a day I don&amp;rsquo;t take for granted.&lt;/p&gt;
+&lt;p&gt;Eight weeks ago, that confident hospital walking meant nothing when faced with ten real meters. Today, 1.5 kilometers feels routine. That&amp;rsquo;s not just physical healing—that&amp;rsquo;s rebuilding trust with your own body one step at a time, in the real world.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This post documents my personal recovery experience. Always follow your doctor&amp;rsquo;s specific instructions for post-surgery activity and recovery timelines.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/21/daring-fireball-seven-replies-to.html</link>
+      <pubDate>Sat, 21 Jun 2025 14:08:13 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/21/daring-fireball-seven-replies-to.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://daringfireball.net/linked/2025/06/17/seven-replies-to-the-viral-apple-reasoning-paper&#34;&gt;Daring Fireball: Seven Replies to the Viral Apple Reasoning Paper&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[…] when it comes to these systems [LLMs], I’m mostly just interested in whether they’re useful or not, and if so, how.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That feels very short sighted. If we don‘t solve the alignment problem now, it will be too late when we do get to AGIs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/21/de-bcker-becker-a-bakery.html</link>
+      <pubDate>Sat, 21 Jun 2025 12:21:05 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/21/de-bcker-becker-a-bakery.html</guid>
+      <description>&lt;p&gt;De´ Bäcker Becker. &lt;a href=&#34;http://maps.apple.com/?ll=49.288258,8.145411&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A bakery lunch today.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Productivity Conversation I Didn&#39;t Expect to Have</title>
+      <link>https://alexanderkucera.com/2025/06/21/the-productivity-conversation-i-didnt.html</link>
+      <pubDate>Sat, 21 Jun 2025 10:30:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/21/the-productivity-conversation-i-didnt.html</guid>
+      <description>&lt;p&gt;I sat down to write about productivity. Instead, I accidentally solved my productivity problem.&lt;/p&gt;
+&lt;p&gt;It started with a simple request. I wanted to turn my struggles with overwhelm and chronic illness into a blog post. Multiple interests pulling me in different directions, dialysis eating up twelve hours a week, YouTube consumption replacing creation - the usual productivity paradox.&lt;/p&gt;
+&lt;p&gt;You read more about it &lt;a href=&#34;https://alexanderkucera.com/2025/06/19/pulled-in-too-many-directions.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But something unexpected happened during the conversation with my AI writing assistant. What began as research for a blog post became a real-time case study in how productive conversations actually work.&lt;/p&gt;
+&lt;h2 id=&#34;the-original-problem&#34;&gt;The Original Problem&lt;/h2&gt;
+&lt;p&gt;The setup was familiar to anyone who&amp;rsquo;s ever felt overwhelmed by their own interests. I love coding, cooking, RPGs, fitness, reading. My wife has projects that need my support. I&amp;rsquo;m supposed to be working on an iPad app for her. But instead of making progress on any of it, I find myself watching YouTube videos for hours.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d even found a video that perfectly explained the problem - how our brains get hijacked by consumption, how creation provides more sustainable dopamine hits, how shifting from consumer to contributor changes everything.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/R4MInIP2c-A?si=rW29vhDlEfG-JAx7&#34;&gt;The Habit that forces your brain to stop consuming&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I understood the theory. I just couldn&amp;rsquo;t implement it.&lt;/p&gt;
+&lt;h2 id=&#34;the-conversation-that-changed-everything&#34;&gt;The Conversation That Changed Everything&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;What&amp;rsquo;s your top priority right then?&amp;rdquo; came the question.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Probably the iPadOS app, since finishing that would help my wife greatly.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Simple question. Clear answer. But then something interesting happened.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Those twelve hours of dialysis per week? That&amp;rsquo;s actually prime iPad development time. You could queue up iOS tutorials, work on app wireframes&amp;hellip;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Well, there&amp;rsquo;s no Xcode for iPad,&amp;rdquo; I replied. &amp;ldquo;And my left arm is completely blocked with needles. I can&amp;rsquo;t move it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Sudden silence. Then: &amp;ldquo;Right, of course there&amp;rsquo;s no Xcode for iPad. That was a pretty big oversight on my part.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;what-made-this-conversation-different&#34;&gt;What Made This Conversation Different&lt;/h2&gt;
+&lt;p&gt;Most productivity advice fails because it&amp;rsquo;s generic. It assumes everyone has the same constraints, the same energy levels, the same physical capabilities. The conversation became productive the moment my real constraints got acknowledged.&lt;/p&gt;
+&lt;p&gt;No judgment about not being able to code one-handed during medical treatment. No generic advice about &amp;ldquo;just managing your time better.&amp;rdquo; Instead: &amp;ldquo;What can you realistically do one-handed on an iPad for four hours?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The questions kept getting more specific:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;What does your energy level look like after dialysis?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;When are you actually at your Mac with both arms free?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What makes this app section so complicated?&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each question revealed another layer of reality that typical productivity advice ignores.&lt;/p&gt;
+&lt;h2 id=&#34;the-lessons-hidden-in-the-dialogue&#34;&gt;The Lessons Hidden in the Dialogue&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Assumptions get corrected quickly.&lt;/strong&gt; The Xcode-on-iPad suggestion was wrong, but it got corrected immediately instead of becoming the foundation for useless advice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Constraints clarify priorities.&lt;/strong&gt; Once we established that dialysis time wasn&amp;rsquo;t coding time, it became clear that the real development work had to happen during my four productive in-between days.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Specificity beats generality.&lt;/strong&gt; &amp;ldquo;Work on the app&amp;rdquo; is overwhelming. &amp;ldquo;Identify the next three concrete actions for the app&amp;rdquo; is actionable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questions matter more than answers.&lt;/strong&gt; The breakthrough didn&amp;rsquo;t come from advice. It came from questions that helped me see my situation more clearly.&lt;/p&gt;
+&lt;h2 id=&#34;the-meta-lesson&#34;&gt;The Meta-Lesson&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what I realized: the conversation itself was demonstrating the productivity principle I needed to learn.&lt;/p&gt;
+&lt;p&gt;Instead of consuming more productivity content, I was actively working through my specific situation. Instead of generic advice, I was getting targeted questions. Instead of feeling judged for my limitations, I was finding ways to work with them.&lt;/p&gt;
+&lt;p&gt;The conversation was creation, not consumption. It was collaborative problem-solving in real time.&lt;/p&gt;
+&lt;h2 id=&#34;the-breakthrough-moment&#34;&gt;The Breakthrough Moment&lt;/h2&gt;
+&lt;p&gt;The real breakthrough came when we identified that the missing section of the app wasn&amp;rsquo;t just technically complicated - it was &amp;ldquo;lots of different pieces.&amp;rdquo; Suddenly the overwhelm made sense. It wasn&amp;rsquo;t one elegant problem to solve, but fifteen mini-features that all needed to connect.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;What if you just listed all the different pieces first? Not designing them, not coding them - just creating an inventory.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s when it clicked. The paralysis wasn&amp;rsquo;t about not knowing how to code. It was about not knowing where to start when everything felt connected to everything else.&lt;/p&gt;
+&lt;h2 id=&#34;what-this-means-for-productivity&#34;&gt;What This Means for Productivity&lt;/h2&gt;
+&lt;p&gt;The best productivity hack might be finding someone who asks better questions.&lt;/p&gt;
+&lt;p&gt;Not someone who gives you a system to follow. Not someone who tells you to eliminate distractions. Someone who helps you see your actual constraints clearly, then works with those constraints instead of ignoring them.&lt;/p&gt;
+&lt;p&gt;Generic productivity advice is like generic medical advice - it might work for some people, but it&amp;rsquo;s useless if it doesn&amp;rsquo;t account for your specific situation.&lt;/p&gt;
+&lt;p&gt;The real productivity breakthrough happens when you stop trying to fit your life into someone else&amp;rsquo;s system and start building a system that fits your actual life.&lt;/p&gt;
+&lt;h2 id=&#34;the-ironic-ending&#34;&gt;The Ironic Ending&lt;/h2&gt;
+&lt;p&gt;I started this conversation wanting to write about my productivity problems. I ended up actually solving them.&lt;/p&gt;
+&lt;p&gt;The blog post was supposed to be about the problem. Instead, it became about the solution.&lt;/p&gt;
+&lt;p&gt;Sometimes the most productive thing you can do is have a better conversation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/20/that-was-minutes-of-fun.html</link>
+      <pubDate>Fri, 20 Jun 2025 14:20:17 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/20/that-was-minutes-of-fun.html</guid>
+      <description>&lt;p&gt;That was 90 minutes of fun for the whole family! Highly recommended. And it resets so can be played again or re-gifted.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250620-141807-7c7383c0.jpg&#34; alt=&#34;Auto-generated description: Ein Daumen hoch wird neben einem detailreichen Holzpuzzle in Form einer dekorativ gestalteten Pyramide gezeigt.&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/20/went-to-the-city-to.html</link>
+      <pubDate>Fri, 20 Jun 2025 12:18:43 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/20/went-to-the-city-to.html</guid>
+      <description>&lt;p&gt;Went to the city to get a flat cap. Came back with this awesome looking puzzle box.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/def529beb2.jpg&#34; alt=&#34;Auto-generated description: Eine bunte, pyramidenförmige Verpackung mit der Aufschrift Clue Puzzle: The Aztec Pyramid of the Sun zeigt ein dekoratives Azteken-Design.&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/20/cafebar-maximilian-out-for-breakfast.html</link>
+      <pubDate>Fri, 20 Jun 2025 10:13:48 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/20/cafebar-maximilian-out-for-breakfast.html</guid>
+      <description>&lt;p&gt;Cafebar Maximilian. &lt;a href=&#34;http://maps.apple.com/?ll=49.317677,8.433021&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Out for breakfast with the family. On a non-holiday weekday no less. The decadence!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pulled in Too Many Directions: When Chronic Illness Meets Creative Overwhelm</title>
+      <link>https://alexanderkucera.com/2025/06/19/pulled-in-too-many-directions.html</link>
+      <pubDate>Thu, 19 Jun 2025 18:21:01 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/19/pulled-in-too-many-directions.html</guid>
+      <description>&lt;p&gt;I spent four hours yesterday watching YouTube videos about productivity.&lt;/p&gt;
+&lt;p&gt;The irony wasn&amp;rsquo;t lost on me. There I was, consuming content about being productive instead of actually being productive. But here&amp;rsquo;s the thing - I wasn&amp;rsquo;t just being lazy. I was overwhelmed.&lt;/p&gt;
+&lt;p&gt;I have too many interests that all matter to me. I love to code. There&amp;rsquo;s something magical about writing text and making computers do things. I&amp;rsquo;m supposed to be working on an iPadOS app for my wife.&lt;/p&gt;
+&lt;p&gt;I love cooking, which means meal planning and grocery shopping - two huge time sucks.&lt;/p&gt;
+&lt;p&gt;I like working out, though I rarely do it anymore.&lt;/p&gt;
+&lt;p&gt;Roleplaying games fascinate me. I want to set up the next adventure for friends.&lt;/p&gt;
+&lt;p&gt;My wife has her own projects that need my support. Then there&amp;rsquo;s my reading backlog - books, stories, technical manuals.&lt;/p&gt;
+&lt;p&gt;Oh, and I spend twelve hours a week getting dialysis.&lt;/p&gt;
+&lt;h2 id=&#34;the-multi-interest-trap&#34;&gt;The Multi-Interest Trap&lt;/h2&gt;
+&lt;p&gt;Most productivity advice assumes your interests are frivolous. &amp;ldquo;Just eliminate the time-wasters,&amp;rdquo; they say. &amp;ldquo;Focus on what matters.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;But what if everything matters?&lt;/p&gt;
+&lt;p&gt;Coding isn&amp;rsquo;t just a hobby - it&amp;rsquo;s creative problem-solving that feeds my soul. Cooking isn&amp;rsquo;t just sustenance - it&amp;rsquo;s how I care for my family. RPGs aren&amp;rsquo;t escapism - they&amp;rsquo;re collaborative storytelling that connects me with friends. Reading isn&amp;rsquo;t procrastination - it&amp;rsquo;s how I learn and grow.&lt;/p&gt;
+&lt;p&gt;The problem isn&amp;rsquo;t having meaningless hobbies. The problem is having too many meaningful ones.&lt;/p&gt;
+&lt;p&gt;Traditional productivity gurus don&amp;rsquo;t account for this. They assume you&amp;rsquo;re scrolling TikTok for hours, not trying to choose between legitimate creative pursuits. When all your interests have value, choosing becomes paralyzing.&lt;/p&gt;
+&lt;h2 id=&#34;the-chronic-illness-factor&#34;&gt;The Chronic Illness Factor&lt;/h2&gt;
+&lt;p&gt;Then there&amp;rsquo;s the reality most productivity advice ignores completely: chronic illness.&lt;/p&gt;
+&lt;p&gt;I spend four hours, three days a week, lying in a bed with needles in my left arm. I can&amp;rsquo;t move that arm. I can&amp;rsquo;t use both hands. I&amp;rsquo;m physically constrained in ways that make traditional &amp;ldquo;hustle culture&amp;rdquo; advice feel like a cruel joke.&lt;/p&gt;
+&lt;p&gt;My energy fluctuates wildly. Some afternoons after dialysis, I feel energetic. Other days, I&amp;rsquo;m completely drained. The days between treatments are usually my most productive, but that&amp;rsquo;s only four days a week at full capacity.&lt;/p&gt;
+&lt;p&gt;Most productivity experts have never had to plan their creative work around medical treatments. They&amp;rsquo;ve never had to factor in recovery time or energy management. Their advice assumes consistent daily energy levels that simply don&amp;rsquo;t exist for people like me.&lt;/p&gt;
+&lt;h2 id=&#34;the-consumption-trap&#34;&gt;The Consumption Trap&lt;/h2&gt;
+&lt;p&gt;This is where YouTube becomes dangerous.&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re tired, when you&amp;rsquo;re overwhelmed by choices, when you&amp;rsquo;re physically limited, consumption becomes the path of least resistance. Watching someone else code feels productive without requiring the energy that actual coding demands. Food videos scratch the cooking itch without the meal planning overhead.&lt;/p&gt;
+&lt;p&gt;I recently watched a video that hit hard (see &lt;a href=&#34;https://youtu.be/R4MInIP2c-A?si=rW29vhDlEfG-JAx7&#34;&gt;The Habit that forces your brain to stop consuming&lt;/a&gt;). The creator talked about how our brains crave novelty and dopamine, and social media provides artificial hits of both. But creation provides them in more sustainable, meaningful doses.&lt;/p&gt;
+&lt;p&gt;The insight was powerful: shift from being a consumer to being a contributor.&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s what the video didn&amp;rsquo;t address - what happens when your ability to contribute is limited by physical constraints? What happens when you have the drive to create but not always the energy or physical capacity?&lt;/p&gt;
+&lt;h2 id=&#34;adapted-strategies&#34;&gt;Adapted Strategies&lt;/h2&gt;
+&lt;p&gt;The solution isn&amp;rsquo;t to eliminate interests or ignore physical limitations. It&amp;rsquo;s to work smarter with the energy and time you actually have.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Work with your energy patterns, not against them.&lt;/strong&gt; My most productive days are the in-between days. Instead of feeling guilty about low-energy days, I&amp;rsquo;ve started planning for them. Dialysis days are for rest, planning, and light consumption that feeds future creation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Batch similar activities.&lt;/strong&gt; Meal planning happens on Sundays. Coding happens in focused blocks on high-energy days. RPG prep gets batched with other reading activities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Combine interests strategically.&lt;/strong&gt; What if I coded tools for my RPG campaigns? What if I built meal planning apps? What if I listened to coding podcasts while prepping ingredients?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Make consumption serve creation.&lt;/strong&gt; Instead of random YouTube videos, I queue up content that feeds my active projects. iOS development tutorials during dialysis recovery time. Cooking videos during meal planning sessions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Use constraints to make decisions.&lt;/strong&gt; The physical limitation of one-handed iPad use during dialysis actually clarifies what activities are possible. The energy limitation of post-dialysis afternoons helps prioritize what matters most.&lt;/p&gt;
+&lt;h2 id=&#34;its-not-about-choosing-less&#34;&gt;It&amp;rsquo;s Not About Choosing Less&lt;/h2&gt;
+&lt;p&gt;The traditional productivity advice of &amp;ldquo;just focus on one thing&amp;rdquo; doesn&amp;rsquo;t work when you&amp;rsquo;re a creative person with multiple meaningful interests. And it definitely doesn&amp;rsquo;t work when chronic illness adds layers of complexity to your energy management.&lt;/p&gt;
+&lt;p&gt;The real solution is learning to work with your constraints instead of fighting them. Your limitations aren&amp;rsquo;t failures - they&amp;rsquo;re data points that help you make better decisions about how to spend your energy.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m still working on this. Some days I still end up in YouTube rabbit holes instead of making progress on projects that matter. But I&amp;rsquo;m getting better at recognizing when that&amp;rsquo;s happening and why.&lt;/p&gt;
+&lt;p&gt;The goal isn&amp;rsquo;t perfect productivity. It&amp;rsquo;s sustainable creativity within the reality of the life you actually have, not the life productivity gurus assume you&amp;rsquo;re living.&lt;/p&gt;
+&lt;p&gt;Sometimes the most productive thing you can do is take a nap.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/18/stop-consuming-start-creating.html</link>
+      <pubDate>Wed, 18 Jun 2025 16:35:50 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/18/stop-consuming-start-creating.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://youtu.be/R4MInIP2c-A?si=rW29vhDlEfG-JAx7&#34;&gt;Stop consuming. Start creating.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/18/my-sister-in-law-just.html</link>
+      <pubDate>Wed, 18 Jun 2025 13:25:37 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/18/my-sister-in-law-just.html</guid>
+      <description>&lt;p&gt;My sister in law just held a talk in Speyer.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bsky.app/profile/milimutz.bsky.social/post/3lruri33sw22v&#34;&gt;Schutzhaft im ländlichen Raum 1943/44&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you are interested in Nazi behavior during WWII you might want to check it out.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/live/2_CmFdqq9C8?si=kTG9vzY7y8aMkYMW&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/18/tomb-of-annihilation-for-foundry.html</link>
+      <pubDate>Wed, 18 Jun 2025 12:56:57 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/18/tomb-of-annihilation-for-foundry.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://foundryvtt.com/packages/dnd-tomb-annihilation&#34;&gt;Tomb of Annihilation for Foundry Virtual Tabletop&lt;/a&gt; is out! I’m seriously tempted to grab a copy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/18/i-just-preordered-myself-a.html</link>
+      <pubDate>Wed, 18 Jun 2025 12:56:20 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/18/i-just-preordered-myself-a.html</guid>
+      <description>&lt;p&gt;I just pre-ordered myself a &lt;a href=&#34;https://www.wildgym.com/pages/feather-ruck&#34;&gt;Feather Ruck&lt;/a&gt;. Grab one yourself while they are available. Only 500 of every color available for now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/on-the-one-hand-i.html</link>
+      <pubDate>Tue, 17 Jun 2025 21:48:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/on-the-one-hand-i.html</guid>
+      <description>&lt;p&gt;On the one hand I believe AI has the potential to end humanity. On the other hand there is Audible which just recommended me the same book I just finished „based on my listening habits“. Well done robot overlords.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/and-finally-read-this-ai.html</link>
+      <pubDate>Tue, 17 Jun 2025 13:41:39 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/and-finally-read-this-ai.html</guid>
+      <description>&lt;p&gt;And finally read this: &lt;a href=&#34;https://ai-2027.com/&#34;&gt;AI 2027&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/then-listen-to-this-countdown.html</link>
+      <pubDate>Tue, 17 Jun 2025 13:40:49 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/then-listen-to-this-countdown.html</guid>
+      <description>&lt;p&gt;Then listen to this: &lt;a href=&#34;https://overcast.fm/+AAKhqGBgbmQ&#34;&gt;Countdown to Superintelligence&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/everyone-should-probably-watch-this.html</link>
+      <pubDate>Tue, 17 Jun 2025 13:38:45 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/everyone-should-probably-watch-this.html</guid>
+      <description>&lt;p&gt;Everyone should probably watch this:
+&lt;a href=&#34;https://youtu.be/giT0ytynSqg?si=b76IFnaFT4HiyWPJ&#34;&gt;The Godfather of AI: I tried to warn them, but we‘ve already lost control&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/finished-reading-artificial-condition-by.html</link>
+      <pubDate>Tue, 17 Jun 2025 10:19:02 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/finished-reading-artificial-condition-by.html</guid>
+      <description>&lt;p&gt;Finished reading: &lt;a href=&#34;https://micro.blog/books/9781250186935&#34;&gt;Artificial Condition&lt;/a&gt; by Martha Wells 📚&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/16/zero-praxen-just-drove-in.html</link>
+      <pubDate>Mon, 16 Jun 2025 21:13:01 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/16/zero-praxen-just-drove-in.html</guid>
+      <description>&lt;p&gt;Ze:ro Praxen. &lt;a href=&#34;http://maps.apple.com/?ll=49.311986,8.435870&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Just drove in for a quick two hour emergency dialysis. Apparently my potassium was too high. So I had to weight my options. High risk of a heart attack in the night or two hours of dialysis. Though choice really. I hope I picked the right option.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/16/post-by-news-microblog-for.html</link>
+      <pubDate>Mon, 16 Jun 2025 15:50:56 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/16/post-by-news-microblog-for.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://news.micro.blog/2025/06/16/microblog-for-ios-has-been.html&#34;&gt;Post&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/news&#34;&gt;@news&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Micro.blog for iOS has been updated with a bunch of bug fixes. Check out &lt;a href=&#34;https://help.micro.blog/t/micro-blog-for-ios/44&#34;&gt;the full release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This release is pretty nice. Check it out!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/16/andreas-hebgen-dr-at-the.html</link>
+      <pubDate>Mon, 16 Jun 2025 09:44:27 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/16/andreas-hebgen-dr-at-the.html</guid>
+      <description>&lt;p&gt;Andreas Hebgen Dr.. &lt;a href=&#34;http://maps.apple.com/?ll=49.304071,8.257097&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the doctors to get my pre-cataract surgery prep done.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/14/post-by-crossingthethreshold-its-one.html</link>
+      <pubDate>Sat, 14 Jun 2025 10:37:37 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/14/post-by-crossingthethreshold-its-one.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.crossingthethreshold.net/2025/06/14/its-one-of-those-days.html&#34;&gt;Post&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/crossingthethreshold&#34;&gt;@crossingthethreshold&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s one of those days when I do not want to go anywhere. Just stay at home and have a quiet day, reading, writing and reflecting. My wife on the other hand wishes to go on a road trip.
+I’ll be digging deep today!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Same here. I’m sweating profusely right now in this bloody dialysis bed. I cannot wait to get home in an hour and then it’s closed curtains and no movement for the rest of the day.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/14/so-is-the-orange-boys.html</link>
+      <pubDate>Sat, 14 Jun 2025 08:33:14 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/14/so-is-the-orange-boys.html</guid>
+      <description>&lt;p&gt;So, is the orange boys big birthday parade still happening or does the weather still say „na canceled“?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/14/meta-aiapp-stellt-private-unterhaltungen.html</link>
+      <pubDate>Sat, 14 Jun 2025 08:25:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/14/meta-aiapp-stellt-private-unterhaltungen.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.perplexity.ai/page/meta-ai-app-exposes-private-co-bNcRzv3wTWq9L7KfuJtb.g&#34;&gt;Meta AI-App stellt private Unterhaltungen im öffentlichen Feed dar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Well done Meta. Once again trampling all over users privacy. Just like we know you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/14/it-turns-out-i-suck.html</link>
+      <pubDate>Sat, 14 Jun 2025 08:17:44 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/14/it-turns-out-i-suck.html</guid>
+      <description>&lt;p&gt;It turns out I suck at playing Go. I have no foresight at all about what is going to happen in the later stages of the game and then usually get taken for 50 points at once.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/14/zero-praxen-another-day-another.html</link>
+      <pubDate>Sat, 14 Jun 2025 06:51:32 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/14/zero-praxen-another-day-another.html</guid>
+      <description>&lt;p&gt;Ze:ro Praxen. &lt;a href=&#34;http://maps.apple.com/?ll=49.311986,8.435870&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Another day, another dialysis session. And once again four hours of lying still in the heat. You can believe that I’m drenched in sweat afterwards. 🙁&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/13/i-finally-have-port-forwarding.html</link>
+      <pubDate>Fri, 13 Jun 2025 18:52:59 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/13/i-finally-have-port-forwarding.html</guid>
+      <description>&lt;p&gt;I finally have port forwarding working on my Mac mini running Sequoia. Turns out the firewall resisted my attempts to open a port. Not even when configuring APF manually. So I had to resort to turning off the system firewall and installing LittleSnitch. Sometimes 3rd party simply is best.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Call of Cthulhu Beats D&amp;D at Actually Getting Played</title>
+      <link>https://alexanderkucera.com/2025/06/12/why-call-of-cthulhu-beats.html</link>
+      <pubDate>Thu, 12 Jun 2025 14:26:47 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/12/why-call-of-cthulhu-beats.html</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s be honest about something. How many D&amp;amp;D campaigns have you started that never finished?&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m talking about those epic adventures that were supposed to take your characters from level 1 to 20. The ones that petered out somewhere around level 6. The campaign notes gathering dust on your hard drive.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a reason for this. And it&amp;rsquo;s not that your group lacks commitment.&lt;/p&gt;
+&lt;h2 id=&#34;the-year-long-dd-commitment-problem&#34;&gt;The Year-Long D&amp;amp;D Commitment Problem&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what nobody tells you when you crack open that shiny new D&amp;amp;D adventure book. &lt;strong&gt;Curse of Strahd&lt;/strong&gt; will eat 22-26 sessions of your life. &lt;strong&gt;Tomb of Annihilation&lt;/strong&gt; demands 26-35 sessions. Even the humble &lt;strong&gt;Lost Mines of Phandelver&lt;/strong&gt; - the &amp;ldquo;beginner&amp;rdquo; adventure - clocks in at 30-50 hours of gameplay.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s 6 months to 2 years of regular weekly sessions. For &lt;em&gt;one&lt;/em&gt; campaign.&lt;/p&gt;
+&lt;p&gt;Think about your last group text trying to schedule a session. Now imagine doing that every week for two years straight. While keeping the same characters alive. And remembering what happened in session 12 when you&amp;rsquo;re now on session 31.&lt;/p&gt;
+&lt;p&gt;No wonder most D&amp;amp;D campaigns die a slow death around the third month.&lt;/p&gt;
+&lt;h2 id=&#34;coc-complete-stories-in-bite-sized-chunks&#34;&gt;CoC: Complete Stories in Bite-Sized Chunks&lt;/h2&gt;
+&lt;p&gt;Call of Cthulhu takes a completely different approach. Most scenarios are designed to wrap up in 3-4 hours total.&lt;/p&gt;
+&lt;p&gt;Not 3-4 hours per session for months on end. Three to four hours. Period. Done. Complete story with beginning, middle, and satisfying conclusion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The Haunting&amp;rdquo;&lt;/strong&gt; - the classic starter scenario - takes about 4-6 hours. You can literally run this on a Saturday afternoon and have investigators discover cosmic horror, face an impossible choice, and either save the day or go insane trying. All before dinner.&lt;/p&gt;
+&lt;p&gt;Compare that to starting &lt;strong&gt;Curse of Strahd&lt;/strong&gt; knowing you&amp;rsquo;re signing up for half a year of consistent scheduling. Which one sounds more doable for your actual life?&lt;/p&gt;
+&lt;h2 id=&#34;why-dd-became-a-commitment-sport&#34;&gt;Why D&amp;amp;D Became a Commitment Sport&lt;/h2&gt;
+&lt;p&gt;Don&amp;rsquo;t get me wrong. D&amp;amp;D&amp;rsquo;s design isn&amp;rsquo;t accidental. The level 1-20 progression system demands long story arcs. You need time to grow from &amp;ldquo;I swing my sword&amp;rdquo; to &amp;ldquo;I cast Meteor Swarm and reshape the battlefield.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Published D&amp;amp;D adventures are built around this. They&amp;rsquo;re designed as months-long investments. Epic journeys that require sustained character development and party dynamics.&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the thing. Somewhere along the way, the hobby developed this expectation that &amp;ldquo;real&amp;rdquo; D&amp;amp;D means year-long campaigns. That shorter adventures are just warm-ups for the main event.&lt;/p&gt;
+&lt;p&gt;This turned D&amp;amp;D into a commitment sport. Like training for a marathon when you just wanted to go for a jog.&lt;/p&gt;
+&lt;h2 id=&#34;the-beautiful-efficiency-of-horror&#34;&gt;The Beautiful Efficiency of Horror&lt;/h2&gt;
+&lt;p&gt;Call of Cthulhu works differently because horror works differently.&lt;/p&gt;
+&lt;p&gt;Investigation has a natural story structure. Investigators find clues. Clues lead to revelations. Revelations lead to confrontation with cosmic horror. Confrontation leads to resolution (or madness).&lt;/p&gt;
+&lt;p&gt;This arc fits perfectly into 3-4 hours. The tension builds, reaches a climax, and resolves. No need for seventeen sessions of character development. The story is the star, not the character sheet.&lt;/p&gt;
+&lt;p&gt;Plus, let&amp;rsquo;s talk about character mortality. In CoC, investigators die. Or go insane. Or both. This isn&amp;rsquo;t a bug - it&amp;rsquo;s a feature. It creates natural endpoints to stories.&lt;/p&gt;
+&lt;p&gt;Unlike D&amp;amp;D, where characters grow stronger and more attached over dozens of sessions, CoC investigators are fragile. This makes shorter commitments not just possible, but inevitable.&lt;/p&gt;
+&lt;h2 id=&#34;real-talk-what-this-means-for-your-gaming-group&#34;&gt;Real Talk: What This Means for Your Gaming Group&lt;/h2&gt;
+&lt;p&gt;You know what&amp;rsquo;s great about running &lt;strong&gt;&amp;ldquo;The Haunting&amp;rdquo;&lt;/strong&gt; on a Saturday night? Everyone leaves satisfied. Complete story. Full experience. No cliffhangers requiring next week&amp;rsquo;s session to resolve.&lt;/p&gt;
+&lt;p&gt;Compare that to starting &lt;strong&gt;Descent into Avernus&lt;/strong&gt; and knowing you&amp;rsquo;re committing to 30-40 sessions. That&amp;rsquo;s almost a year of weekly gaming. Miss a few sessions and you&amp;rsquo;re lost. Have one player move away and the whole campaign crumbles.&lt;/p&gt;
+&lt;p&gt;CoC scenarios are perfect for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Groups with busy schedules&lt;/li&gt;
+&lt;li&gt;Players who want variety in their gaming&lt;/li&gt;
+&lt;li&gt;Anyone who&amp;rsquo;s tired of unfinished campaigns&lt;/li&gt;
+&lt;li&gt;New players who don&amp;rsquo;t want to commit to months of sessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can run &lt;strong&gt;&amp;ldquo;The Dead Boarder&amp;rdquo;&lt;/strong&gt; in 2 hours. &lt;strong&gt;&amp;ldquo;The Necropolis&amp;rdquo;&lt;/strong&gt; takes 1-2 hours max. These aren&amp;rsquo;t abbreviated experiences - they&amp;rsquo;re complete horror stories with full narrative arcs.&lt;/p&gt;
+&lt;h2 id=&#34;ready-to-try-some-cosmic-horror&#34;&gt;Ready to Try Some Cosmic Horror?&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re tired of D&amp;amp;D campaigns that never reach their conclusions, give Call of Cthulhu a shot.&lt;/p&gt;
+&lt;p&gt;Start with &lt;strong&gt;&amp;ldquo;The Haunting&amp;rdquo;&lt;/strong&gt; from the starter set. Four hours. Complete experience. Your players will face cosmic horror, make impossible choices, and either triumph or face the consequences of meddling with forces beyond human comprehension.&lt;/p&gt;
+&lt;p&gt;All in one evening.&lt;/p&gt;
+&lt;p&gt;The best part? When it&amp;rsquo;s over, it&amp;rsquo;s actually over. Your group will have experienced a complete story from beginning to end. No scheduling next week&amp;rsquo;s session to find out what happens. No wondering if this campaign will join the graveyard of unfinished adventures.&lt;/p&gt;
+&lt;p&gt;Just the satisfaction of a story well told. And maybe, just maybe, investigators who lived to tell the tale.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Though honestly, where&amp;rsquo;s the fun in that?&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Have you experienced the curse of unfinished D&amp;amp;D campaigns? Or found success with shorter RPG formats? Share your horror stories (gaming or otherwise) in the comments below.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/12/not-exactly-what-i-expected.html</link>
+      <pubDate>Thu, 12 Jun 2025 12:15:46 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/12/not-exactly-what-i-expected.html</guid>
+      <description>&lt;p&gt;Not exactly what I expected to see in a cab that is mostly booked by geriatric dialysis patients. 😂
+#nsfw&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250612-121533-141b5efd.jpg&#34; alt=&#34;A car freshener that shows a pair of female boobs with the caption „Boobs Out!“. &#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/11/post-by-caseylissmastodonsocial-okay-this.html</link>
+      <pubDate>Wed, 11 Jun 2025 15:16:03 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/11/post-by-caseylissmastodonsocial-okay-this.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mastodon.social/@caseyliss/114664708516459163&#34;&gt;Post&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/caseyliss@mastodon.social&#34;&gt;@caseyliss@mastodon.social&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Okay, this &amp;ldquo;&lt;a href=&#34;https://tv.apple.com/us/clip/feel-the-action-in-your-hands/umc.cmc.5834l80x7lpxvb1wqiz7uvgj7?targetId=umc.cmc.3t6dvnnr87zwd4wmvpdx5came&amp;amp;targetType=Movie&#34;&gt;Haptic Trailer&lt;/a&gt;&amp;quot;—when viewed on your iPhone—is pretty great.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That was a fun experience indeed. (When viewed on iPhone in landscape mode.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/11/i-need-a-new-flat.html</link>
+      <pubDate>Wed, 11 Jun 2025 15:06:31 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/11/i-need-a-new-flat.html</guid>
+      <description>&lt;p&gt;I need a new flat cap (newsboy cap) after my wife tried to do me a favor and put my old one in the washing machine. It now fits my son perfectly. So at least he’s happy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trading Freedom for Efficiency: My Journey from PD to HD</title>
+      <link>https://alexanderkucera.com/2025/06/10/trading-freedom-for-efficiency-my.html</link>
+      <pubDate>Tue, 10 Jun 2025 14:11:01 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/10/trading-freedom-for-efficiency-my.html</guid>
+      <description>&lt;p&gt;After my kidney surgery, everything changed. I had to switch from peritoneal dialysis (PD) to hemodialysis (HD). PD is the type where you dialyze at home through your abdomen. HD is what most people picture - sitting in a clinic hooked to a machine.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t have a choice in this. The surgery made the decision for me.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-miss-most-about-pd&#34;&gt;What I Miss Most About PD&lt;/h2&gt;
+&lt;p&gt;I miss my nights. With PD, I just hooked up before bed. The machine worked while I slept. Eight hours of gentle, continuous cleaning. No alarms, no nurses, no commute.&lt;/p&gt;
+&lt;p&gt;I could roll over. I could get up for water. I could live.&lt;/p&gt;
+&lt;p&gt;Now that freedom is gone. PD was like a gentle stream cleaning my blood all night. HD feels like a pressure washer blasting through me. Both work, but one lets you forget you&amp;rsquo;re sick.&lt;/p&gt;
+&lt;h2 id=&#34;understanding-ultrafiltration&#34;&gt;Understanding Ultrafiltration&lt;/h2&gt;
+&lt;p&gt;Let me explain ultrafiltration. It&amp;rsquo;s just a fancy word for removing extra fluid. Your kidneys normally do this when you pee. Dialysis has to do it artificially.&lt;/p&gt;
+&lt;p&gt;With PD, I could remove about twice as much fluid. The peritoneum - that&amp;rsquo;s your abdominal lining - acts like a filter. Glucose in the dialysis fluid pulls water from your blood. It&amp;rsquo;s osmosis, really.&lt;/p&gt;
+&lt;p&gt;HD uses pressure instead. It forces fluid out through an artificial membrane. It works, but there&amp;rsquo;s a limit. Push too hard and you cramp. Your blood pressure drops. You feel awful.&lt;/p&gt;
+&lt;h2 id=&#34;the-hd-reality&#34;&gt;The HD Reality&lt;/h2&gt;
+&lt;p&gt;Four hours. That&amp;rsquo;s what HD demands from me. Four hours of complete stillness every two days.&lt;/p&gt;
+&lt;p&gt;Try lying perfectly still for four hours. Your arm with the needles can&amp;rsquo;t move. One wrong shift and alarms scream. Blood might leak. The nurses rush over.&lt;/p&gt;
+&lt;p&gt;My back aches after two hours. My legs want to stretch. My mind goes crazy with boredom. I watch the clock like it&amp;rsquo;s my enemy.&lt;/p&gt;
+&lt;p&gt;Some people sleep through it. I can&amp;rsquo;t. I just lie there, waiting.&lt;/p&gt;
+&lt;h2 id=&#34;what-hd-does-better&#34;&gt;What HD Does Better&lt;/h2&gt;
+&lt;p&gt;I have to be fair here. HD removes phosphate and potassium like a champion. These minerals build up when your kidneys fail. Too much potassium stops your heart. Too much phosphate destroys your bones.&lt;/p&gt;
+&lt;p&gt;HD clears them efficiently. Three times a week, boom - levels drop. With PD, it was always a struggle. I took binders with every meal. I avoided certain foods.&lt;/p&gt;
+&lt;p&gt;So yes, HD has its advantages. But at what cost?&lt;/p&gt;
+&lt;h2 id=&#34;the-trade-off-id-make&#34;&gt;The Trade-Off I&amp;rsquo;d Make&lt;/h2&gt;
+&lt;p&gt;Give me back my PD tomorrow. I&amp;rsquo;ll take the phosphate binders. I&amp;rsquo;ll skip the bananas and potatoes. I&amp;rsquo;ll manage the potassium myself.&lt;/p&gt;
+&lt;p&gt;What good is efficient toxin removal if it steals your life? I&amp;rsquo;d rather have good days with some dietary restrictions. HD gives me perfect labs and exhausting treatment days.&lt;/p&gt;
+&lt;p&gt;Quality of life matters. Being able to work matters. Traveling without planning around clinics matters. Sleeping in your own bed every night matters.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d make that trade in a heartbeat.&lt;/p&gt;
+&lt;h2 id=&#34;looking-forward&#34;&gt;Looking Forward&lt;/h2&gt;
+&lt;p&gt;My doctors say I might return to PD eventually. The surgical site needs to heal completely first. I&amp;rsquo;m counting the days.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re choosing between PD and HD, think beyond the medical numbers. Consider your lifestyle. Value your independence. Ask about all your options.&lt;/p&gt;
+&lt;p&gt;HD works well for many people. Some prefer the structure. Some like not managing their own care. That&amp;rsquo;s valid too.&lt;/p&gt;
+&lt;p&gt;But for me? I just want my nights back. I want to wake up dialyzed, not exhausted. I want treatment that fits my life, not life that fits my treatment.&lt;/p&gt;
+&lt;p&gt;Until then, I&amp;rsquo;ll endure my four-hour sessions. I&amp;rsquo;ll appreciate what HD does well. But I&amp;rsquo;ll keep hoping for the day I can go home again.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Remember: every patient is different. What works for me might not work for you. Always discuss your options with your nephrologist.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Relax History AI: When AI Brings History to Life</title>
+      <link>https://alexanderkucera.com/2025/06/08/relax-history-ai-when-ai.html</link>
+      <pubDate>Sun, 08 Jun 2025 19:34:19 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/08/relax-history-ai-when-ai.html</guid>
+      <description>&lt;p&gt;Ever wondered what George Washington really looked like? Not the stiff painting version, but the actual person?&lt;/p&gt;
+&lt;p&gt;What if you could see Marie Curie&amp;rsquo;s actual face? Not just that famous black-and-white photo. Her real, living face with all its expressions.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s exactly what &lt;a href=&#34;https://youtube.com/@relaxhistoryai?si=eBPLAHoD6LA1_cy1&#34;&gt;Relax History AI&lt;/a&gt; does. And it&amp;rsquo;s brilliant.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-relax-history-ai&#34;&gt;What is Relax History AI?&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s a YouTube channel that brings dead people back to life. Well, sort of.&lt;/p&gt;
+&lt;p&gt;They use AI to transform old paintings and descriptions into photorealistic faces. Suddenly, historical figures aren&amp;rsquo;t just names in textbooks. They&amp;rsquo;re people. Real people with eyes that seem to look right at you.&lt;/p&gt;
+&lt;p&gt;The channel creates videos that reimagine everyone from Geronimo to Anastasia Romanov. Each face tells a story. Each image makes history feel closer.&lt;/p&gt;
+&lt;h2 id=&#34;the-magic-behind-the-screen&#34;&gt;The Magic Behind the Screen&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s how it works. The AI analyzes everything available about a historical figure. Paintings, sketches, written descriptions. Even details about their ethnicity and the time period.&lt;/p&gt;
+&lt;p&gt;Then it creates what they probably looked like. Not cartoon versions. Not idealized portraits. Just people.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s like time travel without the paradoxes.&lt;/p&gt;
+&lt;p&gt;The technology adds subtle details too. Skin texture, natural lighting, realistic hair. These aren&amp;rsquo;t Instagram filters. This is serious reconstruction work.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-is-a-brilliant-use-of-ai&#34;&gt;Why This is a Brilliant Use of AI&lt;/h2&gt;
+&lt;p&gt;Most AI applications feel cold. This one creates connection.&lt;/p&gt;
+&lt;p&gt;Think about it. We learn history through dusty portraits and formal paintings. Everyone looks stern. Everyone looks distant. No wonder kids find history boring.&lt;/p&gt;
+&lt;p&gt;But show them what Cleopatra might have really looked like? Now you&amp;rsquo;ve got their attention.&lt;/p&gt;
+&lt;p&gt;This democratizes history in ways textbooks never could. You don&amp;rsquo;t need a PhD to feel connected to these figures. You just need eyes and curiosity.&lt;/p&gt;
+&lt;p&gt;It also preserves cultural memory differently. Not through static images. Through faces that feel alive.&lt;/p&gt;
+&lt;h2 id=&#34;hit-series-that-changed-everything&#34;&gt;Hit Series That Changed Everything&lt;/h2&gt;
+&lt;p&gt;Their &amp;ldquo;20 Historical Icons Brought Back to Life&amp;rdquo; series went viral. For good reason.&lt;/p&gt;
+&lt;p&gt;Each episode features multiple historical figures. George Washington looks less like a dollar bill and more like your stern grandfather. Anastasia Romanov becomes a real teenager, not just a tragic legend.&lt;/p&gt;
+&lt;p&gt;Marie Curie? She looks brilliant and tired. Exactly how you&amp;rsquo;d expect someone who discovered radium to look.&lt;/p&gt;
+&lt;p&gt;Geronimo stares back with intensity that no painting captured. You understand why he was such a formidable leader.&lt;/p&gt;
+&lt;p&gt;These aren&amp;rsquo;t just pictures. They&amp;rsquo;re windows into real lives.&lt;/p&gt;
+&lt;h2 id=&#34;the-future-of-learning-history&#34;&gt;The Future of Learning History&lt;/h2&gt;
+&lt;p&gt;This is what good AI looks like. It doesn&amp;rsquo;t replace human connection. It creates it.&lt;/p&gt;
+&lt;p&gt;Imagine history classes using this technology. Students could &amp;ldquo;meet&amp;rdquo; the people they&amp;rsquo;re studying. The American Revolution becomes less abstract when you can see Washington&amp;rsquo;s actual face.&lt;/p&gt;
+&lt;p&gt;Teachers could show that historical figures were just people. They had bad hair days. They had worry lines. They looked tired sometimes.&lt;/p&gt;
+&lt;p&gt;It changes everything about how we relate to the past.&lt;/p&gt;
+&lt;h2 id=&#34;some-final-thoughts&#34;&gt;Some Final Thoughts&lt;/h2&gt;
+&lt;p&gt;Sure, these reconstructions aren&amp;rsquo;t perfect. We can&amp;rsquo;t know exactly what these people looked like. But that&amp;rsquo;s not really the point.&lt;/p&gt;
+&lt;p&gt;The point is connection. The point is making history human again.&lt;/p&gt;
+&lt;p&gt;When you see Cleopatra as a real person, not just an Elizabeth Taylor movie, something shifts. History stops being about dates and starts being about people.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the real magic here. Not the AI technology itself. But what it helps us see.&lt;/p&gt;
+&lt;p&gt;Dead people were once alive. They had faces. They had expressions. They were just like us.&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s exactly what makes &lt;a href=&#34;https://youtube.com/@relaxhistoryai?si=eBPLAHoD6LA1_cy1&#34;&gt;Relax History AI&lt;/a&gt; such a great use of artificial intelligence. It makes the artificial feel human.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Have you checked out any of their videos yet? Which historical figure would you most like to see brought to life?&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The TACO Revolution: When Fast Food Meets Politics</title>
+      <link>https://alexanderkucera.com/2025/06/08/the-taco-revolution-when-fast.html</link>
+      <pubDate>Sun, 08 Jun 2025 10:21:17 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/08/the-taco-revolution-when-fast.html</guid>
+      <description>&lt;h3 id=&#34;trump-always-chickens-out---a-spicy-new-internet-sensation&#34;&gt;&lt;em&gt;Trump Always Chickens Out&lt;/em&gt; - A Spicy New Internet Sensation&lt;/h3&gt;
+&lt;p&gt;It seems the internet has found its newest obsession, and surprisingly, it involves both politics and Mexican cuisine – sort of. The acronym &amp;ldquo;TACO&amp;rdquo; has been taking over Facebook feeds faster than you can say &amp;ldquo;guacamole,&amp;rdquo; but this particular taco comes with an extra side of political satire.&lt;/p&gt;
+&lt;p&gt;TACO stands for &amp;ldquo;Trump Always Chickens Out,&amp;rdquo; a term originally coined by a Financial Times columnist that has now morphed into a full-blown meme phenomenon. The internet, being the internet, couldn&amp;rsquo;t resist the delicious wordplay opportunities.&lt;/p&gt;
+&lt;h3 id=&#34;why-taco-is-on-the-menu&#34;&gt;Why TACO is on the Menu&lt;/h3&gt;
+&lt;p&gt;Like any good taco, this meme comes with layers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The Shell&lt;/strong&gt;: A crispy exterior of seemingly tough talk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Filling&lt;/strong&gt;: A soft interior of policy reversals and backtracking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Hot Sauce&lt;/strong&gt;: Added spice when Trump himself reacted to a reporter&amp;rsquo;s &amp;ldquo;nasty&amp;rdquo; question about it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The beauty of the TACO meme is that it&amp;rsquo;s both a noun and a verb. &amp;ldquo;Did you see Trump TACO on that trade policy again?&amp;rdquo; has become the new way to describe someone who talks tough but retreats when challenged.&lt;/p&gt;
+&lt;h3 id=&#34;from-drive-thru-to-viral-drive&#34;&gt;From Drive-Thru to Viral Drive&lt;/h3&gt;
+&lt;p&gt;What makes this political fast food so addictive? Perhaps it&amp;rsquo;s the perfect combination of simplicity and substance. In a world of complex political discourse, sometimes all you need is a simple acronym that people can sink their teeth into.&lt;/p&gt;
+&lt;p&gt;As one Facebook user eloquently put it: &amp;ldquo;I used to enjoy Taco Tuesday, but now I enjoy TACO every day of the week.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Whatever your political appetite, you have to admire the internet&amp;rsquo;s ability to wrap complex political commentary in a convenient, hand-held meme format. It&amp;rsquo;s political fast food for the digital age – quick, satisfying, and guaranteed to leave a lasting impression.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Just remember, unlike actual tacos, this one seems to have no problem holding everything together.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Disclaimer: This blog post contains 100% organic humor with no artificial outrage. Consume responsibly.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Great Billionaire Breakup of 2025: Trump vs. Musk</title>
+      <link>https://alexanderkucera.com/2025/06/08/the-great-billionaire-breakup-of.html</link>
+      <pubDate>Sun, 08 Jun 2025 09:18:46 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/08/the-great-billionaire-breakup-of.html</guid>
+      <description>&lt;h2 id=&#34;when-bromance-meets-reality-tv-drama-in-the-age-of-electric-vehicles&#34;&gt;When Bromance Meets Reality TV Drama in the Age of Electric Vehicles&lt;/h2&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In what future historians will surely call &amp;ldquo;The Most 2025 Thing Ever,&amp;rdquo; the Trump-Musk friendship has imploded more spectacularly than a SpaceX test rocket. Grab your popcorn, folks – this billionaire breakup has everything: Tesla tantrums, Twitter tirades, and stock market drama.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-rise-and-fall-of-an-unlikely-bromance&#34;&gt;The Rise and Fall of an Unlikely Bromance&lt;/h2&gt;
+&lt;p&gt;Remember when Trump and Musk were the dynamic duo nobody saw coming? It feels like yesterday they were finishing each other&amp;rsquo;s tweets and making government efficiency memes together. But as we&amp;rsquo;ve learned from every reality TV show ever (and Trump should know this better than anyone), alliances built on shared enemies rarely survive success.&lt;/p&gt;
+&lt;p&gt;The partnership that began with such promise – Musk heading up the Department of Government Efficiency (yes, DOGE, because apparently we&amp;rsquo;re living in a simulation programmed by memelords) – has now devolved into a public spat that makes celebrity divorces look like amicable conscious uncouplings.&lt;/p&gt;
+&lt;h2 id=&#34;the-tesla-tantrum-that-broke-the-internet&#34;&gt;The Tesla Tantrum That Broke the Internet&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Breaking:&lt;/strong&gt; Man who bought $100,000+ friendship token now considering regifting it. More at 11.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In what might be the most expensive &amp;ldquo;take back&amp;rdquo; in friendship history, Trump is reportedly considering selling or giving away the red Tesla he purchased earlier this year to support Musk. It&amp;rsquo;s like returning a friendship bracelet, but with a six-figure price tag and autopilot features.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Trump saying Musk has &amp;lsquo;lost his mind&amp;rsquo; is particularly rich, considering both men are known for their&amp;hellip; let&amp;rsquo;s say &amp;lsquo;unconventional&amp;rsquo; social media presence.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-irony-olympics-gold-medal-moments&#34;&gt;The Irony Olympics: Gold Medal Moments&lt;/h2&gt;
+&lt;h3 id=&#34;1-the-doge-disaster-&#34;&gt;1. The DOGE Disaster 🐕&lt;/h3&gt;
+&lt;p&gt;Musk&amp;rsquo;s Department of Government Efficiency was supposed to streamline government operations. Instead, it seems to have streamlined the path to their friendship&amp;rsquo;s demise. The irony is so thick you could cut it with a Cybertruck&amp;rsquo;s angular edges.&lt;/p&gt;
+&lt;h3 id=&#34;2-the-lost-his-mind-proclamation-&#34;&gt;2. The &amp;ldquo;Lost His Mind&amp;rdquo; Proclamation 🤯&lt;/h3&gt;
+&lt;p&gt;Trump declaring that someone else has &amp;ldquo;lost their mind&amp;rdquo; is like a fish complaining about someone being wet. The pot hasn&amp;rsquo;t just met the kettle; they&amp;rsquo;re having a full-blown Twitter war.&lt;/p&gt;
+&lt;h3 id=&#34;3-the-stock-market-side-eye-&#34;&gt;3. The Stock Market Side-Eye 📉&lt;/h3&gt;
+&lt;p&gt;Tesla shares dropping 14% during their feud is essentially Wall Street&amp;rsquo;s way of saying, &amp;ldquo;Can you two just get along? Some of us have retirement portfolios!&amp;rdquo; The market has spoken, and it&amp;rsquo;s begging for couple&amp;rsquo;s therapy.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;💡 &lt;strong&gt;Fun Fact: The Timeline of Doom&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Early 2025:&lt;/strong&gt; Trump buys red Tesla, friendship rings exchanged (metaphorically)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spring 2025:&lt;/strong&gt; DOGE launches, memes abound, efficiency promised&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;June 2025:&lt;/strong&gt; Public feud erupts, accusations fly, Tesla considered for donation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Future:&lt;/strong&gt; Netflix documentary inevitable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-this-means-for-the-rest-of-us-mortals&#34;&gt;What This Means for the Rest of Us Mortals&lt;/h2&gt;
+&lt;p&gt;Beyond the entertainment value (which, let&amp;rsquo;s be honest, is substantial), this feud represents something more significant: the collision of tech billionaire culture with political reality TV drama. It&amp;rsquo;s what happens when you mix Silicon Valley&amp;rsquo;s &amp;ldquo;move fast and break things&amp;rdquo; with Washington&amp;rsquo;s &amp;ldquo;tweet fast and break relationships.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The implications are real:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tesla stockholders are getting a masterclass in why company valuations shouldn&amp;rsquo;t depend on CEO friendships&lt;/li&gt;
+&lt;li&gt;Government efficiency efforts are learning that you can&amp;rsquo;t DOGE your way out of personality conflicts&lt;/li&gt;
+&lt;li&gt;Twitter (or X, or whatever we&amp;rsquo;re calling it these days) is getting record engagement from rubberneckers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-silver-lining-comedy-gold&#34;&gt;The Silver Lining: Comedy Gold&lt;/h2&gt;
+&lt;p&gt;If there&amp;rsquo;s one thing we can count on in 2025, it&amp;rsquo;s that when two of the world&amp;rsquo;s most powerful and controversial figures have a public falling out, the memes will be legendary. From Tesla return policies to DOGE efficiency jokes, the internet has been feasting on this drama like it&amp;rsquo;s a unlimited buffet of absurdity.&lt;/p&gt;
+&lt;h2 id=&#34;the-bottom-line&#34;&gt;The Bottom Line&lt;/h2&gt;
+&lt;p&gt;The Trump-Musk feud of 2025 will go down in history as either the moment when billionaire bromances jumped the shark, or the greatest reality TV crossover event of all time. Either way, we&amp;rsquo;re all watching, tweeting, and wondering if this is what peak 2025 looks like.&lt;/p&gt;
+&lt;p&gt;As for Trump&amp;rsquo;s red Tesla? Maybe it&amp;rsquo;ll end up in a museum someday, with a plaque reading: &amp;ldquo;Artifact from the Great Billionaire Breakup of 2025 – Handle with Care, May Contain Traces of Irony.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Let’s see where this goes. In the meantime, maybe check your Tesla stock holdings. Just saying.&lt;/strong&gt; 🚗💔📱&lt;/p&gt;
+&lt;p&gt;(This article was written in parts with the help of Claude Opus 4.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/06/today-is-a-bad-recovery.html</link>
+      <pubDate>Fri, 06 Jun 2025 13:02:39 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/06/today-is-a-bad-recovery.html</guid>
+      <description>&lt;p&gt;Today is a bad recovery day again. I’m all tired and couch bound. All joints hurt when I try to move or get up.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/05/micro-blog-photo-challenge-day.html</link>
+      <pubDate>Thu, 05 Jun 2025 17:52:19 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/05/micro-blog-photo-challenge-day.html</guid>
+      <description>&lt;p&gt;📷 Micro Blog Photo Challenge Day 5: Reflection&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250605-175205-12e809a1.jpg&#34; alt=&#34;A knife reflecting the photo shooter. &#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/05/post-by-tvazirimastodonsocial-oh-and.html</link>
+      <pubDate>Thu, 05 Jun 2025 17:49:50 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/05/post-by-tvazirimastodonsocial-oh-and.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mastodon.social/users/tvaziri/statuses/114631438997809034&#34;&gt;Post&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/tvaziri@mastodon.social&#34;&gt;@tvaziri@mastodon.social&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh, and I also had fun and edited a montage of a whole bunch of the flares we talk about on the podcast.Some of Our Favorite Lens Flares from Cinema Historyhttps://youtu.be/21ZPbQ7348g?si=m5Qkg2dOx4752A3d&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/05/so-sadly-neither-the-nodejs.html</link>
+      <pubDate>Thu, 05 Jun 2025 13:24:50 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/05/so-sadly-neither-the-nodejs.html</guid>
+      <description>&lt;p&gt;So, sadly neither the Node.js version nor the Linux version of Foundry VTT is running on Uberspace V7. That means I am now eagerly awaiting Uberspace 8 &lt;a href=&#34;https://micro.blog/hallo@uberspace.social&#34;&gt;@hallo@uberspace.social&lt;/a&gt; 😉&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/05/trying-to-get-foundry-vtt.html</link>
+      <pubDate>Thu, 05 Jun 2025 10:05:15 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/05/trying-to-get-foundry-vtt.html</guid>
+      <description>&lt;p&gt;Trying to get Foundry VTT V13 to run on my hosted server. The node version had a missing library that I am probably unable to install. So now it is the pre-compiled Linux version. Maybe that works better. If that fails I might revert to running a local version on my Mac. Not ideal, but serviceable.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/05/waiting-for-new-filament-to.html</link>
+      <pubDate>Thu, 05 Jun 2025 09:23:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/05/waiting-for-new-filament-to.html</guid>
+      <description>&lt;p&gt;Waiting for new filament to arrive. It is still sitting in the warehouse waiting to be picked up by the delivery service. For a week now. I was expecting to be printing with it by now. 🙁&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/03/oh-my-god-how-did.html</link>
+      <pubDate>Tue, 03 Jun 2025 12:52:55 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/03/oh-my-god-how-did.html</guid>
+      <description>&lt;p&gt;Oh my god! How did I not know about this until now! I could have saved myself so many frustrating moments with that crappy linear keyboard!
+→ &lt;a href=&#34;https://www.macrumors.com/2025/06/02/change-apple-tv-keyboard-layout/&#34;&gt;Change Apple TV keyboard layout&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/03/sitting-in-a-waiting-room.html</link>
+      <pubDate>Tue, 03 Jun 2025 12:48:32 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/03/sitting-in-a-waiting-room.html</guid>
+      <description>&lt;p&gt;Sitting in a waiting room doesn’t give me many options for the Micro.blog 📷 challenge word of Day 2: curve. So here we go. I give you a table edge.&lt;/p&gt;
+&lt;p&gt;#mbjune&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250603-124820-cf7d4044.jpg&#34; alt=&#34;Curved edge of a waiting room table. &#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/03/heidelberg-university-hospital-oh-how.html</link>
+      <pubDate>Tue, 03 Jun 2025 12:43:27 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/03/heidelberg-university-hospital-oh-how.html</guid>
+      <description>&lt;p&gt;Heidelberg University Hospital. &lt;a href=&#34;http://maps.apple.com/?ll=49.418652,8.665921&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Oh how I have not missed this place. Sitting in the waiting room for a post surgery appointment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/31/its-not-exactly-funny-to.html</link>
+      <pubDate>Sat, 31 May 2025 12:03:23 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/31/its-not-exactly-funny-to.html</guid>
+      <description>&lt;p&gt;Its not exactly funny to see Trump drive the US economy against a wall. And by extension the world economy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/30/after-weeks-of-hospital-stay.html</link>
+      <pubDate>Fri, 30 May 2025 13:20:02 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/30/after-weeks-of-hospital-stay.html</guid>
+      <description>&lt;p&gt;After 3,5 weeks of hospital stay and now about 3 weeks at home I sat down at my Mac for the first time again and fired up the 3D printer. Feels good to something else then sitting on the couch again.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/27/echt-jetzt-rentner-arbeiten-zu.html</link>
+      <pubDate>Tue, 27 May 2025 08:59:52 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/27/echt-jetzt-rentner-arbeiten-zu.html</guid>
+      <description>&lt;p&gt;Echt jetzt?? Rentner arbeiten zu wenig?? Die CDU hat doch echt einen an der Waffel!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/25/i-believe-the-whole-jedi.html</link>
+      <pubDate>Sun, 25 May 2025 17:08:58 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/25/i-believe-the-whole-jedi.html</guid>
+      <description>&lt;p&gt;I believe the whole Jedi council has no idea what the word „balance“ means. They think the chosen one will make them win over the dark side. But that is not restoring balance. In fact, one could argue that Anakin had to become a dark lord because the dark side was too weak for a while.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/23/after-i-had-to-cancel.html</link>
+      <pubDate>Fri, 23 May 2025 14:16:55 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/23/after-i-had-to-cancel.html</guid>
+      <description>&lt;p&gt;After I had to cancel my long walk on Wednesday due to a sudden hailstorm I repeated the trip today with great success. I mean I still do get winded way too soon, but I made my trip without major breaks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/21/im-trying-a-rather-long.html</link>
+      <pubDate>Wed, 21 May 2025 14:04:05 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/21/im-trying-a-rather-long.html</guid>
+      <description>&lt;p&gt;I’m trying a rather long walk today for the first time alone. Wish me luck!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/14/goodbye-plucky-underdog-richard-yot.html</link>
+      <pubDate>Wed, 14 May 2025 09:49:22 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/14/goodbye-plucky-underdog-richard-yot.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://richardyot.com/blog/2025/5/13/goodbye-plucky-underdog&#34;&gt;Goodbye, plucky underdog — Richard Yot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It’s been a few years since I last used modo seriously. My work just shifted away from doing 3D to do more compositing. But modo will always have a special place in my heart.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slow progress </title>
+      <link>https://alexanderkucera.com/2025/05/12/slow-progress.html</link>
+      <pubDate>Mon, 12 May 2025 15:20:47 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/12/slow-progress.html</guid>
+      <description>&lt;p&gt;I’m home from hospital for a few days now and it is depressing how weak and generally unwell I still am. I am forcing myself to do daily walks, which slowly helps. But mostly I’m sort of vegetating on the couch or shuffling around the house like a zombie. I’m still anemic so that doesn’t help. I’m really hoping I’ll be back to normal sooner rather than later.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mostly fit for the outside. I wish.</title>
+      <link>https://alexanderkucera.com/2025/05/08/mostly-fit-for-the-outside.html</link>
+      <pubDate>Thu, 08 May 2025 18:20:35 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/08/mostly-fit-for-the-outside.html</guid>
+      <description>&lt;p&gt;I am finally out of the hospital! But man, did that place break me down. I felt mostly fit to face the outside again walking around my three short floors. How deluded I was. The only thing that kind of works is walking from the bedroom to the couch. I just went for a walk with my son as safety person. I wanted to see how far I get. The goal was to walk once around the block. I got around the corner (which is right next to our house by the way) and then gave up two houses down. This is still quite a long way to recovery.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/08/103751.html</link>
+      <pubDate>Thu, 08 May 2025 10:37:51 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/08/103751.html</guid>
+      <description>&lt;p&gt;Diakonissen-Stiftungs-Krankenhaus Speyer. &lt;a href=&#34;http://maps.apple.com/?ll=49.310897,8.436041&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Finally out of the hospital! Three weeks were more than enough. Now back in the care of my nephrologist and I already feel much better taken care of.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/05/05/nzh-the-longer-you-stay.html</link>
+      <pubDate>Mon, 05 May 2025 10:49:31 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/05/05/nzh-the-longer-you-stay.html</guid>
+      <description>&lt;p&gt;NZH. &lt;a href=&#34;http://maps.apple.com/?ll=49.414216,8.665881&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The longer you stay at a hospital, the longer you stay there. With every passing day the risk goes up the they come up with new reasons to keep you. It’s really frustrating.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The balance between healing and getting worse in a hospital </title>
+      <link>https://alexanderkucera.com/2025/04/29/zentrum-fr-nieren-und-hochdruckkrankheiten.html</link>
+      <pubDate>Tue, 29 Apr 2025 14:31:42 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/29/zentrum-fr-nieren-und-hochdruckkrankheiten.html</guid>
+      <description>&lt;p&gt;Zentrum für Nieren- und Hochdruckkrankheiten. &lt;a href=&#34;http://maps.apple.com/?ll=49.408040,8.687359&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;These hospital stays are grinding me down. I’ve hit the point where the balance has shifted from healing and getting better to getting worse due to hospital related things. Too much lying in bed, getting poked too much and in wrong way leading to hematoma, dealing with people that should know what they are doing, but clearly don’t.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/28/zentrum-fr-nieren-und-hochdruckkrankheiten.html</link>
+      <pubDate>Mon, 28 Apr 2025 12:12:26 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/28/zentrum-fr-nieren-und-hochdruckkrankheiten.html</guid>
+      <description>&lt;p&gt;Zentrum für Nieren- und Hochdruckkrankheiten. &lt;a href=&#34;http://maps.apple.com/?ll=49.408040,8.687359&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the hospital for nearly two weeks now. Not sure how much longer. But frequency of people poking and prodding me has gone down. So I see this as a good sign.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/21/friends-i-am-in-the.html</link>
+      <pubDate>Mon, 21 Apr 2025 16:34:11 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/21/friends-i-am-in-the.html</guid>
+      <description>&lt;p&gt;Friends. I am in the hospital now since Wednesday and today is the first day I’m well enough to use my phone again for a longer period of time. Please update me on world news, US news and German news. What stupid things did I miss?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/14/bill-mahers-visit-to-the.html</link>
+      <pubDate>Mon, 14 Apr 2025 08:38:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/14/bill-mahers-visit-to-the.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://youtu.be/RxlopbcfXpQ?si=TPCZ0SerT7KMCIsB&#34;&gt;Bill Maher‘s Visit to the White House&lt;/a&gt; is very interesting. Not sure what to make of it yet. I guess it is sad that the man he describes in his visit isn‘t the president.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Title Test</title>
+      <link>https://alexanderkucera.com/2025/04/13/title-test.html</link>
+      <pubDate>Sun, 13 Apr 2025 22:21:01 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/13/title-test.html</guid>
+      <description>&lt;p&gt;Testing Micro.social titles&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mach Dich Stark Für Pflege!</title>
+      <link>https://alexanderkucera.com/2025/04/13/mach-dich-stark-fr-pflege.html</link>
+      <pubDate>Sun, 13 Apr 2025 14:41:32 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/13/mach-dich-stark-fr-pflege.html</guid>
+      <description>&lt;p&gt;This cause is close to my heart - please sign: &lt;a href=&#34;https://weact.campact.de/petitions/mach-dich-stark-fur-pflege?source=rawlink&amp;amp;utm_medium=recommendation&amp;amp;utm_source=rawlink&amp;amp;share=e957d51b-c76d-4cb4-bd89-e6dcb71fe3e3&#34;&gt;Mach Dich Stark Für Pflege!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Überblick:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Die Pflege steht an einem politischen Scheidepunkt: Die Bundestagswahl 2025 eröffnet die Chance zu einer nachhaltigen Sicherung der Pflege im Interesse von Millionen Pflegebedürftigen und ihren Angehörigen. Deshalb fordern wir die demokratischen Parteien auf, eine umfassende Pflegereform zu einem der zentralen Vorhaben in ihren Wahlprogrammen zu machen – und in der nächsten Bundesregierung ernsthaft umzusetzen.&lt;/p&gt;
+&lt;p&gt;Unsere Forderungen – eine umfassende Pflegereform muss folgende Punkte beinhalten:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Pflegende Angehörige absichern: Pflegende Angehörige müssen wirtschaftlich, auch im Rentenalter, besser abgesichert werden. Das kann durch Maßnahmen wie eine Lohnersatzleistung und zusätzliche Rentenpunkte erreicht werden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pflegebedürftige und ihre Angehörigen unterstützen: Der Zugang zu Leistungen der Pflegeversicherung muss übersichtlicher und einfacher werden. Auch so können die An- und Zugehörigen vor Überlastung geschützt werden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finanzierung sichern: Alle Menschen müssen sich gute Pflege leisten und dafür berechenbare Eigenvorsorge treffen können. Durch eine Pflege-Vollversicherung statt der heutigen „Teilkasko“ müssen Pflegebedürftige vor unwägbaren finanziellen Risiken geschützt werden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/13/black-ink-by-danielpunkass-did.html</link>
+      <pubDate>Sun, 13 Apr 2025 11:21:54 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/13/black-ink-by-danielpunkass-did.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://danielpunkass.micro.blog/2025/04/13/did-you-know-that-paolo.html&#34;&gt;Black Ink&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/danielpunkass&#34;&gt;@danielpunkass&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Did you know that Paolo Pasco, the winner of both the 2024 and 2025 American Crossword Puzzle Tournament, uses MY APP, Black Ink? I didn’t know either, until he told me at this year’s event. 🙏 Try it for yourself, maybe you’ll be the next champion! &lt;a href=&#34;https://redsweater.com/blackink/&#34;&gt;redsweater.com/blackink/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meine Ärzte taugen irgendwie nichts </title>
+      <link>https://alexanderkucera.com/2025/04/12/ich-muss-leider-immer-wieder.html</link>
+      <pubDate>Sat, 12 Apr 2025 14:15:28 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/12/ich-muss-leider-immer-wieder.html</guid>
+      <description>&lt;p&gt;Ich muss leider immer wieder aufs Neue feststellen wie wenig das Ärzteteam bei meinem Hausarzt taugt.&lt;/p&gt;
+&lt;p&gt;Das letzte Mal hab ich fast meinen Arm verloren weil sie in Ruhe zugesehen haben wie sich ein Tennisball großer Abszess gebildet hat und sie über mehrere Wochen „beobachtet“ haben wie es sich entwickelt. Bis ich dann einen Chirurgen eingeschaltet habe der sofort eine OP angesetzt hat.&lt;/p&gt;
+&lt;p&gt;Gestern bin ich dann wegen eines leicht schmerzhaften Knotens hin. Zwei Ärzte tasten mich ab und dann heißt es: „Ich kann jetzt nichts ertasten, aber wenn Sie da einen Knoten fühlen (den übrigens meine Frau ohne Probleme fühlt), dann sollten sie das ernst nehmen.“ Ach echt? Warum bin ich wohl deswegen beim Arzt??&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/12/watching-lost-odyssey-godfall-stellar.html</link>
+      <pubDate>Sat, 12 Apr 2025 13:20:12 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/12/watching-lost-odyssey-godfall-stellar.html</guid>
+      <description>&lt;p&gt;Watching &lt;a href=&#34;https://youtu.be/aIVjj6CvBD8?si=-3w2HkdU8SqpG6cD&#34;&gt;Lost Odyssey: Godfall&lt;/a&gt;. Stellar cast: Matt Mercer, Felicia Day, Reggie Watts, Brandon Routh and Deborah Ann Woll.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>It is exhausting</title>
+      <link>https://alexanderkucera.com/2025/04/11/people-have-no-idea-how.html</link>
+      <pubDate>Fri, 11 Apr 2025 14:55:17 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/11/people-have-no-idea-how.html</guid>
+      <description>&lt;p&gt;People have no idea how much energy and focus it costs to live with chronic pain.&lt;/p&gt;
+&lt;p&gt;How I need to muster every ounce of focus to not scratch myself all over while I am talking with you. Or how every step hurts and simply walking around the house is so taxing that I want to lie down after a few steps. And then I need to keep up with the energy of my two kids and try to keep smiling for them.&lt;/p&gt;
+&lt;p&gt;It is exhausting.&lt;/p&gt;
+&lt;p&gt;But I am not giving up.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/11/andreas-hebgen-dr-at-the.html</link>
+      <pubDate>Fri, 11 Apr 2025 09:26:28 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/11/andreas-hebgen-dr-at-the.html</guid>
+      <description>&lt;p&gt;Andreas Hebgen Dr.. &lt;a href=&#34;http://maps.apple.com/?ll=49.304071,8.257097&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the doctor‘s yet again. My fault for forgetting to talk about a crucial thing yesterday. Sigh.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/10/lisola-dei-nuraghi-time-for.html</link>
+      <pubDate>Thu, 10 Apr 2025 17:54:53 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/10/lisola-dei-nuraghi-time-for.html</guid>
+      <description>&lt;p&gt;L&amp;rsquo;Isola Dei Nuraghi. &lt;a href=&#34;http://maps.apple.com/?ll=49.303059,8.263315&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Time for some good pasta!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/10/andreas-hebgen-dr-at-the.html</link>
+      <pubDate>Thu, 10 Apr 2025 15:12:29 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/10/andreas-hebgen-dr-at-the.html</guid>
+      <description>&lt;p&gt;Andreas Hebgen Dr.. &lt;a href=&#34;http://maps.apple.com/?ll=49.304071,8.257097&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the doctor‘s. Waiting… sigh…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/10/testing-microsocial-drafts.html</link>
+      <pubDate>Thu, 10 Apr 2025 13:03:24 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/10/testing-microsocial-drafts.html</guid>
+      <description>&lt;p&gt;Testing Micro.social drafts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/09/its-really-nice-outside-today.html</link>
+      <pubDate>Wed, 09 Apr 2025 14:42:41 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/09/its-really-nice-outside-today.html</guid>
+      <description>&lt;p&gt;It’s really nice outside today.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250409-144220-b6adf0d5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/09/todays-lunch-fried-potatoes-roasted.html</link>
+      <pubDate>Wed, 09 Apr 2025 12:13:41 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/09/todays-lunch-fried-potatoes-roasted.html</guid>
+      <description>&lt;p&gt;Today‘s lunch: Fried potatoes, roasted cauliflower, roasted green beans, topped with a fried egg.&lt;/p&gt;
+&lt;p&gt;(Image courtesy of MidJourney)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250409-121335-cf91c05b.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/09/im-a-father-and-my.html</link>
+      <pubDate>Wed, 09 Apr 2025 10:59:15 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/09/im-a-father-and-my.html</guid>
+      <description>&lt;p&gt;I’m a father and my wife runs a child daycare. Yet, I still can’t abide crying children.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/08/my-llm-codegen-workflow-atm.html</link>
+      <pubDate>Tue, 08 Apr 2025 13:43:15 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/08/my-llm-codegen-workflow-atm.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/&#34;&gt;My LLM codegen workflow atm | Harper Reed&amp;rsquo;s Blog&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I have been building so many small products using LLMs. It has been fun, and useful. However, there are pitfalls that can waste so much time. A while back a friend asked me how I was using LLMs to write software. I thought “oh boy. how much time do you have!” and thus this post.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Some good advice in there for „vibe coding“ in a more controlled manner.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/08/im-thinking-maultaschen-with-a.html</link>
+      <pubDate>Tue, 08 Apr 2025 11:18:11 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/08/im-thinking-maultaschen-with-a.html</guid>
+      <description>&lt;p&gt;I‘m thinking Maultaschen with a roasted fennel, cucumber salad glazed with a honey mustard dressing for today’s lunch.&lt;/p&gt;
+&lt;p&gt;(Image courtesy of MidJourney)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250408-111804-9c73ea12.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/08/exclusive-how-the-atlantics-jeffrey.html</link>
+      <pubDate>Tue, 08 Apr 2025 08:47:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/08/exclusive-how-the-atlantics-jeffrey.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/us-news/2025/apr/06/signal-group-chat-leak-how-it-happened&#34;&gt;Exclusive: how the Atlantic’s Jeffrey Goldberg got added to the White House Signal group chat | Signal group chat leak | The Guardian&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trump briefly considered firing Waltz over the episode, more angered by the fact that Waltz had the number of Jeffrey Goldberg, the editor of the Atlantic – a magazine he despises – than the fact that the military operation discussion took place on an unclassified system such as Signal.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If true, that tracks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/07/testing-scheduled-posts-this-should.html</link>
+      <pubDate>Mon, 07 Apr 2025 18:00:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/07/testing-scheduled-posts-this-should.html</guid>
+      <description>&lt;p&gt;Testing scheduled posts. This should go live at 6pm German time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/07/silvia-rumpf-tanzwerk-ballett-the.html</link>
+      <pubDate>Mon, 07 Apr 2025 16:22:30 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/07/silvia-rumpf-tanzwerk-ballett-the.html</guid>
+      <description>&lt;p&gt;Silvia Rumpf Tanzwerk Ballett. &lt;a href=&#34;http://maps.apple.com/?ll=49.325307,8.444768&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The little one is dancing again.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/07/daring-fireball-dictators-always-lie.html</link>
+      <pubDate>Mon, 07 Apr 2025 12:03:26 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/07/daring-fireball-dictators-always-lie.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dictators always lie about what they’ve done, but are often quite plain about what they want to do.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Kasparov got it right there.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/07/maybe-al-forno-instead-of.html</link>
+      <pubDate>Mon, 07 Apr 2025 11:18:25 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/07/maybe-al-forno-instead-of.html</guid>
+      <description>&lt;p&gt;Maybe al forno instead of alla panna. Everything is better with a golden brown cheese topping.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/07/teslas-model-lineup-spells-sxy.html</link>
+      <pubDate>Mon, 07 Apr 2025 11:16:37 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/07/teslas-model-lineup-spells-sxy.html</guid>
+      <description>&lt;p&gt;Tesla‘s model lineup spells S,3,X,Y or sexy. Just in case anyone didn’t know yet. Real mature.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/07/im-thinking-tortellini-alla-panna.html</link>
+      <pubDate>Mon, 07 Apr 2025 10:29:08 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/07/im-thinking-tortellini-alla-panna.html</guid>
+      <description>&lt;p&gt;I’m thinking tortellini alla panna for lunch.&lt;/p&gt;
+&lt;p&gt;(Image courtesy of MidJourney)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250407-102902-e37a67ee.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/07/daring-fireball-the-spectacle-of.html</link>
+      <pubDate>Mon, 07 Apr 2025 09:42:02 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/07/daring-fireball-the-spectacle-of.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://daringfireball.net/linked/2025/04/06/the-spectacle-of-incompetence&#34;&gt;Daring Fireball: The Spectacle of Incompetence&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stupidity and ignorance as a governing style. That’s it. They are exactly who they claim they are, and in private speak how they do in public. There is no secret plan.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/07/inside-the-mind-of-claude.html</link>
+      <pubDate>Mon, 07 Apr 2025 09:13:08 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/07/inside-the-mind-of-claude.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.typingmind.com/ai-misconceptions/&#34;&gt;Inside the Mind of Claude: How Large Language Models Actually &amp;ldquo;Think&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This issue persists even in newer models like Claude 3.7 Sonnet, which can generate long “chain of thought” explanations. In some cases, these are faithful, reflecting real internal computation. But in harder problems—like estimating the cosine of a large number—Claude may generate confident reasoning steps without performing the actual calculation. Researchers describe this behavior as a form of philosophical “bullshitting”: generating plausible reasoning without concern for truth.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sounds like me. I’m also bullshitting my way through life.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/06/we-had-a-really-nice.html</link>
+      <pubDate>Sun, 06 Apr 2025 14:20:45 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/06/we-had-a-really-nice.html</guid>
+      <description>&lt;p&gt;We had a really nice Sunday dinner. Potatoes fluffed with parsley and butter, cauliflower and white asparagus. Topped with some honey glazed ham and loads of homemade hollandaise sauce.&lt;/p&gt;
+&lt;p&gt;(Image courtesy of MidJourney since I was too slow to take a picture before the family gobbled everything up.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250406-142039-b6e1103b.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/06/microsocial-is-shaping-up-to.html</link>
+      <pubDate>Sun, 06 Apr 2025 07:19:42 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/06/microsocial-is-shaping-up-to.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://apps.apple.com/de/app/micro-social/id6741072380&#34;&gt;Micro.social&lt;/a&gt; is shaping up to be a really great &lt;a href=&#34;https://micro.blog&#34;&gt;Micro.blog&lt;/a&gt; client. &lt;a href=&#34;https://micro.blog/gregmorris&#34;&gt;@gregmorris&lt;/a&gt; does a great job. Go on and support his efforts by trying it out. And if you like it, give him a tip.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/06/locations-by-gregmorris-i-had.html</link>
+      <pubDate>Sun, 06 Apr 2025 07:11:23 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/06/locations-by-gregmorris-i-had.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gregmorris.co.uk/2025/04/06/i-had-a-terrible-coding.html&#34;&gt;Locations!&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/gregmorris&#34;&gt;@gregmorris&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I had a terrible coding day yesterday but seeing people use &lt;a href=&#34;https://micro.blog/microsocial&#34;&gt;@microsocial&lt;/a&gt; features makes me really proud.
+Incase you missed it - &lt;a href=&#34;https://microsocial.micro.blog/2025/04/02/locations-locations-locations.html&#34;&gt;Locations!&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I’ve been using locations in a couple of posts and they work great. Makes me remember the FourSquare days. 😁&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/05/universitt-heidelberg-heute-war-nierenforum.html</link>
+      <pubDate>Sat, 05 Apr 2025 12:55:51 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/05/universitt-heidelberg-heute-war-nierenforum.html</guid>
+      <description>&lt;p&gt;Universität Heidelberg. &lt;a href=&#34;http://maps.apple.com/?ll=49.410485,8.706580&#34;&gt;📍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Heute war Nierenforum in der Uniklinik Heidelberg. Es gab wieder einige sehr interessante Vorträge. Aber je mehr ich über die Prozedur erfahre um so mehr bin ich skeptisch ob ich mir das wirklich antun möchte.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/04/the-superman-sneak-peak-looks.html</link>
+      <pubDate>Fri, 04 Apr 2025 13:51:31 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/04/the-superman-sneak-peak-looks.html</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://youtu.be/xFU8U4UVUBs?si=DWu8ZGAiuzFeWN6z&#34;&gt;Superman Sneak Peak&lt;/a&gt; looks great. They really captured having a pup that wants to play. However, I wonder how they will balance the story with that many supporting heroes/villains.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/03/hmm.html</link>
+      <pubDate>Thu, 03 Apr 2025 19:08:07 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/03/hmm.html</guid>
+      <description>&lt;p&gt;Hmm…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/image-20250403-190758-dca103dc.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/03/off-to-visit-a-local.html</link>
+      <pubDate>Thu, 03 Apr 2025 13:01:27 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/03/off-to-visit-a-local.html</guid>
+      <description>&lt;p&gt;Off to visit a local pasta factory!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/03/is-it-just-me-or.html</link>
+      <pubDate>Thu, 03 Apr 2025 11:45:20 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/03/is-it-just-me-or.html</guid>
+      <description>&lt;p&gt;Is it just me or is Trump getting more orange?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Difference of Opinion</title>
+      <link>https://alexanderkucera.com/2025/04/02/a-difference-of-opinion.html</link>
+      <pubDate>Wed, 02 Apr 2025 12:10:48 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/02/a-difference-of-opinion.html</guid>
+      <description>&lt;p&gt;I always find it utterly baffling how people see the world totally different when presented with the same set of facts. (I had a discussion with my wife this morning and we both drew completely different conclusions.) The important thing when encountering that is to stay calm and acknowledge that the other person has a right to their opinion. Not every discussion should devolve into a mud slinging contest. In fact, it‘s best when most don‘t.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/04/01/off-to-the-optometrist-to.html</link>
+      <pubDate>Tue, 01 Apr 2025 09:47:54 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/04/01/off-to-the-optometrist-to.html</guid>
+      <description>&lt;p&gt;Off to the optometrist to get a pre-surgery checkup. Cataract is no fun. Let me tell you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/03/22/has-anyone-elses-constitution-gone.html</link>
+      <pubDate>Sat, 22 Mar 2025 12:03:58 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/03/22/has-anyone-elses-constitution-gone.html</guid>
+      <description>&lt;p&gt;Has anyone else‘s constitution gone down in the last few years? It seems like me and my family are in a constant state of not quite well in the last 2-3 years. Not really sick, but constantly on the verge of. It is really annoying.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/03/15/im-really-bad-at-multitasking.html</link>
+      <pubDate>Sat, 15 Mar 2025 23:09:03 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/03/15/im-really-bad-at-multitasking.html</guid>
+      <description>&lt;p&gt;I’m really bad at multitasking social connections. Contact to other people goes out the window first when things get busy at home. I can’t even hold an online conversation for weeks at a time. And yet I value my friends. I do hope they know that.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/03/15/its-really-weird-to-see.html</link>
+      <pubDate>Sat, 15 Mar 2025 12:13:50 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/03/15/its-really-weird-to-see.html</guid>
+      <description>&lt;p&gt;It’s really weird to see someone you only know as an actor explain visual effects and production logistics and make it actually make sense. Huge props to Ben Stiller and Adam Scott.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/VOeFQ2ghR3U?si=8mfbHv-5Y21i31kW&#34;&gt;Severance Season 2 First Scene Breakdown&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/03/14/i-really-enjoy-vibe-coding.html</link>
+      <pubDate>Fri, 14 Mar 2025 09:49:40 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/03/14/i-really-enjoy-vibe-coding.html</guid>
+      <description>&lt;p&gt;I really enjoy &lt;a href=&#34;https://en.wikipedia.org/wiki/Vibe_coding&#34;&gt;&lt;em&gt;vibe coding&lt;/em&gt;&lt;/a&gt; as it has become to be known. &lt;a href=&#34;https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview&#34;&gt;Claude Code&lt;/a&gt; to be specific. It really helps me push along my iOS app nicely. Not very cheap, but also not outrageously expensive for the amount of productivity I get from it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/03/13/quick-question-to-all-ios.html</link>
+      <pubDate>Thu, 13 Mar 2025 09:59:53 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/03/13/quick-question-to-all-ios.html</guid>
+      <description>&lt;p&gt;Quick question to all iOS developers. I want to add iCloud Drive to my app. How do I best test this? It seems to write the correct files in Simulator, but Simulator doesn‘t seem to sync properly. Should I go straight to TestFlight and test on my real device?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/03/03/finally-heard-back-from-a.html</link>
+      <pubDate>Mon, 03 Mar 2025 16:17:20 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/03/03/finally-heard-back-from-a.html</guid>
+      <description>&lt;p&gt;Finally heard back from a support request I sent in January. About time. That’s a six or seven weeks response time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/28/when-you-run-out-of.html</link>
+      <pubDate>Fri, 28 Feb 2025 14:07:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/28/when-you-run-out-of.html</guid>
+      <description>&lt;p&gt;When you run out of of two spools in one print.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/27/also-der-rheinmetall-beitrag-in.html</link>
+      <pubDate>Thu, 27 Feb 2025 09:36:10 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/27/also-der-rheinmetall-beitrag-in.html</guid>
+      <description>&lt;p&gt;Also der Rheinmetall Beitrag in den Tagesthemen vom 26.02.26 war ja wohl eher eine Werbesendung als ein ernsthafter Tagesthemen-Bericht.
+cc &lt;a href=&#34;https://micro.blog/tagesschau@ard.social&#34;&gt;@tagesschau@ard.social&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/26/d-printing-a-tiny-rose.html</link>
+      <pubDate>Wed, 26 Feb 2025 11:36:50 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/26/d-printing-a-tiny-rose.html</guid>
+      <description>&lt;p&gt;3D printing a tiny rose for my wife’s birthday. I set up two with differently settings so I can pick the one that comes out nicer. I’ve also got some mini paint at the ready to finish it off.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/23/i-started-listening-to-a.html</link>
+      <pubDate>Sun, 23 Feb 2025 22:39:51 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/23/i-started-listening-to-a.html</guid>
+      <description>&lt;p&gt;I started listening to a couple of days ago: &lt;a href=&#34;https://micro.blog/books/9781250319173&#34;&gt;Wind and Truth&lt;/a&gt; by Brandon Sanderson 📚&lt;/p&gt;
+&lt;p&gt;It feels good to be back.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/22/d-printing-is-addictive-i.html</link>
+      <pubDate>Sat, 22 Feb 2025 13:50:16 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/22/d-printing-is-addictive-i.html</guid>
+      <description>&lt;p&gt;3d printing is addictive. I got my printer on Thursday and it’s been running non-stop except nights.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/12/im-playing-with-how-far.html</link>
+      <pubDate>Wed, 12 Feb 2025 22:36:55 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/12/im-playing-with-how-far.html</guid>
+      <description>&lt;p&gt;I’m playing with how far I can push Cursor AI to build an iOS app. 2 views down and it worked great. Still all basic stuff, but works nicely. On the third view it fell over though. I had a calendar on the left and the day’s data on the right. Cursor couldn’t get the data to update based on the date.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/08/i-just-clicked-erase-and.html</link>
+      <pubDate>Sat, 08 Feb 2025 12:17:09 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/08/i-just-clicked-erase-and.html</guid>
+      <description>&lt;p&gt;I just clicked erase and install fresh on our iMac. Soon it will be ready for re-sale.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/06/my-new-mac-mini-arrived.html</link>
+      <pubDate>Thu, 06 Feb 2025 09:35:46 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/06/my-new-mac-mini-arrived.html</guid>
+      <description>&lt;p&gt;My new Mac mini arrived yesterday. I haven’t had time to set it up yet. So instead I spent the evening reading up on what has changed in macOS since OS X 10.11, which is the last version my old iMac ran.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/06/i-think-i-figured-out.html</link>
+      <pubDate>Thu, 06 Feb 2025 09:26:24 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/06/i-think-i-figured-out.html</guid>
+      <description>&lt;p&gt;I think I figured out what I don’t like about Tapestry. It makes me scroll up. So I’m scrolling past the whole articles from the bottom and if I want to read it I have to scroll down again. And then when I’m finished with an article I have to scroll up past it again. That’s a whole lot of back and forth.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://micro.blog/chockenberry@mastodon.social&#34;&gt;@chockenberry@mastodon.social&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/05/testing-out-tapestry-im-still.html</link>
+      <pubDate>Wed, 05 Feb 2025 14:18:56 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/05/testing-out-tapestry-im-still.html</guid>
+      <description>&lt;p&gt;Testing out Tapestry. I’m still not sure the combined timeline is for me.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/02/after-about-two-years-of.html</link>
+      <pubDate>Sun, 02 Feb 2025 16:51:24 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/02/after-about-two-years-of.html</guid>
+      <description>&lt;p&gt;After about two years of sitting in the closet, I finally reconnected my Promise Pegasus R6. It is now running a hardware check across six 2TB disks. It’s going to take a while.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/30/im-taking-a-deep-dive.html</link>
+      <pubDate>Thu, 30 Jan 2025 17:46:31 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/30/im-taking-a-deep-dive.html</guid>
+      <description>&lt;p&gt;I’m taking a deep dive into 3D printing to prepare for a Bambulab printer we are going to get in a few weeks. Fun topic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/28/bow-wind-konzert-im-hannah.html</link>
+      <pubDate>Tue, 28 Jan 2025 19:54:12 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/28/bow-wind-konzert-im-hannah.html</guid>
+      <description>&lt;p&gt;Bow &amp;amp; Wind Konzert im Hannah Arendt Gymnasium geht gleich los.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/25/gut-gemacht-herr-merz-seele.html</link>
+      <pubDate>Sat, 25 Jan 2025 18:56:39 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/25/gut-gemacht-herr-merz-seele.html</guid>
+      <description>&lt;p&gt;Gut gemacht Herr Merz. Seele der CDU. Zum ersten…zum zweiten…zum dritten…und verkauft!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/24/neat-i-just-heard-that.html</link>
+      <pubDate>Fri, 24 Jan 2025 10:41:24 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/24/neat-i-just-heard-that.html</guid>
+      <description>&lt;p&gt;Neat. I just heard that „The Seed of the Sacred Fig“ got an Oscar nomination. I did some VFX work on that.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/23/somehow-the-ones-that-complain.html</link>
+      <pubDate>Thu, 23 Jan 2025 17:06:33 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/23/somehow-the-ones-that-complain.html</guid>
+      <description>&lt;p&gt;Somehow the ones that complain the loudest about being labeled are the ones that have the least problems labeling people left and right.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/22/beware-of-having-an-opinion.html</link>
+      <pubDate>Wed, 22 Jan 2025 13:01:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/22/beware-of-having-an-opinion.html</guid>
+      <description>&lt;p&gt;Beware of having an opinion on the Internet. They &lt;em&gt;will&lt;/em&gt; come. They &lt;em&gt;will&lt;/em&gt; find you. And you &lt;em&gt;will&lt;/em&gt; be chastised for not aligning with their opinion. All in the name of freedom and openness, of course.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/22/real-rich-claiming-the-moral.html</link>
+      <pubDate>Wed, 22 Jan 2025 11:05:57 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/22/real-rich-claiming-the-moral.html</guid>
+      <description>&lt;p&gt;Real rich. Claiming the moral high ground by calling someone a Nazi. Not only are you cheapening what happened in WW2. It’s just plain dumb.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/21/im-thinking-about-getting-a.html</link>
+      <pubDate>Tue, 21 Jan 2025 15:29:27 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/21/im-thinking-about-getting-a.html</guid>
+      <description>&lt;p&gt;I’m thinking about getting a Mac mini M4 16GB RAM. I was wondering how well it will handle 3D rendering, VFX compositing and coding/compiling. I mean sure, more RAM, CPU and GPU is always better, but money is a bit tight right now and that machine looks very tempting for that price point (€699).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/21/it-is-really-frustrating-and.html</link>
+      <pubDate>Tue, 21 Jan 2025 09:22:37 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/21/it-is-really-frustrating-and.html</guid>
+      <description>&lt;p&gt;It is really frustrating and sobering how the tech elite is stumbling over themselves to please their new commander in crime.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/20/ive-seen-a-couple-of.html</link>
+      <pubDate>Mon, 20 Jan 2025 14:50:07 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/20/ive-seen-a-couple-of.html</guid>
+      <description>&lt;p&gt;I‘ve seen a couple of established iOS developers gripe about SwiftUI and that they should have stuck with UIKit. Would you advise someone starting out with iOS development and zero Swift experience to use UIKit as well? Or is it more of an old dog, new tricks kind of issue?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/15/just-came-back-from-my.html</link>
+      <pubDate>Wed, 15 Jan 2025 11:36:41 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/15/just-came-back-from-my.html</guid>
+      <description>&lt;p&gt;Just came back from my monthly doctor‘s visit. Apparently my blood HB is too low, which explains why I could sleep all day long. Need to increase my weekly injections to twice a week. Oh the joy of needles. 😐&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/14/und-noch-ein-aber-dieses.html</link>
+      <pubDate>Tue, 14 Jan 2025 20:41:04 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/14/und-noch-ein-aber-dieses.html</guid>
+      <description>&lt;p&gt;Und noch eins. Aber dieses Interview ist etwas anstrengend zu schauen. Der Ton ist nicht gut und die Interviewerin ist leider nicht besonders.&lt;/p&gt;
+&lt;p&gt;→ &lt;a href=&#34;https://youtu.be/1IHeWtfyEaM?si=SN_fXMPC0esRpSmB&#34;&gt;Robert Habeck bei der FAZ&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/14/robert-habeck-im-interview-meiner.html</link>
+      <pubDate>Tue, 14 Jan 2025 20:39:41 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/14/robert-habeck-im-interview-meiner.html</guid>
+      <description>&lt;p&gt;Robert Habeck im Interview. Meiner Meinung nach der einzige wählbare Kanzlerkanditat.&lt;/p&gt;
+&lt;p&gt;→ &lt;a href=&#34;https://youtu.be/UO28mQu47N4?si=IbqQoVsbKr2Doxvo&#34;&gt;Robert Habeck bei Abendblatt TV&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/10/im-making-ragu-a-la.html</link>
+      <pubDate>Fri, 10 Jan 2025 20:03:56 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/10/im-making-ragu-a-la.html</guid>
+      <description>&lt;p&gt;I’m making ragu a la bolognese for tomorrow’s lasagna. I just stole a few spoons and turned it into a poor man’s chili con carne with some Tabasco and a bit of cumin. Yummy!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/09/watching-the-last-episode-of.html</link>
+      <pubDate>Thu, 09 Jan 2025 19:11:09 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/09/watching-the-last-episode-of.html</guid>
+      <description>&lt;p&gt;Watching the last episode of Shrinking. I’m going to miss this show.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/08/goodbye-threads-i-just-disabled.html</link>
+      <pubDate>Wed, 08 Jan 2025 09:44:21 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/08/goodbye-threads-i-just-disabled.html</guid>
+      <description>&lt;p&gt;Goodbye Threads. I just disabled cross-posting and deleted the app. I really hoped Meta had turned things around with Threads. But I guess not. There is a reason I avoided Facebook for years.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/06/just-came-back-from-getting.html</link>
+      <pubDate>Mon, 06 Jan 2025 19:17:37 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/06/just-came-back-from-getting.html</guid>
+      <description>&lt;p&gt;Just came back from getting a MRI. The surgeon spotted two shadows on my upper arm bone three weeks ago and wanted a closer look.
+No tumor. Just a calcification. What a load off my shoulders.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/04/making-crumpets-crumpets-where-one.html</link>
+      <pubDate>Sat, 04 Jan 2025 15:11:23 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/04/making-crumpets-crumpets-where-one.html</guid>
+      <description>&lt;p&gt;Making Crumpets. Crumpets where one of the first UK „treats“ I fell in love with when I first worked in Manchester.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eu.uploads.micro.blog/239/2025/64cc45ec-5eec-415c-8b27-181768d07d8f.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/01/a-happy-and-successful-new.html</link>
+      <pubDate>Wed, 01 Jan 2025 02:00:55 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/01/a-happy-and-successful-new.html</guid>
+      <description>&lt;p&gt;A happy and successful New Year’s everyone! May you be healthy, happy and content.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
