@@ -1,0 +1,273 @@
+<rss version="2.0">
+  <channel>
+    <title>Coding on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/categories/coding/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Fri, 11 Jul 2025 14:52:36 +0200</lastBuildDate>
+    
+    <item>
+      <title>Links Gets a Complete Python Makeover 🐍</title>
+      <link>https://alexanderkucera.com/2025/07/11/links-gets-a-complete-python.html</link>
+      <pubDate>Fri, 11 Jul 2025 14:52:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/11/links-gets-a-complete-python.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;Major refactor brings JavaScript support and eliminates licensing fees.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Remember when I told you about Links &lt;a href=&#34;https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html&#34;&gt;saving your stuff&lt;/a&gt; from the digital void? Well, it just got a complete technical overhaul.&lt;/p&gt;
+&lt;p&gt;The big news: Links now runs on a custom FastAPI Python implementation, ditching Kirby CMS entirely. Plus, it finally handles JavaScript-heavy sites that were previously impossible to archive.&lt;/p&gt;
+&lt;h2 id=&#34;from-php-to-python&#34;&gt;From PHP to Python&lt;/h2&gt;
+&lt;p&gt;The original Links was built on Kirby CMS. Great system, but it came with compromises. Licensed software means ongoing costs. PHP means working within CMS constraints. File-based content management that wasn&amp;rsquo;t quite right for archival workflows.&lt;/p&gt;
+&lt;p&gt;So I rebuilt it from scratch in Python.&lt;/p&gt;
+&lt;p&gt;FastAPI replaced the entire web framework. Clean, fast, and designed for APIs from the ground up. The archiving scripts were already in Python - now everything speaks the same language.&lt;/p&gt;
+&lt;h2 id=&#34;what-this-actually-means&#34;&gt;What This Actually Means&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;No more licensing fees.&lt;/strong&gt; Kirby required a one-time payment. FastAPI is completely open-source. Your self-hosted Links installation is now truly free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slimmer codebase.&lt;/strong&gt; Removed all the CMS bloat. No more fighting with file-based content management. No more PHP/Python context switching. Just focused Python code that does exactly what it needs to do.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JavaScript support.&lt;/strong&gt; The new architecture made it much easier to integrate proper browser engines. Sites that load content dynamically now archive perfectly. Single-page apps, modern e-commerce, social platforms - they all work now.&lt;/p&gt;
+&lt;h2 id=&#34;the-technical-evolution&#34;&gt;The Technical Evolution&lt;/h2&gt;
+&lt;p&gt;Before this refactor, Links would hit a wall with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Single-page applications (SPAs)&lt;/li&gt;
+&lt;li&gt;Modern e-commerce sites&lt;/li&gt;
+&lt;li&gt;Social media platforms&lt;/li&gt;
+&lt;li&gt;Complex dashboard interfaces&lt;/li&gt;
+&lt;li&gt;Any site that builds content after page load&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now it handles them all. The archiving process uses a proper browser engine, waits for JavaScript to execute, then captures everything. Content extraction gets the full picture. AI summaries actually have something meaningful to work with.&lt;/p&gt;
+&lt;h2 id=&#34;still-the-same-simple-experience&#34;&gt;Still the Same Simple Experience&lt;/h2&gt;
+&lt;p&gt;From your perspective, nothing changed. Share a link from iOS. Get the instant feedback. The background magic just got more powerful and more efficient.&lt;/p&gt;
+&lt;p&gt;The system still creates multiple archive formats. AI summaries still work. Full-text search still finds everything. But now it finds everything from sites that were previously impossible to archive properly.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;
+&lt;p&gt;This isn&amp;rsquo;t just a technical curiosity. It&amp;rsquo;s about sustainability and control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cost control.&lt;/strong&gt; No licensing fees means lower barrier to entry for self-hosting. Your digital preservation tool doesn&amp;rsquo;t depend on someone else&amp;rsquo;s business model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technical control.&lt;/strong&gt; Custom FastAPI means the codebase does exactly what&amp;rsquo;s needed. No more working around CMS limitations. No more PHP/Python impedance mismatch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Future-proofing.&lt;/strong&gt; Python ecosystem means better integration with AI tools, archiving libraries, and modern web technologies. When the next big thing comes along, Links can adapt.&lt;/p&gt;
+&lt;h2 id=&#34;production-ready&#34;&gt;Production Ready&lt;/h2&gt;
+&lt;p&gt;This complete rewrite rolled out to the live system at &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;links.alexanderkucera.de&lt;/a&gt;. No downtime. No lost data. No new workflows to learn.&lt;/p&gt;
+&lt;p&gt;Your JavaScript-heavy bookmarks are no longer second-class citizens. And your self-hosted installation just got a lot more sustainable.&lt;/p&gt;
+&lt;h2 id=&#34;the-open-source-future&#34;&gt;The Open Source Future&lt;/h2&gt;
+&lt;p&gt;With the Kirby dependency gone, Links is now completely open-source ready. No licensing complications. No vendor dependencies. Just Python code that preserves your digital discoveries.&lt;/p&gt;
+&lt;p&gt;Digital preservation for the rest of us just got a lot more accessible.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;115 commits became a complete rewrite. Sometimes the best way forward is to rebuild from first principles.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links: The Bookmark Manager That Actually Saves Your Stuff</title>
+      <link>https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html</link>
+      <pubDate>Mon, 07 Jul 2025 12:34:15 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/07/links-the-bookmark-manager-that.html</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all been there. You bookmark something important. Come back weeks later, link is dead. Content vanished, site changed, paywall appeared. The frustration of digital amnesia strikes again.&lt;/p&gt;
+&lt;p&gt;I got tired of losing things I wanted to keep.&lt;/p&gt;
+&lt;h2 id=&#34;from-simple-idea-to-production-reality&#34;&gt;From Simple Idea to Production Reality&lt;/h2&gt;
+&lt;p&gt;Links started as a basic bookmark manager. Just me, trying to organize my web finds. 115 commits later, it&amp;rsquo;s become a full archival system. The evolution from &amp;ldquo;nice to have&amp;rdquo; to &amp;ldquo;can&amp;rsquo;t live without&amp;rdquo; surprised even me.&lt;/p&gt;
+&lt;p&gt;What began as simple URL storage grew into something much more powerful. Each commit taught me something new about what people actually need. Not just bookmarks - real preservation.&lt;/p&gt;
+&lt;h2 id=&#34;the-mobile-revolution-&#34;&gt;The Mobile Revolution 📱&lt;/h2&gt;
+&lt;p&gt;The game-changer was iOS Shortcuts integration. Now I can share from anywhere, archive automatically. Subway reading? One tap saves it. Meeting discovery? Boom, archived. Social media find? Got it.&lt;/p&gt;
+&lt;p&gt;The technical magic happens in two phases. You get instant feedback when you tap &amp;ldquo;Share to Links.&amp;rdquo; Meanwhile, the system spends 5-10 seconds downloading content. Background processing creates multiple archive formats. AI generates summaries. All while you move on with your day.&lt;/p&gt;
+&lt;p&gt;No more &amp;ldquo;I&amp;rsquo;ll save this later&amp;rdquo; mental notes. Just save it now, from wherever you are.&lt;/p&gt;
+&lt;h2 id=&#34;smart-archiving-made-simple&#34;&gt;Smart Archiving Made Simple&lt;/h2&gt;
+&lt;p&gt;Links doesn&amp;rsquo;t just store URLs. It understands content. AI summaries using Claude (with OpenAI fallback) extract meaning from every page. Content extraction that actually works handles even tricky sites.&lt;/p&gt;
+&lt;p&gt;Multiple formats ensure long-term access:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF archives preserve visual layout&lt;/li&gt;
+&lt;li&gt;Markdown conversion creates searchable text&lt;/li&gt;
+&lt;li&gt;WARC files maintain complete page context&lt;/li&gt;
+&lt;li&gt;Structured metadata enables programmatic access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full-text search works across all archived content. Find that thing you saved months ago in seconds.&lt;/p&gt;
+&lt;p&gt;The system handles edge cases gracefully. Broken sites, missing metadata, failed AI calls - it all degrades nicely. You never lose your bookmark, even when things go wrong.&lt;/p&gt;
+&lt;h2 id=&#34;how-links-stands-apart&#34;&gt;How Links Stands Apart&lt;/h2&gt;
+&lt;p&gt;The bookmark manager landscape is crowded. But Links takes a different approach than the competition.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;mymind.com&lt;/strong&gt; uses AI for visual organization and discovery. Beautiful interface, smart tagging, visual search. But it&amp;rsquo;s cloud-hosted, subscription-based, and focused on organization over preservation. When mymind&amp;rsquo;s servers go down, your bookmarks go with them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dewey&lt;/strong&gt; captures content at bookmark time. Great for preservation, but limited mobile integration. &lt;strong&gt;Raindrop.io&lt;/strong&gt; offers visual bookmarking with cloud backup. &lt;strong&gt;LinkAce&lt;/strong&gt; provides self-hosted monitoring with Internet Archive integration.&lt;/p&gt;
+&lt;p&gt;Links combines the best ideas while avoiding common pitfalls:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;File-based storage&lt;/strong&gt; (no database headaches)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-hosted control&lt;/strong&gt; (your data, your rules)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actual content preservation&lt;/strong&gt; (not just pretty organization)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seamless mobile integration&lt;/strong&gt; (because that&amp;rsquo;s where we live now)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI intelligence&lt;/strong&gt; (without the subscription fees)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While others focus on tags, categories, and visual discovery, Links focuses on one thing: making sure your stuff doesn&amp;rsquo;t disappear.&lt;/p&gt;
+&lt;h2 id=&#34;the-long-term-vision&#34;&gt;The Long-Term Vision&lt;/h2&gt;
+&lt;p&gt;Digital preservation shouldn&amp;rsquo;t be complicated. Regular people need tools that work without constant maintenance. Links embraces this philosophy.&lt;/p&gt;
+&lt;p&gt;In an era where websites vanish overnight, Links provides a personal solution. No tags, no categories, no complex workflows. Just chronological organization that makes sense. And yet, everything is still just one full-text search away.&lt;/p&gt;
+&lt;p&gt;Your data lives in human-readable files. No vendor lock-in, no proprietary formats. If you want to move elsewhere, everything exports cleanly.&lt;/p&gt;
+&lt;p&gt;This is digital preservation for the rest of us.&lt;/p&gt;
+&lt;h2 id=&#34;ready-to-use-today&#34;&gt;Ready to Use Today&lt;/h2&gt;
+&lt;p&gt;Links is production-ready right now. All core features work reliably. The mobile integration is smooth. The AI summaries are helpful. The search actually finds things.&lt;/p&gt;
+&lt;p&gt;After 115 commits of refinement, it&amp;rsquo;s almost ready for prime time. I still need to bundle it up for distribution.&lt;/p&gt;
+&lt;p&gt;Until then, you can try Links at &lt;a href=&#34;https://links.alexanderkucera.de&#34;&gt;links.alexanderkucera.de&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Links is open source and self-hostable. Built with Kirby CMS, Python archiving scripts, and a healthy dose of frustration with disappearing content.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links Update </title>
+      <link>https://alexanderkucera.com/2025/07/02/links-update.html</link>
+      <pubDate>Wed, 02 Jul 2025 19:16:48 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/02/links-update.html</guid>
+      <description>&lt;p&gt;I decided to pick up work on &lt;a href=&#34;https://links.alexanderkucera.de/about&#34;&gt;Links&lt;/a&gt; my barebones bookmark manager three days ago. Several dozen commits later it is shaping up nicely.&lt;/p&gt;
+&lt;p&gt;It now has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a nicer more streamlined design&lt;/li&gt;
+&lt;li&gt;working full content search&lt;/li&gt;
+&lt;li&gt;AI based summaries that also work for images (which is great for the search part)&lt;/li&gt;
+&lt;li&gt;editable titles (either manually or AI generated)&lt;/li&gt;
+&lt;li&gt;the archiver now runs as a daemon in the background&lt;/li&gt;
+&lt;li&gt;API access so it works with iOS shortcuts, Python, etc.&lt;/li&gt;
+&lt;li&gt;overall refactoring to be more readable code&lt;/li&gt;
+&lt;li&gt;a randomizer that shows ten random bookmarks&lt;/li&gt;
+&lt;li&gt;updated and expanded the documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still a few things to do though like adding more file types and maybe add thumbnails for other things then images.&lt;/p&gt;
+&lt;p&gt;But it is shaping up nicely and a proper release is visible on the horizon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/29/ive-neglected-links-my-bookmarking.html</link>
+      <pubDate>Sun, 29 Jun 2025 18:36:05 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/29/ive-neglected-links-my-bookmarking.html</guid>
+      <description>&lt;p&gt;I’ve neglected &lt;a href=&#34;https://links.alexanderkucera.de/about&#34;&gt;Links&lt;/a&gt; my bookmarking service. Too much other stuff going on like my wife’s iPad app and a new recipe app I’m trying to develop. Oh and also family life, dialysis and surgery recovery. Too much? Most likely.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/25/i-really-like-gitkraken-as.html</link>
+      <pubDate>Wed, 25 Jun 2025 11:11:34 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/25/i-really-like-gitkraken-as.html</guid>
+      <description>&lt;p&gt;I really like GitKraken as my daily Git application. Check it out: &lt;a href=&#34;https://gitkraken.cello.so/WTPmEygxcYC&#34;&gt;Get GitKraken at 50% off&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Productivity Conversation I Didn&#39;t Expect to Have</title>
+      <link>https://alexanderkucera.com/2025/06/21/the-productivity-conversation-i-didnt.html</link>
+      <pubDate>Sat, 21 Jun 2025 10:30:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/21/the-productivity-conversation-i-didnt.html</guid>
+      <description>&lt;p&gt;I sat down to write about productivity. Instead, I accidentally solved my productivity problem.&lt;/p&gt;
+&lt;p&gt;It started with a simple request. I wanted to turn my struggles with overwhelm and chronic illness into a blog post. Multiple interests pulling me in different directions, dialysis eating up twelve hours a week, YouTube consumption replacing creation - the usual productivity paradox.&lt;/p&gt;
+&lt;p&gt;You read more about it &lt;a href=&#34;https://alexanderkucera.com/2025/06/19/pulled-in-too-many-directions.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But something unexpected happened during the conversation with my AI writing assistant. What began as research for a blog post became a real-time case study in how productive conversations actually work.&lt;/p&gt;
+&lt;h2 id=&#34;the-original-problem&#34;&gt;The Original Problem&lt;/h2&gt;
+&lt;p&gt;The setup was familiar to anyone who&amp;rsquo;s ever felt overwhelmed by their own interests. I love coding, cooking, RPGs, fitness, reading. My wife has projects that need my support. I&amp;rsquo;m supposed to be working on an iPad app for her. But instead of making progress on any of it, I find myself watching YouTube videos for hours.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d even found a video that perfectly explained the problem - how our brains get hijacked by consumption, how creation provides more sustainable dopamine hits, how shifting from consumer to contributor changes everything.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/R4MInIP2c-A?si=rW29vhDlEfG-JAx7&#34;&gt;The Habit that forces your brain to stop consuming&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I understood the theory. I just couldn&amp;rsquo;t implement it.&lt;/p&gt;
+&lt;h2 id=&#34;the-conversation-that-changed-everything&#34;&gt;The Conversation That Changed Everything&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;What&amp;rsquo;s your top priority right then?&amp;rdquo; came the question.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Probably the iPadOS app, since finishing that would help my wife greatly.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Simple question. Clear answer. But then something interesting happened.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Those twelve hours of dialysis per week? That&amp;rsquo;s actually prime iPad development time. You could queue up iOS tutorials, work on app wireframes&amp;hellip;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Well, there&amp;rsquo;s no Xcode for iPad,&amp;rdquo; I replied. &amp;ldquo;And my left arm is completely blocked with needles. I can&amp;rsquo;t move it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Sudden silence. Then: &amp;ldquo;Right, of course there&amp;rsquo;s no Xcode for iPad. That was a pretty big oversight on my part.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;what-made-this-conversation-different&#34;&gt;What Made This Conversation Different&lt;/h2&gt;
+&lt;p&gt;Most productivity advice fails because it&amp;rsquo;s generic. It assumes everyone has the same constraints, the same energy levels, the same physical capabilities. The conversation became productive the moment my real constraints got acknowledged.&lt;/p&gt;
+&lt;p&gt;No judgment about not being able to code one-handed during medical treatment. No generic advice about &amp;ldquo;just managing your time better.&amp;rdquo; Instead: &amp;ldquo;What can you realistically do one-handed on an iPad for four hours?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The questions kept getting more specific:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;What does your energy level look like after dialysis?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;When are you actually at your Mac with both arms free?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What makes this app section so complicated?&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each question revealed another layer of reality that typical productivity advice ignores.&lt;/p&gt;
+&lt;h2 id=&#34;the-lessons-hidden-in-the-dialogue&#34;&gt;The Lessons Hidden in the Dialogue&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Assumptions get corrected quickly.&lt;/strong&gt; The Xcode-on-iPad suggestion was wrong, but it got corrected immediately instead of becoming the foundation for useless advice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Constraints clarify priorities.&lt;/strong&gt; Once we established that dialysis time wasn&amp;rsquo;t coding time, it became clear that the real development work had to happen during my four productive in-between days.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Specificity beats generality.&lt;/strong&gt; &amp;ldquo;Work on the app&amp;rdquo; is overwhelming. &amp;ldquo;Identify the next three concrete actions for the app&amp;rdquo; is actionable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questions matter more than answers.&lt;/strong&gt; The breakthrough didn&amp;rsquo;t come from advice. It came from questions that helped me see my situation more clearly.&lt;/p&gt;
+&lt;h2 id=&#34;the-meta-lesson&#34;&gt;The Meta-Lesson&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what I realized: the conversation itself was demonstrating the productivity principle I needed to learn.&lt;/p&gt;
+&lt;p&gt;Instead of consuming more productivity content, I was actively working through my specific situation. Instead of generic advice, I was getting targeted questions. Instead of feeling judged for my limitations, I was finding ways to work with them.&lt;/p&gt;
+&lt;p&gt;The conversation was creation, not consumption. It was collaborative problem-solving in real time.&lt;/p&gt;
+&lt;h2 id=&#34;the-breakthrough-moment&#34;&gt;The Breakthrough Moment&lt;/h2&gt;
+&lt;p&gt;The real breakthrough came when we identified that the missing section of the app wasn&amp;rsquo;t just technically complicated - it was &amp;ldquo;lots of different pieces.&amp;rdquo; Suddenly the overwhelm made sense. It wasn&amp;rsquo;t one elegant problem to solve, but fifteen mini-features that all needed to connect.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;What if you just listed all the different pieces first? Not designing them, not coding them - just creating an inventory.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s when it clicked. The paralysis wasn&amp;rsquo;t about not knowing how to code. It was about not knowing where to start when everything felt connected to everything else.&lt;/p&gt;
+&lt;h2 id=&#34;what-this-means-for-productivity&#34;&gt;What This Means for Productivity&lt;/h2&gt;
+&lt;p&gt;The best productivity hack might be finding someone who asks better questions.&lt;/p&gt;
+&lt;p&gt;Not someone who gives you a system to follow. Not someone who tells you to eliminate distractions. Someone who helps you see your actual constraints clearly, then works with those constraints instead of ignoring them.&lt;/p&gt;
+&lt;p&gt;Generic productivity advice is like generic medical advice - it might work for some people, but it&amp;rsquo;s useless if it doesn&amp;rsquo;t account for your specific situation.&lt;/p&gt;
+&lt;p&gt;The real productivity breakthrough happens when you stop trying to fit your life into someone else&amp;rsquo;s system and start building a system that fits your actual life.&lt;/p&gt;
+&lt;h2 id=&#34;the-ironic-ending&#34;&gt;The Ironic Ending&lt;/h2&gt;
+&lt;p&gt;I started this conversation wanting to write about my productivity problems. I ended up actually solving them.&lt;/p&gt;
+&lt;p&gt;The blog post was supposed to be about the problem. Instead, it became about the solution.&lt;/p&gt;
+&lt;p&gt;Sometimes the most productive thing you can do is have a better conversation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/03/14/i-really-enjoy-vibe-coding.html</link>
+      <pubDate>Fri, 14 Mar 2025 09:49:40 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/03/14/i-really-enjoy-vibe-coding.html</guid>
+      <description>&lt;p&gt;I really enjoy &lt;a href=&#34;https://en.wikipedia.org/wiki/Vibe_coding&#34;&gt;&lt;em&gt;vibe coding&lt;/em&gt;&lt;/a&gt; as it has become to be known. &lt;a href=&#34;https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview&#34;&gt;Claude Code&lt;/a&gt; to be specific. It really helps me push along my iOS app nicely. Not very cheap, but also not outrageously expensive for the amount of productivity I get from it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/02/12/im-playing-with-how-far.html</link>
+      <pubDate>Wed, 12 Feb 2025 22:36:55 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/02/12/im-playing-with-how-far.html</guid>
+      <description>&lt;p&gt;I’m playing with how far I can push Cursor AI to build an iOS app. 2 views down and it worked great. Still all basic stuff, but works nicely. On the third view it fell over though. I had a calendar on the left and the day’s data on the right. Cursor couldn’t get the data to update based on the date.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/01/20/ive-seen-a-couple-of.html</link>
+      <pubDate>Mon, 20 Jan 2025 14:50:07 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/01/20/ive-seen-a-couple-of.html</guid>
+      <description>&lt;p&gt;I‘ve seen a couple of established iOS developers gripe about SwiftUI and that they should have stuck with UIKit. Would you advise someone starting out with iOS development and zero Swift experience to use UIKit as well? Or is it more of an old dog, new tricks kind of issue?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/12/07/i-now-have.html</link>
+      <pubDate>Sat, 07 Dec 2024 13:33:52 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/12/07/i-now-have.html</guid>
+      <description>&lt;p&gt;I now have my own Python module to write Safari WebArchives. Neat. And not too hard to implement.&lt;/p&gt;
+&lt;p&gt;So now &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; also saves a WebArchive copy and triggers a Wayback savepoint.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/12/06/i-rewrote-my.html</link>
+      <pubDate>Fri, 06 Dec 2024 09:03:58 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/12/06/i-rewrote-my.html</guid>
+      <description>&lt;p&gt;I rewrote my webcatcher Python script yesterday. It is now leaner, meaner and more resilient against failed downloads. &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; is coming together nicely. Pretty much all that is left is a nicer CSS for mobile devices and a web daemon so I can send stuff to Links from my iPhone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/12/05/trying-to-decide.html</link>
+      <pubDate>Thu, 05 Dec 2024 15:42:39 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/12/05/trying-to-decide.html</guid>
+      <description>&lt;p&gt;Trying to decide between Trafilatua, Newspaper 4K and Readabilty for my Markdown and PDF creation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,151 @@
+<rss version="2.0">
+  <channel>
+    <title>AI on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/categories/ai/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Mon, 07 Jul 2025 12:34:15 +0200</lastBuildDate>
+    
+    <item>
+      <title>Links: The Bookmark Manager That Actually Saves Your Stuff</title>
+      <link>https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html</link>
+      <pubDate>Mon, 07 Jul 2025 12:34:15 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/07/links-the-bookmark-manager-that.html</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all been there. You bookmark something important. Come back weeks later, link is dead. Content vanished, site changed, paywall appeared. The frustration of digital amnesia strikes again.&lt;/p&gt;
+&lt;p&gt;I got tired of losing things I wanted to keep.&lt;/p&gt;
+&lt;h2 id=&#34;from-simple-idea-to-production-reality&#34;&gt;From Simple Idea to Production Reality&lt;/h2&gt;
+&lt;p&gt;Links started as a basic bookmark manager. Just me, trying to organize my web finds. 115 commits later, it&amp;rsquo;s become a full archival system. The evolution from &amp;ldquo;nice to have&amp;rdquo; to &amp;ldquo;can&amp;rsquo;t live without&amp;rdquo; surprised even me.&lt;/p&gt;
+&lt;p&gt;What began as simple URL storage grew into something much more powerful. Each commit taught me something new about what people actually need. Not just bookmarks - real preservation.&lt;/p&gt;
+&lt;h2 id=&#34;the-mobile-revolution-&#34;&gt;The Mobile Revolution 📱&lt;/h2&gt;
+&lt;p&gt;The game-changer was iOS Shortcuts integration. Now I can share from anywhere, archive automatically. Subway reading? One tap saves it. Meeting discovery? Boom, archived. Social media find? Got it.&lt;/p&gt;
+&lt;p&gt;The technical magic happens in two phases. You get instant feedback when you tap &amp;ldquo;Share to Links.&amp;rdquo; Meanwhile, the system spends 5-10 seconds downloading content. Background processing creates multiple archive formats. AI generates summaries. All while you move on with your day.&lt;/p&gt;
+&lt;p&gt;No more &amp;ldquo;I&amp;rsquo;ll save this later&amp;rdquo; mental notes. Just save it now, from wherever you are.&lt;/p&gt;
+&lt;h2 id=&#34;smart-archiving-made-simple&#34;&gt;Smart Archiving Made Simple&lt;/h2&gt;
+&lt;p&gt;Links doesn&amp;rsquo;t just store URLs. It understands content. AI summaries using Claude (with OpenAI fallback) extract meaning from every page. Content extraction that actually works handles even tricky sites.&lt;/p&gt;
+&lt;p&gt;Multiple formats ensure long-term access:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF archives preserve visual layout&lt;/li&gt;
+&lt;li&gt;Markdown conversion creates searchable text&lt;/li&gt;
+&lt;li&gt;WARC files maintain complete page context&lt;/li&gt;
+&lt;li&gt;Structured metadata enables programmatic access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full-text search works across all archived content. Find that thing you saved months ago in seconds.&lt;/p&gt;
+&lt;p&gt;The system handles edge cases gracefully. Broken sites, missing metadata, failed AI calls - it all degrades nicely. You never lose your bookmark, even when things go wrong.&lt;/p&gt;
+&lt;h2 id=&#34;how-links-stands-apart&#34;&gt;How Links Stands Apart&lt;/h2&gt;
+&lt;p&gt;The bookmark manager landscape is crowded. But Links takes a different approach than the competition.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;mymind.com&lt;/strong&gt; uses AI for visual organization and discovery. Beautiful interface, smart tagging, visual search. But it&amp;rsquo;s cloud-hosted, subscription-based, and focused on organization over preservation. When mymind&amp;rsquo;s servers go down, your bookmarks go with them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dewey&lt;/strong&gt; captures content at bookmark time. Great for preservation, but limited mobile integration. &lt;strong&gt;Raindrop.io&lt;/strong&gt; offers visual bookmarking with cloud backup. &lt;strong&gt;LinkAce&lt;/strong&gt; provides self-hosted monitoring with Internet Archive integration.&lt;/p&gt;
+&lt;p&gt;Links combines the best ideas while avoiding common pitfalls:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;File-based storage&lt;/strong&gt; (no database headaches)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-hosted control&lt;/strong&gt; (your data, your rules)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actual content preservation&lt;/strong&gt; (not just pretty organization)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seamless mobile integration&lt;/strong&gt; (because that&amp;rsquo;s where we live now)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI intelligence&lt;/strong&gt; (without the subscription fees)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While others focus on tags, categories, and visual discovery, Links focuses on one thing: making sure your stuff doesn&amp;rsquo;t disappear.&lt;/p&gt;
+&lt;h2 id=&#34;the-long-term-vision&#34;&gt;The Long-Term Vision&lt;/h2&gt;
+&lt;p&gt;Digital preservation shouldn&amp;rsquo;t be complicated. Regular people need tools that work without constant maintenance. Links embraces this philosophy.&lt;/p&gt;
+&lt;p&gt;In an era where websites vanish overnight, Links provides a personal solution. No tags, no categories, no complex workflows. Just chronological organization that makes sense. And yet, everything is still just one full-text search away.&lt;/p&gt;
+&lt;p&gt;Your data lives in human-readable files. No vendor lock-in, no proprietary formats. If you want to move elsewhere, everything exports cleanly.&lt;/p&gt;
+&lt;p&gt;This is digital preservation for the rest of us.&lt;/p&gt;
+&lt;h2 id=&#34;ready-to-use-today&#34;&gt;Ready to Use Today&lt;/h2&gt;
+&lt;p&gt;Links is production-ready right now. All core features work reliably. The mobile integration is smooth. The AI summaries are helpful. The search actually finds things.&lt;/p&gt;
+&lt;p&gt;After 115 commits of refinement, it&amp;rsquo;s almost ready for prime time. I still need to bundle it up for distribution.&lt;/p&gt;
+&lt;p&gt;Until then, you can try Links at &lt;a href=&#34;https://links.alexanderkucera.de&#34;&gt;links.alexanderkucera.de&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Links is open source and self-hostable. Built with Kirby CMS, Python archiving scripts, and a healthy dose of frustration with disappearing content.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/30/one-of-the-things-that.html</link>
+      <pubDate>Mon, 30 Jun 2025 17:05:50 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/30/one-of-the-things-that.html</guid>
+      <description>&lt;p&gt;One of the things that annoys me me most about LLMs is that they ruined properly crafted typography. I love to use em dashes. I feel like it shows that I put thought &amp;amp; care into a text. Well, not anymore. Now it says „hey that dude used an AI to write this. Feel free to discard it as not original.“&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/22/i-finally-caved-and-paid.html</link>
+      <pubDate>Sun, 22 Jun 2025 19:38:43 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/22/i-finally-caved-and-paid.html</guid>
+      <description>&lt;p&gt;I finally caved and paid for a month of Claude Pro for the work on my iPad app. It should come out cheaper then using API calls for vibe coding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/21/daring-fireball-seven-replies-to.html</link>
+      <pubDate>Sat, 21 Jun 2025 14:08:13 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/21/daring-fireball-seven-replies-to.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://daringfireball.net/linked/2025/06/17/seven-replies-to-the-viral-apple-reasoning-paper&#34;&gt;Daring Fireball: Seven Replies to the Viral Apple Reasoning Paper&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[…] when it comes to these systems [LLMs], I’m mostly just interested in whether they’re useful or not, and if so, how.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That feels very short sighted. If we don‘t solve the alignment problem now, it will be too late when we do get to AGIs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/on-the-one-hand-i.html</link>
+      <pubDate>Tue, 17 Jun 2025 21:48:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/on-the-one-hand-i.html</guid>
+      <description>&lt;p&gt;On the one hand I believe AI has the potential to end humanity. On the other hand there is Audible which just recommended me the same book I just finished „based on my listening habits“. Well done robot overlords.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/and-finally-read-this-ai.html</link>
+      <pubDate>Tue, 17 Jun 2025 13:41:39 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/and-finally-read-this-ai.html</guid>
+      <description>&lt;p&gt;And finally read this: &lt;a href=&#34;https://ai-2027.com/&#34;&gt;AI 2027&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/then-listen-to-this-countdown.html</link>
+      <pubDate>Tue, 17 Jun 2025 13:40:49 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/then-listen-to-this-countdown.html</guid>
+      <description>&lt;p&gt;Then listen to this: &lt;a href=&#34;https://overcast.fm/+AAKhqGBgbmQ&#34;&gt;Countdown to Superintelligence&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/17/everyone-should-probably-watch-this.html</link>
+      <pubDate>Tue, 17 Jun 2025 13:38:45 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/17/everyone-should-probably-watch-this.html</guid>
+      <description>&lt;p&gt;Everyone should probably watch this:
+&lt;a href=&#34;https://youtu.be/giT0ytynSqg?si=b76IFnaFT4HiyWPJ&#34;&gt;The Godfather of AI: I tried to warn them, but we‘ve already lost control&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/14/meta-aiapp-stellt-private-unterhaltungen.html</link>
+      <pubDate>Sat, 14 Jun 2025 08:25:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/14/meta-aiapp-stellt-private-unterhaltungen.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.perplexity.ai/page/meta-ai-app-exposes-private-co-bNcRzv3wTWq9L7KfuJtb.g&#34;&gt;Meta AI-App stellt private Unterhaltungen im öffentlichen Feed dar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Well done Meta. Once again trampling all over users privacy. Just like we know you.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
