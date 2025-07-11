@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Hyperion - Brent Burley - Walt Disney Animation
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Hyperion - Brent Burley - Walt Disney Animation</h1>
+	
+    <div><time class="dt-published" datetime="2015-05-06T11:29:11&#43;02:00">May 6, 2015</time></div>
+
+	<div class="e-content">
+		<p>Brent Burley talked us through the development of Disney&rsquo;s new Path Tracer <em>Hyperion</em> in this session. Path Tracing is the third cornerstone in Disney&rsquo;s new rendering strategy with the former two being <a href="http://www.disneyanimation.com/technology/publications/26#">PTex</a> and the new <a href="https://disney-animation.s3.amazonaws.com/library/s2012_pbs_disney_brdf_slides_v2.pdf">&ldquo;principled&rdquo; BRDF</a> (Disney made available a nice tool to explore different measured BRDFs called <a href="http://www.disneyanimation.com/technology/brdf.html">BRDF Explorer</a>).</p>
+<p>Hyperion was used as the main renderer for Big Hero 6, Disney&rsquo;s newest animated feature film. This was a big challenge as the development of Hyperion started only about three or four months before movie production. In essence the development of the movie and the render engine were in sync. This was a bit of a gamble, because the engine didn&rsquo;t have all of its features yet and there was no way of telling how development would turn out down the road.</p>
+<p>Like Manuka, Weta&rsquo;s new render engine, or Arnold, Hyperion is a Path Tracer. The biggest problem with path tracers is the inherent noise. So where you get the benefit of a &ldquo;correct&rdquo; solution and relatively few dials for the artist to &ldquo;fight&rdquo; with, the downside is that it is very hard to get rid of the noise in a timely manner.</p>
+<p>This is an inherently mathematical problem to deal with. To half the noise in an image, you have to quadruple the samples fired into the scene. Since you are always halving the noise, there is never a stage where you can reach zero noise. The best you can hope for is to reach a certain noise floor. Meaning all the important details in the image are represented (instead of hidden in too much noise). Once you reach that noise floor, the best solution Disney has found is to filter out the remaining noise.</p>
+<p>To converge to the noise floor as quickly as possible, there are a few optimization techniques at work. First, rays in areas of common interest are grouped into batches. Those batches receive a high number of samples that are then smartly &ldquo;redistributed&rdquo; to the corresponding pixels. At technique I haven&rsquo;t yet completely grasped, but that I plan to revisit with Mr Burley when I get a chance.</p>
+<p>The net win seems to be with multiple bounces. First the speed hit is very minimal with multiple bounces and you need less bounces overall to reach acceptable light energy in the scene.</p>
+<p>This was tested by going into a lighting lab situation. In essence they took a series of photographs and replicated the results with Hyperion. The results where pretty exact and it turns out that images that <em>seemed</em> to deliver wrong results where simply not using enough bounces. Once the proper bounce amount was dialed in, all the glows, light bleeds and so forth started working and the results looked natural.</p>
+<p>Another optimization technique was the <em>Statistical Lobe Selection Tree</em>, which basically applies weights to the components of a pixel (light influence, reflective, diffuse, refractive influence, etc.). Once you have figured out what influences the pixel most, you can spend more samples there.</p>
+<p>This got turned on its head when artists started using tens of thousands of lights in a shot. Sorting that many lights would have taken longer then simply brute forcing the sampling. The solution was to figure out where 95% of the influence comes from, which is usually the five or so closest lights, and then use the other 5% for a randomly picked light source.</p>
+<p>There are also effects that can take a long time to calculate with even just one sample. Like a ray that bounces around skin for a while, just to exit somewhere else with less energy. in those cases Disney used a simple &ldquo;shortcut&rdquo;: <em>biased filtering</em>.</p>
+<p>Say for Subsurface Scattering, Disney simply assumes that a ray exits a random maximum distance from the entry point with a certain amount of less energy. Which works well for most situations for things like SSS or hair. It has issues with small objects, but those can be worked around.
+The next step in Hyperion development is actually to improve the workflow for those situations in the future.</p>
+<p>Another common issue were fireflies on water from bright light sources. Sun, anyone? This also is an intrinsically mathematical issue as the sun is a tiny and incredibly bright light source, which means it&rsquo;s practically impossible to converge to a noise free result. The workaround they came up with was pretty genius. They first create a photon map that stores the energy of the refracted and reflected light and then use the calculated light energy values to basically turn hard surface objects into emitters. That means they spread out the high energy light source of the sun and made it trivial to sample. The result were beautiful caustics and inter reflections without any noise or sparkling at a reasonable rendertime.</p>
+<p>A tricky thing with path tracers is the output of different passes for compositing. For this, Hyperion uses a technique called <em>Stochastic Path Classification</em>, which allows inexpensive splitting of a light ray into diffuse and specular components (and a number of additional passes). An added benefit is that it becomes possible to add some artistic local control on top of a shader. They call it <em>transport modifier</em> and it allows artists to tell a surface to use less specular contribution for example.</p>
+<p>One interesting statistic was that due to the progressive nature of a path tracer only 15% re-renders took place. Meaning that most of the shots only had one final render pass. This was possible because every artist in every department always has a noisy preview of the final image in, more or less, realtime. There were no unexpected surprises, which made it possible to render the whole show in less then four months.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>

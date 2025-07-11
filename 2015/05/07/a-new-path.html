@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - A New Path Trace Approach for &#34;Finding Dory&#34; - Christophe Hery - Pixar
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">A New Path Trace Approach for &#34;Finding Dory&#34; - Christophe Hery - Pixar</h1>
+	
+    <div><time class="dt-published" datetime="2015-05-07T01:44:11&#43;02:00">May 7, 2015</time></div>
+
+	<div class="e-content">
+		<p><em>This post also appeared as part of a longer article on <a href="http://www.fxguide.com/quicktakes/day-1-at-fmx-2015-rendering-and-20-years-of-weta-digital/">fxguide</a>.</em></p>
+<p>Christophe took us on a journey through the history of Renderman. From the basics of RSL (Renderman Shading Language) with its empirical shading to RSL 2.0 and the first steps in physically plausible shading to the new <a href="http://www.fxguide.com/featured/rendermanris-and-the-start-of-next-25-years/">RIS</a> path tracing engine that allows physically accurate image creation.</p>
+<p>We started with RSL 1.2, which basically was state of the art in big budget productions up to 2005. It had the hallmarks of traditional computer graphics: light sources without any size or falloff (in fact, ILM usually didn&rsquo;t use falloff on lights at all even though an option for realistic light falloff existed) and of course idealized materials that had lots of dials for creative control without any regards to physically accuracy or energy conservation. One could easily create a surface that was brighter then any of the lights hitting it for example.</p>
+<p>With that creative freedom comes a lot of complexity though to get something that can be considered &ldquo;correct&rdquo; when it comes to realism, a required goalpost when you want to integrate your renderings into filmed footage.</p>
+<p>To get to an acceptable result quicker and with less complications, Pixar started to implement physically plausible rendering which was first used in Iron Man and later in Monster University to great effect. This proved that both realistic and stylized results were possible with this physically more accurate model despite it having less dials.</p>
+<p>While RSL 2.0 was quite successful it still had a few problems. Mainly it slowed down in complex raytracing setups due to Ray Hit Shading taking a lot of time and the memory usage exploded with complex scenes. This lead Pixar to develop a path tracing approach and a new render engine called RIS. For an in depth overview see last year&rsquo;s article on <a href="http://www.fxguide.com/featured/rendermanris-and-the-start-of-next-25-years/">RIS</a>.</p>
+<p>RIS allows for even simpler controls, while rendering more accurately, faster and with less memory then the RSL approach. Shaders are now fully integrated but very modular, which allows for easy debugging or switching out whole block for quickly getting different results.</p>
+<p><em>Finding Dory</em>, which is currently in production at Pixar, is the first movie that is using RIS. In fact, Dory is the first use of what Christophe calls the RUKUS pipeline: RIS, <a href="http://graphics.pixar.com/usd/">USD</a> a new interchange format developed at Pixar similar to Alembic and Katana. Christophe joked that he still hasn&rsquo;t figured out what U and S stand for.</p>
+<p>Since RIS has the ability to do progressive rendering, the look development and final rendering has accelerated quite a bit. An artist can set up a complex shot, put it on the farm and then &ldquo;check in&rdquo; after say 20 minutes and get a good idea what the final images are going to look like as the whole image is already visible, albeit very noisy. Then they can just let it &ldquo;cook&rdquo; on the farm until an acceptable noise level is reached. The remaining noise residue is being filtered away as a last step. A technology that Pixar was able to use from Hyperion, Disney&rsquo;s new Path Tracing engine and it will be part of the public Renderman release in the future.</p>
+<p>This means there is less human (expensive) time needed to set up a shot as there is much less trial and error. Artist always have a really good idea of what the final result is going to look like.</p>
+<p>Sadly, Christophe wasn&rsquo;t able to show us final imagery of Dory, as production isn&rsquo;t that far along yet, but we did see a few shots of Dory and Nemo in their new look and they do look much improved from their old selves. We saw them being shaded, lit and look dev&rsquo;ed in realtime in Katana and the experience looked very smooth and seamless.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
