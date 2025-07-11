@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Twitter for Colloquy
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Twitter for Colloquy</h1>
+	
+    <div><time class="dt-published" datetime="2007-01-28T16:10:06&#43;02:00">Jan 28, 2007</time></div>
+
+	<div class="e-content">
+		<p>I don’t know if you already know this service called [Twitter] <a href="http://twitter.com/">1</a>. It can be described as a IM independent status message, so you can notify people of your current doings if you like.</p>
+<p>[Coda Hale] <a href="http://blog.codahale.com/">2</a> created a [Quicksilver action to post conveniently to Twitter] <a href="http://blog.codahale.com/2007/01/15/tweet-twitter-quicksilver/">3</a>. [Ted Leung] <a href="http://www.sauria.com/blog/">4</a> thought it would be nice to have [Growl notifications] <a href="http://www.sauria.com/blog/2007/01/18/growlified-tweet/">5</a> in the mix and [Matt Matteson] <a href="http://dlzip.com/wordpress/">6</a> thought it needed a bit more sparkle by [adding iChat support] <a href="http://dlzip.com/wordpress/2007/01/19/tweeter-twitter-quicksilver-ichat/">7</a>. Well, now I add two more options to the mix.</p>
+<p>First I created a modified version of Mattesons’ script to work with [Colloquy] <a href="http://colloquy.info/">8</a> — my favourite IRC chat client (Which I also use for IQC, MSN, Jabber and IRC via the help of [BitlBee] <a href="http://www.bitlbee.org/">9</a>). This worked out pretty straightforward and nice — and can be downloaded here (for setup instructions go to [Coda Hale’s page] <a href="http://blog.codahale.com/2007/01/15/tweet-twitter-quicksilver/">3</a>). But then I thought it is stupid to have to change my status message of my chat client outside my chat client. So I sat down a little while longer and created a Colloquy script that posts to Twitter — including Growl notifications.</p>
+<p>This script works like the normal <code>/me</code> commands in IRC but also posts the text behind the <code>/me</code> command to Twitter. Users of Colloquy should know what it does, but for you non-IRC people, <code>/me</code> creates an _action_ message so <code>/me is hungry</code> becomes <em>AlexK (my nickname) is hungry</em>. And on [Twitter] <a href="http://twitter.com/">1</a> it says _AlexK (my username there) is hungry_. It makes perfect sense (to me at least).</p>
+<p>###How to install</p>
+<p>To install it download this file, unpack it and save it as twitter.scpt into your Colloquy plugins folder (~/Library/Application Support/Colloquy/Plugins/twitter.scpt), then restart Colloquy (on some machines a system restart was necessary for unknown reasons).</p>
+<p>Then you need to configure it. If you’re not already using [Twitterrific] <a href="http://iconfactory.com/software/twitterrific/index.html">10</a>, open Keychain Access and add a new password with the following data:</p>
+<ul>
+<li>Keychain Item Name: <a href="http://twitter.com">http://twitter.com</a></li>
+<li>Account Name: Your email address</li>
+<li>Password: Your Twitter password</li>
+</ul>
+<p>If you’re already using Twitterrific, this password will already be in your Keychain. So just sit tight.</p>
+<p>Now you can use it with the commands <code>/tweet</code> or <code>/twitter</code> like so <code>/tweet is testing out this cool plugin</code>. It should send and action message to your current chatroom (Nickname is testing out this cool plugin) and also to your Twitter account (Username is testing out this cool plugin). After it succeeded you will get a Growl notification.</p>
+<p>On first use you will be asked if it is ok that the script gets access to your Keychain. This is fine and you should allow that. On first usage it might also take a little bit longer, but from then on it should run pretty fast. At least it does so over here.</p>
+<p>###Caveats</p>
+<p>I have one guy who had problems with it running very slow (up to 15 seconds), but over here is runs pretty much realtime. Of course it has to send data over the internet, so that might be a slowdown factor. I guess if you like just try it out.</p>
+<p><strong>UPDATE:</strong> [Jesse Newland] <a href="http://soylentfoo.jnewland.com/">11</a> linked the slowness to AppleScript needing a lot of time to access the Keychain in some cases. Maybe a bug on Apple’s side? Anyway he suggest to [use Rubygems to work around this] <a href="http://soylentfoo.jnewland.com/articles/2007/01/22/tweet-update-twitter-via-quicksilver">12</a>. Thanks for that workaround, but I am not too hot on installing an extra piece of software just for this. But for all of you out there who have problems with my Colloquy/Twitter script being slow this might be a viable solution.</p>
+<p>And as always with this home-brewn scripts, I cannot give any guarantee that it works and I also distance myself from any damage done by it. It works great over here, but I cannot guarantee this for your setup. That is all I can say.</p>
+<p>###Following are comments from the old blog</p>
+<blockquote>
+<p>Blaine Says:</p>
+</blockquote>
+<blockquote>
+<p>Nice. It’s very cool to see twitter inching its way into every nook and cranny of the desktop and not.</p>
+</blockquote>
+<blockquote>
+<p>Any particular reason you didn’t use Bitlbee’s Jabber integration to help you out?</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>Alexander Kucera Says:</p>
+</blockquote>
+<blockquote>
+<p>Well, two reasons Blaine.</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>I hardly use Jabber these days</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>When I use the Jabber route I am locked in to using Jabber</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>Let me explain the second one.</p>
+</blockquote>
+<blockquote>
+<p>Let’s say I am in an IRC channel. I’d have to switch the room to a Jabber connection to send my message to the twitter user.</p>
+</blockquote>
+<blockquote>
+<p>With my script I am independent of the room I am in. It just intercepts the command and send it to Twitter. I don’t have to think about sending it to a specific user or anything else. I just type my command and it sends.</p>
+</blockquote>
+<blockquote>
+<p>Very easy, very “out of my way”. I like to keep it simple, otherwise I end up not using it.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>Rinoa Says:</p>
+</blockquote>
+<blockquote>
+<p>Found you on digg. Have you considered having your script submitted on the Colloquy website?</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>Alexander Kucera Says:</p>
+</blockquote>
+<blockquote>
+<p>Hi Riona,</p>
+</blockquote>
+<blockquote>
+<p>I wanted it to be tested by a few more people before making it an “official” part of the Colloquy site. But yes, I am definitely thinking about submitting it.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>Blaine Says:</p>
+</blockquote>
+<blockquote>
+<p>That makes sense. I didn’t realize Bitlbee was presented as an independent room in IRC.</p>
+</blockquote>
+<blockquote>
+<p>Keep up the good work, and let us know (<a href="mailto:help@twitter.com">help@twitter.com</a>) if there’s anything we can do to improve twitter!</p>
+</blockquote>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>

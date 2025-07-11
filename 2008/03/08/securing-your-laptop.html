@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Securing Your Laptop at Work
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Securing Your Laptop at Work</h1>
+	
+    <div><time class="dt-published" datetime="2008-03-08T16:10:06&#43;02:00">Mar 8, 2008</time></div>
+
+	<div class="e-content">
+		<p>I wanted to share this litte trick with you for quite a while now, but of course I have been busy and other things came in the way. They always do.</p>
+<p>I work with my MacBook Pro at home and at the office. That is of course nice, because it is my only base of operations and I have everything in one place.</p>
+<p>But do you know the feeling that you are working with your laptop at work and don’t want anyone to snoop around on it, because it also is your private laptop and has all kinds of personal stuff on it? I know I do.</p>
+<p>Luckily there is an easy fix for that. Enable the setting that pops up a password request after your machine wakes from sleep or when it disables the screen saver. But now you always have to enter the password at home, too. Kind of annoying.</p>
+<p>There is an easy fix for that as well. The key is location aware software like [MarcoPolo] <a href="http://www.symonds.id.au/marcopolo/">1</a>. MarcoPolo allows you to trigger certain actions depending on where it knows you are at the moment. Pretty cool stuff. That means it allows you to enable or disable the screen saver password at home or at work. Neat isn’t it?</p>
+<p>I made a little [screencast] [2] walking you through the steps. All you need is MarcoPolo which you can get for free from the [developers website] <a href="http://www.symonds.id.au/marcopolo/">1</a>.</p>
+<p>If you don’t want to use MarcoPolo you can also use AppleScript to do the same thing with whatever software you prefer. In fact I used the scripts with MarcoPolo, because I overlooked the very convenient built-in action that already does that.</p>
+<p>The AppleScripts are as follows:</p>
+<p>####Enable Screen Saver Password</p>
+<pre><code>tell application &quot;System Events&quot;
+	tell security preferences
+		get properties
+		set properties to {require password to wake:true}
+	end tell
+end tell
+</code></pre>
+<p>####Disable Screen Saver Password</p>
+<pre><code>tell application &quot;System Events&quot;
+	tell security preferences
+		get properties
+		set properties to {require password to wake:false}
+	end tell
+end tell
+</code></pre>
+<p>Have a look at the screencast for more in-depth info.</p>
+<p><!-- raw HTML omitted -->screencast<!-- raw HTML omitted --></p>
+<p>I hope you enjoyed this little hint. Check back for more in the future.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>

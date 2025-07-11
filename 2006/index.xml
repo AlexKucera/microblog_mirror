@@ -1,0 +1,658 @@
+<rss version="2.0">
+  <channel>
+    <title>2006s on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/2006/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Mon, 27 Nov 2006 16:10:06 +0200</lastBuildDate>
+    
+    <item>
+      <title>Naming Conventions - Part 02 - Real Life Application</title>
+      <link>https://alexanderkucera.com/2006/11/27/naming-conventions-part.html</link>
+      <pubDate>Mon, 27 Nov 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/11/27/naming-conventions-part.html</guid>
+      <description>&lt;p&gt;Last time I talked about the basic ingredients of a working naming convention, which got inspired by a topic covered on [Lifehacker] &lt;a href=&#34;http://www.lifehacker.com/software/file-management/ask-the-readers-filing-naming-conventions-210104.php&#34;&gt;1&lt;/a&gt; and [43 Folders] &lt;a href=&#34;http://www.43folders.com/2006/10/23/file-naming/&#34;&gt;2&lt;/a&gt;. What to avoid — like never using the word “final” in any circumstances — and what to include — for example version numbers.&lt;/p&gt;
+&lt;p&gt;This time I will show you how to use this new gained knowledge and plug its elements together into a working template for a professional naming convention. Just read on to find out how it’s done.&lt;/p&gt;
+&lt;p&gt;###The Template&lt;/p&gt;
+&lt;p&gt;Actually it is very simple. Take what we have spoken about last time and plug the elements together to get a working naming convention, like this (this might wrap a bit unlucky, if so just wait till we get to the real life example — which reads more easily — two lines further down):&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;project-name&amp;gt;_&amp;lt;file-content&amp;gt;_&amp;lt;version-number&amp;gt;_&amp;lt;changes to the version before&amp;gt;_&amp;lt;author&amp;gt;.&amp;lt;file-extension&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Easy, isn’t it? So in a more lifelike example we get:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ambul_keying-Shot012_03_fixedMaskIssue_AlexK.mov&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This file is part of the project called “The Ambulance” and it contains the greenscreen keying and compositing for shot 012 and is in it’s third revision. The change to the last version is a fix in one of the masks (which probably was wrong in version 02) and the change was done by me.&lt;/p&gt;
+&lt;p&gt;###It sorts in groups…&lt;/p&gt;
+&lt;p&gt;As you can see this is a pretty human-readable filename. And just from looking at it we can see what is going on. And because of the way we built the filename it sorts correctly when we sort by filename in the file-browser. We will always see the shots for the project “ambul” together, followed by all versions of keying shots, then the individual shots in order and then the individual versions of a shot.&lt;/p&gt;
+&lt;p&gt;And if you ever accidentally save your file in the wrong folder(another project or your local drive instead of the projects drive), it becomes pretty easy to find again, because it includes the project name.&lt;/p&gt;
+&lt;p&gt;###…and is extensible&lt;/p&gt;
+&lt;p&gt;The nice thing about this order is that we can now add as many additional informations to the filename as we deem necessary after the version number — like in this case the changes to the last version and the authors name. We will always get it sorted in the right way, because the version number comes first in the filename.&lt;/p&gt;
+&lt;p&gt;And we also need not worry about including the date in the filename directly in most cases, because the operating system takes care of this automatically.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;There is not one correct way — the template adjusts to your taste&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are of course many different options to express the same information as above. We could also write any of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the ambulance_keyingShot012_
+_version03_fixedMaskIssue_AlexanderKucera.mov&lt;/li&gt;
+&lt;li&gt;amb_gskS012_03_fixMask_AK.mov&lt;/li&gt;
+&lt;li&gt;ambul.keying_Shot-012.03.fixedMask.AlexK.mov&lt;/li&gt;
+&lt;li&gt;ambul-keying shot 012-v03-fixed mask issue-AlexK.mov&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All these versions contain the same info. Some are more verbose, others less. Some are easier to read, others less. I tend to stick with underscores to divide the individual chunks of information and dashes or a combination of small and capital letters to make the individual chunks more readable. This comes from my programming history. If other schemes are easier to read for you, take them instead.
+This part is completely up to your taste and doesn’t influence the effectiveness of this naming convention as long as you always use the same method.&lt;/p&gt;
+&lt;p&gt;###Do yourself a favor — stick to it&lt;/p&gt;
+&lt;p&gt;Stick to it once you have a working naming convention. And please don’t try to change it after every project. You will be thankful for sticking with it when that project resurfaces after a month or a year.&lt;/p&gt;
+&lt;p&gt;If you have questions or suggestions about my way of naming files please leave a comment. I’d love to read about your ways of tackling this issue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UPDATED: Musicvideo “Var Minut” by Emilia Finished and Online</title>
+      <link>https://alexanderkucera.com/2006/11/23/updated-musicvideo-var.html</link>
+      <pubDate>Thu, 23 Nov 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/11/23/updated-musicvideo-var.html</guid>
+      <description>&lt;p&gt;Remember Emilia? She did this song called “Big Big World” about 7 years ago:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/v=BUKq7DLo6Ko&#34;&gt;Big Big World&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Guess what? She is back, with her new song “Var Minut”, which means “Every Minute” and is the usual thing about love I guess. I can’t really tell though, because she is singing in Swedish and I don’t understand a single word of it. ;-)&lt;/p&gt;
+&lt;p&gt;Anyway, I was VFX Supervisor on set and also the main guy to do the VFX in post. Time was short — as always — so the quality is barely enough for TV but should be bearable for the web. There are 8 greenscreen shots and 7 fire-only shots that we had 5 days to work on.&lt;/p&gt;
+&lt;p&gt;Take a look:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/v=0EE8eQUIvys&#34;&gt;Var Minut&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To get a more high-quality version — or if you don’t see the embedded video above — take a look at this link:
+&lt;a href=&#34;http://www.internetvideo.dk/Emilia_Large.mov&#34;&gt;http://www.internetvideo.dk/Emilia_Large.mov&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All credits belong to SpinRecords and [Fridthjof Film] &lt;a href=&#34;http://www.flickr.com/photos/hi_dizzle/sets/72157594369007640/&#34;&gt;2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Someone from the set also made a nice [Flickr slideshow] &lt;a href=&#34;http://www.f-film.com&#34;&gt;3&lt;/a&gt;, go check it out.&lt;/p&gt;
+&lt;p&gt;UPDATE: And of course we also have a making of that comes in two parts (for a commercial break) now.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/v=TWJNgxNOGQU&#34;&gt;Making Of Part 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/v=XBC5XLUKIQU&#34;&gt;Making Of Part 2&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Naming Conventions - Part 01 - the Basics</title>
+      <link>https://alexanderkucera.com/2006/11/21/naming-conventions-part.html</link>
+      <pubDate>Tue, 21 Nov 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/11/21/naming-conventions-part.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;special-test_final_3a_preview_5b&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Do you know filenames like this? Or even worse, do you still use them? I did too. But I learned how to avoid these ugly names that no one can decipher 5 minutes later. And in this two parts series — that got inspired by a topic covered on [Lifehacker] &lt;a href=&#34;http://www.lifehacker.com/software/file-management/ask-the-readers-filing-naming-conventions-210104.php&#34;&gt;1&lt;/a&gt; and [43 Folders] &lt;a href=&#34;http://www.43folders.com/2006/10/23/file-naming/&#34;&gt;2&lt;/a&gt; — I will show you how you can get a clean working naming convention, too. Just read on. It will take less then 5 minutes — promise.&lt;/p&gt;
+&lt;p&gt;First I will show you what to look out for in naming files and in the seconds part I will show you an example of how we use this new gained information to create a consistent naming template that is production ready and proven to work, because I and my company used it successfully for years.&lt;/p&gt;
+&lt;p&gt;###What you should know — The Basics&lt;/p&gt;
+&lt;p&gt;The most important thing about our files is the content, right? And in a project we need to make different versions of that content so we can easily recover after a crash or go back to an earlier version — a version that maybe worked better or one that now fits better into the directors concept. How do we go about naming this content so we can easily see what we are dealing with?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;never ever use the word “final” for any file&lt;/li&gt;
+&lt;li&gt;do not put too much information in the filename&lt;/li&gt;
+&lt;li&gt;put much info in your filename&lt;/li&gt;
+&lt;li&gt;number your files incrementally — always&lt;/li&gt;
+&lt;li&gt;stick to your naming convention&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###Never ever use the word “final” for any file&lt;/p&gt;
+&lt;p&gt;Well, plain and simple: never use the word “final” as an integral part of the filename. For the simple reason that it never will be the final version. And what do you do then? Name your file “final_final”? Or “more_final”? It just won’t work out, so just don’t do it. Simple isn’t it?&lt;/p&gt;
+&lt;p&gt;Oh and while we are at it, try not to use these words either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;temp&lt;/li&gt;
+&lt;li&gt;test&lt;/li&gt;
+&lt;li&gt;preview&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###Do not put too much information in the filename&lt;/p&gt;
+&lt;p&gt;I don’t know about you, but when I want to read a story, I read a book. But when I am working I need to know which file is containing what — fast. That means the filename should only contain what is necessary to communicate its content. Nothing more. But most importantly nothing less, which leads us to the next point.&lt;/p&gt;
+&lt;p&gt;###Put much information in your filename&lt;/p&gt;
+&lt;p&gt;Well, as I wrote above, when you look at a file in your file-browser you need to see instantly — without opening the file — what it contains. For that you need to put all the important info into the filename.&lt;br&gt;
+But what is important you ask? Well, that certainly depends to a degree on your working environment and projects. A few things stay the same nevertheless. Lets make a small list. We normally need to know:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;what project this file belongs to&lt;/li&gt;
+&lt;li&gt;what the file contains&lt;/li&gt;
+&lt;li&gt;who created the file (in a multi-user workspace)&lt;/li&gt;
+&lt;li&gt;which version it is&lt;/li&gt;
+&lt;li&gt;what changed to the version before it&lt;/li&gt;
+&lt;li&gt;when it was created&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There you have it. Not an awful lot, isn’t it? To see how we squeeze all that info in a short and readable filename read on.&lt;/p&gt;
+&lt;p&gt;There are two ways to tackle this. One is to use shortcuts like the first letters of your project (MIB = Men in Black), the other one is to use plain readable text. Both have their advantages and disadvantages.&lt;br&gt;
+Shortcuts make filenames shorter and for the duration of the project probably also more readable (because you can see more of the information in a filename at once). On the other hand it will be probably pretty hard to decipher what a filename was meant to mean after a month or two when you have to revisit a project.&lt;/p&gt;
+&lt;p&gt;I tend to use a mix of both to get something as descriptive but short as possible.&lt;/p&gt;
+&lt;p&gt;###Number your files incrementally — always&lt;/p&gt;
+&lt;p&gt;This is also an important one. Always number your files starting with 01, not 1, but 01, because you never know, it might end up being the first of many drafts before the final — or, to stay consistent with our rule about not using the word “final” — the version that we end up using. So to avoid ugly constructs like version 2b5-new, we just stick to simple numbers 01, 02, 03 and so on. The recent version wasn’t good? No problem, make a new one and increase the version count. That leaves you with room for up to 99 versions, enough for even the most error and revision prone projects.&lt;/p&gt;
+&lt;p&gt;###Stick to your naming convention&lt;/p&gt;
+&lt;p&gt;Well, this seems to be obvious, but it isn’t very easy, especially in a working environment that has no rules about files names. Co-workers don’t use it, so why should you? To stay on top of the chaos and to lead by example. Once your co-workers see how easy and efficient a working naming convention can be they hopefully will switch to it, too.&lt;/p&gt;
+&lt;p&gt;I hope this was some useful info and if you wan to find out how we transfer this knowledge into a real life naming convention, then come back next week when I show you how I tend to use it.&lt;/p&gt;
+&lt;p&gt;Also please let me know what you think about this topic in the comments. Until then, take your work to the next level.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>If You Are a Newbie, Don’t Act Like a Pro!</title>
+      <link>https://alexanderkucera.com/2006/09/01/if-you-are.html</link>
+      <pubDate>Fri, 01 Sep 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/09/01/if-you-are.html</guid>
+      <description>&lt;p&gt;We met our new interns today and they all seemed very nice. One of them made a little bad impression though. Not only was he new in the company, but he also made bold statements about his future work. And he had never touched that area before, so what he said was either over the top or just wrong. Both things made him look like an arrogant guy or someone who has no clue at all (I am not sure which one fits better).&lt;/p&gt;
+&lt;p&gt;I think he could have avoided that hint of a bad impression with a little reality check before opening his mouth. He was the new guy, so the first thing he said should not have been to disagree with the two residents of our company who do this job for over two years now. At least not about a thing he obviously has no clue about. So before you start braging, check first how things in your future work environment work. And even if you think, you know better then all the guys, who did this job way longer then you, there are smarter ways to show you know something. Don’t make a statement. Formulate a question.&lt;/p&gt;
+&lt;p&gt;For example, instead of “To do job X like that isn’t smart, because that will give you crappy quality”, try to formulate it as a question that doesn’t insult your conversation partner (even if you think you are right). Say something like “I heard, that doing job X like this means loosing quality. Is that right or did you find a way around it?”. It’s a win-win situation.&lt;/p&gt;
+&lt;p&gt;If you are right about it, your (probably more experienced) future co-workers, will be impressed because although you never worked in the area you have done your homework.
+If you are wrong, you don’t make the impression of someone who didn’t do his homework, because you didn’t make a statement, you asked a question. And because you asked a question, you also have the chance to learn, because what you will now get is &lt;em&gt;an answer&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Of course this basically is true for every situation where you come into a group of people. You first should find out where you stand before you burn bridges.&lt;/p&gt;
+&lt;p&gt;I just had to get this off my chest.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shake Support Goes On</title>
+      <link>https://alexanderkucera.com/2006/08/07/shake-support-goes.html</link>
+      <pubDate>Mon, 07 Aug 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/08/07/shake-support-goes.html</guid>
+      <description>&lt;p&gt;It seems like a niche market that had to be filled sooner or later. After Apples decision to quit the development — and with it the support and maintenance — of shake with version 4.1, there is a big hole in the support area of shake. Of course, there are the normal forums like [fxshare] &lt;a href=&#34;http://www.fxshare.com/&#34;&gt;1&lt;/a&gt; (formerly highend2d) or [cgTalk] &lt;a href=&#34;http://www.cgtalk.com/&#34;&gt;2&lt;/a&gt;, but for deep down support it is always nice to have the developers at hand, because only they know, what really goes on inside the code.&lt;/p&gt;
+&lt;p&gt;Well, I was not the only one who had that thought. Billy Woody, the primary support engineer from Apple, said goodby to Apple and hello to the shake community. He will be supporting shake users from his new base at [shakesupport.com] &lt;a href=&#34;http://www.shakesupport.com/&#34;&gt;3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Shakesupport.com offers quite a good deal compared to the $1499,- a year one had to pay for Apples shake support. Woody offers a similar support for only a fraction of that, beginning at $100,- a year (for a single license and people who subscribe until 1st November 2006) up to a cheap $1000,- per year for the big houses with 51 and more licenses.&lt;/p&gt;
+&lt;p&gt;Woody will probably be quite busy, considering the price drop opened up shake for a whole new audience of users. But these users also will have to struggle with the user interface, which is not exactly made for the casual user. So I see a golden road ahead of Woody and wish him all the best for this project. Shake will probably keep him busy for quite some time, even after the shake successor comes out.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Behold - I Give You Messiah for Mac OS X</title>
+      <link>https://alexanderkucera.com/2006/07/29/behold-i-give.html</link>
+      <pubDate>Sat, 29 Jul 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/07/29/behold-i-give.html</guid>
+      <description>&lt;p&gt;Yes, you understood it correctly. [Messiah] &lt;a href=&#34;http://www.projectmessiah.com/&#34;&gt;1&lt;/a&gt; is able to run on the [new Intel Macs] &lt;a href=&#34;http://www.apple.com/macbook/&#34;&gt;2&lt;/a&gt;. And I am not talking about [BootCamp] &lt;a href=&#34;http://www.apple.com/macosx/bootcamp/&#34;&gt;3&lt;/a&gt; here fellows. I am talking about not having to restart your Mac to run Messiah. Being able to check mail or work in your favourite Mac application and simultaneously running the 3D character animation software Messiah. Don’t believe me? Here is the proof:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;What you see on the above image is Messiah running on [an emulated Windows environment called Parallels Workstation] &lt;a href=&#34;http://www.parallels.com/&#34;&gt;4&lt;/a&gt;. Take a look at the FPS counter in the perspective view of Messiah. It runs realtime and blazingly fast!! I nearly died of excitement yesterday seeing this. Everything looks great and fast and… I am getting goose bumps again.&lt;/p&gt;
+&lt;p&gt;It runs perfect from a performance point of view as far as I can tell. Unfortunately my PC just died and I have no real test scenes available. So if someone has a nice and heavy scene for me to test on the virtualized Messiah - please be my guest. I’d love to test it out further.&lt;/p&gt;
+&lt;p&gt;One downside exists, however. The mouse input seems kind of broken. Whenever I try to change values by dragging (a slider in the properties tabs, the edit sphere, the perspective view) Messiah only adds the numbers in one direction. Meaning, when I increase the x translate and then drag in the other direction to decrease it, the value doesn’t decrease but just increases further. This could be a real show stopper, if it stays unresolved.&lt;br&gt;
+But I am sure some smart guy out there finds a solution.&lt;/p&gt;
+&lt;p&gt;Update: Check out my screen capture of Messiah running under OS X.&lt;/p&gt;
+&lt;p&gt;###Following are comments from the old blog&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;torncanvas Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How did you get your hands on an accelerated version of Parallels? Or is it accelerated? What is going on here?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AlexK Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;No, this version is not accelerated. It is the same 15 day trial you can download for yourself torncanvas. No tricks, no bells and whistles. I didn’t even install any Windows update. This is just a plain Service Pack 1 install. Nothing more -except the parallels graphics driver of course, which allows to use resolutions higher then 800×600.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Messiah on Mac OS X - Moving Proof</title>
+      <link>https://alexanderkucera.com/2006/07/29/messiah-on-mac.html</link>
+      <pubDate>Sat, 29 Jul 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/07/29/messiah-on-mac.html</guid>
+      <description>&lt;p&gt;Here you go guys. A screencapture for all of you who want to see the actual speed of this baby.&lt;/p&gt;
+&lt;p&gt;I captured at 800×600, but had it also running at 1680×1050 with no noticable difference in speed.&lt;/p&gt;
+&lt;p&gt;At first the scene (generously offered by [Wiliam Eggington] &lt;a href=&#34;http://www.eggington.net/&#34;&gt;1&lt;/a&gt; - it is a WIP, so don’t look at the animation itself, ok?) runs in MetaNurbsed geometry. Later I have it un-MetaNurbsed, and that run basically realtime. Even with QuickTimes running in the background.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Demo-Video] &lt;a href=&#34;http://www.babylondreams.de/transferstuff/messiah/MessiahOnMac.mov&#34;&gt;2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;QuickTime 7 is needed for this or anything that is able to play a H.264 codec.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Renderman vs MentalRay - the Uproar</title>
+      <link>https://alexanderkucera.com/2006/06/29/151006.html</link>
+      <pubDate>Thu, 29 Jun 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/06/29/151006.html</guid>
+      <description>&lt;p&gt;Well, guess what? As I already thought it would happen, some people don’t seem to like the conclusions of my test. Zealots are so easy to predict and so hard to please.&lt;/p&gt;
+&lt;p&gt;####“You cannot do it like this. Testing the renderers with a simple teapot in the scene is totally unfair!”&lt;/p&gt;
+&lt;p&gt;Well, huh? How can a teapot be unfair? It is a simple geometry for crying out loud! If I had used a sphere or a torus (something not obviously produced by Pixar) it wouldn’t have made a difference.&lt;/p&gt;
+&lt;p&gt;####“You didn’t use the right MotionBlur Settings, that is unfair!”&lt;/p&gt;
+&lt;p&gt;Well, true, MentalRay also has something called Rapid Motion Blur. But that sucks too. I didn’t include it for two reasons. (1) It sucks. Or in a longer version: Every time I tried it, I got major render artifacts, so I just didn’t consider it for this test. (2) It sucks. Longer version: It is still way slower then Renderman for Maya.
+Well, my bad, I should have included it for sake of comparison.&lt;/p&gt;
+&lt;p&gt;####“You didn’t tweak MentalRay right, there is way more to tweak to make it faster!”&lt;/p&gt;
+&lt;p&gt;Well, it wasn’t part of this test to find out which renderer I can waste the most time with. In my business it is important to get results fast. Every minute spent at tweaking render times is nearly the same as rendering a slow renderer. Because if I spent two hours at tweaking or loose two hours due to bad render settings doesn’t matter. In the commercial business I have to deliver. Fast.&lt;/p&gt;
+&lt;p&gt;In my tests there was nearly no tweaking involved for Renderman (which I knew nothing about before these tests), but quite a bit to make MentalRay to look even that good (which I have worked with for quite some time now). In my book that means MentalRay is slower (and yes slower means also that it has more knobs to tweak it and loose time in the process).&lt;/p&gt;
+&lt;p&gt;####“Sure Renderman is great, but Renderman for Maya is a completely different product. You can’t compare that!”&lt;/p&gt;
+&lt;p&gt;Well, yes and no. It is about RfM, but the only difference to PRman is the interface and what you can do with it. The rendering engine is 100% the same. So what goes for one, goes for the other, too. With the addition that PRman is more configurable.
+Same goes for MentalRay for Maya. It is an interface for the MentalRay renderer. As such you have a small subset of what is possible in a point and click way. I tested this point and click way. Not any nifty shaders and special moves (which you can do with both RfM and MentalRay for Maya by the way).&lt;/p&gt;
+&lt;p&gt;Anyway, the results are the same, no matter how you turn it. MentalRay has it’s niche in the raytracing hyper-realism section, where there is no need for motion blur or fast displacements. But as far as good production value goes for day to day projects in a commercial environment (and for movies too as far as the general knowledge goes) Renderman is still superior. It is fast and easy to tweak (especially the RfM plugin) and gives fast and superior results.&lt;/p&gt;
+&lt;p&gt;Anyone interested can read the [Renderman vs MentalRay discussion on cgTalk] &lt;a href=&#34;http://forums.cgsociety.org/showthread.php?t=371816&#34;&gt;1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;###Following are the comments from the old blog&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;virgil Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;man, how can you render in RfM without errors and hours of tweaking? this is one thing I’m strugling with right now, that I keep having all kinds of weird issues, errors, and such, and I manage to debug it in the end, but at the cost of losing many-a-neuron  one other question, as I actually started a quest of trying to figure out the mistery behind the allmighty render-passes in RfM. how do you… do it? that tab in the render settings is alien technology for me right now, any tutorials, advices, anything? I’d surely most apreciate that. thanks in advance.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AlexK Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I actually don’t know. I just use it. Works fine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Concerning the Render Passes…well…same thing here. I just use em. Maybe the workflow was made by persons with a brain wiring similar to mine and not yours?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But I will try to find the time to write a little about the passes and how they are set up (at least how I do it when I need them).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;virgil Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;thanks alex,
+could you give me a simple example of how you’d set up a shadow pass? I just need to render my shadows separately, that’s all. I haven’t touched passes until now… and they seem very simple, but amazingly ilogical, meaning that whatever I do, more-or-less-nothing works  now don’t tell me I’m stupid, please, because you have to admit there are weird things in rfm, like tweaking that alpha gain when rendering displacement… could they make it any more obscure? so what’s the secret behind rendering these passes anyway? it looks to me like I can only set up one pass… and it renders that pass, like the shadow pass… plus a beauty pass. I haven’t tried anything else yet. I presume it can render a diffuse pass plus the beauty pass, hehehe. because each time I try adding a different pass, it replaces my previous work… I can’t see that it’s adding that pass to the sandwich, it’s replacing the earlier pass, that’s all. so I’m always left with only one pass. but how do you render 10 passes, and what if you don’t want that beauty pass?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;and last thing would be that I worked really hard to get the shadow pass to work, and I don’t know how I did it. trying to emulate the process with a different file didn’t work. I really did the same thing… I think… like it works just when it feels like, hehehe. yeah, I know, I know, it’s simply my fault - I don’t understand it  well but then another fact is that with RAT, and RfM as well, an insignificant little detail that you miss can result in complete disaster at rendertime. very sensitive. and I get nothing for free… well, with RfM I do  RfM is much friendlier, so instead of tweaking things for days… I only need hours  but errors seem to be inevitable. all the time. I’m not a rendering specialist and I have no one here to set it up for me, so I do all this stuff by myself.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Renderman vs MentalRay Comparison - Update</title>
+      <link>https://alexanderkucera.com/2006/06/29/renderman-vs-mentalray.html</link>
+      <pubDate>Thu, 29 Jun 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/06/29/renderman-vs-mentalray.html</guid>
+      <description>&lt;p&gt;As so many people from the MentalRay community seem to have a big problem with my motion blur test - and only that is seems, they don’t even see the parts, where I said good things about MentalRay - here is a small update with new images and the supposedly faster Rapid Motion Blur of MentalRay.&lt;/p&gt;
+&lt;p&gt;Well, yes, I give you that Rapid Motion Blur is faster. But 19 minutes is still kind of slow in my book, especially with these artifacts Rapid Motion Blur introduced. But I am sure some MentalRay user will point me in the right direction how to get rid of them after reading this.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;And here is again a Renderman version for direct comparison. This time I even increased the sampling, so the Motion Blur is more smooth then before. Still considerably faster then MentalRay. 6 minutes.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;How about this, we render the GI pass and maybe some reflections in MentalRay and then use this pass in Renderman, where we give is nice and fast Motion Blur?&lt;/p&gt;
+&lt;p&gt;As I said before: This is not a “My toy better then your toy!” comparison. It is a test to see when it makes sense to use which renderer. No, MentalRay is not the big daddy of all renderers. Neither is Renderman.&lt;/p&gt;
+&lt;p&gt;Need heavy GI and Reflections, but the scene is relatively static or doesn’t need Motion Blur for some reason? Hell, go with MentalRay any time! Even try it out on scenes without Raytracing. It might be faster then Renderman.&lt;/p&gt;
+&lt;p&gt;But when you need fast Displacements and/or Motion Blur, stay away from MentalRay and use Renderman (or blur in post when the scene allows it).&lt;/p&gt;
+&lt;p&gt;This is all about getting the job done. And I published this test to give some people hints about what to use when, as this is still a very often asked question, even more so with the new RfM plugin.&lt;/p&gt;
+&lt;p&gt;People where interested, when I showed them this comparison and therefor, I made it available to a wider audience. …which of course took it apart and missed the point completely. But that was to be expected.&lt;/p&gt;
+&lt;p&gt;Anyway before I drift into an endless monologue I better stop.&lt;/p&gt;
+&lt;p&gt;####Following are the comments from the old blog&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;virgil Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You forget one thing. Renderman is not fast with motion blur (and depth of field) and displacement only, it’s especially fast with heavy scenes, it renders NURBS as pixels and it tesselates subdivisions very efficiently, so extremely heavy scenes, with a lot of geometry, textures, lights (but not shadows, shadows seem to be kind’a slow), and ideally without raytracing… render very fast, where mental ray would probably take forever. if you compare 2 simple scenes and add raytracing, yes, mental ray is probably going to be faster. if you compare 2 simple scenes without raytracing, I can bet renderman is going to be faster. if you have a complex scene though…. with a lot of objects and shaders and so on, renderman will still be fast, while mental ray will be crawling, at best…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;you can’t compare these 2 technologies like you’d compare 2 renderman renderers or maya-software-render and mental-ray. in renderman, if you build your set efficiently, not wasting polygons I mean, and trying to have as many NURBS surfaces as possible where possible, and also not using raytracing, but deep shadows and skillfully placed lights, and so on… you can get a truly photographical render, with intricate surface detail and true dof and motion blur, all this in record time. mental ray is a fast raytracer and a very advanced and complex renderer, but in my book too… mental ray is overall outrageously slow.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;one truly great thing about renderman btw is you never have to worry about tessellation (haven’t we seen countless examples of faceted 3D CGI?), all smooth surfaces will be 100% smooth at any resolution, no matter how close to the camera. this alone was, for me, the reason to start learning RAT, and start using prman with Maya. If you also use procedural textures for example you can be totally resolution independent. this is BIG!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GuillermoZS Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hi, well I don´t want to be rude but I think you have done a VERY partial review…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;At first, Renderman is an scanliner and Mental Ray is a raytracer, so , obviously, renderman will be better in scanline tasks (shadow mpas, dof, motion blur,…) and render man is much better in raytracing tasks (relfections, refraction, GI,…)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In your review you seem to “forget” (no offense) very important things where MR is better than RfM:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;SubSurface Scattering: No comparison, MR is MUCH better than RfM here.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Reflections and Refractions: again, another MR strong point. RfM sucks for this.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;GI and IBL: … the same as above…&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a conclusion, none of them is better than the other, it just depends of what you want to do.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cheers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AlexK Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Well, no problem GuillermoZS, I don’t think you are rude at all. That’s why I have comments enabled, because I want to hear other peoples comments.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I do not entirely see it that way.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Both renderers are hybrid-renderers nowadays. Only Renderman was first developed as a Scanline and MentalRay as a Raytrace renderer. And I don’t think that means MentalRay automatically has to be better at Raytracing. In fact for simple Scanline setups MentalRay beats Renderman. It is in the complexity of scenes that Renderman really collects its points. (A complexity which I didn’t even start to touch in my tests.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am also not sure if you read the real review, where I also list a few things where MR is better then Renderman. I don’t think however that Subsurface scattering is one on them though.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SSS is way easier to set up with RfM. I have yet to convince the Maya implementation of MentalRay to succeed in writing the MentalRay-Textures used for SSS. A process I don’t even have to think about in RfM.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I mentioned several times in this and the old blog post (and the cgTalk forum) that MentalRay is better at Reflections and Refractions. I don’t see where I forgot that. Try reading my posts again.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Well, GI and IBL…did you really read my test and the conclusions??&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It seems to me you just skimmed the articles and saw that I favor Renderman. I clearly state that MR has its purpose and try not to dismiss it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Please correct me if I misunderstood you GuillermoZS.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;masterblasterofdisaster Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A difficulty most people new to mental ray encounter is dealing with the maddening number of tweakable render parameters.&lt;br&gt;
+For example, correct BSP settings alone can have a massive impact on the render time. In tuning the BSP, you’ll find that the optimal settings versus “inappropriate” settings can affect the render time by several orders of a magnitude (in pathological cases, render times of 30 minutes versus several hours can be observed). A further difficulty is that good BSP depth and width values aren’t always easy to intuit: you’ve often got to run tests and then decide what’s best. BSP values for motion blur will be different from non-motion blurred renders as well. If you run a test plotting render time against the axes “depth” and “width” on a 3D graph (use excel, for instance), you’ll find a bowl-like shape plotted out - the bottom of the bowl (ie lowest time) will indicate your optimal BSP settings.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I could go on… there are many more tricks to know in order to properly and meaningfully compare the two renderers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My 2 cents: renderman is stuck in the 90’s - raytracing is essentially bolted on top of the fundamentally raytrace-unfriendly REYES architecture (ever wonder why the prman trace() function took over a decade to actually become implemented? It’s been in the prman specification from the beginning, after all!) If you don’t need raytracing and global illumination, then use it and enjoy, as it does all the old-school stuff quite well - however, prepare to make some ugly hacks in large scale production requiring tracing or other global illumination effects. Mental Ray certainly has it’s shortcomings, complexity being one, but as such it’s incredibly flexible and will get the job done. AIR is probably a good compromise, especially if you want a RIB compliant renderer that’ll do all that stuff well.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AlexK Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hey, nice input masterblasterofdisaster. Thanks for taking the time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Actually I think the complexity and thousands of knobs in MentalRay for Maya are the one thing that slow me down most. I need to produce my stuff fast (sometimes within hours), so I absolutely cannot waste time tweaking away. A thing that seems to be necessary with MentalRay (why oh why are the defaults so inefficient?).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Of course Renderman itself offers many possibilities, too, but the Renderman for Maya implementation is way less crowded and “just works” (most of the time anyway).&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Renderman vs MentalRay Comparison</title>
+      <link>https://alexanderkucera.com/2006/06/16/renderman-vs-mentalray.html</link>
+      <pubDate>Fri, 16 Jun 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/06/16/renderman-vs-mentalray.html</guid>
+      <description>&lt;p&gt;Finally I found the time to do my little Renderman - MentalRay comparison. I used Maya 6.5 on a Mac OS X - which comes with MentalRay 3.4.1.5 and the Pixar Renderman for Maya plugin version 1.2 evaluation.&lt;/p&gt;
+&lt;p&gt;As test scenes, I used the tutorial scenes that come with the Renderman for Maya plugin. I am aware, that this might be a bit unfair to MentalRay, but my reasoning is that the features I tested should work in both renderers and the test scenes where not specifially pro Renderman anyway. I also tweaked the scenes to get the best out of Renderman &lt;strong&gt;and&lt;/strong&gt; MentalRay, so as to not penalize either one.&lt;/p&gt;
+&lt;p&gt;The tested features where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Displacement&lt;/li&gt;
+&lt;li&gt;Motion Blur&lt;/li&gt;
+&lt;li&gt;Instances (as a side effect of the Motion Blur test)&lt;/li&gt;
+&lt;li&gt;Depth of Field&lt;/li&gt;
+&lt;li&gt;Fur and soft shadows&lt;/li&gt;
+&lt;li&gt;Reflections&lt;/li&gt;
+&lt;li&gt;Global Illumination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a side by side comparison of rendered output and rendertimes please download the following PDF → (link: rmanvsmr_forWeb.pdf text: Renderman vs MentalRay comparison)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Update:
+MasterZap over at cgTalk pointed me to a few shortcomings in my tests.
+First he is of the opinion, that I should have used MentalRay’s “Rapid Motion Blur”. Every time I tested this feature, I either got artefacts or it was not significantly faster, so I just didn’t use it here.
+Second, he points out that MentalRay has something similar to Renderman’s DeepShadow Maps. I forgot about them completely. My bad.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;###Displacement&lt;/p&gt;
+&lt;p&gt;Both renderers can handle really fine displacement really well. However, Renderman wins this contest hands down, as it does displacements with virtually no extra overhead. The surfaces get subdivided into Micropolygons anyway, so the renderer already has the neccessary geometry for displacment. MentalRay however doesn’t handle the large masses of geometry as well and it is much more hassle to tweak it (one has 4 different knobs per object to fiddle around with in MentalRay).&lt;/p&gt;
+&lt;p&gt;###Motion Blur…&lt;/p&gt;
+&lt;p&gt;Now Motion Blur is MentalRays (and most of the other renderers out there) Achilles heel. They just don’t cut it. Slow, grainy, memory intensive. That is the common knowledge about 3D Motion Blur.&lt;/p&gt;
+&lt;p&gt;This is definitely not true for Renderman. Man this renderer flies through it with a quality that is amazing! And the really nice thing about it is, that depending on the scene, Renderman gets even faster with Motion Blur. That is due to the fact, that one is able to give Renderman a second quality parameter for Motion Blur. So you just lower the quality where you won’t see it anyway (meaning in the blurry areas).&lt;/p&gt;
+&lt;p&gt;MentalRay on the other hand…just sucks…big time. No wonder people have such an expression of panic in their eyes, whenever rendered Motion Blur is the topic. If I didn’t know it better, I would not touch 3D Motion Blur either.&lt;/p&gt;
+&lt;p&gt;###…and Instances
+Rendering the Motion Blur scene without blur, a severe bug in the Pixar plugin is revealed. It renders instances way slower then it should. That is a known bug and the big brother Pixar Renderman doesn’t suffer from this.&lt;/p&gt;
+&lt;p&gt;Nevertheless, at the current time MentalRay wins this category easily and superfast.&lt;/p&gt;
+&lt;p&gt;###Depth of Field&lt;/p&gt;
+&lt;p&gt;Both engines work nearly the same here. Nothing special to report. Fast and nice.&lt;/p&gt;
+&lt;p&gt;###Fur and soft shadows&lt;/p&gt;
+&lt;p&gt;Well, this one I would say is a matter of personal taste. Renderman renders the fur best with DeepShadowMaps, which is like a shadow map, but with more bells and whistles. MentalRay doesn’t have DeepShadows and has to use Raytracing. That means, MentalRay shadows are always sharp and if you want them soft, you need more samples (=rendertime). The situation is the other way round with Renderman and DeepShadows. The default shadows look a bit blurry, but render fast and to increase the sharpness you have to increase the ShadowMap size and therefor increase rendertime.&lt;/p&gt;
+&lt;p&gt;I’d say it’s a draw. If you like sharp shadows, go with MentalRay fur. If you like softer shadows (and I do, as real world shadows are never really sharp) go with Renderman.&lt;/p&gt;
+&lt;p&gt;###Reflections&lt;/p&gt;
+&lt;p&gt;Now we are entering the domain of MentalRay. It was built from the start as a Raytracing engine. And we can see that instantly in the rendertimes. Renderman however lived happily without Raytracing for ten years (or more) and has just recently (with version 11 I think) got the ability to trace rays.&lt;/p&gt;
+&lt;p&gt;###Global Illumination&lt;/p&gt;
+&lt;p&gt;Same here. MentalRay wins hands down. It feels right at home with tracing stuff.&lt;/p&gt;
+&lt;p&gt;###…but…&lt;/p&gt;
+&lt;p&gt;Remember the Motion Blur advantage? Well, it is even more evident with Raytracing. MentalRay may rule with Raytracing, but it is unbelieveably slow with Motion Blur. And it gets rediculous with Raytracing/Global Illumination and Motion Blur at the same time.&lt;/p&gt;
+&lt;p&gt;Renderman however, still slow, gets a big speed boost from lowering the quality in the blurred regions. Again fantastic!&lt;/p&gt;
+&lt;p&gt;###Fazit&lt;/p&gt;
+&lt;p&gt;So as a conclusion I would say, that both renderers have their areas where they shine and it would be a wise thing to know when to use which. All sympathies aside picking the best tool for the job. And if you do not need Motion Blur (or very subtle one that can be faked in post) go MentalRay, but for most other cases I would go Renderman any time.&lt;/p&gt;
+&lt;p&gt;For a side by side comparison of rendered output and rendertimes please download the following PDF → &lt;!-- raw HTML omitted --&gt;Renderman vs MentalRay comparison&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Is CG Dull and Boring? Yes! …And NO!</title>
+      <link>https://alexanderkucera.com/2006/06/11/is-cg-dull.html</link>
+      <pubDate>Sun, 11 Jun 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/06/11/is-cg-dull.html</guid>
+      <description>&lt;p&gt;Is CG dull and boring. I asked this question in my last post. Well, since then I have seen a recent production called [“Elephants Dream“] &lt;a href=&#34;http://www.elephantsdream.org/&#34;&gt;1&lt;/a&gt;, it is the first big project released, completely done with open source software, in particular [Blender] &lt;a href=&#34;http://www.blender.org/cms/Home.2.0.html&#34;&gt;2&lt;/a&gt;, the open source 3D suite. It shows that Blender is able to produce nice stuff, but it also validates my thoughts concerning dull CG.&lt;/p&gt;
+&lt;p&gt;First, I didn’t get the story. That might not be my fault, but I was never a fan of these artistic movies. Have something to say? Better make sure people understand, what you are saying. Have nothing to say? Then shut up! But that is just me.&lt;/p&gt;
+&lt;p&gt;Second, the movie is everything I talked about last time. It tries to look realistic, but fails in doing so. And because it fails, all it’s flaws become all the more obvious. Sad but true. I was distracted by the stiffness of the characters all the time. And I mean not only in motion, but also in the looks. The makers tried to be so true to nature, that everything feels like true…plastic.&lt;/p&gt;
+&lt;p&gt;###So, is CG doomed to become more boring every day?&lt;/p&gt;
+&lt;p&gt;Luckily not. While I was very disappointed by the Blender movie, I also found some marvelous examples of animation from some French students (thanks to Peter Soderbaum from Passive/Agressive). These movies saved my day and more. They gave me hope again, that somewhere out there are still creative heads, that try do lift their work out of the ordinary. Go and take a look at [Burning Safari] &lt;a href=&#34;http://www.gobelins.fr/galerie/animation/gen2006-1.htm&#34;&gt;3&lt;/a&gt;, a great funny short film. It has a great story, superb timing and a really nice look, that fits perfectly for the setting.&lt;/p&gt;
+&lt;p&gt;And while you are there, you should not miss [the other movies of this years students of Gobelins l’ecole de l’image] &lt;a href=&#34;http://www.gobelins.fr/galerie/animation/annecy2006.htm&#34;&gt;4&lt;/a&gt;. I personally liked the Pirates movie best - even though it is not (plain) CG. But I just love the ending. Check it out -&amp;gt; [Pyrats] &lt;a href=&#34;http://www.gobelins.fr/galerie/animation/gen2006-3.htm&#34;&gt;5&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Music Video “From London to Berlin” Gets a Review</title>
+      <link>https://alexanderkucera.com/2006/06/11/music-video-from.html</link>
+      <pubDate>Sun, 11 Jun 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/06/11/music-video-from.html</guid>
+      <description>&lt;p&gt;The [Doncaster Road End] &lt;a href=&#34;http://doncaster-road-end.com/&#34;&gt;1&lt;/a&gt; blog has posted about the Infernal video we re-did for the world cup (you can read about it in one of my older posts). In [their post] &lt;a href=&#34;http://doncaster-road-end.com/?p=134&#34;&gt;2&lt;/a&gt; they review several songs that were… er… well… mutilated to make a quick buck of the world cup. “From London to Berlin” actually made a reasonable standing. Thanks guys!&lt;/p&gt;
+&lt;p&gt;I am aware that this was no high quality piece, but believe me, it was at least a challenge from the technical side. And I actually think it works better then the original version. In this new one the story tells better and clearer.&lt;/p&gt;
+&lt;p&gt;Anyway, thanks for the review.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project Round-Up</title>
+      <link>https://alexanderkucera.com/2006/05/17/project-roundup.html</link>
+      <pubDate>Wed, 17 May 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/05/17/project-roundup.html</guid>
+      <description>&lt;p&gt;I thought it is time to show a little of the work we have done so far. All videos should play fine in Quicktime player version 7, but might also run in earlier versions, I didn’t test that.&lt;/p&gt;
+&lt;p&gt;The first project or a thing that is still in development, but is already used in production, Monika and I are developing a template for magazine commercials. This short clip shows a render test I did, which was also used to show off to potential customers.&lt;/p&gt;
+&lt;p&gt;→ &lt;!-- raw HTML omitted --&gt;Car Magazine Test&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;The next two clips are show two projects we did both last week. The first shows a 3D CD-Cover for the Soccer Worldcup’s theme song Bob Sinclair’s “Love Generation”.&lt;/p&gt;
+&lt;p&gt;→ &lt;!-- raw HTML omitted --&gt;Bob Sinclair CD Commercial&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;The second is a remake of the Infernal video “From Paris to Berlin”, which we remade for the Worldcup into “From London to Berlin” with a cartoon caricature of Wayne Rooney of the English top players.&lt;br&gt;
+This was a real challenge, because we had to re-create the whole thing without the source materials. We only had the final product in uncompressed quality and a few Maya scene files. Quite a challenge for a one week project. What do you think about it Udo (if you ever see this)?&lt;/p&gt;
+&lt;p&gt;→ &lt;!-- raw HTML omitted --&gt;Music Video “From London to Berlin”&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;→ [Original Version “From Paris to Berlin”] &lt;a href=&#34;http://f-film.com/media/Infernal_FPTB.mov&#34;&gt;1&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3D Rendering Choices</title>
+      <link>https://alexanderkucera.com/2006/04/20/d-rendering-choices.html</link>
+      <pubDate>Thu, 20 Apr 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/04/20/d-rendering-choices.html</guid>
+      <description>&lt;p&gt;There are a lot of nice rendering choices out there. The range goes from free - like Aqsis, Blender or Yafray - to bundled renderers that come with the 3D package of choice - Maya software renderer or Lightwave come to mind - to seperate high-end renderers - like MentalRay (although that comes bundled with a lot of big players nowadays) or Renderman. Which one to choose? And which one is actually affordable? That is indeed a tough question. The guys at ZAON studios have [a nice overview of what makes a renderer good] &lt;a href=&#34;http://www.zaon.com/company/articles/3d_rendering.php&#34;&gt;1&lt;/a&gt;. It is all about what the renderer is supposed to be used for. Nothing more nothing less.&lt;/p&gt;
+&lt;p&gt;In the case of Fridthjof Film, we need a renderer that is able to be as fast as possible, while doing a great job with fine detail. Flickering is one of the major issues we deal with. As we are working with Maya, MentalRay seems to be the logical choice, but it is damn slow when it comes to make fine details really smooth. MentalRay doesn’t allow to adjust the pixel sampling independent from the sampling of shaders, which makes us increase overall render time when we only needed to increase the render time of one parameter - and that in the long run increases the render times into unacceptable regions. Sad but true.&lt;/p&gt;
+&lt;p&gt;Now Renderman seems to do the trick, which I already new from the start (being pro-Renderman for quite some time now). The crux with that is, that there is not really a good bridge to Renderman for small companies that cannot afford to program their own. Sure there are free Renderman renderers, but what good are they if I only have an interface only I can use (as the other 3D guys are not as technically oriented). Even [3DeLight] &lt;a href=&#34;http://www.3delight.com/&#34;&gt;2&lt;/a&gt; which has a [nice interface recently] &lt;a href=&#34;http://forums.cgsociety.org/showpost.php?p=3259835&amp;amp;postcount=1&#34;&gt;3&lt;/a&gt; is not up to par in integration with Pixars newest coup - [Pixar’s Renderman for Maya] &lt;a href=&#34;https://renderman.pixar.com/products/tools/rfm_webinfopage.html&#34;&gt;4&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Renderman for Maya seems like the ideal option for a small studio like F-Film, where we are three guys right now — and only one (me) with previous Renderman experience. It might miss some nice features like RIB im- and export, but that is something I could live with, because the prime feature is usability by non-technical 3D artists.&lt;/p&gt;
+&lt;p&gt;But then again, a license for Pixars Maya plugin is not exactly cheap with $995,- per license. A major block on the road to bring this baby to the company - at least as far as my boss is concerned. I need to set up a test case (at least one) to show him the advantages and show him that they outweigh by far the disadvantages. Well, I guess there I have my next step.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Directory Structures and Workflow - Part 01</title>
+      <link>https://alexanderkucera.com/2006/04/12/directory-structures-and.html</link>
+      <pubDate>Wed, 12 Apr 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/04/12/directory-structures-and.html</guid>
+      <description>&lt;p&gt;Last week we spoke about naming conventions, which got inspired by a topic covered on [Lifehacker] &lt;a href=&#34;http://www.lifehacker.com/software/file-management/ask-the-readers-filing-naming-conventions-210104.php&#34;&gt;1&lt;/a&gt; and [43 Folders] &lt;a href=&#34;http://www.43folders.com/2006/10/23/file-naming/&#34;&gt;2&lt;/a&gt;. A great start to a more streamlined workflow. But what good is a great filename, when you are unable to find your files in the chaotic folder structure you might have?&lt;/p&gt;
+&lt;p&gt;For exactly this reason we will talk about how to get an optimized folder structure for multi-media projects. I will obviously have a bias to look at it from a compositors/3D guys/VFX supervisors view, but I am also able to accommodate you editors and other departments.&lt;/p&gt;
+&lt;p&gt;What we will end up with is an understanding of what is important in a file and folder structure, so you are able to easily adjust the two templates, that we will discuss, to your needs.&lt;/p&gt;
+&lt;p&gt;###Template No.1 - General purpose environment&lt;/p&gt;
+&lt;p&gt;This template is geared to a more editing heavy workflow as it seems to be the case in most small TV commercial shops. It also has its room for 3D and compositing, but those are mere means to pimp the editing.&lt;/p&gt;
+&lt;p&gt;As the main structure we divide into:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;scene files&lt;/li&gt;
+&lt;li&gt;materials&lt;/li&gt;
+&lt;li&gt;sound&lt;/li&gt;
+&lt;li&gt;output&lt;/li&gt;
+&lt;li&gt;provals&lt;/li&gt;
+&lt;li&gt;scratch&lt;/li&gt;
+&lt;li&gt;temp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;####Scene files&lt;/p&gt;
+&lt;p&gt;Obviously all the saved scenes from the involved programs — like FinalCut, Maya, shake or AfterEffects — go in here into their own subfolder. Now these may vary depending on your tools, but at them moment our scene files substructure looks like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FinalCut&lt;/li&gt;
+&lt;li&gt;DVD&lt;/li&gt;
+&lt;li&gt;Maya&lt;/li&gt;
+&lt;li&gt;Shake&lt;/li&gt;
+&lt;li&gt;Combustion&lt;/li&gt;
+&lt;li&gt;Compressor&lt;/li&gt;
+&lt;li&gt;Other&lt;/li&gt;
+&lt;li&gt;Temp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As you notice there is a temp folder just like in the main structure. These are supposed to be the brainstorm areas of the folder structure. Everything that goes in here is just dabbling and will not be backed up and the Temp folders will be deleted at the end of the project.&lt;/p&gt;
+&lt;p&gt;Now depending on the tool you might want or need to go deeper with your folders. For example, Maya has its own project structure. You could use the default one in the above Maya directory or you could adjust it, so it takes advantage of the folder template we are just creating — which would be a wise choice, because you don’t want to have several folders with the same meaning hanging around.&lt;/p&gt;
+&lt;p&gt;####Materials&lt;/p&gt;
+&lt;p&gt;Materials is everything coming in from the outside world. Graphics from the client, video clips, sound bytes, word documents and storyboards. All that goes in here.&lt;/p&gt;
+&lt;p&gt;Again depending on your individual needs you may subdivide further into:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Graphics&lt;/li&gt;
+&lt;li&gt;Documents&lt;/li&gt;
+&lt;li&gt;Fonts&lt;/li&gt;
+&lt;li&gt;Subtitles&lt;/li&gt;
+&lt;li&gt;Video&lt;/li&gt;
+&lt;li&gt;Temp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Should be pretty clear what to use when, right?&lt;/p&gt;
+&lt;p&gt;####Sound&lt;/p&gt;
+&lt;p&gt;On most projects there will be sound involved. Music, sound effects, maybe speak. All that goes in here. Again within its own folder, like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Final Mix&lt;/li&gt;
+&lt;li&gt;Speak&lt;/li&gt;
+&lt;li&gt;Music&lt;/li&gt;
+&lt;li&gt;Sound Effects&lt;/li&gt;
+&lt;li&gt;DVD soundfiles&lt;/li&gt;
+&lt;li&gt;Temp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;####Output&lt;/p&gt;
+&lt;p&gt;Now this is our catchall folder for renderings. We render uncompressed material for archiving. We also render back and forth from editing to VFX. The DVD department needs to receive files, etc.&lt;/p&gt;
+&lt;p&gt;A folder structure like this looks reasonable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Uncompressed&lt;/li&gt;
+&lt;li&gt;-&amp;gt;VFX&lt;/li&gt;
+&lt;li&gt;&amp;lt;-VFX&lt;/li&gt;
+&lt;li&gt;DVD&lt;/li&gt;
+&lt;li&gt;Sound&lt;/li&gt;
+&lt;li&gt;Temp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first folder catches all the uncompressed output from editing. -&amp;gt;VFX is all the stuff that goes into the VFX department and needs 3D or compositing effects applied. The VFX department then renders back to editing (&amp;lt;-VFX) the finished effects.&lt;/p&gt;
+&lt;p&gt;What the VFX department does when it has to render intermediate files you ask? That is a very good question. There are two ways to handle this in my opinion.&lt;/p&gt;
+&lt;p&gt;The correct way would be to render all the layers and pre-comps into Output/-&amp;gt;VFX because it is something that goes again into the VFX land. I also tend to create a 3Drenders and a 2Drenders folder, so I can split up the sub-folders and files. Otherwise it might get a bit too crowded.&lt;/p&gt;
+&lt;p&gt;The lazy way would be to stay in the &amp;lt;-VFX folder. That has the advantage of staying in one folder all the time. Which means human error can be minimized. It happens all too easily that you accidentally render in the wrong VFX folder. And if you have to switch between the two folder (-&amp;gt;VFX and &amp;lt;-VFX) all the time, then it might happen quite easily.&lt;/p&gt;
+&lt;p&gt;DVD is obviously the folder where all the DVD files belong. All the m2v and m2a and vob’s and whatnot files only the DVD department can make use of.&lt;/p&gt;
+&lt;p&gt;-&amp;gt;Sound catches all the files that go to the sound editing as reference files.&lt;/p&gt;
+&lt;p&gt;And Temp is the same as in all the other locations.&lt;/p&gt;
+&lt;p&gt;####Approvals&lt;/p&gt;
+&lt;p&gt;This is just a simple folder where all the files the customer needs to approve are saved. Preview clips and such.&lt;/p&gt;
+&lt;p&gt;####Scratch&lt;/p&gt;
+&lt;p&gt;This folder is similar to temp, but has a special meaning for the FinalCup folks. It is the folder where FinalCut renders all the internal caching and pre-render files.&lt;/p&gt;
+&lt;p&gt;####Temp&lt;/p&gt;
+&lt;p&gt;I said enough about the meaning of the Temp directories in the other paragraphs I think. As the name implies, the Temp folders are there for dabbling and trying things out. It will not be backed up and it also will be deleted at the end of the project.&lt;/p&gt;
+&lt;p&gt;It is a sandbox, a playground to try things out.&lt;/p&gt;
+&lt;p&gt;####That’s all folks&lt;/p&gt;
+&lt;p&gt;That was a rundown on a basic production ready file and folder structure. Combine it with the naming convention I showed you and you have a nearly bullet proof system for all the basic needs of a production.&lt;/p&gt;
+&lt;p&gt;And of course don’t be shy to adjust this template to your needs. This system lives from its ability to blend into the working environment. The idea is to make handling files in a project easy and fast, while minimizing the potential sources of human error.&lt;/p&gt;
+&lt;p&gt;This is by no means the ultimate word on folder structures and if you have improvements to the above, I am all ears.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Is CG Dull and Boring? Are We?</title>
+      <link>https://alexanderkucera.com/2006/04/06/is-cg-dull.html</link>
+      <pubDate>Thu, 06 Apr 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/04/06/is-cg-dull.html</guid>
+      <description>&lt;p&gt;[Keith Lango] &lt;a href=&#34;http://keithlango.com/&#34;&gt;1&lt;/a&gt; has an interesting article on his blog concerning [CG pictures/movies and how they have become boring] &lt;a href=&#34;http://www.keithlango.com/wordpress/?p=143&#34;&gt;2&lt;/a&gt;. Keith is of the opinion that the CG look has kind of worn of. We no longer have the “wow” moments when watching a nice full CG movie. And I must say I know what he means.&lt;/p&gt;
+&lt;p&gt;Nowadays every guy in the backrow knows about 3D and VFX and that it isn’t a secret art. And that kind of pisses me off. I liked to do magic with pictures. I love the expression on the faces of people watching my (or any cool stuff for that matter) and be completely blown away by the uniqueness or pure beauty of effects. Maybe I am a nerd, but it was fun.&lt;/p&gt;
+&lt;p&gt;Today all we do is making stuff realistic. Yeah! Bring it on! Let’s do stuff like we see it every day without CG!&lt;/p&gt;
+&lt;p&gt;I have only one word for that: &lt;strong&gt;boring&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I really am fed up with someone coming to me saying: “Hey can you do a magazine or CD or whatever object floating in an undefined space doing normal stuff (like opening and closing)? …oh and by the way, can you make it as realistic as possible?”&lt;/p&gt;
+&lt;p&gt;It is kind of frustrating to work within bounds of one world, when all the candy is in the other world - the CG world - where we can do stuff that is unrealistic and exaggerated.&lt;/p&gt;
+&lt;p&gt;Or is it just me and Keith?&lt;/p&gt;
+&lt;p&gt;###Following are the comments from the old blog&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;stickman Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Well, count me in. NPR has long been neglected, with endless raytracing programs on the market yet hardly any true NPR renderers. Hard to believe, for two reasons:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Look. A stylistically relevant yet unique look draws an audience. Madagascar shows the potential. So do most all the coffee-table art books of “boring3D” films where the artistic development looks SO much better than the final version.&lt;/li&gt;
+&lt;li&gt;Efficiency. The last 10% of finalizing a Pixar-look film can comprise 90% of the effort - just think of hair groomers, particle specialists, geometry doctors. NPR looks are much more forgiving in this last phase and can allow for quicker finaling without compromising the visual impact.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In short: we need releases of software like “JOT”. For indy film-makers, students and even the big studios.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AlexK Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hi David,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I have never heard of JOT. Can you give me a link for it, please? Sounds interesting.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;stickman Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;jot: &lt;a href=&#34;http://jot.cs.princeton.edu/&#34;&gt;jot.cs.princeton.edu&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;also check here for someone doing some recent research. Its just not fair that this ype of software isn’t ready for production use…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rendering.de/forum/viewtopic.php?t=3195&amp;amp;start=15&#34;&gt;www.rendering.de/forum/vie&amp;hellip;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;and another link:
+&lt;a href=&#34;http://visgraph.cs.ust.hk/MoXi/&#34;&gt;visgraph.cs.ust.hk/MoXi/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AlexK Says:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wow, JOT seems really awesome. Thanks for the link David.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feeling Like a Child at Play - Do You Know That Feeling?</title>
+      <link>https://alexanderkucera.com/2006/03/11/feeling-like-a.html</link>
+      <pubDate>Sat, 11 Mar 2006 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2006/03/11/feeling-like-a.html</guid>
+      <description>&lt;p&gt;I was on set last week and I felt like back in school again. People preparing lamps and set pieces, just like preparing for a school dance.&lt;/p&gt;
+&lt;p&gt;I have this feeling more often lately when talking to my colleagues. A feeling like a teenager at play. Like me and my buddy writing a script and discussing how we solve this issue and approach that scene. A feeling of adventure, of doing something like the big guys.&lt;/p&gt;
+&lt;p&gt;It is like I have no idea what I am doing, but so do all the others. The only difference between now and then being, that it is our daily job and we get paid for it. Is that good or bad?&lt;/p&gt;
+&lt;p&gt;We get to play our favorite game, sure, but on the other hand we call ourselves professionals and charge money for playing around, pretending to have a clue.&lt;/p&gt;
+&lt;p&gt;Do you know that feeling?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
