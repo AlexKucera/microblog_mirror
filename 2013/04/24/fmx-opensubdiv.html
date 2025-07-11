@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - FMX 2013 - OpenSubdiv
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">FMX 2013 - OpenSubdiv</h1>
+	
+    <div><time class="dt-published" datetime="2013-04-24T22:58:05&#43;02:00">Apr 24, 2013</time></div>
+
+	<div class="e-content">
+		<p>We startend the session with a quick history of subdivision surfaces. Invented by Pixar and first used in the short <a href="http://en.wikipedia.org/wiki/Geri%27s_Game">Gerry&rsquo;s Game</a> they made away with the constraints of both polygonal modeling as well as Nurbs modeling.</p>
+<h1 id="whats-wrong-with-nurbs">What&rsquo;s wrong with Nurbs?</h1>
+<p>Nurbs surfaces are based on control vertices or hull points through which a b-spline is calculated. This leads to smooth curvature and inherent UVs. Both are good. However, Nurbs modeling relies on adding a multitude of Nurbs patches together to form you final surface. He problem arises at those patch seems where it can, and often is, mathematically impossible to create a seamless surface, much less when the &ldquo;patchwork&rdquo; is animated.</p>
+<h1 id="so-polygons-then">So Polygons then?</h1>
+<p>Short answer: nope.</p>
+<p>Long answer: While polygons have no problem with arbitrarily complex surfaces or seem cracks, they have their own set of problems. First, they don&rsquo;t have inherent UVs and unwrapping a complex mesh for texturing is no small feat. Second, to get smooth surfaces you need a very high amount of polygons or play cheap tricks with normals, which tend to quickly fall apart under scrutiny.</p>
+<h1 id="subdivs">Subdivs</h1>
+<p>First, the world in general and Pixar in specific only calls then Subdivs. Not subdivision surfaces.</p>
+<p>Also, they are the answer to all the problems above. Arbitrarily complex, while always maintaining a definably smooth, crack free surface. Also, with the addition of PTex there is no need for UV unwrapping anymore.</p>
+<p>In addition, Subdivs support localized levels of subdivision. What that means is that the whole pipeline can work with the coarse base mesh. The modeler can then go into specific sections that need more definition, locally subdivide that area and make modeling changes there. Those will be saved and applied at render time. Bill showed an example of that at work. In Brave, which was originally supposed to play in winter, they had Merida&rsquo;s horse run through a snowy plane. The plane itself had a resolution of about a vertex per square meter. Enough resolution to model snow drifts. However, for the horse&rsquo;s path they locally increased the planes resolution to one square centimeter at render time to capture the fine detail of hooves disturbing the snowy surface.</p>
+<h1 id="at-rendertime">At rendertime</h1>
+<p>The term &ldquo;at rendertime&rdquo; is misleading, because Pixar is now using a GPU implementation of the subdiv algorithm. The implications of that are far reaching.</p>
+<p>At the simplest level &ldquo;at rendertime&rdquo; in the paragraph before means, the animator gets a live preview of those several hundred thousand faces in real time in the viewport (Maya&rsquo;s Viewport 2.0 in this case, which has OpenSubdiv support built in already). Let me restate that, we saw a demo of a &ldquo;low poly&rdquo; mesh with about 3000 faces animated with bones that had the OpenSubdiv algorithm applied. What we saw on screen were about 3.8 million faces animated in real time. And since Subdivs have the added benefit of getting displacement at hardly any additional cost, those 4 million polygons were displaced as well. Very intriguing stuff.</p>
+<p>This is not only interesting for VFX though. Since this realities GPU implementation also means games that adopt this will get much more visually complex. And in fact, while Bill could not mention any names, he went out of his way to let us know that <em>major mobile company that produces very popular devices we all own and with the power to dictate the chip manufacturers what to put into their chips</em> will implement hardware OpenSubdiv support within the year. Or as Bill put it, <em>you will likely have devices with hardware support built in the next time you see me</em>.</p>
+<h1 id="good-for-pixar-how-do-i-get-it">Good for Pixar. How do I get it?</h1>
+<p>That&rsquo;s the nice part. You likely already have the technology available to you. For one OpenSubdiv is open source and all the licensing for the technology is available for free as well. Also, if you use Maya, you have access to all this already. Maya uses the exact same algorithm Pixar uses since Maya 5.0 and now also has the GPU implementation through Viewport 2.0.</p>
+<p>So no excuses, get cranking!</p>
+<hr>
+<p>Subtitle: Talk by Bill Polson, Director of Industry Strategy, Pixar</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
