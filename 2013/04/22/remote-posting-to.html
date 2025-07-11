@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Remote posting to Kirby via iOS now working
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Remote posting to Kirby via iOS now working</h1>
+	
+    <div><time class="dt-published" datetime="2013-04-22T22:32:04&#43;02:00">Apr 22, 2013</time></div>
+
+	<div class="e-content">
+		<p>Next week is <a href="http://www.fmx.de">FMX</a>, a great yearly convention about visual effects, games and virtual reality. I&rsquo;m there every year reporting for Professional Production Magazine and I thought this year I could up my game and write little short blurbs on this blog about the sessions I attend. I asked around and there was some interest from people that could not make it this year or which are interested in the topic.</p>
+<p>So far so good. There was only one problem. I switched to using <a href="http://getkirby.com">Kirby</a> as the back end system of all my websites including this blog. Kirby is a great lightweight system for web publishing. Only, because it is still so young, it doesn&rsquo;t have a mobile client that allows you to create posts or pages easily. True, it comes with an admin panel, but that doesn&rsquo;t work offline and it also doesn&rsquo;t work on my iPhone. So I was looking for something that better suited my needs. And I had a first version working.—</p>
+<h2 id="drafts-dropbox-hazel-rsync-easy-really">Drafts, Dropbox, Hazel, Rsync. Easy, really.</h2>
+<p>Since I only had a few hours here and there, it is still really rough and not as elegant as I&rsquo;d like, but it works. I am now able to use <a href="http://agiletortoise.com/drafts">Drafts</a> to compose my posts on either my iPad or my iPhone, or start on one and finish on the other, since notes are always kept in sync, send the post to <em>Dropbox</em> via Draft&rsquo;s custom Dropbox actions where it is picked up by <a href="http://www.noodlesoft.com/hazel.php">Hazel</a>, renamed to fit my Kirby naming convention, put into the right folder and then uploaded via <a href="http://rsync.samba.org/">Rsync</a>.</p>
+<h2 id="pictures-work-too">Pictures work, too</h2>
+<p>So much for plain text posts. But pictures work, too. Though they are still very much a pain. iOS' default camera app records the orientation of the device as EXIF data, so portrait orientation pictures are not actually rotated, but the EXIF Orientation is set to 90° or -90°. Which is all nice and fine, except Safari, and a few other browsers, disregard the EXIF orientation, so images appear in landscape on my site after I upload them. That sucks. The only way around that is to either do <em>anything</em> to the image in Camera+ or another photo editor and save the result, which bakes the rotation into the image. Or to write a function in Hazel that bakes the orientation into the image after I upload it to Dropbox. I&rsquo;m probably going to go with the latter, since I&rsquo;m trying to save battery life and using Camera+ a lot sucks down battery life quite a bit.</p>
+<p>But I&rsquo;m getting ahead of myself. To get my images up to Dropbox I use a great little app called <a href="http://homegrownsw.com/camerasync/">CameraSync</a>, which has Geofencing support, meaning I don&rsquo;t have to do anything to upload the picture to a folder of my choosing on Dropbox. Also, and this is the killer feature, it resizes them before the upload, saving me time and bandwidth.</p>
+<p>The biggest pain from here is that I still need to manually move the images into my blog posts folder and rename them from <em>somename–timestamp.jpg</em> to the naming I use for images in my blog. I have not found a smarter way to do it yet then to do it manually. As I said, the whole process is still rough around the edges.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>

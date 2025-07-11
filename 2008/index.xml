@@ -1,0 +1,86 @@
+<rss version="2.0">
+  <channel>
+    <title>2008s on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/2008/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Sat, 17 May 2008 16:10:06 +0200</lastBuildDate>
+    
+    <item>
+      <title>VFX Coordination for Pixomondo</title>
+      <link>https://alexanderkucera.com/2008/05/17/vfx-coordination-for.html</link>
+      <pubDate>Sat, 17 May 2008 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2008/05/17/vfx-coordination-for.html</guid>
+      <description>&lt;p&gt;I have been hired at [Pixomondo Images] &lt;a href=&#34;http://www.pixomondo.com/&#34;&gt;1&lt;/a&gt; in Ludwigsburg to work as VFX Coordinator for some of their recent projects. This is an exciting opportunity.  The company size is considerably bigger then most companies I have worked so far and I have to handle several smaller projects instead of one or two big projects. That is a new challenge and I am looking forward to master it in the coming weeks.&lt;/p&gt;
+&lt;p&gt;Being a part of Pixomondo makes me proud, as this is a very professional, yet cool company to work for. I have a chance to stay with them for a longer time if I am not messing up the first 1,5 test months. Wish me luck.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prisoners of the Sun put on hold</title>
+      <link>https://alexanderkucera.com/2008/05/01/prisoners-of-the.html</link>
+      <pubDate>Thu, 01 May 2008 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2008/05/01/prisoners-of-the.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;It is official now. The production of &amp;ldquo;Prisoners of the Sun&amp;rdquo; has been put on hold. All employees and freelancers have been laid of as of 30th April 2008.&lt;/p&gt;
+&lt;p&gt;According to rumors, it seems the legal situation of the movie was not researched thoroughly before going into post production.&lt;/p&gt;
+&lt;p&gt;It is a pity, because we were at a stage, where all the pipelines were set up and we just started our first two full CG shots. We were actually starting to have some good old VFX fun. But not anymore. Now we have 20 people hunting for jobs again.&lt;/p&gt;
+&lt;p&gt;It really makes me sad to give up a great little company. We had a killer team. Thanks to all of you for being so great.&lt;/p&gt;
+&lt;p&gt;P.S.: If anyone has an open position for a compositor or VFX producer let me know.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Securing Your Laptop at Work</title>
+      <link>https://alexanderkucera.com/2008/03/08/securing-your-laptop.html</link>
+      <pubDate>Sat, 08 Mar 2008 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2008/03/08/securing-your-laptop.html</guid>
+      <description>&lt;p&gt;I wanted to share this litte trick with you for quite a while now, but of course I have been busy and other things came in the way. They always do.&lt;/p&gt;
+&lt;p&gt;I work with my MacBook Pro at home and at the office. That is of course nice, because it is my only base of operations and I have everything in one place.&lt;/p&gt;
+&lt;p&gt;But do you know the feeling that you are working with your laptop at work and don’t want anyone to snoop around on it, because it also is your private laptop and has all kinds of personal stuff on it? I know I do.&lt;/p&gt;
+&lt;p&gt;Luckily there is an easy fix for that. Enable the setting that pops up a password request after your machine wakes from sleep or when it disables the screen saver. But now you always have to enter the password at home, too. Kind of annoying.&lt;/p&gt;
+&lt;p&gt;There is an easy fix for that as well. The key is location aware software like [MarcoPolo] &lt;a href=&#34;http://www.symonds.id.au/marcopolo/&#34;&gt;1&lt;/a&gt;. MarcoPolo allows you to trigger certain actions depending on where it knows you are at the moment. Pretty cool stuff. That means it allows you to enable or disable the screen saver password at home or at work. Neat isn’t it?&lt;/p&gt;
+&lt;p&gt;I made a little [screencast] [2] walking you through the steps. All you need is MarcoPolo which you can get for free from the [developers website] &lt;a href=&#34;http://www.symonds.id.au/marcopolo/&#34;&gt;1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you don’t want to use MarcoPolo you can also use AppleScript to do the same thing with whatever software you prefer. In fact I used the scripts with MarcoPolo, because I overlooked the very convenient built-in action that already does that.&lt;/p&gt;
+&lt;p&gt;The AppleScripts are as follows:&lt;/p&gt;
+&lt;p&gt;####Enable Screen Saver Password&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;tell application &amp;quot;System Events&amp;quot;
+	tell security preferences
+		get properties
+		set properties to {require password to wake:true}
+	end tell
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;####Disable Screen Saver Password&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;tell application &amp;quot;System Events&amp;quot;
+	tell security preferences
+		get properties
+		set properties to {require password to wake:false}
+	end tell
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Have a look at the screencast for more in-depth info.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;screencast&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;I hope you enjoyed this little hint. Check back for more in the future.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blog Posts Transferred</title>
+      <link>https://alexanderkucera.com/2008/01/08/blog-posts-transferred.html</link>
+      <pubDate>Tue, 08 Jan 2008 16:10:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2008/01/08/blog-posts-transferred.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I finally found the time to transfer all posts from the old BabylonDreams blog over to their new home at this address. I only transferred posts I attached a certain value to, so not everything is mirrored 100%.&lt;/p&gt;
+&lt;p&gt;If you miss a post or something is broken, please send me a message via the contact form. Thank you and enjoy diving into all the new/old content.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
