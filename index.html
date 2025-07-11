@@ -24,6 +24,111 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://alexanderkucera.com/2025/07/11/links-gets-a-complete-python.html">Links Gets a Complete Python Makeover 🐍</a></h1>
+		
+
+		<a href="https://alexanderkucera.com/2025/07/11/links-gets-a-complete-python.html" class="u-url"><time class="dt-published" datetime="2025-07-11 14:52:36 &#43;0200">Jul 11, 2025</time></a>
+
+		<div class="e-content">
+			 <p><em>Major refactor brings JavaScript support and eliminates licensing fees.</em></p>
+<p>Remember when I told you about Links <a href="https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html">saving your stuff</a> from the digital void? Well, it just got a complete technical overhaul.</p>
+<p>The big news: Links now runs on a custom FastAPI Python implementation, ditching Kirby CMS entirely. Plus, it finally handles JavaScript-heavy sites that were previously impossible to archive.</p>
+<h2 id="from-php-to-python">From PHP to Python</h2>
+<p>The original Links was built on Kirby CMS. Great system, but it came with compromises. Licensed software means ongoing costs. PHP means working within CMS constraints. File-based content management that wasn&rsquo;t quite right for archival workflows.</p>
+<p>So I rebuilt it from scratch in Python.</p>
+<p>FastAPI replaced the entire web framework. Clean, fast, and designed for APIs from the ground up. The archiving scripts were already in Python - now everything speaks the same language.</p>
+<h2 id="what-this-actually-means">What This Actually Means</h2>
+<p><strong>No more licensing fees.</strong> Kirby required a one-time payment. FastAPI is completely open-source. Your self-hosted Links installation is now truly free.</p>
+<p><strong>Slimmer codebase.</strong> Removed all the CMS bloat. No more fighting with file-based content management. No more PHP/Python context switching. Just focused Python code that does exactly what it needs to do.</p>
+<p><strong>JavaScript support.</strong> The new architecture made it much easier to integrate proper browser engines. Sites that load content dynamically now archive perfectly. Single-page apps, modern e-commerce, social platforms - they all work now.</p>
+<h2 id="the-technical-evolution">The Technical Evolution</h2>
+<p>Before this refactor, Links would hit a wall with:</p>
+<ul>
+<li>Single-page applications (SPAs)</li>
+<li>Modern e-commerce sites</li>
+<li>Social media platforms</li>
+<li>Complex dashboard interfaces</li>
+<li>Any site that builds content after page load</li>
+</ul>
+<p>Now it handles them all. The archiving process uses a proper browser engine, waits for JavaScript to execute, then captures everything. Content extraction gets the full picture. AI summaries actually have something meaningful to work with.</p>
+<h2 id="still-the-same-simple-experience">Still the Same Simple Experience</h2>
+<p>From your perspective, nothing changed. Share a link from iOS. Get the instant feedback. The background magic just got more powerful and more efficient.</p>
+<p>The system still creates multiple archive formats. AI summaries still work. Full-text search still finds everything. But now it finds everything from sites that were previously impossible to archive properly.</p>
+<h2 id="why-this-matters">Why This Matters</h2>
+<p>This isn&rsquo;t just a technical curiosity. It&rsquo;s about sustainability and control.</p>
+<p><strong>Cost control.</strong> No licensing fees means lower barrier to entry for self-hosting. Your digital preservation tool doesn&rsquo;t depend on someone else&rsquo;s business model.</p>
+<p><strong>Technical control.</strong> Custom FastAPI means the codebase does exactly what&rsquo;s needed. No more working around CMS limitations. No more PHP/Python impedance mismatch.</p>
+<p><strong>Future-proofing.</strong> Python ecosystem means better integration with AI tools, archiving libraries, and modern web technologies. When the next big thing comes along, Links can adapt.</p>
+<h2 id="production-ready">Production Ready</h2>
+<p>This complete rewrite rolled out to the live system at <a href="https://links.alexanderkucera.de/">links.alexanderkucera.de</a>. No downtime. No lost data. No new workflows to learn.</p>
+<p>Your JavaScript-heavy bookmarks are no longer second-class citizens. And your self-hosted installation just got a lot more sustainable.</p>
+<h2 id="the-open-source-future">The Open Source Future</h2>
+<p>With the Kirby dependency gone, Links is now completely open-source ready. No licensing complications. No vendor dependencies. Just Python code that preserves your digital discoveries.</p>
+<p>Digital preservation for the rest of us just got a lot more accessible.</p>
+<hr>
+<p><em>115 commits became a complete rewrite. Sometimes the best way forward is to rebuild from first principles.</em></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html">Links: The Bookmark Manager That Actually Saves Your Stuff</a></h1>
+		
+
+		<a href="https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html" class="u-url"><time class="dt-published" datetime="2025-07-07 12:34:15 &#43;0200">Jul 7, 2025</time></a>
+
+		<div class="e-content">
+			 <p>We&rsquo;ve all been there. You bookmark something important. Come back weeks later, link is dead. Content vanished, site changed, paywall appeared. The frustration of digital amnesia strikes again.</p>
+<p>I got tired of losing things I wanted to keep.</p>
+<h2 id="from-simple-idea-to-production-reality">From Simple Idea to Production Reality</h2>
+<p>Links started as a basic bookmark manager. Just me, trying to organize my web finds. 115 commits later, it&rsquo;s become a full archival system. The evolution from &ldquo;nice to have&rdquo; to &ldquo;can&rsquo;t live without&rdquo; surprised even me.</p>
+<p>What began as simple URL storage grew into something much more powerful. Each commit taught me something new about what people actually need. Not just bookmarks - real preservation.</p>
+<h2 id="the-mobile-revolution-">The Mobile Revolution 📱</h2>
+<p>The game-changer was iOS Shortcuts integration. Now I can share from anywhere, archive automatically. Subway reading? One tap saves it. Meeting discovery? Boom, archived. Social media find? Got it.</p>
+<p>The technical magic happens in two phases. You get instant feedback when you tap &ldquo;Share to Links.&rdquo; Meanwhile, the system spends 5-10 seconds downloading content. Background processing creates multiple archive formats. AI generates summaries. All while you move on with your day.</p>
+<p>No more &ldquo;I&rsquo;ll save this later&rdquo; mental notes. Just save it now, from wherever you are.</p>
+<h2 id="smart-archiving-made-simple">Smart Archiving Made Simple</h2>
+<p>Links doesn&rsquo;t just store URLs. It understands content. AI summaries using Claude (with OpenAI fallback) extract meaning from every page. Content extraction that actually works handles even tricky sites.</p>
+<p>Multiple formats ensure long-term access:</p>
+<ul>
+<li>PDF archives preserve visual layout</li>
+<li>Markdown conversion creates searchable text</li>
+<li>WARC files maintain complete page context</li>
+<li>Structured metadata enables programmatic access</li>
+</ul>
+<p>Full-text search works across all archived content. Find that thing you saved months ago in seconds.</p>
+<p>The system handles edge cases gracefully. Broken sites, missing metadata, failed AI calls - it all degrades nicely. You never lose your bookmark, even when things go wrong.</p>
+<h2 id="how-links-stands-apart">How Links Stands Apart</h2>
+<p>The bookmark manager landscape is crowded. But Links takes a different approach than the competition.</p>
+<p><strong>mymind.com</strong> uses AI for visual organization and discovery. Beautiful interface, smart tagging, visual search. But it&rsquo;s cloud-hosted, subscription-based, and focused on organization over preservation. When mymind&rsquo;s servers go down, your bookmarks go with them.</p>
+<p><strong>Dewey</strong> captures content at bookmark time. Great for preservation, but limited mobile integration. <strong>Raindrop.io</strong> offers visual bookmarking with cloud backup. <strong>LinkAce</strong> provides self-hosted monitoring with Internet Archive integration.</p>
+<p>Links combines the best ideas while avoiding common pitfalls:</p>
+<ul>
+<li><strong>File-based storage</strong> (no database headaches)</li>
+<li><strong>Self-hosted control</strong> (your data, your rules)</li>
+<li><strong>Actual content preservation</strong> (not just pretty organization)</li>
+<li><strong>Seamless mobile integration</strong> (because that&rsquo;s where we live now)</li>
+<li><strong>AI intelligence</strong> (without the subscription fees)</li>
+</ul>
+<p>While others focus on tags, categories, and visual discovery, Links focuses on one thing: making sure your stuff doesn&rsquo;t disappear.</p>
+<h2 id="the-long-term-vision">The Long-Term Vision</h2>
+<p>Digital preservation shouldn&rsquo;t be complicated. Regular people need tools that work without constant maintenance. Links embraces this philosophy.</p>
+<p>In an era where websites vanish overnight, Links provides a personal solution. No tags, no categories, no complex workflows. Just chronological organization that makes sense. And yet, everything is still just one full-text search away.</p>
+<p>Your data lives in human-readable files. No vendor lock-in, no proprietary formats. If you want to move elsewhere, everything exports cleanly.</p>
+<p>This is digital preservation for the rest of us.</p>
+<h2 id="ready-to-use-today">Ready to Use Today</h2>
+<p>Links is production-ready right now. All core features work reliably. The mobile integration is smooth. The AI summaries are helpful. The search actually finds things.</p>
+<p>After 115 commits of refinement, it&rsquo;s almost ready for prime time. I still need to bundle it up for distribution.</p>
+<p>Until then, you can try Links at <a href="https://links.alexanderkucera.de">links.alexanderkucera.de</a>.</p>
+<hr>
+<p><em>Links is open source and self-hostable. Built with Kirby CMS, Python archiving scripts, and a healthy dose of frustration with disappearing content.</em></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 
 		<a href="https://alexanderkucera.com/2025/07/05/post-by-manton-this-will.html" class="u-url"><time class="dt-published" datetime="2025-07-05 18:13:29 &#43;0200">Jul 5, 2025</time></a>
 
@@ -6816,7 +6921,7 @@ There are only so many things we can give a f</em>ck about, so we need to figure
 		<a href="https://alexanderkucera.com/2016/04/24/bored-beyond-belief.html" class="u-url"><time class="dt-published" datetime="2016-04-24 19:36:02 &#43;0200">Apr 24, 2016</time></a>
 
 		<div class="e-content">
-			 <p>￼<img src="https://eu.uploads.micro.blog/239/2023/729f0509-a488-4390-9ceb-9bd21e9f13db.jpg" alt="" title="Bored Beyond Belief"></p>
+			 <p>￼<img src="https://alexanderkucera.com/uploads/2023/729f0509-a488-4390-9ceb-9bd21e9f13db.jpg" alt="" title="Bored Beyond Belief"></p>
 <p>L.A. Story</p>
 
 		</div>
@@ -7083,7 +7188,7 @@ The next step in Hyperion development is actually to improve the workflow for th
 			 <p>I’m usually very reserved with being the typical proud obnoxious dad. Mostly, because I find that extremely annoying in other people as well.</p>
 <p>That being said, I just had to share this image my son Robin just created in Pixelmator. I helped where he didn’t know which keys to press, but the rest is all him.</p>
 <p>I don’t know about you, but I like it. Then again, that’s what parents are supposed to feel, right? :)</p>
-<p><img src="https://eu.uploads.micro.blog/239/2023/457b236b-1374-418a-8f6f-01fd6d5fbe06.jpg" alt="Robin’s First Pixelmator Art"></p>
+<p><img src="https://alexanderkucera.com/uploads/2023/457b236b-1374-418a-8f6f-01fd6d5fbe06.jpg" alt="Robin’s First Pixelmator Art"></p>
 
 		</div>
 	  </div>
@@ -7112,7 +7217,7 @@ The next step in Hyperion development is actually to improve the workflow for th
 		<a href="https://alexanderkucera.com/2015/04/20/not-cg.html" class="u-url"><time class="dt-published" datetime="2015-04-20 11:49:00 &#43;0200">Apr 20, 2015</time></a>
 
 		<div class="e-content">
-			 <p><img src="https://eu.uploads.micro.blog/239/2023/20150420092203-star-wars-the-force-awakens-bb-8-rolling-thumbnail.gif" alt="Star Wars BB8"></p>
+			 <p><img src="https://alexanderkucera.com/uploads/2023/20150420092203-star-wars-the-force-awakens-bb-8-rolling-thumbnail.gif" alt="Star Wars BB8"></p>
 <p>Who would have guessed? Then again, I&rsquo;m sure there were a few shots that needed digital replacements and most of the shots are likely enhanced in post.</p>
 <p>Link: <a href="http://www.engadget.com/2015/04/16/adorable-new-star-wars-droid-proves-its-not-cgi/?ncid=rss_truncated">www.engadget.com/2015/04/1&hellip;</a></p>
 
