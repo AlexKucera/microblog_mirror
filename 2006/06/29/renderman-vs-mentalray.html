@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Renderman vs MentalRay Comparison - Update
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Renderman vs MentalRay Comparison - Update</h1>
+	
+    <div><time class="dt-published" datetime="2006-06-29T16:10:06&#43;02:00">Jun 29, 2006</time></div>
+
+	<div class="e-content">
+		<p>As so many people from the MentalRay community seem to have a big problem with my motion blur test - and only that is seems, they don’t even see the parts, where I said good things about MentalRay - here is a small update with new images and the supposedly faster Rapid Motion Blur of MentalRay.</p>
+<p>Well, yes, I give you that Rapid Motion Blur is faster. But 19 minutes is still kind of slow in my book, especially with these artifacts Rapid Motion Blur introduced. But I am sure some MentalRay user will point me in the right direction how to get rid of them after reading this.</p>
+<!-- raw HTML omitted -->
+<p>And here is again a Renderman version for direct comparison. This time I even increased the sampling, so the Motion Blur is more smooth then before. Still considerably faster then MentalRay. 6 minutes.</p>
+<!-- raw HTML omitted -->
+<p>How about this, we render the GI pass and maybe some reflections in MentalRay and then use this pass in Renderman, where we give is nice and fast Motion Blur?</p>
+<p>As I said before: This is not a “My toy better then your toy!” comparison. It is a test to see when it makes sense to use which renderer. No, MentalRay is not the big daddy of all renderers. Neither is Renderman.</p>
+<p>Need heavy GI and Reflections, but the scene is relatively static or doesn’t need Motion Blur for some reason? Hell, go with MentalRay any time! Even try it out on scenes without Raytracing. It might be faster then Renderman.</p>
+<p>But when you need fast Displacements and/or Motion Blur, stay away from MentalRay and use Renderman (or blur in post when the scene allows it).</p>
+<p>This is all about getting the job done. And I published this test to give some people hints about what to use when, as this is still a very often asked question, even more so with the new RfM plugin.</p>
+<p>People where interested, when I showed them this comparison and therefor, I made it available to a wider audience. …which of course took it apart and missed the point completely. But that was to be expected.</p>
+<p>Anyway before I drift into an endless monologue I better stop.</p>
+<p>####Following are the comments from the old blog</p>
+<blockquote>
+<p>virgil Says:</p>
+</blockquote>
+<blockquote>
+<p>You forget one thing. Renderman is not fast with motion blur (and depth of field) and displacement only, it’s especially fast with heavy scenes, it renders NURBS as pixels and it tesselates subdivisions very efficiently, so extremely heavy scenes, with a lot of geometry, textures, lights (but not shadows, shadows seem to be kind’a slow), and ideally without raytracing… render very fast, where mental ray would probably take forever. if you compare 2 simple scenes and add raytracing, yes, mental ray is probably going to be faster. if you compare 2 simple scenes without raytracing, I can bet renderman is going to be faster. if you have a complex scene though…. with a lot of objects and shaders and so on, renderman will still be fast, while mental ray will be crawling, at best…</p>
+</blockquote>
+<blockquote>
+<p>you can’t compare these 2 technologies like you’d compare 2 renderman renderers or maya-software-render and mental-ray. in renderman, if you build your set efficiently, not wasting polygons I mean, and trying to have as many NURBS surfaces as possible where possible, and also not using raytracing, but deep shadows and skillfully placed lights, and so on… you can get a truly photographical render, with intricate surface detail and true dof and motion blur, all this in record time. mental ray is a fast raytracer and a very advanced and complex renderer, but in my book too… mental ray is overall outrageously slow.</p>
+</blockquote>
+<blockquote>
+<p>one truly great thing about renderman btw is you never have to worry about tessellation (haven’t we seen countless examples of faceted 3D CGI?), all smooth surfaces will be 100% smooth at any resolution, no matter how close to the camera. this alone was, for me, the reason to start learning RAT, and start using prman with Maya. If you also use procedural textures for example you can be totally resolution independent. this is BIG!</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>GuillermoZS Says:</p>
+</blockquote>
+<blockquote>
+<p>Hi, well I don´t want to be rude but I think you have done a VERY partial review…</p>
+</blockquote>
+<blockquote>
+<p>At first, Renderman is an scanliner and Mental Ray is a raytracer, so , obviously, renderman will be better in scanline tasks (shadow mpas, dof, motion blur,…) and render man is much better in raytracing tasks (relfections, refraction, GI,…)</p>
+</blockquote>
+<blockquote>
+<p>In your review you seem to “forget” (no offense) very important things where MR is better than RfM:</p>
+</blockquote>
+<blockquote>
+<ol>
+<li>SubSurface Scattering: No comparison, MR is MUCH better than RfM here.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>Reflections and Refractions: again, another MR strong point. RfM sucks for this.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li>GI and IBL: … the same as above…</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>As a conclusion, none of them is better than the other, it just depends of what you want to do.</p>
+</blockquote>
+<blockquote>
+<p>Cheers!</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>AlexK Says:</p>
+</blockquote>
+<blockquote>
+<p>Well, no problem GuillermoZS, I don’t think you are rude at all. That’s why I have comments enabled, because I want to hear other peoples comments.</p>
+</blockquote>
+<blockquote>
+<p>I do not entirely see it that way.</p>
+</blockquote>
+<blockquote>
+<p>Both renderers are hybrid-renderers nowadays. Only Renderman was first developed as a Scanline and MentalRay as a Raytrace renderer. And I don’t think that means MentalRay automatically has to be better at Raytracing. In fact for simple Scanline setups MentalRay beats Renderman. It is in the complexity of scenes that Renderman really collects its points. (A complexity which I didn’t even start to touch in my tests.)</p>
+</blockquote>
+<blockquote>
+<p>I am also not sure if you read the real review, where I also list a few things where MR is better then Renderman. I don’t think however that Subsurface scattering is one on them though.</p>
+</blockquote>
+<blockquote>
+<p>SSS is way easier to set up with RfM. I have yet to convince the Maya implementation of MentalRay to succeed in writing the MentalRay-Textures used for SSS. A process I don’t even have to think about in RfM.</p>
+</blockquote>
+<blockquote>
+<p>I mentioned several times in this and the old blog post (and the cgTalk forum) that MentalRay is better at Reflections and Refractions. I don’t see where I forgot that. Try reading my posts again.</p>
+</blockquote>
+<blockquote>
+<p>Well, GI and IBL…did you really read my test and the conclusions??</p>
+</blockquote>
+<blockquote>
+<p>It seems to me you just skimmed the articles and saw that I favor Renderman. I clearly state that MR has its purpose and try not to dismiss it.</p>
+</blockquote>
+<blockquote>
+<p>Please correct me if I misunderstood you GuillermoZS.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>masterblasterofdisaster Says:</p>
+</blockquote>
+<blockquote>
+<p>A difficulty most people new to mental ray encounter is dealing with the maddening number of tweakable render parameters.<br>
+For example, correct BSP settings alone can have a massive impact on the render time. In tuning the BSP, you’ll find that the optimal settings versus “inappropriate” settings can affect the render time by several orders of a magnitude (in pathological cases, render times of 30 minutes versus several hours can be observed). A further difficulty is that good BSP depth and width values aren’t always easy to intuit: you’ve often got to run tests and then decide what’s best. BSP values for motion blur will be different from non-motion blurred renders as well. If you run a test plotting render time against the axes “depth” and “width” on a 3D graph (use excel, for instance), you’ll find a bowl-like shape plotted out - the bottom of the bowl (ie lowest time) will indicate your optimal BSP settings.</p>
+</blockquote>
+<blockquote>
+<p>I could go on… there are many more tricks to know in order to properly and meaningfully compare the two renderers.</p>
+</blockquote>
+<blockquote>
+<p>My 2 cents: renderman is stuck in the 90’s - raytracing is essentially bolted on top of the fundamentally raytrace-unfriendly REYES architecture (ever wonder why the prman trace() function took over a decade to actually become implemented? It’s been in the prman specification from the beginning, after all!) If you don’t need raytracing and global illumination, then use it and enjoy, as it does all the old-school stuff quite well - however, prepare to make some ugly hacks in large scale production requiring tracing or other global illumination effects. Mental Ray certainly has it’s shortcomings, complexity being one, but as such it’s incredibly flexible and will get the job done. AIR is probably a good compromise, especially if you want a RIB compliant renderer that’ll do all that stuff well.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>AlexK Says:</p>
+</blockquote>
+<blockquote>
+<p>Hey, nice input masterblasterofdisaster. Thanks for taking the time.</p>
+</blockquote>
+<blockquote>
+<p>Actually I think the complexity and thousands of knobs in MentalRay for Maya are the one thing that slow me down most. I need to produce my stuff fast (sometimes within hours), so I absolutely cannot waste time tweaking away. A thing that seems to be necessary with MentalRay (why oh why are the defaults so inefficient?).</p>
+</blockquote>
+<blockquote>
+<p>Of course Renderman itself offers many possibilities, too, but the Renderman for Maya implementation is way less crowded and “just works” (most of the time anyway).</p>
+</blockquote>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>

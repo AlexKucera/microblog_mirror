@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Renderman vs MentalRay - the Uproar
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Renderman vs MentalRay - the Uproar</h1>
+	
+    <div><time class="dt-published" datetime="2006-06-29T16:10:06&#43;02:00">Jun 29, 2006</time></div>
+
+	<div class="e-content">
+		<p>Well, guess what? As I already thought it would happen, some people don’t seem to like the conclusions of my test. Zealots are so easy to predict and so hard to please.</p>
+<p>####“You cannot do it like this. Testing the renderers with a simple teapot in the scene is totally unfair!”</p>
+<p>Well, huh? How can a teapot be unfair? It is a simple geometry for crying out loud! If I had used a sphere or a torus (something not obviously produced by Pixar) it wouldn’t have made a difference.</p>
+<p>####“You didn’t use the right MotionBlur Settings, that is unfair!”</p>
+<p>Well, true, MentalRay also has something called Rapid Motion Blur. But that sucks too. I didn’t include it for two reasons. (1) It sucks. Or in a longer version: Every time I tried it, I got major render artifacts, so I just didn’t consider it for this test. (2) It sucks. Longer version: It is still way slower then Renderman for Maya.
+Well, my bad, I should have included it for sake of comparison.</p>
+<p>####“You didn’t tweak MentalRay right, there is way more to tweak to make it faster!”</p>
+<p>Well, it wasn’t part of this test to find out which renderer I can waste the most time with. In my business it is important to get results fast. Every minute spent at tweaking render times is nearly the same as rendering a slow renderer. Because if I spent two hours at tweaking or loose two hours due to bad render settings doesn’t matter. In the commercial business I have to deliver. Fast.</p>
+<p>In my tests there was nearly no tweaking involved for Renderman (which I knew nothing about before these tests), but quite a bit to make MentalRay to look even that good (which I have worked with for quite some time now). In my book that means MentalRay is slower (and yes slower means also that it has more knobs to tweak it and loose time in the process).</p>
+<p>####“Sure Renderman is great, but Renderman for Maya is a completely different product. You can’t compare that!”</p>
+<p>Well, yes and no. It is about RfM, but the only difference to PRman is the interface and what you can do with it. The rendering engine is 100% the same. So what goes for one, goes for the other, too. With the addition that PRman is more configurable.
+Same goes for MentalRay for Maya. It is an interface for the MentalRay renderer. As such you have a small subset of what is possible in a point and click way. I tested this point and click way. Not any nifty shaders and special moves (which you can do with both RfM and MentalRay for Maya by the way).</p>
+<p>Anyway, the results are the same, no matter how you turn it. MentalRay has it’s niche in the raytracing hyper-realism section, where there is no need for motion blur or fast displacements. But as far as good production value goes for day to day projects in a commercial environment (and for movies too as far as the general knowledge goes) Renderman is still superior. It is fast and easy to tweak (especially the RfM plugin) and gives fast and superior results.</p>
+<p>Anyone interested can read the [Renderman vs MentalRay discussion on cgTalk] <a href="http://forums.cgsociety.org/showthread.php?t=371816">1</a>.</p>
+<p>###Following are the comments from the old blog</p>
+<blockquote>
+<p>virgil Says:</p>
+</blockquote>
+<blockquote>
+<p>man, how can you render in RfM without errors and hours of tweaking? this is one thing I’m strugling with right now, that I keep having all kinds of weird issues, errors, and such, and I manage to debug it in the end, but at the cost of losing many-a-neuron  one other question, as I actually started a quest of trying to figure out the mistery behind the allmighty render-passes in RfM. how do you… do it? that tab in the render settings is alien technology for me right now, any tutorials, advices, anything? I’d surely most apreciate that. thanks in advance.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>AlexK Says:</p>
+</blockquote>
+<blockquote>
+<p>I actually don’t know. I just use it. Works fine.</p>
+</blockquote>
+<blockquote>
+<p>Concerning the Render Passes…well…same thing here. I just use em. Maybe the workflow was made by persons with a brain wiring similar to mine and not yours?</p>
+</blockquote>
+<blockquote>
+<p>But I will try to find the time to write a little about the passes and how they are set up (at least how I do it when I need them).</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>virgil Says:</p>
+</blockquote>
+<blockquote>
+<p>thanks alex,
+could you give me a simple example of how you’d set up a shadow pass? I just need to render my shadows separately, that’s all. I haven’t touched passes until now… and they seem very simple, but amazingly ilogical, meaning that whatever I do, more-or-less-nothing works  now don’t tell me I’m stupid, please, because you have to admit there are weird things in rfm, like tweaking that alpha gain when rendering displacement… could they make it any more obscure? so what’s the secret behind rendering these passes anyway? it looks to me like I can only set up one pass… and it renders that pass, like the shadow pass… plus a beauty pass. I haven’t tried anything else yet. I presume it can render a diffuse pass plus the beauty pass, hehehe. because each time I try adding a different pass, it replaces my previous work… I can’t see that it’s adding that pass to the sandwich, it’s replacing the earlier pass, that’s all. so I’m always left with only one pass. but how do you render 10 passes, and what if you don’t want that beauty pass?</p>
+</blockquote>
+<blockquote>
+<p>and last thing would be that I worked really hard to get the shadow pass to work, and I don’t know how I did it. trying to emulate the process with a different file didn’t work. I really did the same thing… I think… like it works just when it feels like, hehehe. yeah, I know, I know, it’s simply my fault - I don’t understand it  well but then another fact is that with RAT, and RfM as well, an insignificant little detail that you miss can result in complete disaster at rendertime. very sensitive. and I get nothing for free… well, with RfM I do  RfM is much friendlier, so instead of tweaking things for days… I only need hours  but errors seem to be inevitable. all the time. I’m not a rendering specialist and I have no one here to set it up for me, so I do all this stuff by myself.</p>
+</blockquote>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>

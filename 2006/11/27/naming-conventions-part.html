@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Naming Conventions - Part 02 - Real Life Application
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Naming Conventions - Part 02 - Real Life Application</h1>
+	
+    <div><time class="dt-published" datetime="2006-11-27T16:10:06&#43;02:00">Nov 27, 2006</time></div>
+
+	<div class="e-content">
+		<p>Last time I talked about the basic ingredients of a working naming convention, which got inspired by a topic covered on [Lifehacker] <a href="http://www.lifehacker.com/software/file-management/ask-the-readers-filing-naming-conventions-210104.php">1</a> and [43 Folders] <a href="http://www.43folders.com/2006/10/23/file-naming/">2</a>. What to avoid — like never using the word “final” in any circumstances — and what to include — for example version numbers.</p>
+<p>This time I will show you how to use this new gained knowledge and plug its elements together into a working template for a professional naming convention. Just read on to find out how it’s done.</p>
+<p>###The Template</p>
+<p>Actually it is very simple. Take what we have spoken about last time and plug the elements together to get a working naming convention, like this (this might wrap a bit unlucky, if so just wait till we get to the real life example — which reads more easily — two lines further down):</p>
+<p><code>&lt;project-name&gt;_&lt;file-content&gt;_&lt;version-number&gt;_&lt;changes to the version before&gt;_&lt;author&gt;.&lt;file-extension&gt;</code></p>
+<p>Easy, isn’t it? So in a more lifelike example we get:</p>
+<p><code>ambul_keying-Shot012_03_fixedMaskIssue_AlexK.mov</code></p>
+<p>This file is part of the project called “The Ambulance” and it contains the greenscreen keying and compositing for shot 012 and is in it’s third revision. The change to the last version is a fix in one of the masks (which probably was wrong in version 02) and the change was done by me.</p>
+<p>###It sorts in groups…</p>
+<p>As you can see this is a pretty human-readable filename. And just from looking at it we can see what is going on. And because of the way we built the filename it sorts correctly when we sort by filename in the file-browser. We will always see the shots for the project “ambul” together, followed by all versions of keying shots, then the individual shots in order and then the individual versions of a shot.</p>
+<p>And if you ever accidentally save your file in the wrong folder(another project or your local drive instead of the projects drive), it becomes pretty easy to find again, because it includes the project name.</p>
+<p>###…and is extensible</p>
+<p>The nice thing about this order is that we can now add as many additional informations to the filename as we deem necessary after the version number — like in this case the changes to the last version and the authors name. We will always get it sorted in the right way, because the version number comes first in the filename.</p>
+<p>And we also need not worry about including the date in the filename directly in most cases, because the operating system takes care of this automatically.</p>
+<p><strong>There is not one correct way — the template adjusts to your taste</strong></p>
+<p>There are of course many different options to express the same information as above. We could also write any of the following:</p>
+<ul>
+<li>the ambulance_keyingShot012_
+_version03_fixedMaskIssue_AlexanderKucera.mov</li>
+<li>amb_gskS012_03_fixMask_AK.mov</li>
+<li>ambul.keying_Shot-012.03.fixedMask.AlexK.mov</li>
+<li>ambul-keying shot 012-v03-fixed mask issue-AlexK.mov</li>
+</ul>
+<p>All these versions contain the same info. Some are more verbose, others less. Some are easier to read, others less. I tend to stick with underscores to divide the individual chunks of information and dashes or a combination of small and capital letters to make the individual chunks more readable. This comes from my programming history. If other schemes are easier to read for you, take them instead.
+This part is completely up to your taste and doesn’t influence the effectiveness of this naming convention as long as you always use the same method.</p>
+<p>###Do yourself a favor — stick to it</p>
+<p>Stick to it once you have a working naming convention. And please don’t try to change it after every project. You will be thankful for sticking with it when that project resurfaces after a month or a year.</p>
+<p>If you have questions or suggestions about my way of naming files please leave a comment. I’d love to read about your ways of tackling this issue.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
