@@ -1,0 +1,687 @@
+<rss version="2.0">
+  <channel>
+    <title>2013s on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/2013/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Wed, 11 Dec 2013 23:28:06 +0200</lastBuildDate>
+    
+    <item>
+      <title>Domain for sale</title>
+      <link>https://alexanderkucera.com/2013/12/11/domain-for-sale.html</link>
+      <pubDate>Wed, 11 Dec 2013 23:28:06 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/12/11/domain-for-sale.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Dear &lt;a href=&#34;http://thespinningbeachball.com/&#34;&gt;Spinning Beachball&lt;/a&gt; readers, the few of you that are still reading this RSS feed. I&amp;rsquo;m about to shut down the site for good. In fact, the last few entries you have been reading came from my &lt;a href=&#34;http://blog.alexanderkucera.com&#34;&gt;personal blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you like to keep reading my highly irregular output, I advise you to &lt;a href=&#34;http://blog.alexanderkucera.com/blog/feed&#34;&gt;subscribe to my RSS feed&lt;/a&gt; there.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Also, since I&amp;rsquo;m shutting that site down, the URL &lt;a href=&#34;http://thespinningbeachball.com/&#34;&gt;http://thespinningbeachball.com/&lt;/a&gt; is available for immediate sale. If you are interested in this highly prestigious domain feel free to contact me directly via &lt;a href=&#34;http://blog.alexanderkucera.com/contact&#34;&gt;email&lt;/a&gt; or on &lt;a href=&#34;http://app.net/alexk&#34;&gt;App.net&lt;/a&gt;  .&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Editorial &amp; Drafts Workflow for Quick Capture of Story Ideas</title>
+      <link>https://alexanderkucera.com/2013/12/06/editorial-drafts-workflow.html</link>
+      <pubDate>Fri, 06 Dec 2013 22:52:08 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/12/06/editorial-drafts-workflow.html</guid>
+      <description>&lt;p&gt;Inspired by &lt;a href=&#34;http://app.net/viticci&#34;&gt;Federico Viticci&amp;rsquo;s&lt;/a&gt; &lt;em&gt;Open Tabs&lt;/em&gt; &lt;a href=&#34;http://editorial-app.com/&#34;&gt;Editorial&lt;/a&gt; workflow, I created this little workflow to quickly capture and act on story ideas for blog posts or other text documents.&lt;/p&gt;
+&lt;p&gt;It all starts in &lt;a href=&#34;http://agiletortoise.com/drafts&#34;&gt;Drafts&lt;/a&gt;, which I can fire up wherever I go from my iPhone. I enter an idea, or a short title or a link with a comment. This then gets appended to a &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; file on Dropbox called &lt;em&gt;Story Ideas.md&lt;/em&gt;. Conveniently, this file lives in my Editorial folder in Dropbox and show right up on my iPad.&lt;/p&gt;
+&lt;p&gt;So this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Write about this cool workflow
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Becomes this in my &lt;em&gt;Story Ideas.md&lt;/em&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;2013-12-06 - Write about this cool workflow
+
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In Editorial, I have a workflow called &lt;em&gt;Manage Story Ideas&lt;/em&gt; that allows me to extract an idea from the whole document into a new document ready for editing. Alternatively, I can also delete the idea if I decide it&amp;rsquo;s not worth pursuing after all.&lt;/p&gt;
+&lt;p&gt;I wanted the workflow to open up the newly created document ready for editing. Sadly, Editorial currently has a bug that doesn&amp;rsquo;t all that, so that little extra convenience has to wait until the next Editorial update.&lt;/p&gt;
+&lt;p&gt;You can get the Drafts action by clicking &lt;a href=&#34;drafts://x-callback-url/import_action?type=dropbox&amp;amp;name=Story%20Ideas&amp;amp;path=%2FApps%2FEditorial%2F&amp;amp;filenametype=2&amp;amp;filename=Story%20Ideas&amp;amp;ext=md&amp;amp;writetype=2&amp;amp;template=%0A%5B%5Bdate%5D%5D%20-%20%5B%5Bdraft%5D%5D%0A%0A---%0A&#34;&gt;here&lt;/a&gt; and the Editorial workflow is available on the &lt;a href=&#34;http://editorial-app.appspot.com/workflow/5829156457676800/tOuSi63Z-Ik&#34;&gt;Workflow Sharing site&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Creative Cringe</title>
+      <link>https://alexanderkucera.com/2013/12/02/the-creative-cringe.html</link>
+      <pubDate>Mon, 02 Dec 2013 19:56:58 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/12/02/the-creative-cringe.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m reading &lt;a href=&#34;http://app.net/shawnblanc&#34;&gt;Shawn Blanc&amp;rsquo;s&lt;/a&gt; wonderful book &lt;a href=&#34;https://shawnblanc.net/thedetails/&#34;&gt;Delight is in the Details&lt;/a&gt; and this one chapter rings especially true with me. It&amp;rsquo;s about what I like to call &lt;em&gt;the creative cringe&lt;/em&gt;, the feeling everyone of us gets when we see our work and are not satisfied with it or where we see all the little and not so little flaws that make us cringe.&lt;/p&gt;
+&lt;p&gt;Shawn is quoting &lt;a href=&#34;http://youtu.be/PbC4gqZGPSY&#34;&gt;Ira Glass&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;„All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste — the thing that got you into the game — is still killer. And your taste is why your work disappoints you. A lot of people never get past this phase, they quit. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know it’s normal and the most important thing you can do is do a lot of work. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone[…]“&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&amp;rsquo;m very much afflicted by this phenomenon. Not that my work is anything special, but I get the cringing  feeling almost every time, especially on client projects, where budgets usually are the restricting factor and not the—mythical— &lt;em&gt;perfect&lt;/em&gt; end result.&lt;/p&gt;
+&lt;p&gt;But it is important to not let yourself get dragged down and to see this feeling as a sign that there is still some great work hidden inside yourself and that you need to keep working on your skills so you can eventually bring it forth.&lt;/p&gt;
+&lt;p&gt;Or as Shawn puts it:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;„If, one day, we feel as if we’ve reached a point where we can create work that will never make us cringe again, then what we’re saying is that what we do today will be just as good as what we do next month, next year, and 10 years from now. And, well, that’s just not fair to our future selves.“&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now go and do yourself a favor and get reading &lt;a href=&#34;http://app.net/shawnblanc&#34;&gt;Shawn&amp;rsquo;s&lt;/a&gt; &lt;a href=&#34;https://shawnblanc.net/thedetails/&#34;&gt;book&lt;/a&gt; as long as it is still 25% off.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>fxguide&#39;s </title>
+      <link>https://alexanderkucera.com/2013/11/28/fxguides-the-art.html</link>
+      <pubDate>Thu, 28 Nov 2013 12:24:26 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/11/28/fxguides-the-art.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;My friend (twitter: mattdleonard text: Matt Leonard) has been sorting through &amp;ldquo;The Art of&amp;rdquo; articles on &lt;a href=&#34;https://www.fxguide.com&#34;&gt;fxguide&lt;/a&gt; and I thought I&amp;rsquo;d post his list of all the ones that have been written.&lt;/p&gt;
+&lt;p&gt;He has printed them all out in the office, and so far they fill 3 ring binders.&lt;/p&gt;
+&lt;p&gt;So in date order of publication:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fxguide.com/featured/the-art-of-digital-faces-at-ict-from-digital-emily-to-digital-ira/&#34;&gt;The Art of Digital Faces at ICT – Digital Emily to Digital Ira&lt;/a&gt; (November  2013)&lt;/li&gt;
+&lt;li&gt;The State of Rendering (July  2013)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/the-state-of-rendering/&#34;&gt;The State of Rendering - Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/the-state-of-rendering-part-2/&#34;&gt;The State of Rendering - Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Art of Games Environments (June 2013)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/game-environments-parta-remember-me-rendering/&#34;&gt;The Art of Games Environments - Part 1 - Rendering &amp;ldquo;Remember Me&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/game-environments-partb/&#34;&gt;The Art of Games Environments - Part 2 - Rain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/game-environments-partc/&#34;&gt;The Art of Games Environments - Part 3 - Making Wet Environments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/the-science-of-spherical-harmonics-at-weta-digital/&#34;&gt;The Science of Spherical Harmonics at Weta Digital&lt;/a&gt; (April  2013)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/art-of-stereo-conversion-2d-to-3d-2012/&#34;&gt;The Art of Stereo Conversion&lt;/a&gt; (May 2012)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/science-of-fluid-sims-pt-2-realflow/&#34;&gt;The Science of Fluid Sims - Real Flow&lt;/a&gt; (April 2012)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/the-art-of-rendering/&#34;&gt;The Art of Rendering&lt;/a&gt; (April 2012)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/art-of-destruction-or-art-of-blowing-crap-up/&#34;&gt;The Art of Destruction (or Art of Blowing Crap Up)&lt;/a&gt; (December 2011)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/the-art-of-roto-2011/&#34;&gt;The Art of Roto&lt;/a&gt; (October 2011)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/the-science-of-fluid-sims/&#34;&gt;The Science of Fluid Sims&lt;/a&gt; (September 2011)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/the-art-of-digital-color/&#34;&gt;The Art of Digital Colour&lt;/a&gt; (August 2011)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/art_of_digital_3d_stereoscopic_film/&#34;&gt;The Art of Digital 3D Stereo Films&lt;/a&gt; (March 2008)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/the_art_of_wire_removal/&#34;&gt;The Art of Wire Removal&lt;/a&gt; (October 2007)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/art_of_optical_flow/&#34;&gt;The Art of Optical Flow&lt;/a&gt; (February 2006)&lt;/li&gt;
+&lt;li&gt;The Art of Matte Painting (December 2005)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/matte_painting_series_part_1_painting_it_big/&#34;&gt;The Art of Matte Painting - Part 1 - Painting it BIG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/matte_painting_part_2_the_tools/&#34;&gt;The Art of Matte Painting - Part 2 - The Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/matte_painting_part_3_the_art/&#34;&gt;The Art of Matte Painting - Part 3 - The Art&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/matte_painting_part_4_future_of_matte_painting/&#34;&gt;The Art of Matte Painting - Part 4 - Future of Matte Painting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/art_of_keying/&#34;&gt;The Art of Keying&lt;/a&gt; (November 2005)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/art_of_hdr/&#34;&gt;The Art of High Dynamic Range Images&lt;/a&gt; (August 2005)&lt;/li&gt;
+&lt;li&gt;The Art of Tracking (August 2004)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/art_of_tracking_part_1_history_of_tracking/&#34;&gt;The Art of Tracking - Part 1 - History of Tracking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fxguide.com/featured/art_of_tracking_part_2_tips_and_apps_overview/&#34;&gt;The Art of Tracking - Part 2 - Tips and Apps Overview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: Collected Edition&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blogging Workflow…again</title>
+      <link>https://alexanderkucera.com/2013/11/25/blogging-workflowagain.html</link>
+      <pubDate>Mon, 25 Nov 2013 18:29:56 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/11/25/blogging-workflowagain.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Yes, I finally am blogging again. Only 6 months of silence this time. Not too shabby.&lt;/p&gt;
+&lt;p&gt;Anyway, a major hindrance was that my blogging workflow wasn&amp;rsquo;t working quite right yet, which in turn was like an invisible wall that I was just too tired to climb each time I want to post something. Luckily, I have had the last two days to tinker with it and to figure it out. Now I have a pretty solid workflow. Well, at the moment it looks solid. It is not battle tested however. That&amp;rsquo;s what future blog posts are for.&lt;/p&gt;
+&lt;p&gt;But since it is a little involved, I thought I&amp;rsquo;d write it down here right away. For one so I won&amp;rsquo;t forget and also some friends asked me how I am handling blogging from iOS to my &lt;a href=&#34;http://getkirby.com&#34;&gt;Kirby&lt;/a&gt; blog.&lt;/p&gt;
+&lt;h2 id=&#34;tldr1&#34;&gt;Tl;dr&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;Write your post in whatever text editor you prefer. Ideally one that supports x-callbacks. I personally use Editorial since it&amp;rsquo;s nice for writing and I also use it for processing everything anyway. Before that I used Drafts together with Editorial.&lt;/p&gt;
+&lt;p&gt;Fire off the Editorial workflow that transforms your text into a blog post with the correct formatting and uploads it to Dropbox.&lt;/p&gt;
+&lt;p&gt;Create or edit any imagery that goes along with the post and upload the images to the right Dropbox folder. The path of said folder has been copied to the clipboard by the above Editorial workflow.&lt;/p&gt;
+&lt;p&gt;Have Hazel put everything into place and let it upload to post to the web server.&lt;/p&gt;
+&lt;h2 id=&#34;the-long-version&#34;&gt;The long version&lt;/h2&gt;
+&lt;p&gt;There are several steps involved to make this work. It sounds complicated, but is actually rather straightforward.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://getkirby.com&#34;&gt;Kirby&lt;/a&gt;, of course.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agiletortoise.com/drafts/&#34;&gt;Drafts&lt;/a&gt; (or any other editor that allows you to send stuff to Editorial via &lt;a href=&#34;http://x-callback-url.com/&#34;&gt;x-callback URLs&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://omz-software.com/editorial/&#34;&gt;Editorial&lt;/a&gt;, &lt;a href=&#34;http://omz-software.com/pythonista/index.html&#34;&gt;Pythonista&lt;/a&gt; works equally well, but Editorial is simpler to set up, plus you can write in Editorial as well and just skip &lt;em&gt;Drafts&lt;/em&gt; entirely, which is what I do most of the time.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://filterstormneue.com&#34;&gt;Filterstorm Neue&lt;/a&gt; or alternatively Photoforge 2 if you still have access to it.&lt;/li&gt;
+&lt;li&gt;Dropbox&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.noodlesoft.com&#34;&gt;Hazel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.crushftp.com&#34;&gt;CrushFTP&lt;/a&gt;, optional, but depending on the image editor you use more convenient&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kirby&#34;&gt;Kirby&lt;/h3&gt;
+&lt;p&gt;First of all, why Kirby? Sounds like an awful lot of work for something that Tumblr offers for free. Tumblr even has an iOS app. Just log in and be done with it.&lt;/p&gt;
+&lt;p&gt;For me it comes down to owning what I create. And that involves hosting  what I create. Yes, Kirby is a little more involved and— &lt;em&gt;gasp&lt;/em&gt; —costs money, but it is really flexible—I built several sites with it for myself, friends and even customers—, fast and pretty cheap considering.&lt;/p&gt;
+&lt;p&gt;Plus it works with text files and Markdown, both things that I value dearly and that make this specific workflow possible without a special &amp;ldquo;&lt;em&gt;Kirby iOS app&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;drafts-optional&#34;&gt;Drafts (optional)&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;For completeness sake I&amp;rsquo;m including my Drafts workflow as well. However, I have since completely switched over to Editorial for writing as well as post-processing my posts.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I started writing my posts in Agile Tortoise&amp;rsquo;s Drafts, a fine and frictionless text editor with the added bonus that it supports the x-callback URL scheme and a ton of other ways to share or manipulate the written word.&lt;/p&gt;
+&lt;p&gt;When I write a blog entry, I put the post&amp;rsquo;s title in the first line and the actual post content right after it. If I want a subtitle, that goes at the very bottom with the tag &lt;code&gt;Subtitle:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So a typical post in Drafts would look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;This is my title
+
+And this is my content.
+It can have any content. Paragraphs, code blocks, lists, you name it.
+
+----
+
+Subtitle: And then at the bottom I have the option to put a subtitle.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When it comes time to share my post with the world, I have a Dropbox action called &lt;em&gt;Blog Post&lt;/em&gt;, that will create a file in a designated Dropbox folder—I have a global &lt;em&gt;Apps&lt;/em&gt; folder and I put it in a subfolder there—with the name of my post title as filename. It will also fill in a couple of things for me. Most notably the date and the title. So the above post transforms into:&lt;/p&gt;
+&lt;p&gt;&amp;lsquo;&lt;code&gt;This is my title.md&lt;/code&gt;&amp;rsquo; with the following content:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Title: This is my title
+
+----
+
+Date: 07.11.13 (used for display purposes)
+
+----
+
+Time: 2013-11-07-17-33-55 (used for sorting purposes)
+
+----
+
+And this is my content.
+It can have any content. Paragraphs, code blocks, lists, you name it.
+
+----
+
+Subtitle: And then at the bottom I have the option to put a subtitle.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can import this action into Drafts by clicking this link: &lt;a href=&#34;drafts://x-callback-url/import_action?type=dropbox&amp;amp;name=Blog%20Post&amp;amp;path=%2FApps%2FDrafts%2FKirby%2FBlog%2F&amp;amp;filenametype=1&amp;amp;filename=&amp;amp;ext=md&amp;amp;writetype=0&amp;amp;template=Title%3A%20%5B%5Btitle%5D%5D%0A%0A----%0A%0ADate%3A%20%5B%5Bdate%7C%25d.%25m.%25Y%5D%5D%0A%0A----%0A%0ATime%3A%20%5B%5Btime%5D%5D%0A%0A----%0A%0AText%3A%20%5B%5Bbody%5D%5D&#34;&gt;→ Import Blog Posts action into Drafts&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;editorial&#34;&gt;Editorial&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;This first part is part of the old Drafts workflow. Jump to the second part to see how I&amp;rsquo;m working right now.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;the-old-way&#34;&gt;The &lt;em&gt;old&lt;/em&gt; way&lt;/h4&gt;
+&lt;p&gt;The next two steps are only for the times I want or need images in my posts or if I want to create one of those snazzy banners that are sorely underrepresented in my blog.&lt;/p&gt;
+&lt;p&gt;I use Editorial as a simple text filter in this case. I could write something like this for Pythonista to make it work on iPhone (Editorial is iPad only), but I, well, I didn&amp;rsquo;t feel like it.&lt;/p&gt;
+&lt;p&gt;Editorial simply gives me back the future path of my new blog post, something I need if I want to drop pictures into that folder without hunting for the correct folder in my next step.&lt;/p&gt;
+&lt;p&gt;I send over my post from Drafts to Editorial with a simple x-callback URL.&lt;/p&gt;
+&lt;p&gt;You can import the URL Action into Drafts by clicking this link: &lt;a href=&#34;drafts://x-callback-url/import_action?type=URL&amp;amp;name=Copy%20Blog%20Path&amp;amp;url=editorial%3A%2F%2F%3Fcommand%3D%7B%7Bcreate%20blog%20URL%7D%7D%26input%3D%5B%5Btitle%5D%5D&#34;&gt;→ Import URL action &amp;ldquo;Copy Blog Path&amp;rdquo; into Drafts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Editorial then cleans it up in a variety of ways. For example, everything gets turned to lowercase, spaces are removed, etc.&lt;/p&gt;
+&lt;p&gt;The resulting URL is copied to the clipboard. In the example above &lt;code&gt;This is my title&lt;/code&gt; turns into &lt;code&gt;http://alexanderkucera.com/20131108-this_is_my_title&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I opted not to run any action after this, as I want to be able to switch to any app I want as the situation requires. But usually it is now on to &lt;em&gt;Filterstorm&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to import the URL cleanup workflow into Editorial or simply read through it in detail, you can take a look at this &lt;a href=&#34;http://editorial-app.appspot.com/workflow/5035202761981952/hTzXZVeWcLI&#34;&gt;&amp;ldquo;create blog URL&amp;rdquo; Editorial Action&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;the-new-way&#34;&gt;The &lt;em&gt;new&lt;/em&gt; way&lt;/h4&gt;
+&lt;p&gt;Since I have completely switched over from Drafts to Editorial, I had to create a workflow that would prep a standard Markdown document and turn it into a blog post. Since Editorial is much more powerful then Drafts, I was also able to make it a bit smarter, ask for input on a few things and optionally archive or delete a post once I&amp;rsquo;m done with it.&lt;/p&gt;
+&lt;p&gt;It does a lot of things similar to my Drafts workflow though. After all is said and done, a file with the correct naming scheme gets written to a Dropbox folder. And I also get the blog URL at the end from the workflow above.&lt;/p&gt;
+&lt;p&gt;The bonus with the Editorial workflow is that I don&amp;rsquo;t need to watch out for any specific formatting. I can have a standard Markdown document and everything &lt;em&gt;just works™&lt;/em&gt;. And Editorial is just really pleasant to work in.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://editorial-app.appspot.com/workflow/5895905618165760/iEqPb0_XVkw&#34;&gt;Editorial Blog Posting Workflow&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;filterstorm-neue&#34;&gt;Filterstorm (Neue)&lt;/h3&gt;
+&lt;p&gt;Filterstorm Neue, is brand new, but the old Filterstorm or Filterstorm Pro have pretty much the same abilities. Or you could use Photoforge 2 if you still have it. The important bit is that the app allows you to either &lt;strong&gt;export to Dropbox or to upload via FTP&lt;/strong&gt; and to give your images &lt;strong&gt;a name of your choosing&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Well, this step is really simple. Do your image edits. Done? Ok. Then upload it to the folder we just had the path created for in Editorial. Simple, right?&lt;/p&gt;
+&lt;p&gt;Well, yes and no. There is one step that I consider crucial. I don&amp;rsquo;t want to upload to my web server. I want to upload my image to Dropbox. I consider the Dropbox version of my site to be the canonical copy. Everything goes there first and then gets uploaded to the server. Otherwise I end up with a file mess. Files might get updated or changed here or there. Who knows? By always going Dropbox first, that issue gets sidestepped completely.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t have an &lt;em&gt;always on&lt;/em&gt; server machine, your best bet is to find a way to upload to Dropbox directly. Photoforge has a Dropbox uploading feature. Filterstorm does as well, though it involves browsing to your posts folder manually instead of just giving it a path.&lt;/p&gt;
+&lt;p&gt;For various reasons, mostly because I don&amp;rsquo;t want to hunt down a folder and I have the exact path I need from my Editorial workflow above, I decided to go a completely different route: FTP.&lt;/p&gt;
+&lt;p&gt;I happen to use CrushFTP for work anyway, which means I just need to set up an FTP account that points to the blog&amp;rsquo;s content folder in my server&amp;rsquo;s Dropbox folder and the rest is very straightforward. Get path from Editorial and upload to said path.&lt;/p&gt;
+&lt;h3 id=&#34;hazel&#34;&gt;Hazel&lt;/h3&gt;
+&lt;p&gt;The last and final step. The one step that unifies desktop and iOS blogging. Automatically uploading my posts from Dropbox to the server. Hazel is the perfect match for that. Especially since it got the ability to open an FTP connection on its own a couple of versions back.&lt;/p&gt;
+&lt;p&gt;The Hazel flow goes like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Look into the Drafts Or Editorial app folder and check if there is new post.&lt;/li&gt;
+&lt;li&gt;Put the file into a subfolder called &lt;code&gt;&amp;lt;date&amp;gt;-postname&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Rename the file to &lt;code&gt;article.md&lt;/code&gt; (the name of my Kirby layout template for a blog post)&lt;/li&gt;
+&lt;li&gt;move the new folder with the post in it into my blog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There another Hazel rule takes over as Hazel rules only ever can work on one folder at a time. It goes like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is there a folder? Look into it.&lt;/li&gt;
+&lt;li&gt;Any file that doesn&amp;rsquo;t have a red or grey color tag and that has been modified within the day gets uploaded&lt;/li&gt;
+&lt;li&gt;After the upload color the file grey&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The color tags are there to stop Hazel from constantly uploading files that have been modified inside the &amp;ldquo;today&amp;rdquo; timeframe. But they also allow me to simply take off the color label if I want a file to be re-uploaded.&lt;/p&gt;
+&lt;p&gt;Grab the Hazel ruleset here: &lt;!-- raw HTML omitted --&gt;hazelrules.zip&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;The one called &lt;code&gt;Drafts-Editorial-Folder&lt;/code&gt; is for the incoming Drafts or Editorial file and the one called &lt;code&gt;Kirby-Blog-Folder&lt;/code&gt; monitors the Kirby blog folder.&lt;/p&gt;
+&lt;h2 id=&#34;thats-it&#34;&gt;That&amp;rsquo;s it.&lt;/h2&gt;
+&lt;p&gt;See? Simple, right?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: Kirby, iOS, Drafts, Editorial, Filterstorm and Hazel tied into a neat bundle&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.urbandictionary.com/define.php?term=tl%3Bdr&#34;&gt;Too long; Didn&amp;rsquo;t read&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assembling a VFX Camera Kit</title>
+      <link>https://alexanderkucera.com/2013/11/24/assembling-a-vfx.html</link>
+      <pubDate>Sun, 24 Nov 2013 18:22:35 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/11/24/assembling-a-vfx.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I don&amp;rsquo;t have my own camera kit specifically for VFX yet. Usually when I am on set, I either rent or get equipment from the production that is hiring me. Now I am about to build my own camera kit and to stay halfway reasonable I want to stay around €6000, though I can go over that amount to get a better kit if need be. And it looks like I might have to.&lt;/p&gt;
+&lt;p&gt;I thought I&amp;rsquo;d ask you guys for opinions on what to get and if I maybe can switch around a few things to get the most bang for my buck. Also, writing it all down is more for my benefit really, as it allows me to think through things better.&lt;/p&gt;
+&lt;p&gt;The goal is to build a kit that works well in four different situations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Professional:
+&lt;ul&gt;
+&lt;li&gt;Set photography (making reference photos, shooting textures, making set HDRis, etc.)&lt;/li&gt;
+&lt;li&gt;Panorama photography (HDRi and normal panoramas)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Personal:
+&lt;ul&gt;
+&lt;li&gt;Since I am a rather new dad (boy, 10 months) I will use the camera for child photography. He is already a speedy little guy and I only see this getting more intense as time moves on.&lt;/li&gt;
+&lt;li&gt;Also, we own three ferrets who are even speedier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So all things considered, I am looking to build a kit that serves well for kid and animal photography as well as on set photography.&lt;/p&gt;
+&lt;h2 id=&#34;the-list&#34;&gt;The List&lt;/h2&gt;
+&lt;p&gt;So far my list looks like this (all prices are not yet researched for cheapness but mostly straight off of Amazon):&lt;/p&gt;
+&lt;h3 id=&#34;cameras&#34;&gt;Cameras:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Canon 7D ~€1200&lt;/li&gt;
+&lt;li&gt;Canon 5D Mark III ~€2600&lt;/li&gt;
+&lt;li&gt;Canon 5D Mark II ~€2300&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am itching for the full frame sensor. Getting the older MK2 doesn&amp;rsquo;t seem to make much sense as it was still rather expensive when I looked.&lt;/p&gt;
+&lt;p&gt;The 7D I am unsure about. Yes, it is cheaper, but also not a full frame sensor. However, I could use the saved money to get more/better glass.&lt;/p&gt;
+&lt;p&gt;Another added benefit of the less then full frame sensor is that is allows me to capture a higher resolution panorama with the 8mm Sigma at the cost of needing one or two more shots to get a full 360° panorama. So higher res, but slower workflow.&lt;/p&gt;
+&lt;h3 id=&#34;lenses&#34;&gt;Lenses:&lt;/h3&gt;
+&lt;p&gt;The options are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sigma 8mm Fisheye ~€750&lt;/li&gt;
+&lt;li&gt;Canon 50mm F1.2 (~€1400) or F1.4 (~€300)&lt;/li&gt;
+&lt;li&gt;Canon 70-200mm f2,8 ~€1000 (without image stabilization) or -2000 (with image stabilization)&lt;/li&gt;
+&lt;li&gt;Canon 70-200mm ~€1000 (or I go f4 with image stabilization)&lt;/li&gt;
+&lt;li&gt;Canon 20mm f2.8 ~€450&lt;/li&gt;
+&lt;li&gt;Canon EF 16-35mm 1:2,8L II USM ~€1300&lt;/li&gt;
+&lt;li&gt;Sigma 35 mm f/1,4 DG HSM ~€800&lt;/li&gt;
+&lt;li&gt;Canon EF 35mm 1:1,4 L USM ~€1300&lt;/li&gt;
+&lt;li&gt;Canon 24-70mm f2.8 ~€2000&lt;/li&gt;
+&lt;li&gt;Canon Extender EF 2x III ~€480&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am only sure about the 8mm Sigma and pretty sure I want to get a 70-200mm, but inbetween I am torn. Get a 50mm prime or a 24-70mm zoom? Maybe a 35mm? 85mm?&lt;/p&gt;
+&lt;p&gt;I do like the added quality and speed of a prime lens. For my main use case, which will be professional panorama photography, I think I&amp;rsquo;m going to go 8mm (standard, quick on-set pano HDR), 20mm (high-res on-set HDR pano) and 50mm (for those gigapanos and child photography).&lt;/p&gt;
+&lt;p&gt;The 70-200mm will be used for capturing textures and general on-set photography. Still not sure if I want the added quality of the f2.8 or if the f4 with image stabilization is good enough. It is a 1000 bucks difference after all.&lt;/p&gt;
+&lt;h3 id=&#34;mounts-and-tripods&#34;&gt;Mounts and Tripods:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nodal Ninja with RD16 €449&lt;/li&gt;
+&lt;li&gt;Manfrotto 055CXPRO4 or 190CXPRO4 ~€200 (not sure, both cost about the same. I am open for other less pricey brands as well)&lt;/li&gt;
+&lt;li&gt;I already have a ball head&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This setup is pretty fixed. I like the Nodal Ninja and I have a ball head. I am open for a less expensive tripod, but given the quality of Manfrotto, €200 isn&amp;rsquo;t too bad, really.&lt;/p&gt;
+&lt;h3 id=&#34;remotes&#34;&gt;Remotes:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Promote ~€380&lt;/li&gt;
+&lt;li&gt;Canon tc-80n3 ~€140&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;m unsure about the MK3&amp;rsquo;s bracketing as it only offers 1EV steps at maximum. The Promote would allow me to control that better, but it is double of the &amp;ldquo;simple&amp;rdquo; (and already rather pricey) Canon remote.&lt;/p&gt;
+&lt;h3 id=&#34;all-the-other-stuff-one-needs-and-that-sucks-money-away&#34;&gt;All the other stuff one needs and that sucks money away:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sandisk Compact Flash Extreme 32GB 60MB/s (I really don&amp;rsquo;t see the point of going faster then 60 MB/s I&amp;rsquo;m not planning to do much video with it) ~€75 a pop about three or four of these&lt;/li&gt;
+&lt;li&gt;Pelican card case ~€40&lt;/li&gt;
+&lt;li&gt;DELOCK Card Reader-FireWire ~€50&lt;/li&gt;
+&lt;li&gt;Hama Lenspen ~€12&lt;/li&gt;
+&lt;li&gt;Peli 1510 Carry On Case ~€300 or a nice huge backpack that can fit all of this gear. I&amp;rsquo;m open for suggestions here.&lt;/li&gt;
+&lt;li&gt;a ruler of known length for matchmoving purposes&lt;/li&gt;
+&lt;li&gt;greyball 18% grey&lt;/li&gt;
+&lt;li&gt;Spyder Cube (was thinking of taking this instead of the grey ball as it is easier to get then 18% grey paint p lus it is very portable) ~€50&lt;/li&gt;
+&lt;li&gt;LightCraft Variable ND Fader ND MKII ~€100&lt;/li&gt;
+&lt;li&gt;B+W Cirkular Polarizer Käsemann F-Pro MRC DH 77mm ~€120&lt;/li&gt;
+&lt;li&gt;Leatherman Wave ~€70&lt;/li&gt;
+&lt;li&gt;X-Rite MSCCPP Passport ColorChecker ~€70&lt;/li&gt;
+&lt;li&gt;Leica D2 Laser measure ~€110&lt;/li&gt;
+&lt;li&gt;Bosch auto levelling laser cross ~€50&lt;/li&gt;
+&lt;li&gt;Canon battery packs LP-E6 ~€50&lt;/li&gt;
+&lt;li&gt;Suunto Pm-5 Clinometer ~€150&lt;/li&gt;
+&lt;li&gt;various self printed lens charts and tracking markers&lt;/li&gt;
+&lt;li&gt;tapes a whole bunch of them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Aperture (which I already have)&lt;/li&gt;
+&lt;li&gt;ptGUI (which I also already have)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Quite the list, eh?&lt;/p&gt;
+&lt;p&gt;I think the stuff at the bottom is pretty much locked in (and already a hefty 1300 bucks price tag), but I am pretty uncertain how to balance the stuff at the top, especially lenses.&lt;/p&gt;
+&lt;p&gt;Any ideas?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Check Your iOS iCloud Settings!</title>
+      <link>https://alexanderkucera.com/2013/11/24/check-your-ios.html</link>
+      <pubDate>Sun, 24 Nov 2013 12:48:16 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/11/24/check-your-ios.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Please go into your iOS device&amp;rsquo;s Settings.app and check your iCloud settings. Do it now. With a shock I just noticed that all my backups and syncing options were turned off on my iPad mini. And that without me purposefully disabling anything. So do yourself a favor and check those settings every now and then. Otherwise you might end up with no or too old of a backup when you need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shadowrun Returns</title>
+      <link>https://alexanderkucera.com/2013/07/25/shadowrun-returns.html</link>
+      <pubDate>Thu, 25 Jul 2013 23:00:25 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/07/25/shadowrun-returns.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I got access to my copy of &lt;a href=&#34;http://harebrained-schemes.com/shadowrun&#34;&gt;Shadowrun Returns&lt;/a&gt; right on release, July 25th, and immediately ended up playing it of about five hours. Probably your first clue that I liked it.&lt;/p&gt;
+&lt;p&gt;It has been described as Neverwinter Nights meets XCOM by its creators and that description is pretty accurate. I&amp;rsquo;d add that it at times also has a little point and click adventure feel to it.&lt;/p&gt;
+&lt;h2 id=&#34;on-a-budget&#34;&gt;On A Budget&lt;/h2&gt;
+&lt;p&gt;Harebrained Software got $1.8 Million from Kickstarter, which, when you take away all the Kickstarter and Amazon fees plus physical rewards, ends up as about $1.2 Million for the actual game. It later racked up the budget with a loan and additional Pre-sales done via their website, so I&amp;rsquo;m assuming that the actual budget ended up in the $2 Million range again. Which sounds like a lot, but it really isn&amp;rsquo;t if you do the math.&lt;/p&gt;
+&lt;p&gt;Anyway, the developers did a remarkable job of translating the Shadowrun experience into a playable and infinitely expandable game. The environments are gorgeous, the first story that came with it is pretty solid and supposed to be about 12 hours of gameplay.&lt;/p&gt;
+&lt;p&gt;You can really only tell that they needed to cut stuff by the lack of detail in the characters. They just feel a little unpolished at times. The 3D characters that is. The character art is top notch.&lt;/p&gt;
+&lt;p&gt;Another thing that&amp;rsquo;s sorely missing to give the game that extra bit of atmosphere is a voice over track. It&amp;rsquo;s just a little lackluster to read all the dialogue. But I guess with the idea of an editor that allows you to expand the game ad infinitum, a VO track seems a little unrealistic.&lt;/p&gt;
+&lt;p&gt;But in the end, &lt;a href=&#34;http://harebrained-schemes.com/shadowrun&#34;&gt;Shadowrun Returns&lt;/a&gt; remains a great, atmospheric game and anyone even mildly into the Shadowrun universe owes himself to check it out.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: Game Review&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prisoners of the Sun Premiere</title>
+      <link>https://alexanderkucera.com/2013/05/29/prisoners-of-the.html</link>
+      <pubDate>Wed, 29 May 2013 23:06:25 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/05/29/prisoners-of-the.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Today,29.05.2013, was the official premiere of &lt;strong&gt;Prisoners of the Sun&lt;/strong&gt;, the movie I was VFX producer for and that crashed and burned in 2008 due to a licensing issue. Luxx Studios bought the rights a while back and finished it. It turned out to be a modestly solid B-movie with 3D effects that looked very game-y, which is very sad, because we all—the former production crew—knew what it could have been.&lt;/p&gt;
+&lt;p&gt;Sadly, not having the rights to the material tends to throw a wrench into finishing up a movie, or any project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - Iron Man 3</title>
+      <link>https://alexanderkucera.com/2013/04/26/fmx-iron-man.html</link>
+      <pubDate>Fri, 26 Apr 2013 14:12:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/26/fmx-iron-man.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I planned to write about it, but the presentation was just blowing all our minds and I got sucked into simply watching to not miss anything. What can I say? I&amp;rsquo;m sorry. You should have been there.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: Talk by Guy Williams (Weta), Aaron Gilman (Weta)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - Crowdfunding, Risks and Chances</title>
+      <link>https://alexanderkucera.com/2013/04/26/fmx-crowdfunding-risks.html</link>
+      <pubDate>Fri, 26 Apr 2013 13:09:57 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/26/fmx-crowdfunding-risks.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;Do not add tangible rewards below $60!&lt;/em&gt; Shipping and manufacturing is simply too expensive. You might not make any money for your actual goal otherwise.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Make the first minute of the info video count!&lt;/em&gt; People turn off the video after that time on average.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to also post a whole array of slides or rephrase them. At least that&amp;rsquo;s the plan. But first. Sleep and family time.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: Talk by Kai Bodensiek (Brehm &amp;amp; v. Moers)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - Crowdfunding</title>
+      <link>https://alexanderkucera.com/2013/04/26/fmx-crowdfunding.html</link>
+      <pubDate>Fri, 26 Apr 2013 12:06:52 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/26/fmx-crowdfunding.html</guid>
+      <description>&lt;p&gt;Phil Tippett had a dream. &amp;ldquo;Mad God&amp;rdquo; a film that he wanted to make, but for a variety of reasons got put on hold around the time of Jurassic Park.&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Lack of money. Simple as that. To get it you used to ask friends, family and people foolish enough to invest In your little project. That lead to a lot of concession being made. Giving the rights to creative input away to investors, having investors kids in the movie, etc.&lt;/p&gt;
+&lt;h2 id=&#34;a-possible-solution---crowdfunding&#34;&gt;A Possible Solution - Crowdfunding&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Mad God&lt;/em&gt; got funding via Kickstarter and Corey talked us through what he has learned.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make your objective clear&lt;br&gt;
+If you cannot define your product, then people have no concept of what they are buying into.&lt;/li&gt;
+&lt;li&gt;Make your pitch personal&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t come off as aloof. If people sense that you don&amp;rsquo;t &lt;em&gt;need/want&lt;/em&gt; their money, they&amp;rsquo;ll take it elsewhere.&lt;/li&gt;
+&lt;li&gt;Set a realistic budget
+&lt;ul&gt;
+&lt;li&gt;As in make a spreadsheet and &lt;strong&gt;plan&lt;/strong&gt; things&lt;/li&gt;
+&lt;li&gt;Limit your reward costs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Make your project accessible to backers at all levels&lt;/li&gt;
+&lt;li&gt;Let the project reflect you and your idea&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t be afraid to fail&lt;/li&gt;
+&lt;li&gt;Treat your campaign as a &lt;strong&gt;campaign&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Advertise via social networks like Facebook, Twitter, App.net, LinkedIn&lt;/li&gt;
+&lt;li&gt;Get people that are &lt;em&gt;influencers&lt;/em&gt; to push your project to their followers/readers&lt;/li&gt;
+&lt;li&gt;Write frequent updates during the campaign&lt;/li&gt;
+&lt;li&gt;Ride the wave of spikes and plateaus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Treat your backers with respect&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: How To Raise Money For Any Startup, Video Game Or Creative Endeavor By Corey Rosen, Head Of Creative Marketing, Tippett Studio&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - OpenSubdiv</title>
+      <link>https://alexanderkucera.com/2013/04/24/fmx-opensubdiv.html</link>
+      <pubDate>Wed, 24 Apr 2013 22:58:05 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/24/fmx-opensubdiv.html</guid>
+      <description>&lt;p&gt;We startend the session with a quick history of subdivision surfaces. Invented by Pixar and first used in the short &lt;a href=&#34;http://en.wikipedia.org/wiki/Geri%27s_Game&#34;&gt;Gerry&amp;rsquo;s Game&lt;/a&gt; they made away with the constraints of both polygonal modeling as well as Nurbs modeling.&lt;/p&gt;
+&lt;h1 id=&#34;whats-wrong-with-nurbs&#34;&gt;What&amp;rsquo;s wrong with Nurbs?&lt;/h1&gt;
+&lt;p&gt;Nurbs surfaces are based on control vertices or hull points through which a b-spline is calculated. This leads to smooth curvature and inherent UVs. Both are good. However, Nurbs modeling relies on adding a multitude of Nurbs patches together to form you final surface. He problem arises at those patch seems where it can, and often is, mathematically impossible to create a seamless surface, much less when the &amp;ldquo;patchwork&amp;rdquo; is animated.&lt;/p&gt;
+&lt;h1 id=&#34;so-polygons-then&#34;&gt;So Polygons then?&lt;/h1&gt;
+&lt;p&gt;Short answer: nope.&lt;/p&gt;
+&lt;p&gt;Long answer: While polygons have no problem with arbitrarily complex surfaces or seem cracks, they have their own set of problems. First, they don&amp;rsquo;t have inherent UVs and unwrapping a complex mesh for texturing is no small feat. Second, to get smooth surfaces you need a very high amount of polygons or play cheap tricks with normals, which tend to quickly fall apart under scrutiny.&lt;/p&gt;
+&lt;h1 id=&#34;subdivs&#34;&gt;Subdivs&lt;/h1&gt;
+&lt;p&gt;First, the world in general and Pixar in specific only calls then Subdivs. Not subdivision surfaces.&lt;/p&gt;
+&lt;p&gt;Also, they are the answer to all the problems above. Arbitrarily complex, while always maintaining a definably smooth, crack free surface. Also, with the addition of PTex there is no need for UV unwrapping anymore.&lt;/p&gt;
+&lt;p&gt;In addition, Subdivs support localized levels of subdivision. What that means is that the whole pipeline can work with the coarse base mesh. The modeler can then go into specific sections that need more definition, locally subdivide that area and make modeling changes there. Those will be saved and applied at render time. Bill showed an example of that at work. In Brave, which was originally supposed to play in winter, they had Merida&amp;rsquo;s horse run through a snowy plane. The plane itself had a resolution of about a vertex per square meter. Enough resolution to model snow drifts. However, for the horse&amp;rsquo;s path they locally increased the planes resolution to one square centimeter at render time to capture the fine detail of hooves disturbing the snowy surface.&lt;/p&gt;
+&lt;h1 id=&#34;at-rendertime&#34;&gt;At rendertime&lt;/h1&gt;
+&lt;p&gt;The term &amp;ldquo;at rendertime&amp;rdquo; is misleading, because Pixar is now using a GPU implementation of the subdiv algorithm. The implications of that are far reaching.&lt;/p&gt;
+&lt;p&gt;At the simplest level &amp;ldquo;at rendertime&amp;rdquo; in the paragraph before means, the animator gets a live preview of those several hundred thousand faces in real time in the viewport (Maya&amp;rsquo;s Viewport 2.0 in this case, which has OpenSubdiv support built in already). Let me restate that, we saw a demo of a &amp;ldquo;low poly&amp;rdquo; mesh with about 3000 faces animated with bones that had the OpenSubdiv algorithm applied. What we saw on screen were about 3.8 million faces animated in real time. And since Subdivs have the added benefit of getting displacement at hardly any additional cost, those 4 million polygons were displaced as well. Very intriguing stuff.&lt;/p&gt;
+&lt;p&gt;This is not only interesting for VFX though. Since this realities GPU implementation also means games that adopt this will get much more visually complex. And in fact, while Bill could not mention any names, he went out of his way to let us know that &lt;em&gt;major mobile company that produces very popular devices we all own and with the power to dictate the chip manufacturers what to put into their chips&lt;/em&gt; will implement hardware OpenSubdiv support within the year. Or as Bill put it, &lt;em&gt;you will likely have devices with hardware support built in the next time you see me&lt;/em&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;good-for-pixar-how-do-i-get-it&#34;&gt;Good for Pixar. How do I get it?&lt;/h1&gt;
+&lt;p&gt;That&amp;rsquo;s the nice part. You likely already have the technology available to you. For one OpenSubdiv is open source and all the licensing for the technology is available for free as well. Also, if you use Maya, you have access to all this already. Maya uses the exact same algorithm Pixar uses since Maya 5.0 and now also has the GPU implementation through Viewport 2.0.&lt;/p&gt;
+&lt;p&gt;So no excuses, get cranking!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: Talk by Bill Polson, Director of Industry Strategy, Pixar&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - Camera Physics</title>
+      <link>https://alexanderkucera.com/2013/04/24/fmx-camera-physics.html</link>
+      <pubDate>Wed, 24 Apr 2013 22:36:45 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/24/fmx-camera-physics.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;This talk was very theory heavy with lots of formulas and photos of curves that summarize pretty badly. I still gave it a try here.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The session started with the history of camera tech. From the first wooden boxes with a hand crank.&lt;/p&gt;
+&lt;p&gt;A hand cranked camera had severe restrictions in that it obviously only could film where a human operator could go and there wasn&amp;rsquo;t even adjustable focus. Since then we have come a long way. Huge VistaVision camera rigs, car cranes with two seat at the top end of the crane (Titan crane) and Technocranes, which was the first camera crane that didn&amp;rsquo;t need someone to look through the lens allowing much greater range of camera freedom. This was thanks to Jerry Lewis idea of a video feed.&lt;/p&gt;
+&lt;p&gt;After that came the motion control rigs, which not only allow repeatable motion to shot many matching passes of a shot, but also allow the combination of live footage with camera matched 3D footage or miniature footage.&lt;/p&gt;
+&lt;h3 id=&#34;setting-the-scene&#34;&gt;Setting The Scene&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;it&amp;rsquo;s imperative to set up your film back accurately&lt;/li&gt;
+&lt;li&gt;after that setting the focal length should give you the correct field of view&lt;/li&gt;
+&lt;li&gt;you need to set up your nodal point on set correctly&lt;/li&gt;
+&lt;li&gt;live action usually is &lt;strong&gt;not&lt;/strong&gt; nodal, meaning there is a parallax while panning&lt;/li&gt;
+&lt;li&gt;this must be matched  in the 3D camera&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;real-life-camera-motion-in-3d&#34;&gt;Real Life Camera Motion In 3D&lt;/h3&gt;
+&lt;p&gt;Cameras must adhere to physics, which means there is a limit to the acceleration of an object. Not speed. Acceleration. Meaning sharp changes in speed, up or down, directional changes.&lt;/p&gt;
+&lt;p&gt;The acceleration can be derived by the second order derivative of the position change (translation curve). Ideally, you want your 3D curves to accelerate gradually with no more the 9.82 m/s or 1G. Some motion control sYstems can handle more or less.&lt;/p&gt;
+&lt;p&gt;Of course, there is also a certain speed limit involved.&lt;/p&gt;
+&lt;h3 id=&#34;problems-capturing-live-motion-for-repeatability&#34;&gt;Problems Capturing Live Motion For Repeatability&lt;/h3&gt;
+&lt;p&gt;A problem arises when you have a camera motion, usually SteadyCam shots, that you need to transform into a motion control shot. For example, you film your actors with a SteadyCam in a greenscreen setup and then you need to repeat that move with a motion control rig on a different set or a miniature.&lt;/p&gt;
+&lt;p&gt;The way to go about it is to match move (track) the shot, which will give you a rather noisy result, at least in motion control terms, which you won&amp;rsquo;t be able to program. You can smooth the result, which will loose you accuracy, but enables you to program the shot. The trick is to filter enough, without leading to misalignment.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: Talk by Anthony Jacques, VFX Camera Operator&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - Panel Discussion on the Future of the VFX Industry</title>
+      <link>https://alexanderkucera.com/2013/04/23/fmx-panel-discussion.html</link>
+      <pubDate>Tue, 23 Apr 2013 22:36:26 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/23/fmx-panel-discussion.html</guid>
+      <description>&lt;p&gt;Not too much to record for this one. It was mostly company heads trying to weasel their way out of loaded questions by the audience and discussion chair Eric Roth. Things like &amp;ldquo;Do you think a VFX union is a solution to the problems?&amp;rdquo; &amp;ldquo;…&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;It was interesting to see the panel stammer around the issue. But mostly it was sad that they still don&amp;rsquo;t see that they are a part of the issue. Companies not standing up and showing some balls.&lt;/p&gt;
+&lt;p&gt;Example: Pixomondo&amp;rsquo;s Chris Vogt agreeing that tax incentives are part of the issue, while not disclaiming that Pixomondo is pushing for tax credits here in the Stuttgart area. In fact, the papers are about to be signed within a month.&lt;/p&gt;
+&lt;p&gt;One of the last questions was good: &amp;ldquo;If you had 30 million, would you invest it in VFX today?&amp;rdquo; (After every panelist confirmed that they are feeling positive about the future of the industry.)
+Not one would use the money to open a VFX company. Very telling. :)
+Some suggested to invest it in a film fund.&lt;/p&gt;
+&lt;p&gt;Also, &amp;ldquo;why do you keep working on a fixed cost model? That&amp;rsquo;s insane.&amp;rdquo;
+A (summarized): &amp;ldquo;We are no businessmen and also passionate. So it&amp;rsquo;s mostly our fault, but it&amp;rsquo;s likely not going to change since our clients won&amp;rsquo;t go for a cost plus model.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;––––&lt;/p&gt;
+&lt;p&gt;Subtitle: Panel with Eric Roth (VES), Pierre Buffin (BUF Compagnie), Mark Driscoll (LOOK Effects), Christian Vogt (PIXOMONDO), Jean-Noël Portugal (jnko)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - The &#34;unfilmable&#34; Life of Pi</title>
+      <link>https://alexanderkucera.com/2013/04/23/fmx-the-unfilmable.html</link>
+      <pubDate>Tue, 23 Apr 2013 22:35:58 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/23/fmx-the-unfilmable.html</guid>
+      <description>&lt;p&gt;Opening with a joke about the botched Oscar ceremony, this is promising to be a good yet sad talk. Rhythm &amp;amp; Hues went from 1000 artists to a small fraction of that recently.&lt;/p&gt;
+&lt;h3 id=&#34;why-was-life-of-pi-unfilmable&#34;&gt;Why was Life of Pi &amp;ldquo;unfilmable&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Three simple reasons, combined making for a perfect storm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;water&lt;/li&gt;
+&lt;li&gt;animals&lt;/li&gt;
+&lt;li&gt;kids (the actor playing &lt;em&gt;Pi&lt;/em&gt; while technically not a kid played his first role and could not swim)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;research&#34;&gt;Research&lt;/h3&gt;
+&lt;p&gt;Ang Lee did some hands on research of how a life boat or raft behaves in the ocean and how water and waves behave. Authenticity was paramount.&lt;/p&gt;
+&lt;p&gt;A pool with a wave machine was built in addition to an extensive set of 3D shaders mimicking the pool water. The water had to blend with the CG seamlessly.&lt;/p&gt;
+&lt;h3 id=&#34;water-shading&#34;&gt;Water Shading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;custom, physically plausible water shader&lt;/li&gt;
+&lt;li&gt;a set of five different water noises to layer and mix the water as needed
+&lt;ul&gt;
+&lt;li&gt;to avoid tiling a set of noise patterns was used to multiply the effects of the water noise parameters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;once water was dialed in, it was &lt;strong&gt;locked&lt;/strong&gt; and 3D artists couldn&amp;rsquo;t change it and needed to adjust the scene to get the desired effect&lt;/li&gt;
+&lt;li&gt;and of course, physical accuracy went out the window as soon as we reach the comp stage or when the director wants the water different then the physical simulation says it should look&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;skies&#34;&gt;Skies&lt;/h3&gt;
+&lt;p&gt;About 140 different extremely high–res HDRi skies were shot and and artists could pick and choose crop outs&lt;/p&gt;
+&lt;h3 id=&#34;meerkat-island&#34;&gt;Meerkat Island&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;one giant single Banyan tree system with about 6 billion polys per frame&lt;/li&gt;
+&lt;li&gt;up to 45000 meerkats in one shot done with Massive&lt;/li&gt;
+&lt;li&gt;up to 10000 in the shot&lt;/li&gt;
+&lt;li&gt;basically only Pi is real, the island is CG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;richard-parker-the-tiger&#34;&gt;Richard Parker, the tiger&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;subsurface on the fur&lt;/li&gt;
+&lt;li&gt;new muscle system&lt;/li&gt;
+&lt;li&gt;not anthropomorphized at all&lt;/li&gt;
+&lt;li&gt;based on a real tiger, &amp;ldquo;King&amp;rdquo;, from France, he appears in only 23 shots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;muscles simulation → subcutaneous skin layer → epidermis layer that slides over the top → covered by fur&lt;/p&gt;
+&lt;p&gt;All that leads to the realistic wiggling, bouncing and sliding of ski that makes for a realistic animal.&lt;/p&gt;
+&lt;p&gt;10 million strands of hair lit with area lights, subsurface scattering&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Subtitle: Talk by Chris Kenny, Compositing Supervisor, Rhythm &amp;amp; Hues&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - Le Big Shift in VFX</title>
+      <link>https://alexanderkucera.com/2013/04/23/fmx-le-big.html</link>
+      <pubDate>Tue, 23 Apr 2013 22:34:34 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/23/fmx-le-big.html</guid>
+      <description>&lt;p&gt;Topics discussed center around what the industry can do to improve interoperability and workflow to strengthen the business instead of running it into the ground.&lt;/p&gt;
+&lt;h3 id=&#34;open-data-platforms&#34;&gt;Open Data Platforms&lt;/h3&gt;
+&lt;p&gt;Rob Bredrow took the lead by talking about the work he and SPI has worked on to create a good open standard onto which companies can build to achieve something greater. Alembic, OpenColorIO, OpenEXR to name a few.&lt;/p&gt;
+&lt;p&gt;Before every company needed to reinvent the wheel in-house to set itself apart. Now they can work on a common standard which helps with interoperability between companies, which is something that is required in today&amp;rsquo;s industry.&lt;/p&gt;
+&lt;p&gt;We have moved from &amp;ldquo;secret sauce&amp;rdquo; to common baseline, which also includes the game industry. A convergence of VFX and games in this respect seems  inevitable to Cevat from CryTek.&lt;/p&gt;
+&lt;p&gt;The words &amp;ldquo;vector of cross-pollination for these industries&amp;rdquo; were uttered. That should tell you pretty much everything you need to know.[^1]&lt;/p&gt;
+&lt;h3 id=&#34;cloud-based-solutions&#34;&gt;Cloud Based Solutions&lt;/h3&gt;
+&lt;p&gt;Cloud based computing power is something that is a topic everybody was interested in, even the big houses, who usually have several thousand render farm computers of their own. There are immense draws to this kind of workflow. From lower overheads, due to savings on machine, administration and licensing costs to being able to ramp up render power quickly when you need it during a deadline crunch.&lt;/p&gt;
+&lt;p&gt;This interest is something that is shared equally between small studios like ours and the big boys. And only expected to expand in the coming years. Ludwig von Reiche talked a bit about cloud computing applications in development, running on Amazon Elastic Computing among others, which he expects to come out within the next year.&lt;/p&gt;
+&lt;p&gt;While there are already solutions that offer Amazon Cloud rendering, they are usually cobbled together requiring a small science degree to figure out. We are talking about more accessible solutions.&lt;/p&gt;
+&lt;p&gt;Rob Bredrow argued that there are really two sides to cloud computing. One is the reduced cost due to less inventory and running costs. The other side is to add a lot of render power on demand, say 1000 or more machines to render a shot in an afternoon. That might cost more, but speeds up the creative cycle and might be worth it from that perspective.&lt;/p&gt;
+&lt;p&gt;[1]: That&amp;rsquo;s around where I got bored and lost a bit track of the conversation.&lt;/p&gt;
+&lt;p&gt;Subtitle: Panel Discussion with Marc Petit (Autodesk), Rob Bredow (SPI), David Morin (Autodesk), Don Parker (Shotgun), Ludwig von Reiche (NVIDIA ARC), Cevat Yerli (Crytek)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX 2013 - Cloud Atlas</title>
+      <link>https://alexanderkucera.com/2013/04/23/fmx-cloud-atlas.html</link>
+      <pubDate>Tue, 23 Apr 2013 22:32:48 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/23/fmx-cloud-atlas.html</guid>
+      <description>&lt;p&gt;Starting out with a short overview of RiseFX, his company, Florian dove right into the workflow for Cloud Atlas. RiseFX has garnered a reputation for using innovative approaches to set extensions and they didn&amp;rsquo;t disappoint on Cloud Atlas either.&lt;/p&gt;
+&lt;p&gt;Starting out with some stats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;most expensive German movie to date at 100 million US dollars&lt;/li&gt;
+&lt;li&gt;financed independently internationally&lt;/li&gt;
+&lt;li&gt;lots of famous actors in multiple wildly different roles&lt;/li&gt;
+&lt;li&gt;shot only in European locations standing in for totally different environments&lt;/li&gt;
+&lt;li&gt;pre–production started July 2011 with the previz of 1973 San Fransisco and the Luisa Rey car crash&lt;/li&gt;
+&lt;li&gt;shooting started in August&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;car-crash&#34;&gt;Car Crash&lt;/h1&gt;
+&lt;p&gt;The previz was very accurately planned and is pretty much verbatim like that in the movie.&lt;/p&gt;
+&lt;p&gt;Filmed on a bridge in Scotland, which lead to major cleanup work as the bridge was supposed to lead to an island not to mention be in San Francisco. A major challenge was that it plays at night with various camera crane moves showing kilometers of street environment. While you could in theory light that set, there would be huge amounts of lights, power and therefor budget involved.&lt;/p&gt;
+&lt;p&gt;So the guys went ahead, shot her on the backlot of Rise in Berlin in front of a blue-screen. For the bridge, they made a 3D scan of the environment that got them a textured and completely relightable.  Easy.&lt;/p&gt;
+&lt;p&gt;The crash itself was filmed on a gimbal with added CG trash elements floating around giving a zero gravity effect.&lt;/p&gt;
+&lt;p&gt;The car crashing into Halle Berry&amp;rsquo;s car was a 3D car for a simple reason. The director liked the movement of the car in a specified shot, which was unfortunately unusable due to plate errors. So the car was modeled and textured based of all the different takes. Then the preferred shots car was match moved and the 3D car placed into the shot.&lt;/p&gt;
+&lt;h1 id=&#34;plane-crash&#34;&gt;Plane Crash&lt;/h1&gt;
+&lt;p&gt;The plane crash was a pretty straightforward Houdini simulation. However, for this project RiseFX adapted a 100% Houdini approach, unlike what most other companies do, simulate in Houdini and model, animate and render in another package. This approach saved the, a lot of headaches as everything could interact and be rendered in the same package.&lt;/p&gt;
+&lt;p&gt;Which means for the plane explosion that not only could the simulation influence the fluid simulation, but also they could light the geometry with the fluid simulation. Meaning the explosion light everything physically correctly including all the small debris.&lt;/p&gt;
+&lt;h1 id=&#34;lots-of-environment-reprojection&#34;&gt;Lots of environment re–projection&lt;/h1&gt;
+&lt;p&gt;Having all the sets as Lidar 3D scans meant that they could very easily redress entires sets and just replace them with the 3D model. It also made relighting a lot easier.&lt;/p&gt;
+&lt;p&gt;––––&lt;/p&gt;
+&lt;p&gt;Subtitle: Talk by Florian Gellinger&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FMX/fxphd Kickoff Meetup</title>
+      <link>https://alexanderkucera.com/2013/04/22/fmxfxphd-kickoff-meetup.html</link>
+      <pubDate>Mon, 22 Apr 2013 22:43:10 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/22/fmxfxphd-kickoff-meetup.html</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Yesterday evening was the first of likely many fxphd meetups this week. About 15 people showed up and had a relaxed chat. It was a great time to catch up with old friends and meet new faces.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Movies were discussed, Schnitzels eaten and some teased (twitter: johnmontfx text: John Montgomery), who sadly couldn&amp;rsquo;t make it this year, with pictures of delicious wheat beer like the cruel friend we are.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;All in all it was great seeing everyone again and to have some light non-FMX, but of course still VFX chat.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Remote posting to Kirby via iOS now working</title>
+      <link>https://alexanderkucera.com/2013/04/22/remote-posting-to.html</link>
+      <pubDate>Mon, 22 Apr 2013 22:32:04 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/22/remote-posting-to.html</guid>
+      <description>&lt;p&gt;Next week is &lt;a href=&#34;http://www.fmx.de&#34;&gt;FMX&lt;/a&gt;, a great yearly convention about visual effects, games and virtual reality. I&amp;rsquo;m there every year reporting for Professional Production Magazine and I thought this year I could up my game and write little short blurbs on this blog about the sessions I attend. I asked around and there was some interest from people that could not make it this year or which are interested in the topic.&lt;/p&gt;
+&lt;p&gt;So far so good. There was only one problem. I switched to using &lt;a href=&#34;http://getkirby.com&#34;&gt;Kirby&lt;/a&gt; as the back end system of all my websites including this blog. Kirby is a great lightweight system for web publishing. Only, because it is still so young, it doesn&amp;rsquo;t have a mobile client that allows you to create posts or pages easily. True, it comes with an admin panel, but that doesn&amp;rsquo;t work offline and it also doesn&amp;rsquo;t work on my iPhone. So I was looking for something that better suited my needs. And I had a first version working.—&lt;/p&gt;
+&lt;h2 id=&#34;drafts-dropbox-hazel-rsync-easy-really&#34;&gt;Drafts, Dropbox, Hazel, Rsync. Easy, really.&lt;/h2&gt;
+&lt;p&gt;Since I only had a few hours here and there, it is still really rough and not as elegant as I&amp;rsquo;d like, but it works. I am now able to use &lt;a href=&#34;http://agiletortoise.com/drafts&#34;&gt;Drafts&lt;/a&gt; to compose my posts on either my iPad or my iPhone, or start on one and finish on the other, since notes are always kept in sync, send the post to &lt;em&gt;Dropbox&lt;/em&gt; via Draft&amp;rsquo;s custom Dropbox actions where it is picked up by &lt;a href=&#34;http://www.noodlesoft.com/hazel.php&#34;&gt;Hazel&lt;/a&gt;, renamed to fit my Kirby naming convention, put into the right folder and then uploaded via &lt;a href=&#34;http://rsync.samba.org/&#34;&gt;Rsync&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;pictures-work-too&#34;&gt;Pictures work, too&lt;/h2&gt;
+&lt;p&gt;So much for plain text posts. But pictures work, too. Though they are still very much a pain. iOS&#39; default camera app records the orientation of the device as EXIF data, so portrait orientation pictures are not actually rotated, but the EXIF Orientation is set to 90° or -90°. Which is all nice and fine, except Safari, and a few other browsers, disregard the EXIF orientation, so images appear in landscape on my site after I upload them. That sucks. The only way around that is to either do &lt;em&gt;anything&lt;/em&gt; to the image in Camera+ or another photo editor and save the result, which bakes the rotation into the image. Or to write a function in Hazel that bakes the orientation into the image after I upload it to Dropbox. I&amp;rsquo;m probably going to go with the latter, since I&amp;rsquo;m trying to save battery life and using Camera+ a lot sucks down battery life quite a bit.&lt;/p&gt;
+&lt;p&gt;But I&amp;rsquo;m getting ahead of myself. To get my images up to Dropbox I use a great little app called &lt;a href=&#34;http://homegrownsw.com/camerasync/&#34;&gt;CameraSync&lt;/a&gt;, which has Geofencing support, meaning I don&amp;rsquo;t have to do anything to upload the picture to a folder of my choosing on Dropbox. Also, and this is the killer feature, it resizes them before the upload, saving me time and bandwidth.&lt;/p&gt;
+&lt;p&gt;The biggest pain from here is that I still need to manually move the images into my blog posts folder and rename them from &lt;em&gt;somename–timestamp.jpg&lt;/em&gt; to the naming I use for images in my blog. I have not found a smarter way to do it yet then to do it manually. As I said, the whole process is still rough around the edges.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Please update your RSS reader</title>
+      <link>https://alexanderkucera.com/2013/04/19/please-update-your.html</link>
+      <pubDate>Fri, 19 Apr 2013 21:11:34 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2013/04/19/please-update-your.html</guid>
+      <description>&lt;p&gt;Effective immediately, I switched over this site&amp;rsquo;s &lt;a href=&#34;http://en.wikipedia.org/wiki/RSS&#34;&gt;RSS&lt;/a&gt; to &lt;a href=&#34;http://uri.lv&#34;&gt;URI.LV&lt;/a&gt; to handle my feed subscriptions. With &lt;a href=&#34;https://feedburner.google.com/&#34;&gt;Feedburner&lt;/a&gt; going down in the near future and Kirby not having its own feed tracking, &lt;strong&gt;URI.LV&lt;/strong&gt; seems like a pretty good replacement.&lt;/p&gt;
+&lt;p&gt;Also its support rocks. I had a problem with the URL rewrite rules and &lt;a href=&#34;http://maximevalette.com&#34;&gt;Maxime&lt;/a&gt;, the mind behind URI.LV helped me out within minutes.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

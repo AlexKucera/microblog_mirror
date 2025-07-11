@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Blogging Workflow…again
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Blogging Workflow…again</h1>
+	
+    <div><time class="dt-published" datetime="2013-11-25T18:29:56&#43;02:00">Nov 25, 2013</time></div>
+
+	<div class="e-content">
+		<!-- raw HTML omitted -->
+<p>Yes, I finally am blogging again. Only 6 months of silence this time. Not too shabby.</p>
+<p>Anyway, a major hindrance was that my blogging workflow wasn&rsquo;t working quite right yet, which in turn was like an invisible wall that I was just too tired to climb each time I want to post something. Luckily, I have had the last two days to tinker with it and to figure it out. Now I have a pretty solid workflow. Well, at the moment it looks solid. It is not battle tested however. That&rsquo;s what future blog posts are for.</p>
+<p>But since it is a little involved, I thought I&rsquo;d write it down here right away. For one so I won&rsquo;t forget and also some friends asked me how I am handling blogging from iOS to my <a href="http://getkirby.com">Kirby</a> blog.</p>
+<h2 id="tldr1">Tl;dr<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<p>Write your post in whatever text editor you prefer. Ideally one that supports x-callbacks. I personally use Editorial since it&rsquo;s nice for writing and I also use it for processing everything anyway. Before that I used Drafts together with Editorial.</p>
+<p>Fire off the Editorial workflow that transforms your text into a blog post with the correct formatting and uploads it to Dropbox.</p>
+<p>Create or edit any imagery that goes along with the post and upload the images to the right Dropbox folder. The path of said folder has been copied to the clipboard by the above Editorial workflow.</p>
+<p>Have Hazel put everything into place and let it upload to post to the web server.</p>
+<h2 id="the-long-version">The long version</h2>
+<p>There are several steps involved to make this work. It sounds complicated, but is actually rather straightforward.</p>
+<ul>
+<li><a href="http://getkirby.com">Kirby</a>, of course.</li>
+<li><a href="http://agiletortoise.com/drafts/">Drafts</a> (or any other editor that allows you to send stuff to Editorial via <a href="http://x-callback-url.com/">x-callback URLs</a>).</li>
+<li><a href="http://omz-software.com/editorial/">Editorial</a>, <a href="http://omz-software.com/pythonista/index.html">Pythonista</a> works equally well, but Editorial is simpler to set up, plus you can write in Editorial as well and just skip <em>Drafts</em> entirely, which is what I do most of the time.</li>
+<li><a href="http://filterstormneue.com">Filterstorm Neue</a> or alternatively Photoforge 2 if you still have access to it.</li>
+<li>Dropbox</li>
+<li><a href="http://www.noodlesoft.com">Hazel</a></li>
+<li><a href="http://www.crushftp.com">CrushFTP</a>, optional, but depending on the image editor you use more convenient</li>
+</ul>
+<h3 id="kirby">Kirby</h3>
+<p>First of all, why Kirby? Sounds like an awful lot of work for something that Tumblr offers for free. Tumblr even has an iOS app. Just log in and be done with it.</p>
+<p>For me it comes down to owning what I create. And that involves hosting  what I create. Yes, Kirby is a little more involved and— <em>gasp</em> —costs money, but it is really flexible—I built several sites with it for myself, friends and even customers—, fast and pretty cheap considering.</p>
+<p>Plus it works with text files and Markdown, both things that I value dearly and that make this specific workflow possible without a special &ldquo;<em>Kirby iOS app</em>&rdquo;.</p>
+<h3 id="drafts-optional">Drafts (optional)</h3>
+<p><em>For completeness sake I&rsquo;m including my Drafts workflow as well. However, I have since completely switched over to Editorial for writing as well as post-processing my posts.</em></p>
+<hr>
+<p>I started writing my posts in Agile Tortoise&rsquo;s Drafts, a fine and frictionless text editor with the added bonus that it supports the x-callback URL scheme and a ton of other ways to share or manipulate the written word.</p>
+<p>When I write a blog entry, I put the post&rsquo;s title in the first line and the actual post content right after it. If I want a subtitle, that goes at the very bottom with the tag <code>Subtitle:</code></p>
+<p>So a typical post in Drafts would look like this:</p>
+<pre><code>This is my title
+
+And this is my content.
+It can have any content. Paragraphs, code blocks, lists, you name it.
+
+----
+
+Subtitle: And then at the bottom I have the option to put a subtitle.
+</code></pre>
+<p>When it comes time to share my post with the world, I have a Dropbox action called <em>Blog Post</em>, that will create a file in a designated Dropbox folder—I have a global <em>Apps</em> folder and I put it in a subfolder there—with the name of my post title as filename. It will also fill in a couple of things for me. Most notably the date and the title. So the above post transforms into:</p>
+<p>&lsquo;<code>This is my title.md</code>&rsquo; with the following content:</p>
+<pre><code>Title: This is my title
+
+----
+
+Date: 07.11.13 (used for display purposes)
+
+----
+
+Time: 2013-11-07-17-33-55 (used for sorting purposes)
+
+----
+
+And this is my content.
+It can have any content. Paragraphs, code blocks, lists, you name it.
+
+----
+
+Subtitle: And then at the bottom I have the option to put a subtitle.
+</code></pre>
+<p>You can import this action into Drafts by clicking this link: <a href="drafts://x-callback-url/import_action?type=dropbox&amp;name=Blog%20Post&amp;path=%2FApps%2FDrafts%2FKirby%2FBlog%2F&amp;filenametype=1&amp;filename=&amp;ext=md&amp;writetype=0&amp;template=Title%3A%20%5B%5Btitle%5D%5D%0A%0A----%0A%0ADate%3A%20%5B%5Bdate%7C%25d.%25m.%25Y%5D%5D%0A%0A----%0A%0ATime%3A%20%5B%5Btime%5D%5D%0A%0A----%0A%0AText%3A%20%5B%5Bbody%5D%5D">→ Import Blog Posts action into Drafts</a></p>
+<h3 id="editorial">Editorial</h3>
+<p><em>This first part is part of the old Drafts workflow. Jump to the second part to see how I&rsquo;m working right now.</em></p>
+<hr>
+<h4 id="the-old-way">The <em>old</em> way</h4>
+<p>The next two steps are only for the times I want or need images in my posts or if I want to create one of those snazzy banners that are sorely underrepresented in my blog.</p>
+<p>I use Editorial as a simple text filter in this case. I could write something like this for Pythonista to make it work on iPhone (Editorial is iPad only), but I, well, I didn&rsquo;t feel like it.</p>
+<p>Editorial simply gives me back the future path of my new blog post, something I need if I want to drop pictures into that folder without hunting for the correct folder in my next step.</p>
+<p>I send over my post from Drafts to Editorial with a simple x-callback URL.</p>
+<p>You can import the URL Action into Drafts by clicking this link: <a href="drafts://x-callback-url/import_action?type=URL&amp;name=Copy%20Blog%20Path&amp;url=editorial%3A%2F%2F%3Fcommand%3D%7B%7Bcreate%20blog%20URL%7D%7D%26input%3D%5B%5Btitle%5D%5D">→ Import URL action &ldquo;Copy Blog Path&rdquo; into Drafts</a></p>
+<p>Editorial then cleans it up in a variety of ways. For example, everything gets turned to lowercase, spaces are removed, etc.</p>
+<p>The resulting URL is copied to the clipboard. In the example above <code>This is my title</code> turns into <code>http://alexanderkucera.com/20131108-this_is_my_title</code>.</p>
+<p>I opted not to run any action after this, as I want to be able to switch to any app I want as the situation requires. But usually it is now on to <em>Filterstorm</em>.</p>
+<p>If you want to import the URL cleanup workflow into Editorial or simply read through it in detail, you can take a look at this <a href="http://editorial-app.appspot.com/workflow/5035202761981952/hTzXZVeWcLI">&ldquo;create blog URL&rdquo; Editorial Action</a></p>
+<h4 id="the-new-way">The <em>new</em> way</h4>
+<p>Since I have completely switched over from Drafts to Editorial, I had to create a workflow that would prep a standard Markdown document and turn it into a blog post. Since Editorial is much more powerful then Drafts, I was also able to make it a bit smarter, ask for input on a few things and optionally archive or delete a post once I&rsquo;m done with it.</p>
+<p>It does a lot of things similar to my Drafts workflow though. After all is said and done, a file with the correct naming scheme gets written to a Dropbox folder. And I also get the blog URL at the end from the workflow above.</p>
+<p>The bonus with the Editorial workflow is that I don&rsquo;t need to watch out for any specific formatting. I can have a standard Markdown document and everything <em>just works™</em>. And Editorial is just really pleasant to work in.</p>
+<p><a href="http://editorial-app.appspot.com/workflow/5895905618165760/iEqPb0_XVkw">Editorial Blog Posting Workflow</a></p>
+<h3 id="filterstorm-neue">Filterstorm (Neue)</h3>
+<p>Filterstorm Neue, is brand new, but the old Filterstorm or Filterstorm Pro have pretty much the same abilities. Or you could use Photoforge 2 if you still have it. The important bit is that the app allows you to either <strong>export to Dropbox or to upload via FTP</strong> and to give your images <strong>a name of your choosing</strong>.</p>
+<p>Well, this step is really simple. Do your image edits. Done? Ok. Then upload it to the folder we just had the path created for in Editorial. Simple, right?</p>
+<p>Well, yes and no. There is one step that I consider crucial. I don&rsquo;t want to upload to my web server. I want to upload my image to Dropbox. I consider the Dropbox version of my site to be the canonical copy. Everything goes there first and then gets uploaded to the server. Otherwise I end up with a file mess. Files might get updated or changed here or there. Who knows? By always going Dropbox first, that issue gets sidestepped completely.</p>
+<p>If you don&rsquo;t have an <em>always on</em> server machine, your best bet is to find a way to upload to Dropbox directly. Photoforge has a Dropbox uploading feature. Filterstorm does as well, though it involves browsing to your posts folder manually instead of just giving it a path.</p>
+<p>For various reasons, mostly because I don&rsquo;t want to hunt down a folder and I have the exact path I need from my Editorial workflow above, I decided to go a completely different route: FTP.</p>
+<p>I happen to use CrushFTP for work anyway, which means I just need to set up an FTP account that points to the blog&rsquo;s content folder in my server&rsquo;s Dropbox folder and the rest is very straightforward. Get path from Editorial and upload to said path.</p>
+<h3 id="hazel">Hazel</h3>
+<p>The last and final step. The one step that unifies desktop and iOS blogging. Automatically uploading my posts from Dropbox to the server. Hazel is the perfect match for that. Especially since it got the ability to open an FTP connection on its own a couple of versions back.</p>
+<p>The Hazel flow goes like this:</p>
+<ul>
+<li>Look into the Drafts Or Editorial app folder and check if there is new post.</li>
+<li>Put the file into a subfolder called <code>&lt;date&gt;-postname</code>.</li>
+<li>Rename the file to <code>article.md</code> (the name of my Kirby layout template for a blog post)</li>
+<li>move the new folder with the post in it into my blog</li>
+</ul>
+<p>There another Hazel rule takes over as Hazel rules only ever can work on one folder at a time. It goes like this:</p>
+<ul>
+<li>Is there a folder? Look into it.</li>
+<li>Any file that doesn&rsquo;t have a red or grey color tag and that has been modified within the day gets uploaded</li>
+<li>After the upload color the file grey</li>
+</ul>
+<p>The color tags are there to stop Hazel from constantly uploading files that have been modified inside the &ldquo;today&rdquo; timeframe. But they also allow me to simply take off the color label if I want a file to be re-uploaded.</p>
+<p>Grab the Hazel ruleset here: <!-- raw HTML omitted -->hazelrules.zip<!-- raw HTML omitted --></p>
+<p>The one called <code>Drafts-Editorial-Folder</code> is for the incoming Drafts or Editorial file and the one called <code>Kirby-Blog-Folder</code> monitors the Kirby blog folder.</p>
+<h2 id="thats-it">That&rsquo;s it.</h2>
+<p>See? Simple, right?</p>
+<hr>
+<p>Subtitle: Kirby, iOS, Drafts, Editorial, Filterstorm and Hazel tied into a neat bundle</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="http://www.urbandictionary.com/define.php?term=tl%3Bdr">Too long; Didn&rsquo;t read</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
