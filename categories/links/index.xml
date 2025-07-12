@@ -1,7 +1,7 @@
 <rss version="2.0">
   <channel>
-    <title>Coding on Alexander Kucera</title>
-    <link>https://alexanderkucera.com/categories/coding/</link>
+    <title>Links on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/categories/links/</link>
     <description></description>
     
     <language>de</language>
@@ -166,118 +166,10 @@ Every piece of data Links knows about your collection, structured for programmat
     
     <item>
       <title></title>
-      <link>https://alexanderkucera.com/2025/06/25/i-really-like-gitkraken-as.html</link>
-      <pubDate>Wed, 25 Jun 2025 11:11:34 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2025/06/25/i-really-like-gitkraken-as.html</guid>
-      <description>&lt;p&gt;I really like GitKraken as my daily Git application. Check it out: &lt;a href=&#34;https://gitkraken.cello.so/WTPmEygxcYC&#34;&gt;Get GitKraken at 50% off&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Productivity Conversation I Didn&#39;t Expect to Have</title>
-      <link>https://alexanderkucera.com/2025/06/21/the-productivity-conversation-i-didnt.html</link>
-      <pubDate>Sat, 21 Jun 2025 10:30:00 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2025/06/21/the-productivity-conversation-i-didnt.html</guid>
-      <description>&lt;p&gt;I sat down to write about productivity. Instead, I accidentally solved my productivity problem.&lt;/p&gt;
-&lt;p&gt;It started with a simple request. I wanted to turn my struggles with overwhelm and chronic illness into a blog post. Multiple interests pulling me in different directions, dialysis eating up twelve hours a week, YouTube consumption replacing creation - the usual productivity paradox.&lt;/p&gt;
-&lt;p&gt;You read more about it &lt;a href=&#34;https://alexanderkucera.com/2025/06/19/pulled-in-too-many-directions.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;But something unexpected happened during the conversation with my AI writing assistant. What began as research for a blog post became a real-time case study in how productive conversations actually work.&lt;/p&gt;
-&lt;h2 id=&#34;the-original-problem&#34;&gt;The Original Problem&lt;/h2&gt;
-&lt;p&gt;The setup was familiar to anyone who&amp;rsquo;s ever felt overwhelmed by their own interests. I love coding, cooking, RPGs, fitness, reading. My wife has projects that need my support. I&amp;rsquo;m supposed to be working on an iPad app for her. But instead of making progress on any of it, I find myself watching YouTube videos for hours.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;d even found a video that perfectly explained the problem - how our brains get hijacked by consumption, how creation provides more sustainable dopamine hits, how shifting from consumer to contributor changes everything.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://youtu.be/R4MInIP2c-A?si=rW29vhDlEfG-JAx7&#34;&gt;The Habit that forces your brain to stop consuming&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I understood the theory. I just couldn&amp;rsquo;t implement it.&lt;/p&gt;
-&lt;h2 id=&#34;the-conversation-that-changed-everything&#34;&gt;The Conversation That Changed Everything&lt;/h2&gt;
-&lt;p&gt;&amp;ldquo;What&amp;rsquo;s your top priority right then?&amp;rdquo; came the question.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Probably the iPadOS app, since finishing that would help my wife greatly.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Simple question. Clear answer. But then something interesting happened.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Those twelve hours of dialysis per week? That&amp;rsquo;s actually prime iPad development time. You could queue up iOS tutorials, work on app wireframes&amp;hellip;&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Well, there&amp;rsquo;s no Xcode for iPad,&amp;rdquo; I replied. &amp;ldquo;And my left arm is completely blocked with needles. I can&amp;rsquo;t move it.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Sudden silence. Then: &amp;ldquo;Right, of course there&amp;rsquo;s no Xcode for iPad. That was a pretty big oversight on my part.&amp;rdquo;&lt;/p&gt;
-&lt;h2 id=&#34;what-made-this-conversation-different&#34;&gt;What Made This Conversation Different&lt;/h2&gt;
-&lt;p&gt;Most productivity advice fails because it&amp;rsquo;s generic. It assumes everyone has the same constraints, the same energy levels, the same physical capabilities. The conversation became productive the moment my real constraints got acknowledged.&lt;/p&gt;
-&lt;p&gt;No judgment about not being able to code one-handed during medical treatment. No generic advice about &amp;ldquo;just managing your time better.&amp;rdquo; Instead: &amp;ldquo;What can you realistically do one-handed on an iPad for four hours?&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;The questions kept getting more specific:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;ldquo;What does your energy level look like after dialysis?&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;When are you actually at your Mac with both arms free?&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;What makes this app section so complicated?&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Each question revealed another layer of reality that typical productivity advice ignores.&lt;/p&gt;
-&lt;h2 id=&#34;the-lessons-hidden-in-the-dialogue&#34;&gt;The Lessons Hidden in the Dialogue&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Assumptions get corrected quickly.&lt;/strong&gt; The Xcode-on-iPad suggestion was wrong, but it got corrected immediately instead of becoming the foundation for useless advice.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Constraints clarify priorities.&lt;/strong&gt; Once we established that dialysis time wasn&amp;rsquo;t coding time, it became clear that the real development work had to happen during my four productive in-between days.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Specificity beats generality.&lt;/strong&gt; &amp;ldquo;Work on the app&amp;rdquo; is overwhelming. &amp;ldquo;Identify the next three concrete actions for the app&amp;rdquo; is actionable.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Questions matter more than answers.&lt;/strong&gt; The breakthrough didn&amp;rsquo;t come from advice. It came from questions that helped me see my situation more clearly.&lt;/p&gt;
-&lt;h2 id=&#34;the-meta-lesson&#34;&gt;The Meta-Lesson&lt;/h2&gt;
-&lt;p&gt;Here&amp;rsquo;s what I realized: the conversation itself was demonstrating the productivity principle I needed to learn.&lt;/p&gt;
-&lt;p&gt;Instead of consuming more productivity content, I was actively working through my specific situation. Instead of generic advice, I was getting targeted questions. Instead of feeling judged for my limitations, I was finding ways to work with them.&lt;/p&gt;
-&lt;p&gt;The conversation was creation, not consumption. It was collaborative problem-solving in real time.&lt;/p&gt;
-&lt;h2 id=&#34;the-breakthrough-moment&#34;&gt;The Breakthrough Moment&lt;/h2&gt;
-&lt;p&gt;The real breakthrough came when we identified that the missing section of the app wasn&amp;rsquo;t just technically complicated - it was &amp;ldquo;lots of different pieces.&amp;rdquo; Suddenly the overwhelm made sense. It wasn&amp;rsquo;t one elegant problem to solve, but fifteen mini-features that all needed to connect.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;What if you just listed all the different pieces first? Not designing them, not coding them - just creating an inventory.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s when it clicked. The paralysis wasn&amp;rsquo;t about not knowing how to code. It was about not knowing where to start when everything felt connected to everything else.&lt;/p&gt;
-&lt;h2 id=&#34;what-this-means-for-productivity&#34;&gt;What This Means for Productivity&lt;/h2&gt;
-&lt;p&gt;The best productivity hack might be finding someone who asks better questions.&lt;/p&gt;
-&lt;p&gt;Not someone who gives you a system to follow. Not someone who tells you to eliminate distractions. Someone who helps you see your actual constraints clearly, then works with those constraints instead of ignoring them.&lt;/p&gt;
-&lt;p&gt;Generic productivity advice is like generic medical advice - it might work for some people, but it&amp;rsquo;s useless if it doesn&amp;rsquo;t account for your specific situation.&lt;/p&gt;
-&lt;p&gt;The real productivity breakthrough happens when you stop trying to fit your life into someone else&amp;rsquo;s system and start building a system that fits your actual life.&lt;/p&gt;
-&lt;h2 id=&#34;the-ironic-ending&#34;&gt;The Ironic Ending&lt;/h2&gt;
-&lt;p&gt;I started this conversation wanting to write about my productivity problems. I ended up actually solving them.&lt;/p&gt;
-&lt;p&gt;The blog post was supposed to be about the problem. Instead, it became about the solution.&lt;/p&gt;
-&lt;p&gt;Sometimes the most productive thing you can do is have a better conversation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alexanderkucera.com/2025/03/14/i-really-enjoy-vibe-coding.html</link>
-      <pubDate>Fri, 14 Mar 2025 09:49:40 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2025/03/14/i-really-enjoy-vibe-coding.html</guid>
-      <description>&lt;p&gt;I really enjoy &lt;a href=&#34;https://en.wikipedia.org/wiki/Vibe_coding&#34;&gt;&lt;em&gt;vibe coding&lt;/em&gt;&lt;/a&gt; as it has become to be known. &lt;a href=&#34;https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview&#34;&gt;Claude Code&lt;/a&gt; to be specific. It really helps me push along my iOS app nicely. Not very cheap, but also not outrageously expensive for the amount of productivity I get from it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alexanderkucera.com/2025/02/12/im-playing-with-how-far.html</link>
-      <pubDate>Wed, 12 Feb 2025 22:36:55 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2025/02/12/im-playing-with-how-far.html</guid>
-      <description>&lt;p&gt;I’m playing with how far I can push Cursor AI to build an iOS app. 2 views down and it worked great. Still all basic stuff, but works nicely. On the third view it fell over though. I had a calendar on the left and the day’s data on the right. Cursor couldn’t get the data to update based on the date.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alexanderkucera.com/2025/01/20/ive-seen-a-couple-of.html</link>
-      <pubDate>Mon, 20 Jan 2025 14:50:07 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2025/01/20/ive-seen-a-couple-of.html</guid>
-      <description>&lt;p&gt;I‘ve seen a couple of established iOS developers gripe about SwiftUI and that they should have stuck with UIKit. Would you advise someone starting out with iOS development and zero Swift experience to use UIKit as well? Or is it more of an old dog, new tricks kind of issue?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://alexanderkucera.com/2024/12/07/i-now-have-my-own.html</link>
       <pubDate>Sat, 07 Dec 2024 14:33:00 +0200</pubDate>
       
       <guid>http://AlexKucera.micro.blog/2024/12/07/i-now-have-my-own.html</guid>
-      <description>&lt;p&gt;I now have my own Python module to write Safari WebArchives. Neat. And not too hard to implement.&lt;/p&gt;
-&lt;p&gt;So now &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; also saves a WebArchive copy and triggers a Wayback savepoint.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alexanderkucera.com/2024/12/07/i-now-have.html</link>
-      <pubDate>Sat, 07 Dec 2024 13:33:52 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2024/12/07/i-now-have.html</guid>
       <description>&lt;p&gt;I now have my own Python module to write Safari WebArchives. Neat. And not too hard to implement.&lt;/p&gt;
 &lt;p&gt;So now &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; also saves a WebArchive copy and triggers a Wayback savepoint.&lt;/p&gt;
 </description>
@@ -290,26 +182,6 @@ Every piece of data Links knows about your collection, structured for programmat
       
       <guid>http://AlexKucera.micro.blog/2024/12/06/i-rewrote-my-webcatcher-python.html</guid>
       <description>&lt;p&gt;I rewrote my webcatcher Python script yesterday. It is now leaner, meaner and more resilient against failed downloads. &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; is coming together nicely. Pretty much all that is left is a nicer CSS for mobile devices and a web daemon so I can send stuff to Links from my iPhone.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alexanderkucera.com/2024/12/06/i-rewrote-my.html</link>
-      <pubDate>Fri, 06 Dec 2024 09:03:58 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2024/12/06/i-rewrote-my.html</guid>
-      <description>&lt;p&gt;I rewrote my webcatcher Python script yesterday. It is now leaner, meaner and more resilient against failed downloads. &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; is coming together nicely. Pretty much all that is left is a nicer CSS for mobile devices and a web daemon so I can send stuff to Links from my iPhone.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alexanderkucera.com/2024/12/05/trying-to-decide.html</link>
-      <pubDate>Thu, 05 Dec 2024 15:42:39 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2024/12/05/trying-to-decide.html</guid>
-      <description>&lt;p&gt;Trying to decide between Trafilatua, Newspaper 4K and Readabilty for my Markdown and PDF creation.&lt;/p&gt;
 </description>
     </item>
     
