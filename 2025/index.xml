@@ -6,7 +6,30 @@
     
     <language>de</language>
     
-    <lastBuildDate>Fri, 11 Jul 2025 14:52:36 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jul 2025 09:05:43 +0200</lastBuildDate>
+    
+    <item>
+      <title>Links Gets Export Superpowers 📤</title>
+      <link>https://alexanderkucera.com/2025/07/12/links-gets-export-superpowers.html</link>
+      <pubDate>Sat, 12 Jul 2025 09:05:43 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/12/links-gets-export-superpowers.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;Five export formats. Zero vendor lock-in. Complete data freedom.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Digital preservation isn&amp;rsquo;t just about saving content. It&amp;rsquo;s about maintaining access and control. Links embraces complete data freedom - your content should work everywhere.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTML Export - Browser Migration Made Easy&lt;/strong&gt;&lt;br&gt;
+The universal standard. Every major browser imports HTML bookmark files. Chrome, Firefox, Safari, Edge - they all speak this language. Moving from Links to your browser&amp;rsquo;s bookmark manager? One click export, one click import.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CSV Export - Data Analysis Ready&lt;/strong&gt;&lt;br&gt;
+Spreadsheet-friendly format with comprehensive metadata. URLs, titles, save dates, file sizes, AI summaries - everything in neat columns. Perfect for analysis, reporting, or integration with other tools.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BAR Export - Complete Offline Archive&lt;/strong&gt;&lt;br&gt;
+Creates a complete, offline-browsable archive of your entire collection. All your saved content, all your metadata, packaged into a single downloadable file. Internet goes down? Server crashes? You still have everything, fully accessible offline.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Markdown Export - Knowledge System Integration&lt;/strong&gt;&lt;br&gt;
+Each bookmark becomes a clean Markdown file with metadata headers and AI-generated summaries. Import directly into Obsidian, Notion, Logseq, or any Markdown-based knowledge system. Your archived links become part of your personal knowledge graph.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JSON Export - Full System Backup&lt;/strong&gt;&lt;br&gt;
+Every piece of data Links knows about your collection, structured for programmatic access. Perfect for backup, migration, or building your own tools. Nothing gets lost, nothing gets simplified.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t just convenience. It&amp;rsquo;s digital freedom. Too many tools trap your data with proprietary formats. Links takes the opposite approach - multiple export formats mean multiple escape routes. Your investment is protected.&lt;/p&gt;
+&lt;p&gt;Export functionality is live at &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;links.alexanderkucera.de&lt;/a&gt; right now. Choose your format, click export, download your file. Your digital collection just became a lot more portable.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Links Gets a Complete Python Makeover 🐍</title>
