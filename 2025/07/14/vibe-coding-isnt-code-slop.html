@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Vibe Coding Isn&#39;t Code Slop - It&#39;s Strategic Collaboration
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Vibe Coding Isn&#39;t Code Slop - It&#39;s Strategic Collaboration</h1>
+	
+    <div><time class="dt-published" datetime="2025-07-14T10:51:00&#43;02:00">Jul 14, 2025</time></div>
+
+	<div class="e-content">
+		<p>For anyone thinking &ldquo;vibe coding&rdquo; results in bad quality code or code slop, let me set the record straight.</p>
+<p>I spend about 50-70% of my vibe coding time refactoring and running code reviews to make sure everything is up to snuff. I could easily skip that step and have something that <em>just</em> works. But my standards are higher than that.</p>
+<p>The misconception comes from people who think vibe coding means throwing prompts at an LLM and calling it a day. That&rsquo;s not vibe coding. That&rsquo;s just being lazy.</p>
+<h2 id="what-vibe-coding-actually-means">What Vibe Coding Actually Means</h2>
+<p>To me, vibe coding is more akin to being the designer or product manager while the LLM is the coder. I give it a task and once it&rsquo;s done, I review the task and give it corrections and suggestions on how to improve the code and what to do next.</p>
+<p>It&rsquo;s never about set and forget. It&rsquo;s strictly about increased productivity and accessing a knowledge base that knows more about coding than I will ever have.</p>
+<p>Think about it this way: when you work with a junior developer, you don&rsquo;t just hand them a task and walk away. You review their work, provide feedback, suggest improvements, and guide them through iterations. The same principle applies to working with LLMs.</p>
+<p>The difference? The LLM has access to patterns and solutions from millions of codebases. But it still needs human oversight to ensure quality and context.</p>
+<h2 id="my-actual-workflow">My Actual Workflow</h2>
+<p>Let me get specific about how this works in practice. I mainly use Claude Code, and I have it set to planning mode for most of my inputs until I&rsquo;m happy with the plan Claude comes up with. Only then do I allow it to execute the plan.</p>
+<p>This two-stage process is crucial. Instead of jumping straight into code generation, Claude first presents a detailed plan of what it intends to do. I can review the approach, suggest modifications, point out potential issues, or redirect entirely before a single line of code gets written.</p>
+<p>This planning phase catches problems early. Maybe Claude misunderstood a requirement. Maybe there&rsquo;s a better architectural approach. Maybe it&rsquo;s missing a critical edge case. Catching these issues in the planning stage saves massive amounts of time later.</p>
+<p>I also use an MCP server called <a href="https://github.com/PV-Bhat/vibe-check-mcp-server/tree/main">Vibe Check</a> and have Claude check against it regularly. It really helps to keep Claude on track throughout the development process.</p>
+<p>The Vibe Check server acts like a continuous validation system. It helps ensure that Claude stays aligned with my coding standards and project requirements as we work through iterations. Think of it as a persistent memory system that reminds Claude of what we&rsquo;ve established works well and what doesn&rsquo;t.</p>
+<p>On top of that, I use a series of prompts that remind Claude how I like it to code and constantly update its coding guidelines along the way. This isn&rsquo;t just about syntax preferences—it&rsquo;s about architectural patterns, error handling approaches, testing strategies, and documentation standards.</p>
+<h2 id="the-quality-control-reality">The Quality Control Reality</h2>
+<p>Recent research from 2024 shows why this structured approach matters. Studies found an 8-fold increase in duplicated code blocks when developers rely on AI assistance without proper review. Code churn rates have also increased dramatically, with much of the generated code being discarded shortly after creation.</p>
+<p>This isn&rsquo;t an AI problem. It&rsquo;s a process problem.</p>
+<p>When I work with Claude, here&rsquo;s what actually happens:</p>
+<ol>
+<li>I define the task with clear requirements</li>
+<li>Claude generates a detailed plan (not code yet)</li>
+<li>I review and refine the plan until it&rsquo;s solid</li>
+<li>Claude executes the plan and generates code</li>
+<li>I review every line for logic, efficiency, and maintainability</li>
+<li>Claude runs Vibe Check validation throughout the process</li>
+<li>I provide specific feedback on improvements</li>
+<li>We iterate until the code meets my standards</li>
+<li>I run additional tests and refactoring passes</li>
+</ol>
+<p>This isn&rsquo;t faster because I&rsquo;m cutting corners. It&rsquo;s faster because I&rsquo;m leveraging a tool that can generate solutions I might not have considered, then applying human judgment to refine them within a structured framework.</p>
+<h2 id="the-productivity-paradox">The Productivity Paradox</h2>
+<p>Research shows mixed results on AI coding productivity. Some studies report 26% gains for less experienced developers, while others show 19% decreases for experienced developers in complex scenarios.</p>
+<p>The key difference? How you use the tool.</p>
+<p>Less experienced developers benefit because they&rsquo;re getting exposure to patterns and solutions they haven&rsquo;t seen before. Experienced developers struggle when they try to use AI for complex, context-heavy tasks that require deep understanding of existing codebases.</p>
+<p>But when experienced developers use AI strategically—with proper planning phases, validation systems, and iterative refinement—the productivity gains are substantial.</p>
+<p>The strategic advantage isn&rsquo;t just speed. It&rsquo;s access to a broader knowledge base. I can ask Claude about obscure APIs, edge cases, or optimization techniques that I might not remember or know about. Then I can evaluate and adapt those suggestions based on my experience and requirements.</p>
+<h2 id="beyond-set-and-forget">Beyond Set-and-Forget</h2>
+<p>The &ldquo;never set and forget&rdquo; principle is crucial because it maintains the human element that makes code truly valuable.</p>
+<p>When I&rsquo;m reviewing Claude-generated code, I&rsquo;m looking for:</p>
+<ul>
+<li>Logic errors and edge cases</li>
+<li>Performance optimizations</li>
+<li>Code readability and maintainability</li>
+<li>Integration with existing systems</li>
+<li>Security considerations</li>
+<li>Future extensibility</li>
+</ul>
+<p>The LLM might generate functionally correct code, but it doesn&rsquo;t understand the broader context of your project, your team&rsquo;s coding standards, or your long-term architectural goals.</p>
+<p>That&rsquo;s where the human comes in. I&rsquo;m not just checking if the code works. I&rsquo;m ensuring it works well within the larger system.</p>
+<p>The continuous prompting and guideline updates serve as a feedback loop. As we work through a project, Claude learns my specific preferences and patterns. But this learning is guided and validated by human oversight, not left to chance.</p>
+<h2 id="the-future-of-developer-roles">The Future of Developer Roles</h2>
+<p>This approach fundamentally changes what it means to be a developer. Instead of spending time on routine implementations, you&rsquo;re focusing on architecture, design decisions, and quality assurance.</p>
+<p>You become the architect and the LLM becomes the builder. But architects don&rsquo;t just hand over blueprints and disappear. They oversee construction, make adjustments, and ensure the final result meets specifications.</p>
+<p>This shift requires maintaining your technical skills and architectural thinking. You need to understand code deeply enough to evaluate what the LLM produces. You need to know good patterns from bad ones. You need to understand the trade-offs in different approaches.</p>
+<p>The developers who struggle with AI assistance are often those who try to use it as a replacement for their own knowledge rather than an amplifier of it.</p>
+<h2 id="the-strategic-advantage">The Strategic Advantage</h2>
+<p>When done right, vibe coding isn&rsquo;t about lowering standards. It&rsquo;s about raising them.</p>
+<p>Because you&rsquo;re not bogged down in routine implementation details, you can focus more attention on code quality, system design, and user experience. You can explore more alternatives because the cost of prototyping is lower.</p>
+<p>You can also tackle more ambitious projects because you have a force multiplier for the routine parts of development.</p>
+<p>But this only works if you maintain rigorous standards for the output. The moment you start accepting &ldquo;good enough&rdquo; code because it was faster to generate, you&rsquo;ve fallen into the trap that gives vibe coding a bad reputation.</p>
+<h2 id="the-bottom-line">The Bottom Line</h2>
+<p>Vibe coding isn&rsquo;t about replacing human judgment with AI automation. It&rsquo;s about strategic collaboration where AI handles routine tasks and pattern generation while humans provide oversight, refinement, and architectural guidance.</p>
+<p>The quality of your code depends on the quality of your review process, not the tool you use to generate it. Whether you&rsquo;re working with an LLM or a junior developer, the principles remain the same: clear requirements, thorough review, iterative improvement, and unwavering standards.</p>
+<p>The developers who succeed with AI assistance are those who understand this distinction. They&rsquo;re not looking for a replacement for their skills. They&rsquo;re looking for a tool that amplifies their capabilities while maintaining their responsibility for the final product.</p>
+<p>That&rsquo;s what vibe coding really is. And when done right, it produces better code, not worse.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
