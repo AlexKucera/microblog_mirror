@@ -6,7 +6,82 @@
     
     <language>de</language>
     
-    <lastBuildDate>Sat, 12 Jul 2025 22:32:30 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 10:51:00 +0200</lastBuildDate>
+    
+    <item>
+      <title>Vibe Coding Isn&#39;t Code Slop - It&#39;s Strategic Collaboration</title>
+      <link>https://alexanderkucera.com/2025/07/14/vibe-coding-isnt-code-slop.html</link>
+      <pubDate>Mon, 14 Jul 2025 10:51:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/14/vibe-coding-isnt-code-slop.html</guid>
+      <description>&lt;p&gt;For anyone thinking &amp;ldquo;vibe coding&amp;rdquo; results in bad quality code or code slop, let me set the record straight.&lt;/p&gt;
+&lt;p&gt;I spend about 50-70% of my vibe coding time refactoring and running code reviews to make sure everything is up to snuff. I could easily skip that step and have something that &lt;em&gt;just&lt;/em&gt; works. But my standards are higher than that.&lt;/p&gt;
+&lt;p&gt;The misconception comes from people who think vibe coding means throwing prompts at an LLM and calling it a day. That&amp;rsquo;s not vibe coding. That&amp;rsquo;s just being lazy.&lt;/p&gt;
+&lt;h2 id=&#34;what-vibe-coding-actually-means&#34;&gt;What Vibe Coding Actually Means&lt;/h2&gt;
+&lt;p&gt;To me, vibe coding is more akin to being the designer or product manager while the LLM is the coder. I give it a task and once it&amp;rsquo;s done, I review the task and give it corrections and suggestions on how to improve the code and what to do next.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s never about set and forget. It&amp;rsquo;s strictly about increased productivity and accessing a knowledge base that knows more about coding than I will ever have.&lt;/p&gt;
+&lt;p&gt;Think about it this way: when you work with a junior developer, you don&amp;rsquo;t just hand them a task and walk away. You review their work, provide feedback, suggest improvements, and guide them through iterations. The same principle applies to working with LLMs.&lt;/p&gt;
+&lt;p&gt;The difference? The LLM has access to patterns and solutions from millions of codebases. But it still needs human oversight to ensure quality and context.&lt;/p&gt;
+&lt;h2 id=&#34;my-actual-workflow&#34;&gt;My Actual Workflow&lt;/h2&gt;
+&lt;p&gt;Let me get specific about how this works in practice. I mainly use Claude Code, and I have it set to planning mode for most of my inputs until I&amp;rsquo;m happy with the plan Claude comes up with. Only then do I allow it to execute the plan.&lt;/p&gt;
+&lt;p&gt;This two-stage process is crucial. Instead of jumping straight into code generation, Claude first presents a detailed plan of what it intends to do. I can review the approach, suggest modifications, point out potential issues, or redirect entirely before a single line of code gets written.&lt;/p&gt;
+&lt;p&gt;This planning phase catches problems early. Maybe Claude misunderstood a requirement. Maybe there&amp;rsquo;s a better architectural approach. Maybe it&amp;rsquo;s missing a critical edge case. Catching these issues in the planning stage saves massive amounts of time later.&lt;/p&gt;
+&lt;p&gt;I also use an MCP server called &lt;a href=&#34;https://github.com/PV-Bhat/vibe-check-mcp-server/tree/main&#34;&gt;Vibe Check&lt;/a&gt; and have Claude check against it regularly. It really helps to keep Claude on track throughout the development process.&lt;/p&gt;
+&lt;p&gt;The Vibe Check server acts like a continuous validation system. It helps ensure that Claude stays aligned with my coding standards and project requirements as we work through iterations. Think of it as a persistent memory system that reminds Claude of what we&amp;rsquo;ve established works well and what doesn&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;On top of that, I use a series of prompts that remind Claude how I like it to code and constantly update its coding guidelines along the way. This isn&amp;rsquo;t just about syntax preferences—it&amp;rsquo;s about architectural patterns, error handling approaches, testing strategies, and documentation standards.&lt;/p&gt;
+&lt;h2 id=&#34;the-quality-control-reality&#34;&gt;The Quality Control Reality&lt;/h2&gt;
+&lt;p&gt;Recent research from 2024 shows why this structured approach matters. Studies found an 8-fold increase in duplicated code blocks when developers rely on AI assistance without proper review. Code churn rates have also increased dramatically, with much of the generated code being discarded shortly after creation.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t an AI problem. It&amp;rsquo;s a process problem.&lt;/p&gt;
+&lt;p&gt;When I work with Claude, here&amp;rsquo;s what actually happens:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I define the task with clear requirements&lt;/li&gt;
+&lt;li&gt;Claude generates a detailed plan (not code yet)&lt;/li&gt;
+&lt;li&gt;I review and refine the plan until it&amp;rsquo;s solid&lt;/li&gt;
+&lt;li&gt;Claude executes the plan and generates code&lt;/li&gt;
+&lt;li&gt;I review every line for logic, efficiency, and maintainability&lt;/li&gt;
+&lt;li&gt;Claude runs Vibe Check validation throughout the process&lt;/li&gt;
+&lt;li&gt;I provide specific feedback on improvements&lt;/li&gt;
+&lt;li&gt;We iterate until the code meets my standards&lt;/li&gt;
+&lt;li&gt;I run additional tests and refactoring passes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This isn&amp;rsquo;t faster because I&amp;rsquo;m cutting corners. It&amp;rsquo;s faster because I&amp;rsquo;m leveraging a tool that can generate solutions I might not have considered, then applying human judgment to refine them within a structured framework.&lt;/p&gt;
+&lt;h2 id=&#34;the-productivity-paradox&#34;&gt;The Productivity Paradox&lt;/h2&gt;
+&lt;p&gt;Research shows mixed results on AI coding productivity. Some studies report 26% gains for less experienced developers, while others show 19% decreases for experienced developers in complex scenarios.&lt;/p&gt;
+&lt;p&gt;The key difference? How you use the tool.&lt;/p&gt;
+&lt;p&gt;Less experienced developers benefit because they&amp;rsquo;re getting exposure to patterns and solutions they haven&amp;rsquo;t seen before. Experienced developers struggle when they try to use AI for complex, context-heavy tasks that require deep understanding of existing codebases.&lt;/p&gt;
+&lt;p&gt;But when experienced developers use AI strategically—with proper planning phases, validation systems, and iterative refinement—the productivity gains are substantial.&lt;/p&gt;
+&lt;p&gt;The strategic advantage isn&amp;rsquo;t just speed. It&amp;rsquo;s access to a broader knowledge base. I can ask Claude about obscure APIs, edge cases, or optimization techniques that I might not remember or know about. Then I can evaluate and adapt those suggestions based on my experience and requirements.&lt;/p&gt;
+&lt;h2 id=&#34;beyond-set-and-forget&#34;&gt;Beyond Set-and-Forget&lt;/h2&gt;
+&lt;p&gt;The &amp;ldquo;never set and forget&amp;rdquo; principle is crucial because it maintains the human element that makes code truly valuable.&lt;/p&gt;
+&lt;p&gt;When I&amp;rsquo;m reviewing Claude-generated code, I&amp;rsquo;m looking for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Logic errors and edge cases&lt;/li&gt;
+&lt;li&gt;Performance optimizations&lt;/li&gt;
+&lt;li&gt;Code readability and maintainability&lt;/li&gt;
+&lt;li&gt;Integration with existing systems&lt;/li&gt;
+&lt;li&gt;Security considerations&lt;/li&gt;
+&lt;li&gt;Future extensibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The LLM might generate functionally correct code, but it doesn&amp;rsquo;t understand the broader context of your project, your team&amp;rsquo;s coding standards, or your long-term architectural goals.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s where the human comes in. I&amp;rsquo;m not just checking if the code works. I&amp;rsquo;m ensuring it works well within the larger system.&lt;/p&gt;
+&lt;p&gt;The continuous prompting and guideline updates serve as a feedback loop. As we work through a project, Claude learns my specific preferences and patterns. But this learning is guided and validated by human oversight, not left to chance.&lt;/p&gt;
+&lt;h2 id=&#34;the-future-of-developer-roles&#34;&gt;The Future of Developer Roles&lt;/h2&gt;
+&lt;p&gt;This approach fundamentally changes what it means to be a developer. Instead of spending time on routine implementations, you&amp;rsquo;re focusing on architecture, design decisions, and quality assurance.&lt;/p&gt;
+&lt;p&gt;You become the architect and the LLM becomes the builder. But architects don&amp;rsquo;t just hand over blueprints and disappear. They oversee construction, make adjustments, and ensure the final result meets specifications.&lt;/p&gt;
+&lt;p&gt;This shift requires maintaining your technical skills and architectural thinking. You need to understand code deeply enough to evaluate what the LLM produces. You need to know good patterns from bad ones. You need to understand the trade-offs in different approaches.&lt;/p&gt;
+&lt;p&gt;The developers who struggle with AI assistance are often those who try to use it as a replacement for their own knowledge rather than an amplifier of it.&lt;/p&gt;
+&lt;h2 id=&#34;the-strategic-advantage&#34;&gt;The Strategic Advantage&lt;/h2&gt;
+&lt;p&gt;When done right, vibe coding isn&amp;rsquo;t about lowering standards. It&amp;rsquo;s about raising them.&lt;/p&gt;
+&lt;p&gt;Because you&amp;rsquo;re not bogged down in routine implementation details, you can focus more attention on code quality, system design, and user experience. You can explore more alternatives because the cost of prototyping is lower.&lt;/p&gt;
+&lt;p&gt;You can also tackle more ambitious projects because you have a force multiplier for the routine parts of development.&lt;/p&gt;
+&lt;p&gt;But this only works if you maintain rigorous standards for the output. The moment you start accepting &amp;ldquo;good enough&amp;rdquo; code because it was faster to generate, you&amp;rsquo;ve fallen into the trap that gives vibe coding a bad reputation.&lt;/p&gt;
+&lt;h2 id=&#34;the-bottom-line&#34;&gt;The Bottom Line&lt;/h2&gt;
+&lt;p&gt;Vibe coding isn&amp;rsquo;t about replacing human judgment with AI automation. It&amp;rsquo;s about strategic collaboration where AI handles routine tasks and pattern generation while humans provide oversight, refinement, and architectural guidance.&lt;/p&gt;
+&lt;p&gt;The quality of your code depends on the quality of your review process, not the tool you use to generate it. Whether you&amp;rsquo;re working with an LLM or a junior developer, the principles remain the same: clear requirements, thorough review, iterative improvement, and unwavering standards.&lt;/p&gt;
+&lt;p&gt;The developers who succeed with AI assistance are those who understand this distinction. They&amp;rsquo;re not looking for a replacement for their skills. They&amp;rsquo;re looking for a tool that amplifies their capabilities while maintaining their responsibility for the final product.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s what vibe coding really is. And when done right, it produces better code, not worse.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>I Finally Paid for Sublime Text (And It Only Took Me Years)</title>
