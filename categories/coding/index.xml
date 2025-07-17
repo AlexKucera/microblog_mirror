@@ -6,7 +6,17 @@
     
     <language>de</language>
     
-    <lastBuildDate>Wed, 16 Jul 2025 14:37:29 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 19:42:53 +0200</lastBuildDate>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/07/17/remember-that-say-that-the.html</link>
+      <pubDate>Thu, 17 Jul 2025 19:42:53 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/17/remember-that-say-that-the.html</guid>
+      <description>&lt;p&gt;Remember that say that the last 20% take 80% of the time. It feels like I’m stuck in those last 20% with my refactoring efforts. I want it to be over, but it’ll probably be two or three more days. 😮‍💨&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>
@@ -375,31 +385,10 @@ Every piece of data Links knows about your collection, structured for programmat
     
     <item>
       <title></title>
-      <link>https://alexanderkucera.com/2024/12/07/i-now-have.html</link>
-      <pubDate>Sat, 07 Dec 2024 13:33:52 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2024/12/07/i-now-have.html</guid>
-      <description>&lt;p&gt;I now have my own Python module to write Safari WebArchives. Neat. And not too hard to implement.&lt;/p&gt;
-&lt;p&gt;So now &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; also saves a WebArchive copy and triggers a Wayback savepoint.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://alexanderkucera.com/2024/12/06/i-rewrote-my-webcatcher-python.html</link>
       <pubDate>Fri, 06 Dec 2024 10:03:00 +0200</pubDate>
       
       <guid>http://AlexKucera.micro.blog/2024/12/06/i-rewrote-my-webcatcher-python.html</guid>
-      <description>&lt;p&gt;I rewrote my webcatcher Python script yesterday. It is now leaner, meaner and more resilient against failed downloads. &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; is coming together nicely. Pretty much all that is left is a nicer CSS for mobile devices and a web daemon so I can send stuff to Links from my iPhone.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alexanderkucera.com/2024/12/06/i-rewrote-my.html</link>
-      <pubDate>Fri, 06 Dec 2024 09:03:58 +0200</pubDate>
-      
-      <guid>http://AlexKucera.micro.blog/2024/12/06/i-rewrote-my.html</guid>
       <description>&lt;p&gt;I rewrote my webcatcher Python script yesterday. It is now leaner, meaner and more resilient against failed downloads. &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; is coming together nicely. Pretty much all that is left is a nicer CSS for mobile devices and a web daemon so I can send stuff to Links from my iPhone.&lt;/p&gt;
 </description>
     </item>
