@@ -1,1 +1,43 @@
 .vcard {font-size: 50%;}
+
+.site-header{
+margin-top:0;
+text-align: left;
+padding-left: 50px;
+margin-left: 50px;
+}
+
+.site-header nav a{
+border:none;
+}
+
+nav.site-nav {
+	padding-left: 20px;
+	padding-bottom: 50px;
+
+	/*max-width: 600px;*/
+	/*width:100%;*/
+	background: #fff;
+	background: rgba(255,255,255,.90);
+	margin: 0;
+	text-align: right;
+	/*position: fixed;*/
+	z-index: 100;
+}
+
+nav.site-nav a {
+	top: 8px;
+	right: 6px;
+	padding: 8px 12px;
+	color: #5badf0;
+	font-size: 13px;
+	/*font-weight: bold;*/
+	line-height: 1.35;
+    border-radius: 3px;
+
+}
+nav.site-nav a.cta {
+	background: #5badf0;
+	color: #fff;
+	margin-left: 12px;
+}
