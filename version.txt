@@ -1,3 +1,5 @@
-Sumo Theme for Micro.blog Version 1.2.10
-Created by Matt Langford (mattlangford.com)
-Documentation: sumo.micro.blog
+Mythos Theme v1.2.0
+Last updated: 22 August 2025
+Author: Matt Langford
+Website: https://mattlangford.com
+Repository: https://github.com/mattlangford/mythos-theme
