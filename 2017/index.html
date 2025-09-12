@@ -5,7 +5,7 @@
 
   <title>
       
-      Alexander Kucera - 2017s
+      Alexander Kucera - 2017
       
   </title>
 
@@ -182,7 +182,7 @@ I believe that even these short-form posts, no matter if they seem unimportant a
 
         <div class="e-content">
          	<hr>
-<p>Great discussion. Although I must say I have a hard time to see Scott Adams' point of view. It&rsquo;s just too detached from what I consider ethical.
+<p>Great discussion. Although I must say I have a hard time to see Scott Adams&rsquo; point of view. It&rsquo;s just too detached from what I consider ethical.
 — <a href="https://castro.fm/episode/H8i6N5">Sam Harris and Scott Adams discuss Trump</a></p>
 
         </div>
@@ -337,14 +337,14 @@ I believe that even these short-form posts, no matter if they seem unimportant a
 <li>I don’t give a fuck.</li>
 </ul>
 <p>Any of those sound like they might be it? Great. Consider this discussion over. If you want to you can tell all your friends that you won a discussion on the Internet. Congratulations. Here’s a cookie. Now, can we move on please? Thanks.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>If this sounds very boilerplate, it’s because it is. I realised that I don’t feel like spending my life having pointless discussions. Now, what’s pointless to me might be entirely essential to you. But that is besides the point since I am choosing to end this discussion.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 
         </div>
       </div>
@@ -395,8 +395,8 @@ I believe that even these short-form posts, no matter if they seem unimportant a
 
         <div class="e-content">
          	<hr>
-<p>Testing Webmentions with Kirby&rsquo;s <!-- raw HTML omitted -->Webmention plugin<!-- raw HTML omitted -->. Probably not going to work. Let&rsquo;s see…
-<!-- raw HTML omitted -->Test 1<!-- raw HTML omitted --></p>
+<p>Testing Webmentions with Kirby&rsquo;s <a href="https://github.com/bastianallgeier/kirby-webmentions">Webmention plugin</a>. Probably not going to work. Let&rsquo;s see…
+<a href="https://webmention.rocks/test/1">Test 1</a></p>
 
         </div>
       </div>
@@ -538,7 +538,7 @@ Push scenes wholesale back and forth including asset and geometry changes.</p>
 
         <div class="e-content">
          	<p>It&rsquo;s here and it&rsquo;s gorgeous!</p>
-<!-- raw HTML omitted -->
+<img src="http://AlexKucera.micro.blog/uploads/2017/157fa345d4.jpg" width="600" height="600" style="height: auto" />
 
         </div>
       </div>
@@ -641,14 +641,14 @@ If you want to follow along you can download the Nuke Non-Commercial edition.</p
 <p>First, why change the previous workflow? I got confused. Simple as that. My blogging schedule is erratic at best. And the old run and gun style workflow, while working, always left me scratching my head when I hadn’t touched it for a few months. I know, months is a sad amount of idle time between posts. But it is what it is.</p>
 <p>So to keep myself in the loop what happened to my blog I decided to adopt Git for keeping a publishing history. Not only does it allow me to tinker with the blog’s templates and CSS without messing up, it also serves as a nice automatic history what I did when and for what reason. I just need to read the commit log to job my memory.</p>
 <h2 id="the-in-between-workflow">The in-between workflow</h2>
-<p>The last workflow I wrote about three years ago relied on a desktop machine running. While I have a server machine running 24/7 I did experience too many hiccups with that approach to feel reliable. So I switched it to a two pronged process that worked pretty well. On the go I was posting with Workflow and Transmit and on the desktop I was using Hazel with a <!-- raw HTML omitted -->custom Python script<!-- raw HTML omitted -->.</p>
+<p>The last workflow I wrote about three years ago relied on a desktop machine running. While I have a server machine running 24/7 I did experience too many hiccups with that approach to feel reliable. So I switched it to a two pronged process that worked pretty well. On the go I was posting with Workflow and Transmit and on the desktop I was using Hazel with a <a href="https://alexanderkucera.com/uploads/2024/blog-post-transform.zip">custom Python script</a>.</p>
 <p>This tended to work pretty well. Especially the on the go version. Write stuff in whatever text editor suits you best (I use <a href="https://geo.itunes.apple.com/de/app/ulysses/id950335311?mt=8&amp;ign-mpt=uo%253D4">Ulysses</a>), send over to <a href="https://geo.itunes.apple.com/app/workflow-powerful-automation/id915249334?">Workflow</a> for <a href="https://workflow.is/workflows/b0364be085534bb8b94003de824f8d4d">processing</a> and upload to blog with <a href="https://geo.itunes.apple.com/us/app/transmit-ios/id917432930?mt=8&amp;ign-mpt=uo%253D4">Transmit</a>. For images the procedure is similar only I use <a href="https://workflow.is/workflows/42d6d670bbd940148a8e3c945682bc15">ImageOptim</a> or <a href="https://workflow.is/workflows/a70ddd60f996477385a2d5d2d934fa60">Kraken</a> for image optimization before uploading. I use both at the moment and have not decided which one I like better.</p>
 <h2 id="microblog-and-git">Micro.blog and Git</h2>
 <p>Now, beginning of this year <a href="http://www.manton.org">Manton Reece</a> created a <a href="https://www.kickstarter.com/projects/manton/indie-microblogging-owning-your-short-form-writing">Kickstarter project</a> about Microblogging (Kickstarter is over, but you can enter your details on a <a href="http://riverfold.us9.list-manage.com/subscribe?u=241a0ce5d267c19de7fcf819f&amp;id=98f8896de4">mailing list</a> if you are interested in it). I found the idea enticing and so I joined the project. This basically got me fired up to tinker with my blog again, which led to the adoption of Git since I couldn’t make heads or tails of whatever my latest changes to it had been.</p>
 <p>The idea is really quite simple. Git has the ability to run scripts, so called <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks">Hooks</a>, when certain events happen. In my case I use the <a href="https://www.kernel.org/pub/software/scm/git/docs/githooks.html">post-receive hook</a> to check out the newest version of my site whenever I push something to my server’s repository. There are a <a href="http://bobbelderbos.com/2012/03/push-code-remote-web-server-git/">number</a> of <a href="http://toroid.org/git-website-howto">guides</a> available, but the one I found most helpful was <a href="http://nicolasgallagher.com/simple-git-deployment-strategy-for-static-sites/">Nicolas Gallagher’s</a>.</p>
 <p>Once that is set up the writing pipeline is really pretty similar to what I had above.</p>
 <p>Write stuff in whatever text editor suits you best (I still use <a href="https://geo.itunes.apple.com/de/app/ulysses/id950335311?mt=8&amp;ign-mpt=uo%253D4">Ulysses</a>), send over to <a href="https://geo.itunes.apple.com/app/workflow-powerful-automation/id915249334?">Workflow</a> for <a href="https://workflow.is/workflows/1eb4469c83b145c8867311bdcb9cd986">processing</a>, which then sends the article to <a href="https://geo.itunes.apple.com/us/app/working-copy-enterprise/id965019520?mt=8">Working Copy</a>, an iOS Git client. In Working Copy I can check and if necessary correct the post or snippet and then commit and push the changes to my Git repository on the server. There is gets immediately checked out to the live site. For images I still use <a href="https://workflow.is/workflows/42d6d670bbd940148a8e3c945682bc15">ImageOptim</a> or <a href="https://workflow.is/workflows/a70ddd60f996477385a2d5d2d934fa60">Kraken</a>.</p>
-<p>The desktop version is almost the same really. I also use <a href="https://geo.itunes.apple.com/de/app/ulysses/id623795237?mt=12&amp;ign-mpt=uo%253D4">Ulysses</a> for my desktop writing. From there I go via a custom <!-- raw HTML omitted -->Alfred workflow<!-- raw HTML omitted --> that preps the article and then I push the changes up to my Git repository with <a href="https://www.git-tower.com/mac/">Tower</a>, but I could just as easily fire off a simple <code>git push</code> from Terminal.</p>
+<p>The desktop version is almost the same really. I also use <a href="https://geo.itunes.apple.com/de/app/ulysses/id623795237?mt=12&amp;ign-mpt=uo%253D4">Ulysses</a> for my desktop writing. From there I go via a custom <a href="https://alexanderkucera.com/uploads/2024/ulysses-blog-post.zip">Alfred workflow</a> that preps the article and then I push the changes up to my Git repository with <a href="https://www.git-tower.com/mac/">Tower</a>, but I could just as easily fire off a simple <code>git push</code> from Terminal.</p>
 
         </div>
       </div>
@@ -765,7 +765,7 @@ I find it astounding that you can order something from the US and it takes less 
     
     
         <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
-        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><span>Webring</span></a></span>
 
 
   </body>
