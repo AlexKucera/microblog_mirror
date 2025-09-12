@@ -5,7 +5,7 @@
 
   <title>
       
-      Alexander Kucera - 2006s
+      Alexander Kucera - 2006
       
   </title>
 
@@ -187,7 +187,7 @@ If you are wrong, you don’t make the impression of someone who didn’t do his
 
         <div class="e-content">
          	<p>Yes, you understood it correctly. [Messiah] <a href="http://www.projectmessiah.com/">1</a> is able to run on the [new Intel Macs] <a href="http://www.apple.com/macbook/">2</a>. And I am not talking about [BootCamp] <a href="http://www.apple.com/macosx/bootcamp/">3</a> here fellows. I am talking about not having to restart your Mac to run Messiah. Being able to check mail or work in your favourite Mac application and simultaneously running the 3D character animation software Messiah. Don’t believe me? Here is the proof:</p>
-<!-- raw HTML omitted -->
+<img src="https://eu.uploads.micro.blog/239/2024/bigfancy-messiah-demo.png" width="600" height="375" alt="Messiah running inside Mac OS X">
 <p>What you see on the above image is Messiah running on [an emulated Windows environment called Parallels Workstation] <a href="http://www.parallels.com/">4</a>. Take a look at the FPS counter in the perspective view of Messiah. It runs realtime and blazingly fast!! I nearly died of excitement yesterday seeing this. Everything looks great and fast and… I am getting goose bumps again.</p>
 <p>It runs perfect from a performance point of view as far as I can tell. Unfortunately my PC just died and I have no real test scenes available. So if someone has a nice and heavy scene for me to test on the virtualized Messiah - please be my guest. I’d love to test it out further.</p>
 <p>One downside exists, however. The mouse input seems kind of broken. Whenever I try to change values by dragging (a slider in the properties tabs, the edit sphere, the perspective view) Messiah only adds the numbers in one direction. Meaning, when I increase the x translate and then drag in the other direction to decrease it, the value doesn’t decrease but just increases further. This could be a real show stopper, if it stays unresolved.<br>
@@ -297,9 +297,9 @@ could you give me a simple example of how you’d set up a shadow pass? I just n
         <div class="e-content">
          	<p>As so many people from the MentalRay community seem to have a big problem with my motion blur test - and only that is seems, they don’t even see the parts, where I said good things about MentalRay - here is a small update with new images and the supposedly faster Rapid Motion Blur of MentalRay.</p>
 <p>Well, yes, I give you that Rapid Motion Blur is faster. But 19 minutes is still kind of slow in my book, especially with these artifacts Rapid Motion Blur introduced. But I am sure some MentalRay user will point me in the right direction how to get rid of them after reading this.</p>
-<!-- raw HTML omitted -->
+<img src="https://eu.uploads.micro.blog/239/2024/bigfancy-mentalray-render.png" width="600" height="450" alt="Mental Ray takes its time with 19 minutes">
 <p>And here is again a Renderman version for direct comparison. This time I even increased the sampling, so the Motion Blur is more smooth then before. Still considerably faster then MentalRay. 6 minutes.</p>
-<!-- raw HTML omitted -->
+<img src="https://eu.uploads.micro.blog/239/2024/bigfancy-renderman-render.png" width="600" height="450" alt="Renderman renders the same setup in 6 minutes">
 <p>How about this, we render the GI pass and maybe some reflections in MentalRay and then use this pass in Renderman, where we give is nice and fast Motion Blur?</p>
 <p>As I said before: This is not a “My toy better then your toy!” comparison. It is a test to see when it makes sense to use which renderer. No, MentalRay is not the big daddy of all renderers. Neither is Renderman.</p>
 <p>Need heavy GI and Reflections, but the scene is relatively static or doesn’t need Motion Blur for some reason? Hell, go with MentalRay any time! Even try it out on scenes without Raytracing. It might be faster then Renderman.</p>
@@ -466,7 +466,7 @@ Rendering the Motion Blur scene without blur, a severe bug in the Pixar plugin i
 <p>Renderman however, still slow, gets a big speed boost from lowering the quality in the blurred regions. Again fantastic!</p>
 <p>###Fazit</p>
 <p>So as a conclusion I would say, that both renderers have their areas where they shine and it would be a wise thing to know when to use which. All sympathies aside picking the best tool for the job. And if you do not need Motion Blur (or very subtle one that can be faked in post) go MentalRay, but for most other cases I would go Renderman any time.</p>
-<p>For a side by side comparison of rendered output and rendertimes please download the following PDF → <!-- raw HTML omitted -->Renderman vs MentalRay comparison<!-- raw HTML omitted --></p>
+<p>For a side by side comparison of rendered output and rendertimes please download the following PDF → <a href="https://alexanderkucera.com/uploads/2024/rmanvsmr-forweb.pdf">Renderman vs MentalRay comparison</a></p>
 
         </div>
       </div>
@@ -514,12 +514,12 @@ Rendering the Motion Blur scene without blur, a severe bug in the Pixar plugin i
         <div class="e-content">
          	<p>I thought it is time to show a little of the work we have done so far. All videos should play fine in Quicktime player version 7, but might also run in earlier versions, I didn’t test that.</p>
 <p>The first project or a thing that is still in development, but is already used in production, Monika and I are developing a template for magazine commercials. This short clip shows a render test I did, which was also used to show off to potential customers.</p>
-<p>→ <!-- raw HTML omitted -->Car Magazine Test<!-- raw HTML omitted --></p>
+<p>→ <video src="https://eu.uploads.micro.blog/239/2024/finalgathertest.mp4" controls="controls" preload="metadata">Car Magazine Test</video></p>
 <p>The next two clips are show two projects we did both last week. The first shows a 3D CD-Cover for the Soccer Worldcup’s theme song Bob Sinclair’s “Love Generation”.</p>
-<p>→ <!-- raw HTML omitted -->Bob Sinclair CD Commercial<!-- raw HTML omitted --></p>
+<p>→ <video src="https://eu.uploads.micro.blog/239/2024/0366-bob-sinclair-v07.mp4" controls="controls" preload="metadata">Bob Sinclair CD Commercial</video></p>
 <p>The second is a remake of the Infernal video “From Paris to Berlin”, which we remade for the Worldcup into “From London to Berlin” with a cartoon caricature of Wayne Rooney of the English top players.<br>
 This was a real challenge, because we had to re-create the whole thing without the source materials. We only had the final product in uncompressed quality and a few Maya scene files. Quite a challenge for a one week project. What do you think about it Udo (if you ever see this)?</p>
-<p>→ <!-- raw HTML omitted -->Music Video “From London to Berlin”<!-- raw HTML omitted --></p>
+<p>→ <video src="https://eu.uploads.micro.blog/239/2024/fltb-demo.mp4" controls="controls" preload="metadata">Music Video “From London to Berlin”</video></p>
 <p>→ [Original Version “From Paris to Berlin”] <a href="http://f-film.com/media/Infernal_FPTB.mov">1</a></p>
 
         </div>
@@ -725,7 +725,7 @@ This was a real challenge, because we had to re-create the whole thing without t
     
     
         <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
-        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><img class="tinylytics_webring_avatar" src="" style="display:none;"/><span>Webring</span></a></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><span>Webring</span></a></span>
 
 
   </body>
