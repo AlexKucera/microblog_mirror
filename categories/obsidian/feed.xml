@@ -1,0 +1,25 @@
+<rss version="2.0">
+  <channel>
+    <title>Obsidian on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/categories/obsidian/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Wed, 10 Sep 2025 18:01:12 +0200</lastBuildDate>
+    
+    <item>
+      <title>Obsidian Plugin &#34;Typst PDF Export&#34; v1.2.0 released!</title>
+      <link>https://alexanderkucera.com/2025/09/10/obsidian-plugin-typst-pdf-export.html</link>
+      <pubDate>Wed, 10 Sep 2025 18:01:12 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/09/10/obsidian-plugin-typst-pdf-export.html</guid>
+      <description>&lt;p&gt;New release of my new Obsidian plugin &lt;a href=&#34;https://github.com/AlexKucera/obsidian-typst-pdf-export&#34;&gt;Typst PDF Export&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/AlexKucera/obsidian-typst-pdf-export/releases/tag/1.2.0&#34;&gt;Version 1.2.0&lt;/a&gt; comes with a few bug fixes and a lot of refactoring.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/AlexKucera/obsidian-typst-pdf-export&#34;&gt;Typst PDF Export&lt;/a&gt; uses Pandoc and Typst to export professionally typset PDFs from your notes.&lt;/p&gt;
+&lt;p&gt;It supports the basic Markdown syntax as well as a few special code blocks, like an e-mail block. Also it not only puts your note&amp;rsquo;s images in the PDF, it also creates a preview page of PDFs linked in your note. And if you want your exported PDF to be extra special, you can embed any non-image file type into the PDF as attachment.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

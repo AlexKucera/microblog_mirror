@@ -1,0 +1,299 @@
+<rss version="2.0">
+  <channel>
+    <title>Links on Alexander Kucera</title>
+    <link>https://alexanderkucera.com/categories/links/</link>
+    <description></description>
+    
+    <language>de</language>
+    
+    <lastBuildDate>Thu, 17 Jul 2025 19:42:53 +0200</lastBuildDate>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/07/17/remember-that-say-that-the.html</link>
+      <pubDate>Thu, 17 Jul 2025 19:42:53 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/17/remember-that-say-that-the.html</guid>
+      <description>&lt;p&gt;Remember that say that the last 20% take 80% of the time. It feels like I’m stuck in those last 20% with my refactoring efforts. I want it to be over, but it’ll probably be two or three more days. 😮‍💨&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/07/16/four-the-last-four-days.html</link>
+      <pubDate>Wed, 16 Jul 2025 14:37:29 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/16/four-the-last-four-days.html</guid>
+      <description>&lt;p&gt;Four the last four days I have been in the middle of a major refactor of Links. I am starting to see light at the end of the tunnel. When I am finished, the code will be lean, mean and hardened (and much more maintainable).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links Gets Export Superpowers 📤</title>
+      <link>https://alexanderkucera.com/2025/07/12/links-gets-export-superpowers.html</link>
+      <pubDate>Sat, 12 Jul 2025 09:05:43 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/12/links-gets-export-superpowers.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;Five export formats. Zero vendor lock-in. Complete data freedom.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Digital preservation isn&amp;rsquo;t just about saving content. It&amp;rsquo;s about maintaining access and control. Links embraces complete data freedom - your content should work everywhere.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTML Export - Browser Migration Made Easy&lt;/strong&gt;&lt;br&gt;
+The universal standard. Every major browser imports HTML bookmark files. Chrome, Firefox, Safari, Edge - they all speak this language. Moving from Links to your browser&amp;rsquo;s bookmark manager? One click export, one click import.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CSV Export - Data Analysis Ready&lt;/strong&gt;&lt;br&gt;
+Spreadsheet-friendly format with comprehensive metadata. URLs, titles, save dates, file sizes, AI summaries - everything in neat columns. Perfect for analysis, reporting, or integration with other tools.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BAR Export - Complete Offline Archive&lt;/strong&gt;&lt;br&gt;
+Creates a complete, offline-browsable archive of your entire collection. All your saved content, all your metadata, packaged into a single downloadable file. Internet goes down? Server crashes? You still have everything, fully accessible offline.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Markdown Export - Knowledge System Integration&lt;/strong&gt;&lt;br&gt;
+Each bookmark becomes a clean Markdown file with metadata headers and AI-generated summaries. Import directly into Obsidian, Notion, Logseq, or any Markdown-based knowledge system. Your archived links become part of your personal knowledge graph.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JSON Export - Full System Backup&lt;/strong&gt;&lt;br&gt;
+Every piece of data Links knows about your collection, structured for programmatic access. Perfect for backup, migration, or building your own tools. Nothing gets lost, nothing gets simplified.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t just convenience. It&amp;rsquo;s digital freedom. Too many tools trap your data with proprietary formats. Links takes the opposite approach - multiple export formats mean multiple escape routes. Your investment is protected.&lt;/p&gt;
+&lt;p&gt;Export functionality is live at &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;links.alexanderkucera.de&lt;/a&gt; right now. Choose your format, click export, download your file. Your digital collection just became a lot more portable.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links Gets a Complete Python Makeover 🐍</title>
+      <link>https://alexanderkucera.com/2025/07/11/links-gets-a-complete-python.html</link>
+      <pubDate>Fri, 11 Jul 2025 14:52:36 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/11/links-gets-a-complete-python.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;Major refactor brings JavaScript support and eliminates licensing fees.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Remember when I told you about Links &lt;a href=&#34;https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html&#34;&gt;saving your stuff&lt;/a&gt; from the digital void? Well, it just got a complete technical overhaul.&lt;/p&gt;
+&lt;p&gt;The big news: Links now runs on a custom FastAPI Python implementation, ditching Kirby CMS entirely. Plus, it finally handles JavaScript-heavy sites that were previously impossible to archive.&lt;/p&gt;
+&lt;h2 id=&#34;from-php-to-python&#34;&gt;From PHP to Python&lt;/h2&gt;
+&lt;p&gt;The original Links was built on Kirby CMS. Great system, but it came with compromises. Licensed software means ongoing costs. PHP means working within CMS constraints. File-based content management that wasn&amp;rsquo;t quite right for archival workflows.&lt;/p&gt;
+&lt;p&gt;So I rebuilt it from scratch in Python.&lt;/p&gt;
+&lt;p&gt;FastAPI replaced the entire web framework. Clean, fast, and designed for APIs from the ground up. The archiving scripts were already in Python - now everything speaks the same language.&lt;/p&gt;
+&lt;h2 id=&#34;what-this-actually-means&#34;&gt;What This Actually Means&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;No more licensing fees.&lt;/strong&gt; Kirby required a one-time payment. FastAPI is completely open-source. Your self-hosted Links installation is now truly free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slimmer codebase.&lt;/strong&gt; Removed all the CMS bloat. No more fighting with file-based content management. No more PHP/Python context switching. Just focused Python code that does exactly what it needs to do.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JavaScript support.&lt;/strong&gt; The new architecture made it much easier to integrate proper browser engines. Sites that load content dynamically now archive perfectly. Single-page apps, modern e-commerce, social platforms - they all work now.&lt;/p&gt;
+&lt;h2 id=&#34;the-technical-evolution&#34;&gt;The Technical Evolution&lt;/h2&gt;
+&lt;p&gt;Before this refactor, Links would hit a wall with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Single-page applications (SPAs)&lt;/li&gt;
+&lt;li&gt;Modern e-commerce sites&lt;/li&gt;
+&lt;li&gt;Social media platforms&lt;/li&gt;
+&lt;li&gt;Complex dashboard interfaces&lt;/li&gt;
+&lt;li&gt;Any site that builds content after page load&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now it handles them all. The archiving process uses a proper browser engine, waits for JavaScript to execute, then captures everything. Content extraction gets the full picture. AI summaries actually have something meaningful to work with.&lt;/p&gt;
+&lt;h2 id=&#34;still-the-same-simple-experience&#34;&gt;Still the Same Simple Experience&lt;/h2&gt;
+&lt;p&gt;From your perspective, nothing changed. Share a link from iOS. Get the instant feedback. The background magic just got more powerful and more efficient.&lt;/p&gt;
+&lt;p&gt;The system still creates multiple archive formats. AI summaries still work. Full-text search still finds everything. But now it finds everything from sites that were previously impossible to archive properly.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;
+&lt;p&gt;This isn&amp;rsquo;t just a technical curiosity. It&amp;rsquo;s about sustainability and control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cost control.&lt;/strong&gt; No licensing fees means lower barrier to entry for self-hosting. Your digital preservation tool doesn&amp;rsquo;t depend on someone else&amp;rsquo;s business model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technical control.&lt;/strong&gt; Custom FastAPI means the codebase does exactly what&amp;rsquo;s needed. No more working around CMS limitations. No more PHP/Python impedance mismatch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Future-proofing.&lt;/strong&gt; Python ecosystem means better integration with AI tools, archiving libraries, and modern web technologies. When the next big thing comes along, Links can adapt.&lt;/p&gt;
+&lt;h2 id=&#34;production-ready&#34;&gt;Production Ready&lt;/h2&gt;
+&lt;p&gt;This complete rewrite rolled out to the live system at &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;links.alexanderkucera.de&lt;/a&gt;. No downtime. No lost data. No new workflows to learn.&lt;/p&gt;
+&lt;p&gt;Your JavaScript-heavy bookmarks are no longer second-class citizens. And your self-hosted installation just got a lot more sustainable.&lt;/p&gt;
+&lt;h2 id=&#34;the-open-source-future&#34;&gt;The Open Source Future&lt;/h2&gt;
+&lt;p&gt;With the Kirby dependency gone, Links is now completely open-source ready. No licensing complications. No vendor dependencies. Just Python code that preserves your digital discoveries.&lt;/p&gt;
+&lt;p&gt;Digital preservation for the rest of us just got a lot more accessible.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;115 commits became a complete rewrite. Sometimes the best way forward is to rebuild from first principles.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links: The Bookmark Manager That Actually Saves Your Stuff</title>
+      <link>https://alexanderkucera.com/2025/07/07/links-the-bookmark-manager-that.html</link>
+      <pubDate>Mon, 07 Jul 2025 12:34:15 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/07/links-the-bookmark-manager-that.html</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all been there. You bookmark something important. Come back weeks later, link is dead. Content vanished, site changed, paywall appeared. The frustration of digital amnesia strikes again.&lt;/p&gt;
+&lt;p&gt;I got tired of losing things I wanted to keep.&lt;/p&gt;
+&lt;h2 id=&#34;from-simple-idea-to-production-reality&#34;&gt;From Simple Idea to Production Reality&lt;/h2&gt;
+&lt;p&gt;Links started as a basic bookmark manager. Just me, trying to organize my web finds. 115 commits later, it&amp;rsquo;s become a full archival system. The evolution from &amp;ldquo;nice to have&amp;rdquo; to &amp;ldquo;can&amp;rsquo;t live without&amp;rdquo; surprised even me.&lt;/p&gt;
+&lt;p&gt;What began as simple URL storage grew into something much more powerful. Each commit taught me something new about what people actually need. Not just bookmarks - real preservation.&lt;/p&gt;
+&lt;h2 id=&#34;the-mobile-revolution-&#34;&gt;The Mobile Revolution 📱&lt;/h2&gt;
+&lt;p&gt;The game-changer was iOS Shortcuts integration. Now I can share from anywhere, archive automatically. Subway reading? One tap saves it. Meeting discovery? Boom, archived. Social media find? Got it.&lt;/p&gt;
+&lt;p&gt;The technical magic happens in two phases. You get instant feedback when you tap &amp;ldquo;Share to Links.&amp;rdquo; Meanwhile, the system spends 5-10 seconds downloading content. Background processing creates multiple archive formats. AI generates summaries. All while you move on with your day.&lt;/p&gt;
+&lt;p&gt;No more &amp;ldquo;I&amp;rsquo;ll save this later&amp;rdquo; mental notes. Just save it now, from wherever you are.&lt;/p&gt;
+&lt;h2 id=&#34;smart-archiving-made-simple&#34;&gt;Smart Archiving Made Simple&lt;/h2&gt;
+&lt;p&gt;Links doesn&amp;rsquo;t just store URLs. It understands content. AI summaries using Claude (with OpenAI fallback) extract meaning from every page. Content extraction that actually works handles even tricky sites.&lt;/p&gt;
+&lt;p&gt;Multiple formats ensure long-term access:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF archives preserve visual layout&lt;/li&gt;
+&lt;li&gt;Markdown conversion creates searchable text&lt;/li&gt;
+&lt;li&gt;WARC files maintain complete page context&lt;/li&gt;
+&lt;li&gt;Structured metadata enables programmatic access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full-text search works across all archived content. Find that thing you saved months ago in seconds.&lt;/p&gt;
+&lt;p&gt;The system handles edge cases gracefully. Broken sites, missing metadata, failed AI calls - it all degrades nicely. You never lose your bookmark, even when things go wrong.&lt;/p&gt;
+&lt;h2 id=&#34;how-links-stands-apart&#34;&gt;How Links Stands Apart&lt;/h2&gt;
+&lt;p&gt;The bookmark manager landscape is crowded. But Links takes a different approach than the competition.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;mymind.com&lt;/strong&gt; uses AI for visual organization and discovery. Beautiful interface, smart tagging, visual search. But it&amp;rsquo;s cloud-hosted, subscription-based, and focused on organization over preservation. When mymind&amp;rsquo;s servers go down, your bookmarks go with them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dewey&lt;/strong&gt; captures content at bookmark time. Great for preservation, but limited mobile integration. &lt;strong&gt;Raindrop.io&lt;/strong&gt; offers visual bookmarking with cloud backup. &lt;strong&gt;LinkAce&lt;/strong&gt; provides self-hosted monitoring with Internet Archive integration.&lt;/p&gt;
+&lt;p&gt;Links combines the best ideas while avoiding common pitfalls:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;File-based storage&lt;/strong&gt; (no database headaches)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-hosted control&lt;/strong&gt; (your data, your rules)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actual content preservation&lt;/strong&gt; (not just pretty organization)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seamless mobile integration&lt;/strong&gt; (because that&amp;rsquo;s where we live now)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI intelligence&lt;/strong&gt; (without the subscription fees)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While others focus on tags, categories, and visual discovery, Links focuses on one thing: making sure your stuff doesn&amp;rsquo;t disappear.&lt;/p&gt;
+&lt;h2 id=&#34;the-long-term-vision&#34;&gt;The Long-Term Vision&lt;/h2&gt;
+&lt;p&gt;Digital preservation shouldn&amp;rsquo;t be complicated. Regular people need tools that work without constant maintenance. Links embraces this philosophy.&lt;/p&gt;
+&lt;p&gt;In an era where websites vanish overnight, Links provides a personal solution. No tags, no categories, no complex workflows. Just chronological organization that makes sense. And yet, everything is still just one full-text search away.&lt;/p&gt;
+&lt;p&gt;Your data lives in human-readable files. No vendor lock-in, no proprietary formats. If you want to move elsewhere, everything exports cleanly.&lt;/p&gt;
+&lt;p&gt;This is digital preservation for the rest of us.&lt;/p&gt;
+&lt;h2 id=&#34;ready-to-use-today&#34;&gt;Ready to Use Today&lt;/h2&gt;
+&lt;p&gt;Links is production-ready right now. All core features work reliably. The mobile integration is smooth. The AI summaries are helpful. The search actually finds things.&lt;/p&gt;
+&lt;p&gt;After 115 commits of refinement, it&amp;rsquo;s almost ready for prime time. I still need to bundle it up for distribution.&lt;/p&gt;
+&lt;p&gt;Until then, you can try Links at &lt;a href=&#34;https://links.alexanderkucera.de&#34;&gt;links.alexanderkucera.de&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Links is open source and self-hostable. Built with Kirby CMS, Python archiving scripts, and a healthy dose of frustration with disappearing content.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links Update </title>
+      <link>https://alexanderkucera.com/2025/07/02/links-update.html</link>
+      <pubDate>Wed, 02 Jul 2025 19:16:48 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/07/02/links-update.html</guid>
+      <description>&lt;p&gt;I decided to pick up work on &lt;a href=&#34;https://links.alexanderkucera.de/about&#34;&gt;Links&lt;/a&gt; my barebones bookmark manager three days ago. Several dozen commits later it is shaping up nicely.&lt;/p&gt;
+&lt;p&gt;It now has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a nicer more streamlined design&lt;/li&gt;
+&lt;li&gt;working full content search&lt;/li&gt;
+&lt;li&gt;AI based summaries that also work for images (which is great for the search part)&lt;/li&gt;
+&lt;li&gt;editable titles (either manually or AI generated)&lt;/li&gt;
+&lt;li&gt;the archiver now runs as a daemon in the background&lt;/li&gt;
+&lt;li&gt;API access so it works with iOS shortcuts, Python, etc.&lt;/li&gt;
+&lt;li&gt;overall refactoring to be more readable code&lt;/li&gt;
+&lt;li&gt;a randomizer that shows ten random bookmarks&lt;/li&gt;
+&lt;li&gt;updated and expanded the documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still a few things to do though like adding more file types and maybe add thumbnails for other things then images.&lt;/p&gt;
+&lt;p&gt;But it is shaping up nicely and a proper release is visible on the horizon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/06/29/ive-neglected-links-my-bookmarking.html</link>
+      <pubDate>Sun, 29 Jun 2025 18:36:05 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/06/29/ive-neglected-links-my-bookmarking.html</guid>
+      <description>&lt;p&gt;I’ve neglected &lt;a href=&#34;https://links.alexanderkucera.de/about&#34;&gt;Links&lt;/a&gt; my bookmarking service. Too much other stuff going on like my wife’s iPad app and a new recipe app I’m trying to develop. Oh and also family life, dialysis and surgery recovery. Too much? Most likely.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/12/07/i-now-have-my-own.html</link>
+      <pubDate>Sat, 07 Dec 2024 14:33:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/12/07/i-now-have-my-own.html</guid>
+      <description>&lt;p&gt;I now have my own Python module to write Safari WebArchives. Neat. And not too hard to implement.&lt;/p&gt;
+&lt;p&gt;So now &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; also saves a WebArchive copy and triggers a Wayback savepoint.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/12/06/i-rewrote-my-webcatcher-python.html</link>
+      <pubDate>Fri, 06 Dec 2024 10:03:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/12/06/i-rewrote-my-webcatcher-python.html</guid>
+      <description>&lt;p&gt;I rewrote my webcatcher Python script yesterday. It is now leaner, meaner and more resilient against failed downloads. &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt; is coming together nicely. Pretty much all that is left is a nicer CSS for mobile devices and a web daemon so I can send stuff to Links from my iPhone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links Update</title>
+      <link>https://alexanderkucera.com/2024/12/03/links-update.html</link>
+      <pubDate>Tue, 03 Dec 2024 20:13:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/12/03/links-update.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links&lt;/a&gt;, my barebones bookmark and archival solution is slowly getting better.&lt;/p&gt;
+&lt;p&gt;Today I redid the CSS or started to. I still need to reimplement breakpoints for smaller devices.&lt;/p&gt;
+&lt;p&gt;Also I finally put the project under Git version control. Version control really is a godsend. The initial learning curve is not nothing. But once you &lt;em&gt;get it&lt;/em&gt;, it’s awesome.&lt;/p&gt;
+&lt;p&gt;I still need to polish the Python script a bit and make it more error resilient. And then I need to set up a web service for it so I can add links easily via iOS Shortcut.&lt;/p&gt;
+&lt;p&gt;Slowly getting there. Bit by bit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/11/27/first-version-of-links-is.html</link>
+      <pubDate>Wed, 27 Nov 2024 16:01:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/11/27/first-version-of-links-is.html</guid>
+      <description>&lt;p&gt;First version of Links is online! It is still missing a few things and needs more polish, but it works.&lt;/p&gt;
+&lt;p&gt;→ &lt;a href=&#34;https://links.alexanderkucera.de/&#34;&gt;Links—a barebones bookmark and archival solution&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/11/26/i-just-checked-links-v.html</link>
+      <pubDate>Tue, 26 Nov 2024 20:58:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/11/26/i-just-checked-links-v.html</guid>
+      <description>&lt;p&gt;I just checked Links v1.0.0 into my Git repository. Almost ready to deploy!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/11/25/slow-progress-on-links-today.html</link>
+      <pubDate>Mon, 25 Nov 2024 21:08:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/11/25/slow-progress-on-links-today.html</guid>
+      <description>&lt;p&gt;Slow progress on Links today. I didn’t have much time and spent what little I had chasing syntax errors. Here’s to a more successful tomorrow. I’m planning on getting my delete function working, add per user link databases, and add a dummy links collection for when you are not signed in.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2024/11/22/current-status-of-links-my.html</link>
+      <pubDate>Fri, 22 Nov 2024 20:21:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/11/22/current-status-of-links-my.html</guid>
+      <description>&lt;p&gt;Current status of Links, my barebones bookmark and archival tool:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;creating links via the site works&lt;/li&gt;
+&lt;li&gt;the site now also offers a Markdown preview&lt;/li&gt;
+&lt;li&gt;Markdown and PDF are saved as cleaned up versions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still to do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;make the archive script more robust&lt;/li&gt;
+&lt;li&gt;delete links from the website&lt;/li&gt;
+&lt;li&gt;some CSS design work&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links - a bookmarking/archival project</title>
+      <link>https://alexanderkucera.com/2024/11/20/links-a-bookmarkingarchival-project.html</link>
+      <pubDate>Wed, 20 Nov 2024 10:22:00 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2024/11/20/links-a-bookmarkingarchival-project.html</guid>
+      <description>&lt;p&gt;I am getting closer to a working version of my own little bookmarking/archiving project. I tried Archivebox, Linkwarden, linkding and of course Pinboard and Raindrop. None of them quite did what I wanted. So I rolled up my sleeves and got to work.&lt;/p&gt;
+&lt;p&gt;Current state:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;save a given URL as PDF, Markdown and Web Archive (Warco)&lt;/li&gt;
+&lt;li&gt;a basic website displaying the saved links with a URL and a summary of the site as well as links to the archived files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is very bare bones right now, but it works. Also, and this is one of the big pluses for me, no tags, no categories. Just a list of links.&lt;/p&gt;
+&lt;p&gt;To be done:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CSS styling of the link list&lt;/li&gt;
+&lt;li&gt;a way to add links from the site&lt;/li&gt;
+&lt;li&gt;a way to add links on the go&lt;/li&gt;
+&lt;li&gt;a way to delete links on the site&lt;/li&gt;
+&lt;li&gt;search&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
