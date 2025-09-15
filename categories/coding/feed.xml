@@ -6,7 +6,17 @@
     
     <language>de</language>
     
-    <lastBuildDate>Wed, 10 Sep 2025 18:01:12 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 15:36:55 +0200</lastBuildDate>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/09/12/i-do-all-my-git.html</link>
+      <pubDate>Fri, 12 Sep 2025 15:36:55 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/09/12/i-do-all-my-git.html</guid>
+      <description>&lt;p&gt;I do all my Git commits locally and then push to GitHub to create releases. Now I want to test out CodeRabbit, which relies on pull requests to examine code. Does it make sense for me as a solo developer—working on local code—to use CodeRabbit and Pull Requests? Thoughts?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Obsidian Plugin &#34;Typst PDF Export&#34; v1.2.0 released!</title>

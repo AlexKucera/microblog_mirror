@@ -6,6 +6,32 @@
 	"feed_url": "https://alexanderkucera.com/photos/index.json",
 	"items": [
 			{
+				"id": "https://alexanderkucera.com/2025/09/15/blankroast-kaffeemanufaktur-second-breakfast-i.html",
+				"title": "",
+				"content_html": "<p>BlankRoast Kaffeemanufaktur. <a href=\"http://maps.apple.com/?ll=49.359242,8.150123\">📍</a></p>\n<p>Second breakfast. I guess I am a hobbit after all.</p>\n<p><img src=\"https://alexanderkucera.com/uploads/2025/image-20250915-110840-43b4b009.jpg\" alt=\"\"></p>\n",
+				"date_published": "2025-09-15T11:08:58+02:00",
+				"url": "https://alexanderkucera.com/2025/09/15/blankroast-kaffeemanufaktur-second-breakfast-i.html",
+				
+					"image": "https://eu.uploads.micro.blog/239/2025/image-20250915-110840-43b4b009.jpg",
+					"_microblog": {
+						"thumbnail_url": "https://micro.blog/photos/400/https://eu.uploads.micro.blog/239/2025/image-20250915-110840-43b4b009.jpg"
+					}
+				
+			},
+			{
+				"id": "https://alexanderkucera.com/2025/09/13/unicef-lauf-ist-vorbei-schulfest.html",
+				"title": "",
+				"content_html": "<p>Grundschule am Storchennest.\n<a href=\"http://maps.apple.com/?ll=49.301735,8.257453\">📍</a></p>\n<p>Unicef Lauf ist vorbei. Schulfest hat begonnen.</p>\n<p><img src=\"https://alexanderkucera.com/uploads/2025/45c1f482b3.jpg\" alt=\"\"></p>\n",
+				"date_published": "2025-09-13T11:09:15+02:00",
+				"url": "https://alexanderkucera.com/2025/09/13/unicef-lauf-ist-vorbei-schulfest.html",
+				
+					"image": "https://eu.uploads.micro.blog/239/2025/45c1f482b3.jpg",
+					"_microblog": {
+						"thumbnail_url": "https://micro.blog/photos/400/https://eu.uploads.micro.blog/239/2025/45c1f482b3.jpg"
+					}
+				
+			},
+			{
 				"id": "https://alexanderkucera.com/2025/08/31/geinsheim-kirche-its-a-wrap.html",
 				"title": "",
 				"content_html": "<p>Geinsheim, Kirche. <a href=\"http://maps.apple.com/?ll=49.304690,8.256281\">📍</a></p>\n<p>It’s a wrap. Der Goistraßen Tag 2025 ist vorbei.</p>\n<p><img src=\"https://eu.uploads.micro.blog/239/2025/image-20250831-173337-87e29df9.jpg\" alt=\"\"></p>\n",
