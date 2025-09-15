@@ -6,6 +6,55 @@
 	"feed_url": "https://alexanderkucera.com/photos/index.json",
 	"items": [
 			{
+				"id": "https://alexanderkucera.com/2025/09/15/blankroast-kaffeemanufaktur-second-breakfast-i.html",
+				"title": "",
+				"content_text": "BlankRoast Kaffeemanufaktur. 📍\nSecond breakfast. I guess I am a hobbit after all.\n",
+				"date_published": "2025-09-15T11:08:58+02:00",
+				"url": "https://alexanderkucera.com/2025/09/15/blankroast-kaffeemanufaktur-second-breakfast-i.html"
+			},
+			{
+				"id": "https://alexanderkucera.com/2025/09/13/joined-nocap-accelerate-to-help.html",
+				"title": "",
+				"content_text": "Joined No-Cap Accelerate to help me push my dialysis app over the finish line.\n",
+				"date_published": "2025-09-13T19:07:34+02:00",
+				"url": "https://alexanderkucera.com/2025/09/13/joined-nocap-accelerate-to-help.html"
+			},
+			{
+				"id": "https://alexanderkucera.com/2025/09/13/watching-the-new-superman-again.html",
+				"title": "",
+				"content_text": "Watching the new Superman again. It works so well on so many levels. But it made me wonder. Do the comics ever explain why Kal-El wears the blue/red suit? I mean his parents and other Kryptonians are always displayed wearing white or black. Is his suite some sort of ceremonial garm maybe?\n",
+				"date_published": "2025-09-13T12:51:06+02:00",
+				"url": "https://alexanderkucera.com/2025/09/13/watching-the-new-superman-again.html"
+			},
+			{
+				"id": "https://alexanderkucera.com/2025/09/13/unicef-lauf-ist-vorbei-schulfest.html",
+				"title": "",
+				"content_text": "Grundschule am Storchennest. 📍\nUnicef Lauf ist vorbei. Schulfest hat begonnen.\n",
+				"date_published": "2025-09-13T11:09:15+02:00",
+				"url": "https://alexanderkucera.com/2025/09/13/unicef-lauf-ist-vorbei-schulfest.html"
+			},
+			{
+				"id": "https://alexanderkucera.com/2025/09/13/grundschule-am-storchennest-heute-ist.html",
+				"title": "",
+				"content_text": "Grundschule am Storchennest. 📍\nHeute ist Unicef Lauf an der Grundschule Geinsheim\n",
+				"date_published": "2025-09-13T10:19:48+02:00",
+				"url": "https://alexanderkucera.com/2025/09/13/grundschule-am-storchennest-heute-ist.html"
+			},
+			{
+				"id": "https://alexanderkucera.com/2025/09/13/post-by-agiletortoisemastodonsocial-oh-yea.html",
+				"title": "",
+				"content_text": "Post by @agiletortoise@mastodon.social\nOh yea, I\u0026rsquo;m supposed to do marketing when I release updates. This Summer has had\u0026hellip;distractions. I\u0026rsquo;m happy to have at least gotten all these updates done.Anyway, if you need apps…I\u0026rsquo;ve got some.https://agiletortoise.com\n",
+				"date_published": "2025-09-13T07:31:39+02:00",
+				"url": "https://alexanderkucera.com/2025/09/13/post-by-agiletortoisemastodonsocial-oh-yea.html"
+			},
+			{
+				"id": "https://alexanderkucera.com/2025/09/12/i-do-all-my-git.html",
+				"title": "",
+				"content_text": "I do all my Git commits locally and then push to GitHub to create releases. Now I want to test out CodeRabbit, which relies on pull requests to examine code. Does it make sense for me as a solo developer—working on local code—to use CodeRabbit and Pull Requests? Thoughts?\n",
+				"date_published": "2025-09-12T15:36:55+02:00",
+				"url": "https://alexanderkucera.com/2025/09/12/i-do-all-my-git.html"
+			},
+			{
 				"id": "https://alexanderkucera.com/2025/09/10/obsidian-plugin-typst-pdf-export.html",
 				"title": "Obsidian Plugin \"Typst PDF Export\" v1.2.0 released!",
 				"content_text": "New release of my new Obsidian plugin Typst PDF Export:\nVersion 1.2.0 comes with a few bug fixes and a lot of refactoring.\nTypst PDF Export uses Pandoc and Typst to export professionally typset PDFs from your notes.\nIt supports the basic Markdown syntax as well as a few special code blocks, like an e-mail block. Also it not only puts your note\u0026rsquo;s images in the PDF, it also creates a preview page of PDFs linked in your note. And if you want your exported PDF to be extra special, you can embed any non-image file type into the PDF as attachment.\n",
