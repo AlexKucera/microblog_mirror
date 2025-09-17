@@ -7,6 +7,38 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2025/09/17/is-it-just-is-or.html",
+				
+				"content_html": "<p>Is it just is or is the Amazon Prime app on Apple TV utter shit? I constantly have to force quit it because it hangs loading.</p>\n",
+				"content_text": "Is it just is or is the Amazon Prime app on Apple TV utter shit? I constantly have to force quit it because it hangs loading. \n",
+				"date_published": "2025-09-17T19:54:31+02:00",
+				"url": "https://alexanderkucera.com/2025/09/17/is-it-just-is-or.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/09/16/post-by-helloweatherindieappsspace-new-in.html",
+				
+				"content_html": "<p><a href=\"https://indieapps.space/@helloweather/115214872181247852\">Post</a> by <a href=\"https://micro.blog/helloweather@indieapps.space\">@helloweather@indieapps.space</a></p>\n<blockquote>\n<p>New in Hello Weather this week—Liquid Glass support for iOS 26, plus a bunch of related improvements!Hop over to the App Store to grab it:https://apps.apple.com/us/app/hello-weather/id978393692</p>\n</blockquote>\n<p>Great job!</p>\n",
+				"content_text": "[Post](https://indieapps.space/@helloweather/115214872181247852) by [@helloweather@indieapps.space](https://micro.blog/helloweather@indieapps.space)\n\n> New in Hello Weather this week—Liquid Glass support for iOS 26, plus a bunch of related improvements!Hop over to the App Store to grab it:https://apps.apple.com/us/app/hello-weather/id978393692\n\nGreat job!\n",
+				"date_published": "2025-09-16T19:39:52+02:00",
+				"url": "https://alexanderkucera.com/2025/09/16/post-by-helloweatherindieappsspace-new-in.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/09/16/ok-ios-in-iphone-isnt.html",
+				
+				"content_html": "<p>Ok. iOS 26 in iPhone isn’t as bad as I expected. Mostly due to most of the apps I use not looking any different. 🤪</p>\n",
+				"content_text": "Ok. iOS 26 in iPhone isn’t as bad as I expected. Mostly due to most of the apps I use not looking any different. 🤪\n",
+				"date_published": "2025-09-16T13:24:23+02:00",
+				"url": "https://alexanderkucera.com/2025/09/16/ok-ios-in-iphone-isnt.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2025/09/15/post-by-mtt-ok-its.html",
+				
+				"content_html": "<p><a href=\"https://mattlangford.com/2025/09/15/ok-its-now-here-mythos.html\">Post</a> by <a href=\"https://micro.blog/Mtt\">@Mtt</a></p>\n<blockquote>\n<p>Ok, it’s now here. <a href=\"https://mythos.micro.blog\">Mythos Theme</a> v1.4.0 now includes <a href=\"https://mythos.micro.blog/microhooks/\">Microhooks</a>.</p>\n</blockquote>\n<p>Fawesome Update Matt!</p>\n",
+				"content_text": "[Post](https://mattlangford.com/2025/09/15/ok-its-now-here-mythos.html) by [@Mtt](https://micro.blog/Mtt)\n\n> Ok, it’s now here. [Mythos Theme](https://mythos.micro.blog) v1.4.0 now includes [Microhooks](https://mythos.micro.blog/microhooks/).\n\n\nFawesome Update Matt!\n",
+				"date_published": "2025-09-15T22:01:23+02:00",
+				"url": "https://alexanderkucera.com/2025/09/15/post-by-mtt-ok-its.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2025/09/15/blankroast-kaffeemanufaktur-second-breakfast-i.html",
 				
 				"content_html": "<p>BlankRoast Kaffeemanufaktur. <a href=\"http://maps.apple.com/?ll=49.359242,8.150123\">📍</a></p>\n<p>Second breakfast. I guess I am a hobbit after all.</p>\n<p><img src=\"https://alexanderkucera.com/uploads/2025/image-20250915-110840-43b4b009.jpg\" alt=\"\"></p>\n",
@@ -33,8 +65,8 @@
 			{
 				"id": "http://AlexKucera.micro.blog/2025/09/13/unicef-lauf-ist-vorbei-schulfest.html",
 				
-				"content_html": "<p>Grundschule am Storchennest.\n<a href=\"http://maps.apple.com/?ll=49.301735,8.257453\">📍</a></p>\n<p>Unicef Lauf ist vorbei. Schulfest hat begonnen.</p>\n<p><img src=\"https://alexanderkucera.com/uploads/2025/45c1f482b3.jpg\" alt=\"\"></p>\n",
-				"content_text": "Grundschule am Storchennest. \n[📍](http://maps.apple.com/?ll=49.301735,8.257453)\n\nUnicef Lauf ist vorbei. Schulfest hat begonnen. \n\n![](https://alexanderkucera.com/uploads/2025/45c1f482b3.jpg)\n",
+				"content_html": "<p>Grundschule am Storchennest.\n<a href=\"http://maps.apple.com/?ll=49.301735,8.257453\">📍</a></p>\n<p>Unicef Lauf ist vorbei. Schulfest hat begonnen.</p>\n<p><img src=\"https://eu.uploads.micro.blog/239/2025/45c1f482b3.jpg\" alt=\"\"></p>\n",
+				"content_text": "Grundschule am Storchennest. \n[📍](http://maps.apple.com/?ll=49.301735,8.257453)\n\nUnicef Lauf ist vorbei. Schulfest hat begonnen. \n\n![](https://eu.uploads.micro.blog/239/2025/45c1f482b3.jpg)\n",
 				"date_published": "2025-09-13T11:09:15+02:00",
 				"url": "https://alexanderkucera.com/2025/09/13/unicef-lauf-ist-vorbei-schulfest.html",
 				"tags": ["Dorfkultur"]
