@@ -6,7 +6,55 @@
     
     <language>de</language>
     
-    <lastBuildDate>Fri, 12 Sep 2025 15:36:55 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 16:28:17 +0200</lastBuildDate>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/10/02/got-icloud-syncing-working-for.html</link>
+      <pubDate>Thu, 02 Oct 2025 16:28:17 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/10/02/got-icloud-syncing-working-for.html</guid>
+      <description>&lt;p&gt;Got iCloud Syncing working for dialysisPal! 🎉&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/10/02/dialysispal-runs-smooth-as-butter.html</link>
+      <pubDate>Thu, 02 Oct 2025 14:26:27 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/10/02/dialysispal-runs-smooth-as-butter.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://dialysepal.de&#34;&gt;dialysisPal&lt;/a&gt; runs smooth as butter with 5 years of dialysis data. I&amp;rsquo;m a very happy camper!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexanderkucera.com/2025/09/25/slowly-wrapping-my-head-around.html</link>
+      <pubDate>Thu, 25 Sep 2025 15:49:16 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/09/25/slowly-wrapping-my-head-around.html</guid>
+      <description>&lt;p&gt;Slowly wrapping my head around CodeRabbit and working with pull requests for my own code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Obsidian Plugin Released - Freewriting Prompts</title>
+      <link>https://alexanderkucera.com/2025/09/19/new-obsidian-plugin-released-freewriting.html</link>
+      <pubDate>Fri, 19 Sep 2025 22:59:01 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/09/19/new-obsidian-plugin-released-freewriting.html</guid>
+      <description>&lt;p&gt;I just released v1.0.0 of my new Obsidian plugin &lt;a href=&#34;https://github.com/AlexKucera/freewriting-prompts&#34;&gt;Freewriting Prompts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Generate AI-powered writing prompts for freewriting sessions using Anthropic&amp;rsquo;s Claude. Break through writer&amp;rsquo;s block with creative, thought-provoking prompts delivered exactly when you need them.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/AlexKucera/freewriting-prompts&#34;&gt;Freewriting Prompts&lt;/a&gt; gives you two ways to break writers block.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Freewriting Prompts&lt;/strong&gt; simply gives you a configurable number of prompts and appends them to the current note.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Staggered Freewriting Prompts&lt;/strong&gt; shows you a configurable number of prompts one after the other with a configurable intervall.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Also you can adjust the way each of these prompts are generated to match your writing style as well as possible.&lt;/p&gt;
+&lt;p&gt;🎉 Happy Writing!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>

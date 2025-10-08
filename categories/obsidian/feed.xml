@@ -6,7 +6,25 @@
     
     <language>de</language>
     
-    <lastBuildDate>Wed, 10 Sep 2025 18:01:12 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 22:59:01 +0200</lastBuildDate>
+    
+    <item>
+      <title>New Obsidian Plugin Released - Freewriting Prompts</title>
+      <link>https://alexanderkucera.com/2025/09/19/new-obsidian-plugin-released-freewriting.html</link>
+      <pubDate>Fri, 19 Sep 2025 22:59:01 +0200</pubDate>
+      
+      <guid>http://AlexKucera.micro.blog/2025/09/19/new-obsidian-plugin-released-freewriting.html</guid>
+      <description>&lt;p&gt;I just released v1.0.0 of my new Obsidian plugin &lt;a href=&#34;https://github.com/AlexKucera/freewriting-prompts&#34;&gt;Freewriting Prompts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Generate AI-powered writing prompts for freewriting sessions using Anthropic&amp;rsquo;s Claude. Break through writer&amp;rsquo;s block with creative, thought-provoking prompts delivered exactly when you need them.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/AlexKucera/freewriting-prompts&#34;&gt;Freewriting Prompts&lt;/a&gt; gives you two ways to break writers block.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Freewriting Prompts&lt;/strong&gt; simply gives you a configurable number of prompts and appends them to the current note.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Staggered Freewriting Prompts&lt;/strong&gt; shows you a configurable number of prompts one after the other with a configurable intervall.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Also you can adjust the way each of these prompts are generated to match your writing style as well as possible.&lt;/p&gt;
+&lt;p&gt;🎉 Happy Writing!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Obsidian Plugin &#34;Typst PDF Export&#34; v1.2.0 released!</title>

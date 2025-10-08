@@ -6,10 +6,10 @@
  * Website: https://mattlangford.com
  * Repository: https://github.com/mattlangford/mythos-theme
  * License: MIT License
- * Version: 1.3.7
+ * Version: 1.4.11
  * 
  * CUSTOMIZATION TIP: Do not modify this file directly. Instead use Micro.blog's Custom CSS feature.
- * If you modify (or overwrite) this file, it will be reversed when a new update for the theme is released.
+ * If you modify (or overwrite) this file, it will limit the ability to apply future updates when one is released.
  * Use this file as a guide, but only include the specific things you want to change in your Custom CSS.
  */
 
@@ -213,6 +213,14 @@ html {
     font-size: var(--font-size-base);
     line-height: var(--line-height-base);
     -webkit-text-size-adjust: 100%;
+    scroll-padding-top: var(--header-height);
+}
+
+/* Smooth scrolling for anchor links (respects motion preferences) */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 /* Main page setup - this controls your overall site appearance */
@@ -822,10 +830,6 @@ blockquote.verse cite {
     display: flex !important;
 }
 
-/* Hide social icons when JavaScript is disabled (they need JS for proper grid layout) */
-.no-js .social-icons {
-    display: none;
-}
 
 /* MOBILE: Full-screen overlay navigation */
 @media (max-width: 768px) {
@@ -1146,19 +1150,14 @@ blockquote.verse cite {
     margin-top: 0;
 }
 
-/* Cross-Browser Compatible Grid Layout */
+/* Social Icons Grid - Auto-layout */
 .social-icons {
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(32px, 1fr));
+    gap: var(--spacing-sm);
+    max-width: 212px;
     margin-left: auto;
     margin-right: auto;
 }
-
-/* Specific layouts for different icon counts - will be set by JavaScript */
-.social-icons.cols-1 { grid-template-columns: 1fr; max-width: 44px; }
-.social-icons.cols-2 { grid-template-columns: repeat(2, 1fr); max-width: 100px; }
-.social-icons.cols-3 { grid-template-columns: repeat(3, 1fr); max-width: 156px; }
-.social-icons.cols-4 { grid-template-columns: repeat(4, 1fr); max-width: 212px; }
 
 /* Reduced Motion Support */
 @media (prefers-reduced-motion: reduce) {
@@ -1277,6 +1276,10 @@ blockquote.verse cite {
     font-size: var(--font-size-base);
     line-height: var(--line-height-loose);
     margin-bottom: var(--spacing-md);
+}
+
+.continue-reading {
+    margin-top: var(--spacing-md);
 }
 
 /* Single Post */
@@ -1454,6 +1457,11 @@ input[type="url"]:focus, input[type="password"]:focus, textarea:focus, select:fo
     outline: 2px solid var(--color-accent);
     outline-offset: 2px;
     border-color: var(--color-accent);
+}
+
+/* Form submit button spacing */
+form input[type="submit"] {
+    margin-top: var(--spacing-sm);
 }
 
 /* Search Space Plugin Specific */
@@ -1931,3 +1939,76 @@ table {
 }
 
 /* Mobile: 3 columns for photo collections */
+
+/* ===== ACCORDION/DETAILS STYLING ===== */
+details {
+    margin: var(--spacing-md) 0;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--color-background);
+}
+
+details[open] {
+    border-color: var(--color-accent);
+}
+
+summary {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--color-background-alt);
+    border-bottom: 1px solid var(--color-border);
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--color-text);
+    user-select: none;
+    position: relative;
+    transition: background-color 0.2s ease;
+    list-style: none;
+}
+
+summary:hover {
+    background: var(--color-border-light);
+}
+
+summary:focus {
+    outline: 2px solid var(--color-accent);
+    outline-offset: -2px;
+}
+
+
+summary::before {
+    content: "▶";
+    color: var(--color-text-muted);
+    margin-right: var(--spacing-xs);
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+
+details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+/* Content area */
+details > *:not(summary) {
+    padding: var(--spacing-md);
+}
+
+details[open] summary {
+    border-bottom-color: var(--color-border);
+}
+
+/* FAQ-style spacing */
+details + details {
+    margin-top: calc(var(--spacing-xs) * -1);
+    border-top: none;
+}
+
+details:first-of-type {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+details:last-of-type {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
