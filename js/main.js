@@ -26,18 +26,19 @@
             cssToggleInput.style.display = 'none';
         }
         
-        // Set up social icons grid and navigation overflow
-        initSocialGrid();
+        // Set up navigation overflow
         initNavigationOverflow();
         
         function openMenu() {
             menuToggle.setAttribute('aria-expanded', 'true');
+            menuToggle.setAttribute('aria-label', 'Close main navigation menu');
             primaryMenu.classList.add('active');
             if (menuBackdrop) menuBackdrop.classList.add('active');
         }
-        
+
         function closeMenu() {
             menuToggle.setAttribute('aria-expanded', 'false');
+            menuToggle.setAttribute('aria-label', 'Open main navigation menu');
             primaryMenu.classList.remove('active');
             if (menuBackdrop) menuBackdrop.classList.remove('active');
         }
@@ -79,25 +80,6 @@
         window.addEventListener('resize', closeMenu);
     }
     
-    // Social icons grid setup
-    function initSocialGrid() {
-        const socialIcons = document.querySelector('.social-icons');
-        if (!socialIcons) return;
-        
-        const iconCount = socialIcons.children.length;
-        
-        // Remove existing column classes
-        socialIcons.classList.remove('cols-1', 'cols-2', 'cols-3', 'cols-4');
-        
-        // Add appropriate column class based on count
-        if (iconCount <= 3) {
-            socialIcons.classList.add(`cols-${iconCount}`);
-        } else if (iconCount <= 8) {
-            socialIcons.classList.add('cols-4');
-        } else {
-            socialIcons.classList.add('cols-3'); // Fallback for 9+ icons
-        }
-    }
     
     // Navigation overflow handling for 7+ menu items
     function initNavigationOverflow() {
@@ -118,40 +100,6 @@
         }
     }
     
-    // Smooth scrolling for anchor links
-    function initSmoothScrolling() {
-        const anchorLinks = document.querySelectorAll('a[href^="#"]');
-        
-        anchorLinks.forEach(function(link) {
-            link.addEventListener('click', function(e) {
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-                
-                if (targetElement) {
-                    e.preventDefault();
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    }
-    
-    // Add loading state to images
-    function initImageLoading() {
-        const images = document.querySelectorAll('img:not(.avatar-image)');
-        
-        images.forEach(function(img) {
-            if (img.complete) {
-                img.classList.add('loaded');
-            } else {
-                img.addEventListener('load', function() {
-                    this.classList.add('loaded');
-                });
-            }
-        });
-    }
     
     // Code block copy functionality
     function initCodeCopy() {
@@ -211,12 +159,65 @@
         }
     }
     
+    // Copy link button functionality
+    function initCopyLinkButtons() {
+        const copyButtons = document.querySelectorAll('.copy-link-button');
+        
+        copyButtons.forEach(function(copyButton) {
+            const url = copyButton.dataset.url;
+            const copiedText = copyButton.dataset.copiedText;
+            
+            copyButton.addEventListener('click', async function() {
+                try {
+                    // Try modern clipboard API first
+                    if (navigator.clipboard && window.isSecureContext) {
+                        await navigator.clipboard.writeText(url);
+                        showCopiedFeedback(copyButton, copiedText);
+                    } else {
+                        // Fallback for older browsers or non-HTTPS
+                        const textArea = document.createElement('textarea');
+                        textArea.value = url;
+                        textArea.style.position = 'fixed';
+                        textArea.style.left = '-999999px';
+                        textArea.style.top = '-999999px';
+                        document.body.appendChild(textArea);
+                        textArea.focus();
+                        textArea.select();
+                        
+                        try {
+                            document.execCommand('copy');
+                            showCopiedFeedback(copyButton, copiedText);
+                        } catch (err) {
+                            console.error('Failed to copy link:', err);
+                        } finally {
+                            textArea.remove();
+                        }
+                    }
+                } catch (err) {
+                    console.error('Failed to copy link:', err);
+                }
+            });
+        });
+        
+        function showCopiedFeedback(button, copiedText) {
+            const originalText = button.innerHTML;
+            button.innerHTML = copiedText;
+            button.classList.add('copied');
+            button.disabled = true;
+            
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.classList.remove('copied');
+                button.disabled = false;
+            }, 2000);
+        }
+    }
+    
     // Initialize all functionality when DOM is ready
     function init() {
         initMobileMenu();
-        initSmoothScrolling();
-        initImageLoading();
         initCodeCopy();
+        initCopyLinkButtons();
     }
     
     // Run initialization
