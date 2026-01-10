@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2026/01/10/i-shouldnt-have-tried-to.html",
+				
+				"content_html": "<p>I shouldn’t have tried to be smart and just ordered the HDMI cable with my Raspberry Pi 5. I thought I could just do a headless install. But I cannot connect to it. Neither SSH nor Raspberry Connect work. I guess it sits at a login screen or something.</p>\n",
+				"content_text": "I shouldn’t have tried to be smart and just ordered the HDMI cable with my Raspberry Pi 5. I thought I could just do a headless install. But I cannot connect to it. Neither SSH nor Raspberry Connect work. I guess it sits at a login screen or something. \n",
+				"date_published": "2026-01-10T14:51:25+01:00",
+				"url": "https://alexanderkucera.com/2026/01/10/i-shouldnt-have-tried-to.html",
+				"tags": ["Raspberry Pi"]
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2026/01/09/macos-has-this-annoying-new.html",
 				
 				"content_html": "<p>macOS 26 has this annoying new behavior of opening a preview pop up when I click on a link in a non-browser app. How can I disable that?</p>\n",
