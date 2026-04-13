@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2026/04/13/i-was-sick-if-guessing.html",
+				
+				"content_html": "<p>I was sick if guessing, so I made a little  <a href=\"https://claude.ai/public/artifacts/88b73c23-1bfa-416c-b70c-d3c812a53ce5\">Airfryer Converter</a> to get temperatures and times right.</p>\n",
+				"content_text": "I was sick if guessing, so I made a little  [Airfryer Converter](https://claude.ai/public/artifacts/88b73c23-1bfa-416c-b70c-d3c812a53ce5) to get temperatures and times right. \n",
+				"date_published": "2026-04-13T11:26:45+02:00",
+				"url": "https://alexanderkucera.com/2026/04/13/i-was-sick-if-guessing.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2026/04/12/im-seriously-thinking-about-just.html",
+				
+				"content_html": "<p>I’m seriously thinking about just setting up my wife with Hermes agent and a nice chat UI and be done with it.</p>\n",
+				"content_text": "I’m seriously thinking about just setting up my wife with Hermes agent and a nice chat UI and be done with it. \n",
+				"date_published": "2026-04-12T12:58:46+02:00",
+				"url": "https://alexanderkucera.com/2026/04/12/im-seriously-thinking-about-just.html",
+				"tags": ["AI","Hermes Agent"]
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2026/04/12/is-it-just-me-or.html",
 				
 				"content_html": "<p>Is it just me or is Claude Cowork no fun at all? Its restrictions make even the most basic agent workflows a tedious token burning chore.\nI wanted to set up Claude Cowork for my wife, because she is not very technical. But everything that is just easy in Claude Code is hampered by permission issues.</p>\n",
