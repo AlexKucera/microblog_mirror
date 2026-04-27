@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Agents of the roundtable
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Agents of the roundtable</h1>
+	
+    <div><time class="dt-published" datetime="2026-04-27T14:43:11&#43;02:00">Apr 27, 2026</time></div>
+
+	<div class="e-content">
+		<p>Six AI agents held a meeting and agreed on something. The topic was pineapple on pizza. Verdict: yes, obviously.</p>
+<p>That&rsquo;s not the part worth writing about. How I got there is.</p>
+<p>Last week I built a roundtable system for my agent team. The idea was to stop each agent from working alone and shipping output into a void. Instead they&rsquo;d sit in an actual deliberation, respond to each other&rsquo;s arguments, change their minds, arrive at something resembling consensus. You know, a meeting. Except nobody checks your phone.</p>
+<p>Version zero wasn&rsquo;t pretty. Every agent wrote its thoughts into a separate markdown file. Six files, zero interaction. Like colleagues who email instead of walking over to each other&rsquo;s desks. It ran without errors and it also missed the entire point.</p>
+<p>I went through four versions in one day.</p>
+<p>Version one let agents read each other&rsquo;s inputs before responding. Version two added turn-taking so they weren&rsquo;t all shouting over each other. Those two together got me from six isolated files to something that vaguely resembled a conversation.</p>
+<p>Version three added structure, opening statements and rebuttal rounds, the whole debate club routine. Version four dropped in a chair agent whose only job is steering the room, keeping people on topic, knowing when to call the vote. That was the step where it stopped feeling like a chatroom with a timer and started feeling like an actual meeting.</p>
+<p>I expected each iteration to break what came before it. That&rsquo;s my normal experience, three hours of demolition work before one attempt sticks. But every version moved forward without collapsing. I still don&rsquo;t quite know why.</p>
+<p>The biggest problem showed up when all six agents tried to talk at once. The API rate-limited me into the floor. Six concurrent calls will do that. The fix was quite simple: stagger the responses, give each agent a beat before it speaks. Same thing a moderator does in any real meeting, except here the moderator is a <code>sleep()</code> call.</p>
+<p>It runs now. Six agents plus a chair arguing about whatever topic I feed them, generating slide decks and narrated audio from their discussions. The output pipeline wound up fancier than the meeting itself.</p>
+<p>The pineapple vote was unanimous, by the way. Every single agent defended putting fruit on pizza. Draw your own conclusions about AI alignment.</p>
+<hr>
+<p><em>Part of <a href="https://alexanderkucera.com/2026/04/09/the-glitch-diary.html">The Glitch Diary</a></em></p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
