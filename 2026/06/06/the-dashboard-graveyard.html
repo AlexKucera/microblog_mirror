@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - The Dashboard Graveyard
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">The Dashboard Graveyard</h1>
+	
+    <div><time class="dt-published" datetime="2026-06-06T12:08:28&#43;02:00">Jun 6, 2026</time></div>
+
+	<div class="e-content">
+		<p>You can map the last six months of my AI journey entirely through abandoned dashboards.</p>
+<p>Three for OpenClaw. Three for tracking LLM spending. A recipe builder that died mid-bake. Two Hermes experiments that lasted about a day each. And most recently, a project management dashboard for Pi Coding Agent. Still warm, still unfinished, already abandoned.</p>
+<p>That&rsquo;s ten projects. Give or take. None of them survived.</p>
+<h2 id="where-it-started">Where It Started</h2>
+<p>I blame Alex Finn.</p>
+<p>Not really. He&rsquo;s not wrong about what <em>he</em> needs. Finn&rsquo;s YouTube channel has been pushing &ldquo;Mission Control&rdquo; as essential infrastructure for anyone working with LLM tools. Build a dashboard. See everything. Control everything. He even published a whole prompt library for it. The production value makes the pitch feel inevitable.</p>
+<p>He wasn&rsquo;t alone. This was late 2025. Andrej Karpathy had just started talking about &ldquo;vibe coding,&rdquo; the idea that you could describe what you wanted in plain language and have an AI build it. Retool put out a report showing 78% of developers expected to build more custom tools in 2026, often replacing SaaS products with AI-generated dashboards. The message from every direction was the same: <em>of course</em> you need custom infrastructure. Everyone&rsquo;s building one.</p>
+<p>So when OpenClaw (then still called ClawdBot) produced files everywhere: conversations, outputs, config dumps, a whole filesystem with no obvious way to navigate it. The conclusion felt obvious. Build a dashboard. See everything. Control everything.</p>
+<p>I built one. Then another because the first one didn&rsquo;t feel right. Then a third because the second one was getting messy but I&rsquo;d learned things and this time it would be <em>clean</em>.</p>
+<p>It wasn&rsquo;t clean. Nothing after that was clean either.</p>
+<h2 id="the-cost-tracking-trilogy">The Cost Tracking Trilogy</h2>
+<p>Somewhere along the way, I decided the real problem wasn&rsquo;t navigation. It was money. These tools cost money to run. Someone should track that. Someone should build a dashboard for it.</p>
+<p>So I built three cost trackers. Three separate attempts to solve a problem I could have solved with a spreadsheet in twenty minutes.</p>
+<p>There&rsquo;s a term for this: <strong>dashboard sprawl</strong>. Internal tools start as &ldquo;quick projects&rdquo; that become permanent maintenance sinks. Every API change, every new metric you want to track, every framework update—they all demand manual intervention. You end up managing more custom software than actual work. I was living it. Each tracker started with enthusiasm and stalled when I realized I didn&rsquo;t enjoy looking at my own spending closely enough to maintain a web application for the privilege.</p>
+<p>The pattern had solidified: new tool arrives, excitement spikes, Mission Control construction begins, interest evaporates somewhere around the CSS grid layout, another body in the graveyard.</p>
+<h2 id="the-accident-that-worked">The Accident That Worked</h2>
+<p>The recipe builder was supposed to be different.</p>
+<p>I wanted something that could take ingredients I had on hand and suggest recipes that fit my dietary restrictions. Peritoneal dialysis patient here; phosphorus and potassium are daily concerns. A proper web app with a database, search, filtering, the works.</p>
+<p>I got partway through the frontend and ran out of patience. Not patience with the <em>idea</em>—patience with the <em>build</em>. I needed something that worked <em>now</em>, not three sprints from now.</p>
+<p>So I did something dumb. I wrote a quick skill file for OpenClaw instead: a text prompt wrapped in some YAML, no database, no UI, no deployment pipeline. You feed it ingredients, it suggests recipes. That&rsquo;s it.</p>
+<p>It worked immediately. Better than anything I&rsquo;d spent weeks building in React.</p>
+<p>When I migrated from OpenClaw to Hermes Agent at the end of February, that skill came with me. Got improved over time. Still runs today. Still gets used whenever I&rsquo;m staring at the fridge wondering what&rsquo;s safe to cook.</p>
+<p>That throwaway hack outperformed nine carefully planned dashboards combined. Not because it was better engineered—because it existed, I finished it, and it did exactly one thing well enough that I never had reason to replace it.</p>
+<h2 id="whats-actually-true-now">What&rsquo;s Actually True Now</h2>
+<p>Here&rsquo;s my current setup for managing everything:</p>
+<p>cmux (terminal multiplexer). Sublime Text. macOS Finder.</p>
+<p>That&rsquo;s it. No Next.js state to manage, no auth layer to maintain, no &ldquo;quick deploy&rdquo; that eats a whole weekend debugging environment variables. I open a terminal, I type a command, something happens. When it doesn&rsquo;t work, I can see why in the same window where I ran it.</p>
+<p>I like building CLI tools. They can get complicated. TUIs have come a long way in recent years and they can look sharp. But they don&rsquo;t carry the same maintenance debt: no mobile breakpoints, no framework update that breaks your component tree next quarter, no hosting bill for something only you will ever use.</p>
+<p>Dashboards sell you <strong>visibility</strong>. That psychological comfort of seeing everything laid out in cards and charts. It feels productive. It feels like control. Then reality sets in: the thing you&rsquo;re looking at needs updating, the data source changed its API format, the chart library dropped support for your version, and suddenly your dashboard of control is just another maintenance obligation.</p>
+<p>CLI tools don&rsquo;t pretend to give you that comfort. They give you <em>output</em> instead. You run the command, you get the answer, you move on. The tool doesn&rsquo;t need to look impressive because nobody&rsquo;s watching it except you, and you already know what you asked for.</p>
+<h2 id="the-glitch-isnt-fixed">The Glitch Isn&rsquo;t Fixed</h2>
+<p>I still feel the pull, though. That&rsquo;s the part I&rsquo;m not proud of.</p>
+<p>Pi Coding Agent showed up. I liked it immediately. The coding experience is good. So naturally, within about a week, I&rsquo;d started building a project management dashboard for it. A way to manage multiple projects, start coding sessions, track progress across codebases.</p>
+<p>Sounds reasonable. Sounds like something a person who likes a tool might want to build.</p>
+<p>I didn&rsquo;t finish it. I already stopped working on it. The same graveyard, fresh body.</p>
+<p>I tell myself it&rsquo;s fading. I hope it fades. But the reflex is still there—new tool lands, brain says &ldquo;build Mission Control,&rdquo; hands open a code editor before the conscious mind catches up.</p>
+<p>Maybe acknowledging it is the first step. Or maybe I&rsquo;ll be writing a follow-up post in six months about the twelve dashboards I built between now and then. Ask me then.</p>
+<h2 id="what-i-actually-learned">What I Actually Learned</h2>
+<p>Not &ldquo;dashboards are bad.&rdquo; Some people love them. Finn clearly does, and his setup works for him. The lesson isn&rsquo;t that web interfaces are universally wrong for personal tooling.</p>
+<p>The lesson is simpler: <strong>I don&rsquo;t finish dashboards.</strong> I start them, enjoy the initial architecture phase, lose interest somewhere around implementation details, and move on to the next thing before the current one ships.</p>
+<p>But I <em>do</em> finish small tools that do one thing: skill files, shell scripts, little CLI utilities that solve today&rsquo;s problem without pretending to solve next year&rsquo;s too.</p>
+<p>That&rsquo;s not a downgrade. That&rsquo;s just knowing what shape your work fits into.
+Maybe the next time my hands open a code editor before my brain catches up, I&rsquo;ll remember that.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
