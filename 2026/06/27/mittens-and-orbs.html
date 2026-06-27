@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Mittens and Orbs
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Mittens and Orbs</h1>
+	
+    <div><time class="dt-published" datetime="2026-06-27T09:00:00&#43;02:00">Jun 27, 2026</time></div>
+
+	<div class="e-content">
+		<p>I have built five dashboards for my AI agents since January. Five. All of them started the same way: a fresh project folder, a Next.js scaffold, the feeling that <em>this time</em> I&rsquo;d build the interface that finally made sense of everything happening inside these models. None of them finished, or mattered. They&rsquo;re all in a folder somewhere called things like <code>mission-control-v3</code> and <code>agent-dashboard-final</code> and <code>dashboard-this-time-i-mean-it</code>.</p>
+<p>I finally figured out why they all died. It wasn&rsquo;t the code. It was that every dashboard I built put another layer between me and the thing I was trying to steer.</p>
+<h2 id="the-mittens-problem">The mittens problem</h2>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-26-mittens-sketch.png" alt="Ein frustrierter Mann versucht mit einem langen Stock, einen kleinen Roboter zu steuern, der durch verschiedene technische Schichten wie Dashboard, UI-Layer und Abstraktion dargestellt wird."></p>
+<p>Here&rsquo;s what using an AI dashboard feels like: imagine trying to guide someone who&rsquo;s wearing oven mittens. And you&rsquo;re holding a ten-foot pole. And the person can&rsquo;t actually feel what they&rsquo;re touching, so they&rsquo;re just sort of waving their mitten-hands in the direction you&rsquo;re pointing and hoping something works.</p>
+<p>That&rsquo;s a dashboard. That&rsquo;s every dashboard I&rsquo;ve tried.</p>
+<p>The agent does something. The dashboard summarizes it. The summary collapses detail. I read the summary, form an opinion, give feedback. The dashboard translates my feedback back into whatever format the agent expects. Something gets lost at each step. Always. Not sometimes—always.</p>
+<p>The more polished the dashboard, the worse this gets. Pretty cards with status indicators. Progress bars. Color-coded badges. All of it is compression. All of it throws away the information I actually need to make good decisions about where to steer next.</p>
+<p>I stopped building dashboards when I realized the layer I was adding wasn&rsquo;t helping me see better. It was helping me see <em>less</em>.</p>
+<h2 id="what-i-actually-use">What I actually use</h2>
+<p>My setup isn&rsquo;t fancy. For general AI work—the kind I&rsquo;m doing right now, writing this—I use Hermes Agent through Discord. That&rsquo;s it. A chat window. I pick it because Discord works from anywhere: my phone, my iPad, the laptop next to me on the couch. It&rsquo;s not about the platform being special. It&rsquo;s about the platform being <em>present</em> and then getting out of the way.</p>
+<p>When I&rsquo;m doing real coding work, I sit in a terminal. cmux, mostly, or Supacode if I&rsquo;m running Pi Coding Agent directly. The terminal shows me everything. Every tool call. Every thinking block. Every file the agent touched and why. Nothing is collapsed into a card. Nothing is summarized into a badge color. If the agent spent three minutes reasoning through a problem before writing twelve lines of code, I can watch it happen. I can interrupt it if it&rsquo;s going sideways. I can say &ldquo;stop, try this instead&rdquo; before it wastes twenty more tokens heading down a dead end.</p>
+<p>That&rsquo;s direct. That&rsquo;s me working <em>with</em> the agent, not managing it through an interpreter.</p>
+<h2 id="enter-the-orb">Enter the orb</h2>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-26-orb-dashboard-sketch.png" alt="Ein zusammengesetztes System mit vier Ebenen zeigt, wie ein Agent eine komplexe Benutzeroberfläche mit einer „Kristallkugel“ unterstützt, die Denk- und Verarbeitungsprozesse symbolisiert."></p>
+<p>So here we are in mid-2026, and the YouTube crowd has found a new way to sell the same dashboard idea they&rsquo;ve been pushing since OpenClaw launched. They&rsquo;ve rebranded it.</p>
+<p>Now it&rsquo;s called &ldquo;Agent OS.&rdquo; Or &ldquo;Claude OS.&rdquo; Or whatever OS sounds sufficiently futuristic for the thumbnail. The concept is identical: put a GUI in front of your AI agent. But the big new feature, the thing they lead every demo with, is a glowing orb in the middle of the screen. And the orb talks. Text-to-speech pipeline, speech-to-text input, the whole thing. You speak to the orb. The orb speaks back. It glows while it thinks.</p>
+<p>I watched Chase AI do this first. Two videos—a whole series about building an &ldquo;Agent OS&rdquo; with a talking orb centerpiece. Then Mark Kashef did his version. By the second one I&rsquo;d had enough.</p>
+<p>Here&rsquo;s what the orb actually adds: nothing. It demos beautifully. It looks incredible in a thumbnail. But functionally it&rsquo;s just another abstraction layer on top of the abstraction layers I already don&rsquo;t want. You&rsquo;re not closer to the agent. You&rsquo;re further away. Now there&rsquo;s TTS processing your input before the model sees it, and STT processing the output before you hear it, and a glowing sphere animating in the middle like some kind of AI crystal ball, and none of it helps you understand what the agent is actually doing or thinking.</p>
+<p>It&rsquo;s a dashboard wearing a costume.</p>
+<h2 id="why-this-keeps-happening">Why this keeps happening</h2>
+<p>I think the reason people keep building these things—and the reason I kept trying to build them myself—is that a terminal feels wrong. It feels unfinished. It feels like you should have <em>something</em> prettier around this technology that&rsquo;s supposed to be changing everything. A glowing orb feels like progress. A command line feels like you forgot to build the UI.</p>
+<p>But the command line isn&rsquo;t missing a UI. The command line <em>is</em> the UI. It&rsquo;s just one that shows you everything instead of deciding what you&rsquo;re allowed to see.</p>
+<p>Every layer between you and the agent is a decision someone else made about what information matters. The dashboard developer chose which status codes to surface. The orb designer chose how to represent &ldquo;thinking&rdquo; as a glow effect. The TTS pipeline chose which words to emphasize with intonation. Those choices might be fine for a demo. They&rsquo;re terrible for actual work, because actual work lives in the details that get smoothed away.</p>
+<p>I want the raw feed. The unfiltered stream. The messy, verbose, sometimes-boring reality of what the agent is actually doing. Because that&rsquo;s where understanding lives. That&rsquo;s where I learn whether the agent is on track or spinning its wheels or about to do something I didn&rsquo;t ask for.</p>
+<p>You can&rsquo;t steer what you can&rsquo;t see. And no amount of glowing spheres changes that.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>

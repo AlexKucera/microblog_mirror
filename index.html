@@ -24,6 +24,94 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://alexanderkucera.com/2026/06/27/mittens-and-orbs.html">Mittens and Orbs</a></h1>
+		
+
+		<a href="https://alexanderkucera.com/2026/06/27/mittens-and-orbs.html" class="u-url"><time class="dt-published" datetime="2026-06-27 09:00:00 &#43;0200">Jun 27, 2026</time></a>
+
+		<div class="e-content">
+			 <p>I have built five dashboards for my AI agents since January. Five. All of them started the same way: a fresh project folder, a Next.js scaffold, the feeling that <em>this time</em> I&rsquo;d build the interface that finally made sense of everything happening inside these models. None of them finished, or mattered. They&rsquo;re all in a folder somewhere called things like <code>mission-control-v3</code> and <code>agent-dashboard-final</code> and <code>dashboard-this-time-i-mean-it</code>.</p>
+<p>I finally figured out why they all died. It wasn&rsquo;t the code. It was that every dashboard I built put another layer between me and the thing I was trying to steer.</p>
+<h2 id="the-mittens-problem">The mittens problem</h2>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-26-mittens-sketch.png" alt="Ein frustrierter Mann versucht mit einem langen Stock, einen kleinen Roboter zu steuern, der durch verschiedene technische Schichten wie Dashboard, UI-Layer und Abstraktion dargestellt wird."></p>
+<p>Here&rsquo;s what using an AI dashboard feels like: imagine trying to guide someone who&rsquo;s wearing oven mittens. And you&rsquo;re holding a ten-foot pole. And the person can&rsquo;t actually feel what they&rsquo;re touching, so they&rsquo;re just sort of waving their mitten-hands in the direction you&rsquo;re pointing and hoping something works.</p>
+<p>That&rsquo;s a dashboard. That&rsquo;s every dashboard I&rsquo;ve tried.</p>
+<p>The agent does something. The dashboard summarizes it. The summary collapses detail. I read the summary, form an opinion, give feedback. The dashboard translates my feedback back into whatever format the agent expects. Something gets lost at each step. Always. Not sometimes—always.</p>
+<p>The more polished the dashboard, the worse this gets. Pretty cards with status indicators. Progress bars. Color-coded badges. All of it is compression. All of it throws away the information I actually need to make good decisions about where to steer next.</p>
+<p>I stopped building dashboards when I realized the layer I was adding wasn&rsquo;t helping me see better. It was helping me see <em>less</em>.</p>
+<h2 id="what-i-actually-use">What I actually use</h2>
+<p>My setup isn&rsquo;t fancy. For general AI work—the kind I&rsquo;m doing right now, writing this—I use Hermes Agent through Discord. That&rsquo;s it. A chat window. I pick it because Discord works from anywhere: my phone, my iPad, the laptop next to me on the couch. It&rsquo;s not about the platform being special. It&rsquo;s about the platform being <em>present</em> and then getting out of the way.</p>
+<p>When I&rsquo;m doing real coding work, I sit in a terminal. cmux, mostly, or Supacode if I&rsquo;m running Pi Coding Agent directly. The terminal shows me everything. Every tool call. Every thinking block. Every file the agent touched and why. Nothing is collapsed into a card. Nothing is summarized into a badge color. If the agent spent three minutes reasoning through a problem before writing twelve lines of code, I can watch it happen. I can interrupt it if it&rsquo;s going sideways. I can say &ldquo;stop, try this instead&rdquo; before it wastes twenty more tokens heading down a dead end.</p>
+<p>That&rsquo;s direct. That&rsquo;s me working <em>with</em> the agent, not managing it through an interpreter.</p>
+<h2 id="enter-the-orb">Enter the orb</h2>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-26-orb-dashboard-sketch.png" alt="Ein zusammengesetztes System mit vier Ebenen zeigt, wie ein Agent eine komplexe Benutzeroberfläche mit einer „Kristallkugel“ unterstützt, die Denk- und Verarbeitungsprozesse symbolisiert."></p>
+<p>So here we are in mid-2026, and the YouTube crowd has found a new way to sell the same dashboard idea they&rsquo;ve been pushing since OpenClaw launched. They&rsquo;ve rebranded it.</p>
+<p>Now it&rsquo;s called &ldquo;Agent OS.&rdquo; Or &ldquo;Claude OS.&rdquo; Or whatever OS sounds sufficiently futuristic for the thumbnail. The concept is identical: put a GUI in front of your AI agent. But the big new feature, the thing they lead every demo with, is a glowing orb in the middle of the screen. And the orb talks. Text-to-speech pipeline, speech-to-text input, the whole thing. You speak to the orb. The orb speaks back. It glows while it thinks.</p>
+<p>I watched Chase AI do this first. Two videos—a whole series about building an &ldquo;Agent OS&rdquo; with a talking orb centerpiece. Then Mark Kashef did his version. By the second one I&rsquo;d had enough.</p>
+<p>Here&rsquo;s what the orb actually adds: nothing. It demos beautifully. It looks incredible in a thumbnail. But functionally it&rsquo;s just another abstraction layer on top of the abstraction layers I already don&rsquo;t want. You&rsquo;re not closer to the agent. You&rsquo;re further away. Now there&rsquo;s TTS processing your input before the model sees it, and STT processing the output before you hear it, and a glowing sphere animating in the middle like some kind of AI crystal ball, and none of it helps you understand what the agent is actually doing or thinking.</p>
+<p>It&rsquo;s a dashboard wearing a costume.</p>
+<h2 id="why-this-keeps-happening">Why this keeps happening</h2>
+<p>I think the reason people keep building these things—and the reason I kept trying to build them myself—is that a terminal feels wrong. It feels unfinished. It feels like you should have <em>something</em> prettier around this technology that&rsquo;s supposed to be changing everything. A glowing orb feels like progress. A command line feels like you forgot to build the UI.</p>
+<p>But the command line isn&rsquo;t missing a UI. The command line <em>is</em> the UI. It&rsquo;s just one that shows you everything instead of deciding what you&rsquo;re allowed to see.</p>
+<p>Every layer between you and the agent is a decision someone else made about what information matters. The dashboard developer chose which status codes to surface. The orb designer chose how to represent &ldquo;thinking&rdquo; as a glow effect. The TTS pipeline chose which words to emphasize with intonation. Those choices might be fine for a demo. They&rsquo;re terrible for actual work, because actual work lives in the details that get smoothed away.</p>
+<p>I want the raw feed. The unfiltered stream. The messy, verbose, sometimes-boring reality of what the agent is actually doing. Because that&rsquo;s where understanding lives. That&rsquo;s where I learn whether the agent is on track or spinning its wheels or about to do something I didn&rsquo;t ask for.</p>
+<p>You can&rsquo;t steer what you can&rsquo;t see. And no amount of glowing spheres changes that.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://alexanderkucera.com/2026/06/26/the-architect-and-the-builder.html">The Architect and the Builder</a></h1>
+		
+
+		<a href="https://alexanderkucera.com/2026/06/26/the-architect-and-the-builder.html" class="u-url"><time class="dt-published" datetime="2026-06-26 07:34:16 &#43;0200">Jun 26, 2026</time></a>
+
+		<div class="e-content">
+			 <p><img src="https://alexanderkucera.com/uploads/2026/2026-06-26-burning-tokens-sketch.png" alt="Ein Kreislauf von Generate, Test und Fail führt dazu, dass Münzen in ein brennendes Loch mit der Aufschrift Waste fallen, umgeben von Rechnungen und einem leeren Portemonnaie."></p>
+<p>There&rsquo;s a story making the rounds right now. You&rsquo;ve probably seen it on YouTube, the headline promising that AI can now <em>build entire applications</em> while you watch. Or sleep. Or do whatever productive people do when their computer does all the work.</p>
+<p>The pitch goes like this: tell the AI what you want, hit go, and let it loop. It writes code, runs tests, checks its own work, fixes errors, runs tests again, keeps going until it decides it&rsquo;s finished. Computer use, autonomous agents, the whole circus. Set it loose, come back when the product ships.</p>
+<p>I think this is lazy. I think it burns tokens to avoid thinking.</p>
+<h2 id="what-the-loop-actually-is">What the loop actually is</h2>
+<p>The &ldquo;AI Loop&rdquo;, sometimes called iterative test-driven development, sometimes called agentic coding, always called revolutionary, is straightforward. You give a model a goal. It generates code. It runs that code against a test suite or a browser check or some other validation. If something fails, it reads the error, modifies the code, tries again. Round and round until everything passes.</p>
+<p>On paper, it sounds fine. On paper, a lot of things sound fine.</p>
+<p>What bothers me isn&rsquo;t that it fails. It&rsquo;s the assumption underneath it. The assumption that the valuable part of building software is the typing. That if you can automate the typing, you&rsquo;ve automated the building. That the human&rsquo;s job is to state a wish and wait for fulfillment.</p>
+<p>I don&rsquo;t work that way. I don&rsquo;t want to.</p>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-26-architect-desk-sketch.png" alt="Ein Bauarbeiter betrachtet den Ablaufplan eines Bauprojekts, der von der Vision über Analyse, Skizzen, Planung, Materialauswahl, Begutachtung, Kostenschätzung bis zur Umsetzung reicht, umgeben von Bauplänen, einem Lineal und einer Kaffeetasse."></p>
+<h2 id="how-i-actually-work">How I actually work</h2>
+<p>When I sit down to build something, a feature for my app, a new tool, whatever, I don&rsquo;t open a chat window and type &ldquo;build me a login screen.&rdquo; I start talking. With the AI, yes, but really with myself, out loud, through conversation.</p>
+<p>We discuss what this thing needs to <em>do</em>. Not the implementation. The behavior. Who uses it. What they&rsquo;re trying to accomplish. Where it fits into everything else that already exists. What happens when something goes wrong. We poke at edge cases. We find the spots where my original idea falls apart under scrutiny.</p>
+<p>Those conversations get written down. They become documents. PRDs, specs, call them what you want. Then those documents get broken apart into small, specific pieces. Each piece describes one thing that needs to happen, in enough detail that someone who didn&rsquo;t have the original conversation could execute it without guessing.</p>
+<p><em>Then</em>, and only then, does the AI write code.</p>
+<p>At that point writing the code is mechanical work. Not because it&rsquo;s easy or unimportant. The decisions have already been made. The architecture is settled. The tradeoffs are named. The AI&rsquo;s job is to implement according to plan, the same way a builder frames a house according to drawings. The builder picks which nail to drive first. The builder doesn&rsquo;t get to move the load-bearing wall.</p>
+<h2 id="vision-is-not-a-prompt">Vision is not a prompt</h2>
+<p>The difference matters because of what the loop throws away.</p>
+<p>When you &ldquo;build X and run tests until done,&rdquo; you&rsquo;re outsourcing the thinking that happens between knowing what you want and knowing how to ask for it specifically. That thinking is where the product gets designed. Where you discover your original idea had a flaw you hadn&rsquo;t noticed. Where you realize two features you planned are actually one feature, or the thing you thought was simple needs three screens, not one.</p>
+<p>The loop skips all of that. It takes your initial statement, which is almost certainly underspecified, and starts executing against it immediately. If you&rsquo;re lucky it produces something that works. If you&rsquo;re very lucky it produces something that resembles what you wanted. Either way you&rsquo;ve spent a pile of tokens generating and discarding code nobody thought through, because the thinking step got treated as overhead instead of treated as the work itself.</p>
+<p>I don&rsquo;t want AI to replace my thinking. I want it to sharpen it.</p>
+<p>When I discuss a feature with an AI before anything gets built, the AI pushes back. Asks questions I hadn&rsquo;t considered. Points out contradictions in what I described. Forces me to articulate the vision clearly enough that someone else, something else, can work from it. That&rsquo;s what a tool should do. Make me more capable. Don&rsquo;t make decisions for me.</p>
+<h2 id="the-tin-foil-hat-section">The tin foil hat section</h2>
+<p>I&rsquo;ll say the quiet part out loud: companies selling AI tokens have every incentive to promote workflows that burn lots of them. The loop burns tokens spectacularly. Generate, test, fail, regenerate, retest, refail. Each round trips context through an API. Each round shows up on somebody&rsquo;s invoice.</p>
+<p>Maybe that&rsquo;s cynical. Maybe the people pushing autonomous coding loops genuinely believe this is the future of software development. I&rsquo;m sure some of them do. But I also know that when your business model charges per inference, you&rsquo;re drawn to solutions that require many inferences. The loop is that solution dressed up as innovation.</p>
+<p>I&rsquo;d rather pay for ten focused implementations than a thousand iterations of guess-and-check. I&rsquo;d rather spend my tokens on conversation than on trial and error.</p>
+<h2 id="what-im-arguing-for">What I&rsquo;m arguing for</h2>
+<p>None of this means I hand-code everything. Far from it. The AI writes plenty of code in my workflow. It just writes it <em>last</em>, after the hard work of figuring out what the code should do.</p>
+<p>The division of labor I&rsquo;m after looks like this:</p>
+<ul>
+<li>The human owns the vision, requirements, architecture, the decisions about what the product <em>is</em></li>
+<li>The AI serves as discussion partner during that process. Sounding board. Questioner.</li>
+<li>The AI implements once the plan is solid, working from granular instructions that reflect real thinking</li>
+</ul>
+<p>This is slower to start. Requires more from you upfront. You can&rsquo;t pour coffee and watch the agent spin. You have to show up and think through what you actually want.</p>
+<p>What you get back is code that reflects your choices. Code where every file exists because someone decided it should, not because the loop generated it and the tests happened to pass. Code you can explain and defend when requirements shift, because you understand why it looks the way it does.</p>
+<p>The loop gives you output. It doesn&rsquo;t give you understanding.</p>
+<p>And understanding is the part I&rsquo;m not willing to outsource.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 			<h1><a href="https://alexanderkucera.com/2026/06/26/the-daily-news-edition.html">The Daily News — 2026-06-26 Edition</a></h1>
 		
 
