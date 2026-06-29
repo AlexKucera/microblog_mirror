@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - The Landlord Changed the Locks
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">The Landlord Changed the Locks</h1>
+	
+    <div><time class="dt-published" datetime="2026-06-29T09:00:00&#43;02:00">Jun 29, 2026</time></div>
+
+	<div class="e-content">
+		<p>What happens when the most capable AI in the world becomes subject to one country&rsquo;s export policy?</p>
+<p>June gave us two answers.</p>
+<h2 id="the-two-fridays">The two Fridays</h2>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-28-landlord-lock-4k.png" alt="Eine Gruppe von Menschen mit einer EU-Flagge steht vor einem großen Server, der mit einer Kette und einem Vorhängeschloss mit der Aufschrift „Export Control“ und einer US-Flagge gesichert ist."></p>
+<p><strong>Friday, June 12th, 5:21pm ET.</strong> A <a href="https://www.anthropic.com/news/fable-mythos-access">directive lands at Anthropic from the U.S. government</a>. Citing national security authorities under export control rules, they order the company to suspend <em>all</em> access to Fable 5 and Mythos 5—&ldquo;by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees.&rdquo;</p>
+<p>Anthropic couldn&rsquo;t practically separate their users by citizenship, so they killed access for everyone. One minute you had a frontier model. The next, an error message.</p>
+<p>The cited reason: someone found a narrow potential jailbreak. Anthropic&rsquo;s own assessment called it &ldquo;a small number of previously known, minor vulnerabilities&rdquo; that other publicly-available models can discover too. They&rsquo;re complying while calling it a misunderstanding and working to restore access.</p>
+<p><strong>Friday, June 26th.</strong> <a href="https://openai.com/index/previewing-gpt-5-6-sol/">OpenAI announces GPT-5.6 Sol—their new flagship model—in a &ldquo;limited preview coordinated with the U.S. government.“</a> The cyber capabilities are strong enough that general availability will come later, after more coordination with Washington. Trusted partners get in first. Everyone else waits.</p>
+<p>Two flagship models in two weeks. One country&rsquo;s export policy decides who gets to use them.</p>
+<p>If you&rsquo;re not American, you&rsquo;re a foreign national waiting for permission.</p>
+<h2 id="my-stake">My stake</h2>
+<p>I barely use Anthropic or OpenAI day-to-day. I run GLM through Z.ai, a Chinese provider and it works. The Fable 5 cutoff didn&rsquo;t break my workflow. GPT-5.6 Sol gated behind a U.S. government approval process doesn&rsquo;t touch me either.</p>
+<p>I&rsquo;m not writing this because something broke. I&rsquo;m writing this because <strong>it could</strong>, and I have zero say in whether it does. Export controls turn commercial APIs into foreign-policy instruments. Anyone building on <code>api.openai.com</code> or <code>api.anthropic.com</code> is building on rented ground—and the landlord just changed the locks.</p>
+<p>I&rsquo;d rather use something based in the EU if the option were obvious and competitive. You don&rsquo;t want the tools your work depends on subject to one country&rsquo;s bureaucratic whims.</p>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-28-landlord-fork-4k.png" alt=""></p>
+<p>So I went looking for European alternatives, expecting thin pickings. Maybe a university project or two. A handful of startups nobody&rsquo;s heard of.</p>
+<p>This is what I found:</p>
+<p><strong>Model builders:</strong></p>
+<ul>
+<li><strong>Mistral AI</strong> (France)—open-weight LLMs, €11.7B valuation, the closest thing Europe has to a frontier lab</li>
+<li><strong>Aleph Alpha</strong> (Germany)—sovereign AI platform with German enterprise backing</li>
+<li><strong>Kyutai</strong> (France)—non-profit research lab, built the Moshi voice model</li>
+<li><strong>EuroLLM</strong> (EU-funded, Horizon Europe)—multilingual model covering 24 EU languages</li>
+<li><strong>Bielik / PLLuM</strong> (Poland)—open-source models with Polish-language focus</li>
+</ul>
+<p><strong>Inference providers running open weights on European soil:</strong></p>
+<ul>
+<li><strong>Scaleway</strong> (France)—managed GPU inference, OpenAI-compatible API</li>
+<li><strong>OVHcloud</strong> (France)—AI Endpoints, GDPR-compliant, zero data retention, no training on your prompts</li>
+<li><strong>IONOS</strong> (Germany)—AI Model Hub hosted in German data centers</li>
+<li><strong>EUrouter</strong> (Berlin)—sovereign German inference, GDPR-compliant, runs on EU HPC hardware</li>
+<li><strong>Gcore</strong> (EU)—cloud + edge + AI inference</li>
+<li><strong>T-Cloud / Deutsche Telekom</strong> (Germany)</li>
+<li><strong>Cortecs AI</strong>, <strong>Requesty</strong>, <strong>Opper AI</strong> (Stockholm)—EU-hosted gateways routing to dozens of models</li>
+<li>and my personal favourite: discode.ai an eco-friendly Austrian router</li>
+</ul>
+<p>There are directories cataloging this stuff. <a href="https://eualternative.eu/categories/ai-api">eualternative.eu</a> lists providers by category. <a href="https://www.eurouter.ai/providers">eurouter.ai/providers</a> compares them side-by-side. Someone even maintains <a href="https://github.com/jmbarrancoml/awesome-european-ai">an &ldquo;awesome-european-ai&rdquo; list on GitHub</a>.</p>
+<p>The infrastructure isn&rsquo;t missing, it’s invisible.</p>
+<p>I&rsquo;m a technically literate developer running multi-agent AI setups on a Raspberry Pi. Most days I&rsquo;m thinking about which models to use, how to wire them together, what costs what.</p>
+<p>And I didn&rsquo;t know most of these existed until I went looking specifically for them.</p>
+<p>If I can&rsquo;t find them, who can?</p>
+<p>China has DeepSeek and Qwen with massive domestic adoption and global mindshare. The U.S. has OpenAI and Anthropic, names every developer recognizes instantly. Europe has a <a href="https://github.com/jmbarrancoml/awesome-european-ai">GitHub README that 24 people have starred</a> (at the time of writing) and a scattered handful of providers that don&rsquo;t show up when you type &ldquo;LLM API&rdquo; into Google.</p>
+<p>The EU is good at regulation. The AI Act exists. Horizon Europe funds research. There are working groups, compliance frameworks, ethical guidelines. What the EU hasn’t figured out is saying: <em>&ldquo;Hey, we built this thing. Here&rsquo;s where you find it. Here&rsquo;s why you should care.&rdquo;</em></p>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-28-landlord-megaphone-v2-4k-1500.webp" alt=""></p>
+<p>The gap isn&rsquo;t R&amp;D. It&rsquo;s advertising.</p>
+<p>I&rsquo;m not saying the EU needs to train a frontier model from scratch tomorrow. That&rsquo;s ten years of work minimum, and honestly, Mistral is already doing credible work in that direction.</p>
+<p>What I&rsquo;m saying is simpler and cheaper: <strong>fund visibility.</strong></p>
+<p>An EU-level campaign that makes European AI infrastructure as easy to discover as <code>api.openai.com</code>. Developer outreach. Documentation that doesn&rsquo;t read like a grant application. Marketing budget aimed at the people who actually build things—the indie devs and startups choosing their stack today and living with it for years.</p>
+<p>Right now, a CTO picking an LLM provider types &ldquo;OpenAI&rdquo; into their browser because that&rsquo;s what comes to mind. They don&rsquo;t type &ldquo;Scaleway&rdquo; or &ldquo;EUrouter&rdquo; or &ldquo;OVHcloud AI Endpoints&rdquo;—not because those options are bad, but because nobody told them those options exist.</p>
+<p>That&rsquo;s fixable with money the EU already spends on worse things.</p>
+<h2 id="why-china-isnt-the-answer-either">Why China Isn&rsquo;t the Answer Either</h2>
+<p><img src="https://alexanderkucera.com/uploads/2026/2026-06-28-landlord-three-doors-v2-draft.webp" alt=""></p>
+<p>Yes, open-weight models mean anyone can run them. Download the weights, spin up a server, go. No single government can flip a switch and turn them off globally.</p>
+<p>But trusting one authoritarian government&rsquo;s ecosystem because another government annoyed you? That&rsquo;s not a strategy. That&rsquo;s a reaction.</p>
+<p>The real answer is distributed trust. Open weights hosted across multiple jurisdictions, with EU-based inference as the default for Europeans. Not &ldquo;pick America or China.&rdquo; Pick something where no single government holds a unilateral kill switch.</p>
+<h2 id="hold-your-own-key">Hold Your Own Key</h2>
+<p>I&rsquo;m concerned. The locks got changed once—they can get changed again. Fable 5 might come back. GPT-5.6 Sol might open up to everyone. Or they might not, and next time the gate comes down on something more deeply embedded in how we work.</p>
+<p>The question isn&rsquo;t whether the U.S. government will do this again. They will. The question is whether we&rsquo;ll still be standing at their door asking permission.</p>
+<p>Europe built the plumbing. Now tell people where it is.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
