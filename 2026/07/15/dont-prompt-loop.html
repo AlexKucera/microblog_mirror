@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <title>
+      
+      Alexander Kucera - Don&#39;t Prompt, Loop
+      
+  </title>
+
+</head>
+
+
+  <body>
+
+    
+
+	
+<div class="h-entry">
+	
+		<h1 class="p-name">Don&#39;t Prompt, Loop</h1>
+	
+    <div><time class="dt-published" datetime="2026-07-15T12:32:05&#43;02:00">Jul 15, 2026</time></div>
+
+	<div class="e-content">
+		<p><img src="https://alexanderkucera.com/uploads/2026/7e35fb1b59.png" alt="Auto-generated description: Ein nachdenklicher Wanderer steht am Scheideweg zwischen einem geraden Weg mit der Aufschrift „PLAN“ und einer Schleife mit dem Hinweis „LOOP“."></p>
+<p>There&rsquo;s a phrase making the rounds in AI-assisted development circles right now: <strong>&ldquo;don&rsquo;t prompt, loop.&rdquo;</strong> The idea is elegant on its face—stop hand-holding your LLM with step-by-step instructions. Instead, give it a goal and let an agentic loop run until the work is done. The machine figures out the steps. You review the output.</p>
+<p>It sounds like progress. It feels like progress.</p>
+<p>It&rsquo;s vibe coding with a better marketing budget.</p>
+<h2 id="what-i-actually-did-last-week">What I Actually Did Last Week</h2>
+<p>I spent ten days planning a new project before writing a single line of implementation code. No app shell. No prototype. No &ldquo;let&rsquo;s see what the AI gives us.&rdquo; Just specs.</p>
+<p>Several PRDs. Roughly 102 tickets, broken down by component and dependency. A theming system designed on paper before any SwiftUI file existed. A three-pane layout architecture argued through in markdown before the first <code>VStack</code> was written. About four throwaway prototypes for very specific questions like take the default SwiftUI List or roll my own.</p>
+<p>Yesterday—day eleven—I finally started coding. Today&rsquo;s goal: a functioning app shell with theming and that three-pane layout. Maybe the first main tab if things go well.</p>
+<p>Yeah. <em>Only</em> the app shell.</p>
+<p>I can already hear the counter-argument: why not just describe what you want and let the loop build it? Why spend a week and a half on documents when an agent could iterate toward something usable in an afternoon?</p>
+<p>Because the plan isn&rsquo;t overhead. The plan is the work.</p>
+<p><img src="https://alexanderkucera.com/uploads/2026/de66fa6f3e.png" alt="Auto-generated description: Ein Schreibtisch mit Kaffeetasse, Stift, Skizzen, Notizen und Dokumenten, die verschiedene Projektphasen und Designkonzepte darstellen."></p>
+<h2 id="two-sides-of-the-same-coin">Two Sides of the Same Coin</h2>
+<p>&ldquo;Vibe coding&rdquo;—writing software through loose natural language prompts, iterating toward something that feels right—has its critics. <a href="https://medium.com/@addyosmani/vibe-coding-is-not-the-same-as-ai-assisted-engineering-3f81088d5b98">Addy Osmani</a> drew a useful line between <strong>vibe coding</strong> and <strong>AI-assisted engineering</strong>: the distinction isn&rsquo;t the tool, it&rsquo;s who&rsquo;s holding the blueprint. In professional engineering, the human retains control over architecture and design decisions. The AI builds. It doesn&rsquo;t decide what to build.</p>
+<p>&ldquo;Don&rsquo;t prompt, loop&rdquo; pretends to be something different. It promises autonomy and sophistication. But strip away the language and you&rsquo;ve got the same underlying move: <em>give the model a vague goal and hope the output is good enough.</em></p>
+<p>The loop just does it faster and with less supervision. That&rsquo;s not an improvement—that&rsquo;s a faster way to accumulate decisions nobody made.</p>
+<h2 id="the-cost-of-unsupervised-loops">The Cost of Unsupervised Loops</h2>
+<p>This isn&rsquo;t theoretical. <a href="https://www.veracode.com/resources/analyst-reports/2025-genai-code-security-report">Veracode&rsquo;s 2025 GenAI Code Security Report</a> found that <strong>45% of AI-generated code across more than 100 models contained critical security vulnerabilities</strong>. Not edge cases. Not style issues. Critical holes that a code review should have caught—if there was a code review.</p>
+<p>Then there&rsquo;s the money. A developer wakes up to a <strong>$500 API bill</strong> because their agent got stuck retrying a failed call for eight hours straight. It sounds almost funny until it&rsquo;s your credit card. These aren&rsquo;t edge cases—they&rsquo;re what happens when &ldquo;keep working&rdquo; becomes &ldquo;keep going forever&rdquo; and nobody set a limit.</p>
+<p>These are extreme cases, sure. But the pattern scales down too. Without a spec, without tickets, without someone having thought through <em>what</em> the system should do before asking a machine to build it, you get code that works incidentally. Code that passes the eye test then collapses under maintenance. Spaghetti an agent was perfectly happy to serve because nobody told it not to.</p>
+<h2 id="why-102-tickets">Why 102 Tickets?</h2>
+<p>I&rsquo;m building something called Helm—an agent management application for macOS, in the general family of tools like <a href="https://cursor.com/">Cursor</a> or <a href="https://superset.sh/">Superset</a>. I&rsquo;m not ready to share much about it yet. It might not even be viable. But the process is worth talking about regardless of whether Helm ships.</p>
+<p>Those 102 tickets aren&rsquo;t busywork. Each one represents a decision I made consciously:</p>
+<ul>
+<li>What does the theming system need to support on day one versus day ninety?</li>
+<li>Which panes depend on which other panes, and what happens when one fails to load?</li>
+<li>What&rsquo;s the minimum viable interaction for the first tab, and what can we defer?</li>
+</ul>
+<p>An agentic loop could have built <em>an</em> app shell with <em>a</em> theming system and <em>a</em> layout. But it wouldn&rsquo;t have built <em>this</em> one—the one that matches what I actually want, not what the model guessed I wanted.</p>
+<h2 id="measured-steps-in-an-era-of-fast">Measured Steps in an Era of Fast</h2>
+<p>I like AI. I use it constantly. But I use it the way I&rsquo;d use a junior developer who&rsquo;s genuinely talented but doesn&rsquo;t understand the product yet: I give them clear tasks, defined scope, and acceptance criteria. I don&rsquo;t hand them a vague ambition and walk away for four hours.</p>
+<p>That&rsquo;s not anti-AI. That&rsquo;s <em>using</em> AI properly.</p>
+<p>The culture around &ldquo;looping&rdquo; treats planning as failure—as evidence you haven&rsquo;t fully embraced the new paradigm. I think that&rsquo;s backwards. Planning is how you make sure the paradigm is working for you, not the other way around.</p>
+<p>Today I&rsquo;m going to ship an app shell with theming and a three-pane layout. It won&rsquo;t be impressive by demo-video standards. Nobody&rsquo;s going to clip it as proof that AI has changed everything.</p>
+<p><img src="https://alexanderkucera.com/uploads/2026/c2b9d90883.png" alt="Auto-generated description: Eine gewundene Pflastersteinspur führt durch eine offene Landschaft mit vereinzelten Pflanzen und einem einzelnen Baum."></p>
+<p>But every piece of it will be there on purpose. And when I add the first real tab tomorrow, I&rsquo;ll know exactly where it goes and why.</p>
+<p>That&rsquo;s the thing about measured steps. They look slow until you realize nobody else knows where they&rsquo;re going.</p>
+
+	</div>
+
+</div>
+
+
+    
+    
+        <span class="tiny_counter"><a href="" target="_blank" class="tinylytics_public_stats">Site Stats</a>:&nbsp;<span class="tinylytics_hits"></span></span>
+        <span class="tiny_webring"><a href="" class="tinylytics_webring" target="_blank" title="Tinylytics Webring"><span>Webring</span></a></span>
+
+
+  </body>
+
+</html>
