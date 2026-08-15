@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2026/08/15/ladies-and-gelntepersons-dialysispal-is.html",
+				
+				"content_html": "<p>Ladies and gelnte-persons, [dialysisPal is live on the AppStore](<a href=\"https://apps.apple.com/de/app/dialysispal/id6753748244?l=en-GB\">apps.apple.com/de/app/di&hellip;</a>\ndialysisPal)! 🥳</p>\n",
+				"content_text": "Ladies and gelnte-persons, [dialysisPal is live on the AppStore]([apps.apple.com/de/app/di...](https://apps.apple.com/de/app/dialysispal/id6753748244?l=en-GB)\ndialysisPal)! 🥳\n",
+				"date_published": "2026-08-15T17:37:46+02:00",
+				"url": "https://alexanderkucera.com/2026/08/15/ladies-and-gelntepersons-dialysispal-is.html",
+				"tags": ["Kidneys"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2026/08/13/classis-was-planned-with-first.html",
+				
+				"content_html": "<p>Classis was planned with first class support for Codeberg and Forgejo projects. Due to their anti-AI stance said support has now been removed in favour of Gitea forges. Also I am moving my repositories away from Codeberg to my own self-hosted Gitea forge.</p>\n",
+				"content_text": "Classis was planned with first class support for Codeberg and Forgejo projects. Due to their anti-AI stance said support has now been removed in favour of Gitea forges. Also I am moving my repositories away from Codeberg to my own self-hosted Gitea forge.\n",
+				"date_published": "2026-08-13T13:18:09+02:00",
+				"url": "https://alexanderkucera.com/2026/08/13/classis-was-planned-with-first.html",
+				"tags": ["Coding","AI","Classis"]
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2026/08/13/classis-now-has-a-logo.html",
 				
 				"content_html": "<p>Classis now has a logo.</p>\n<img src=\"uploads/2026/helm-icon-1024.png\" width=\"600\" height=\"600\" alt=\"\">\n",
