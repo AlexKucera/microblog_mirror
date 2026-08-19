@@ -7,6 +7,33 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2026/08/19/fixed-a-major-bottleneck-in.html",
+				
+				"content_html": "<p>Fixed a major bottleneck in Classis today. Importing sessions for analytics purposes now is about 60x faster. A months worth of session logs took about 5 minutes. Now it’s barely 5 seconds.</p>\n<p><a href=\"https://classis.app\">https://classis.app</a></p>\n",
+				"content_text": "Fixed a major bottleneck in Classis today. Importing sessions for analytics purposes now is about 60x faster. A months worth of session logs took about 5 minutes. Now it’s barely 5 seconds. \n\n[https://classis.app](https://classis.app)\n",
+				"date_published": "2026-08-19T20:17:29+02:00",
+				"url": "https://alexanderkucera.com/2026/08/19/fixed-a-major-bottleneck-in.html",
+				"tags": ["Coding","AI","Classis"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2026/08/18/classis-now-also-has-a.html",
+				
+				"content_html": "<p>Classis now also has a website!</p>\n<p><a href=\"https://classis.app\">https://classis.app</a></p>\n",
+				"content_text": "Classis now also has a website!\n\n[https://classis.app](https://classis.app)\n",
+				"date_published": "2026-08-18T21:59:56+02:00",
+				"url": "https://alexanderkucera.com/2026/08/18/classis-now-also-has-a.html",
+				"tags": ["Coding","AI","Classis"]
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2026/08/18/classis-alpha-testers-wanted.html",
+				"title": "Classis Alpha Testers wanted",
+				"content_html": "<p>I&rsquo;m gearing up to open Classis to alpha testers.</p>\n<p>It&rsquo;s an Agentic Development Environment for macOS. Agent dashboard, terminal tab, git client with PR and issue support across GitHub, GitLab, and Gitea—plus cost tracking. There&rsquo;s also a code editor with Markdown preview and an AI chat sidecar.</p>\n<p>Interested? Let me know.</p>\n",
+				"content_text": "I'm gearing up to open Classis to alpha testers.\n\nIt's an Agentic Development Environment for macOS. Agent dashboard, terminal tab, git client with PR and issue support across GitHub, GitLab, and Gitea—plus cost tracking. There's also a code editor with Markdown preview and an AI chat sidecar.\n\nInterested? Let me know.\n",
+				"date_published": "2026-08-18T09:19:34+02:00",
+				"url": "https://alexanderkucera.com/2026/08/18/classis-alpha-testers-wanted.html",
+				"tags": ["Coding","AI","Classis"]
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2026/08/17/playing-chauffeur-for-my-daughter.html",
 				
 				"content_html": "<p>Playing chauffeur for my daughter today. I shouldn’t complain. I love spending time with my little one. But I’m itching to get back to my app development. lol\nClassis is starting to feel like a great app.</p>\n",
