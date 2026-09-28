@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2026/09/28/i-started-watching-pluribus-and.html",
+				
+				"content_html": "<p>I started watching Pluribus and while I enjoy it, I find the main character to be pretty inconsistent.</p>\n",
+				"content_text": "I started watching Pluribus and while I enjoy it, I find the main character to be pretty inconsistent. \n",
+				"date_published": "2026-09-28T21:06:47+02:00",
+				"url": "https://alexanderkucera.com/2026/09/28/i-started-watching-pluribus-and.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2026/09/21/one-of-the-biggest-downsides.html",
 				
 				"content_html": "<p>One of the biggest downsides of having no kidneys and daily dialysis is the constant fluctuations in energy. Some days I feel great and get some work done. Others I make breakfast and am so exhausted that I need to lay down for an hour again. It sucks, because it makes planning really tough.</p>\n",
@@ -43,8 +51,8 @@
 			{
 				"id": "http://AlexKucera.micro.blog/2026/09/15/just-wachted-protector-no-idea.html",
 				
-				"content_html": "<p>Just wachted Protector. No idea why I did that to myself. What a terrible movie.</p>\n<img src=\"uploads/2026/6246b2c2-4dae-4e7b-ab05-f46739bf0389.jpg\" width=\"600\" height=\"315\" alt=\"\">\n",
-				"content_text": "Just wachted Protector. No idea why I did that to myself. What a terrible movie.\n\n<img src=\"uploads/2026/6246b2c2-4dae-4e7b-ab05-f46739bf0389.jpg\" width=\"600\" height=\"315\" alt=\"\">\n",
+				"content_html": "<p>Just wachted Protector. No idea why I did that to myself. What a terrible movie.</p>\n<img src=\"https://eu.uploads.micro.blog/239/2026/6246b2c2-4dae-4e7b-ab05-f46739bf0389.jpg\" width=\"600\" height=\"315\" alt=\"\">\n",
+				"content_text": "Just wachted Protector. No idea why I did that to myself. What a terrible movie.\n\n<img src=\"https://eu.uploads.micro.blog/239/2026/6246b2c2-4dae-4e7b-ab05-f46739bf0389.jpg\" width=\"600\" height=\"315\" alt=\"\">\n",
 				"date_published": "2026-09-15T22:00:12+02:00",
 				"url": "https://alexanderkucera.com/2026/09/15/just-wachted-protector-no-idea.html"
 			},
@@ -165,8 +173,8 @@
 			{
 				"id": "http://AlexKucera.micro.blog/2026/09/04/are-ai-products-stale-the.html",
 				"title": "Are AI products stale the day they ship?",
-				"content_html": "<p><img src=\"https://eu.uploads.micro.blog/239/2026/1206b685-ad54-4553-8fb5-6db87ce67517.png\" alt=\"\"></p>\n<p>At the pace AI moves, is selling an AI product just selling yesterday&rsquo;s tech? I dropped that question into a community thread this week, and it&rsquo;s still rattling around my head. Those of us in the field sprint just to keep up, and the ground shifts under anything sitting on top of it. By the time a product is built, tested, polished, and shipped, the layer beneath it has moved twice. Traditional software had years of shelf life. This stuff has a sell-by date measured in weeks.</p>\n<p>None of this makes selling AI unethical—it just makes it weird. The intelligence itself is rented from a provider and improves on someone else&rsquo;s schedule. What you actually sell is a snapshot: the workflow you designed and the glue you maintain. Maybe that&rsquo;s why it&rsquo;s all subscriptions. Nobody in their right mind would buy an AI product outright. The monthly bill is a freshness guarantee. You&rsquo;re paying someone else to keep sprinting, so the product never quite goes stale.</p>\n",
-				"content_text": "![](https://eu.uploads.micro.blog/239/2026/1206b685-ad54-4553-8fb5-6db87ce67517.png)\n\nAt the pace AI moves, is selling an AI product just selling yesterday's tech? I dropped that question into a community thread this week, and it's still rattling around my head. Those of us in the field sprint just to keep up, and the ground shifts under anything sitting on top of it. By the time a product is built, tested, polished, and shipped, the layer beneath it has moved twice. Traditional software had years of shelf life. This stuff has a sell-by date measured in weeks.\n\nNone of this makes selling AI unethical—it just makes it weird. The intelligence itself is rented from a provider and improves on someone else's schedule. What you actually sell is a snapshot: the workflow you designed and the glue you maintain. Maybe that's why it's all subscriptions. Nobody in their right mind would buy an AI product outright. The monthly bill is a freshness guarantee. You're paying someone else to keep sprinting, so the product never quite goes stale.\n",
+				"content_html": "<p><img src=\"https://alexanderkucera.com/uploads/2026/1206b685-ad54-4553-8fb5-6db87ce67517.png\" alt=\"\"></p>\n<p>At the pace AI moves, is selling an AI product just selling yesterday&rsquo;s tech? I dropped that question into a community thread this week, and it&rsquo;s still rattling around my head. Those of us in the field sprint just to keep up, and the ground shifts under anything sitting on top of it. By the time a product is built, tested, polished, and shipped, the layer beneath it has moved twice. Traditional software had years of shelf life. This stuff has a sell-by date measured in weeks.</p>\n<p>None of this makes selling AI unethical—it just makes it weird. The intelligence itself is rented from a provider and improves on someone else&rsquo;s schedule. What you actually sell is a snapshot: the workflow you designed and the glue you maintain. Maybe that&rsquo;s why it&rsquo;s all subscriptions. Nobody in their right mind would buy an AI product outright. The monthly bill is a freshness guarantee. You&rsquo;re paying someone else to keep sprinting, so the product never quite goes stale.</p>\n",
+				"content_text": "![](https://alexanderkucera.com/uploads/2026/1206b685-ad54-4553-8fb5-6db87ce67517.png)\n\nAt the pace AI moves, is selling an AI product just selling yesterday's tech? I dropped that question into a community thread this week, and it's still rattling around my head. Those of us in the field sprint just to keep up, and the ground shifts under anything sitting on top of it. By the time a product is built, tested, polished, and shipped, the layer beneath it has moved twice. Traditional software had years of shelf life. This stuff has a sell-by date measured in weeks.\n\nNone of this makes selling AI unethical—it just makes it weird. The intelligence itself is rented from a provider and improves on someone else's schedule. What you actually sell is a snapshot: the workflow you designed and the glue you maintain. Maybe that's why it's all subscriptions. Nobody in their right mind would buy an AI product outright. The monthly bill is a freshness guarantee. You're paying someone else to keep sprinting, so the product never quite goes stale.\n",
 				"date_published": "2026-09-04T11:41:36+02:00",
 				"url": "https://alexanderkucera.com/2026/09/04/are-ai-products-stale-the.html",
 				"tags": ["AI Assisted Writing ","AI"]
