@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+  <head>
+    <title>Follows for @AlexKucera</title>
+    <dateCreated>Thu, 15 Oct 2026 15:10:11 +0000</dateCreated>
+  </head>
+  <body>
+    <outline text="Manton Reece (@manton)" htmlUrl="https://manton.org" type="rss" xmlUrl="https://www.manton.org/feed.json"/>
+    <outline text="Dave Winer (@dave)" htmlUrl="http://scripting.com/" type="rss" xmlUrl="https://dave.micro.blog/feed.xml"/>
+    <outline text="John Siracusa (@siracusa)" htmlUrl="https://hypercritical.co" type="rss" xmlUrl="http://siracusa.micro.blog/feed.json"/>
+    <outline text="Casey Liss (@liss)" htmlUrl="https://www.caseyliss.com" type="rss" xmlUrl="https://www.caseyliss.com/rss"/>
+    <outline text="Jonathan Hays (@cheesemaker)" htmlUrl="https://jonhays.me" type="rss" xmlUrl="https://rbcb.micro.blog/authors/cheesemaker/feed.xml"/>
+    <outline text="Daniel Jalkut (@danielpunkass)" htmlUrl="https://bitsplitting.org" type="rss" xmlUrl="http://danielpunkass.micro.blog/feed.json"/>
+    <outline text="Ben Brooks (@ben)" htmlUrl="http://brooksreview.net" type="rss" xmlUrl="http://brooksreview.net/feed/json"/>
+    <outline text="Aaron Parecki (@aaronpk)" htmlUrl="https://aaronparecki.com/" type="link" url="https://aaronparecki.com/"/>
+    <outline text="Jean MacDonald  (@jean)" htmlUrl="http://micro.welltempered.net" type="rss" xmlUrl="https://welcome.micro.blog/authors/jean/feed.xml"/>
+    <outline text="Micro.blog (@help)" htmlUrl="https://micro.blog/activitypub/help" type="rss" xmlUrl="https://micro.camp/authors/help/feed.xml"/>
+    <outline text="John Gruber (@gruber)" htmlUrl="https://daringfireball.net/" type="rss" xmlUrl="http://gruber.micro.blog/feed.json"/>
+    <outline text="Stephen Hackett (@ismh)" htmlUrl="http://relay.fm" type="rss" xmlUrl="http://blog.ismh.co/feed.json"/>
+    <outline text="Matthew Lang (@matthewlang)" htmlUrl="https://www.matthewlang.me" type="rss" xmlUrl="https://matthewlang.micro.blog/feed.json"/>
+    <outline text="Odd-Egil &#x201C;Oddzthrash&#x201D; Auran (@odd)" htmlUrl="https://oddz.blog" type="rss" xmlUrl="https://www.urly.party/feed.json"/>
+    <outline text="Manuel Riess (@hutaffe)" htmlUrl="https://hutaffe.blog/" type="rss" xmlUrl="https://hutaffe.blog/feed.json"/>
+    <outline text="Josh Dick (@jd)" htmlUrl="https://joshdick.net" type="rss" xmlUrl="http://jd.micro.blog/feed.json"/>
+    <outline text="Jason Becker (@jsonbecker)" htmlUrl="https://json.blog/" type="link" url="https://json.blog/"/>
+    <outline text="Greg Pierce (@Agiletortoise)" htmlUrl="http://agiletortoise.com" type="rss" xmlUrl="http://agiletortoise.micro.blog/feed.json"/>
+    <outline text="Sam (Satyajit) Grover (@samgrover)" htmlUrl="https://samgrover.com" type="rss" xmlUrl="https://samgrover.com/feed.json"/>
+    <outline text="Patrick Rhone (@patrickrhone)" htmlUrl="https://patrickrhone.net" type="rss" xmlUrl="https://www.patrickrhone.net/feed"/>
+    <outline text="Stu Maschwitz (@prolost)" htmlUrl="https://prolost.com/" type="rss" xmlUrl="http://prolost.micro.blog/feed.json"/>
+    <outline text="Leo Laporte (@leo)" htmlUrl="https://leo.fm" type="rss" xmlUrl="https://leo.fm/feed.json"/>
+    <outline text="Mina Abadir (@mina)" htmlUrl="https://mina.ca" type="rss" xmlUrl="https://abadir.blog/feed.json"/>
+    <outline text="Pratik (@pratik)" htmlUrl="https://micro.blog/pratik" type="link" url="https://micro.blog/pratik"/>
+    <outline text="Vincent (@vincent)" htmlUrl="https://vincentritter.com" type="link" url="https://vincentritter.com"/>
+    <outline text="@annie@social.lol (@Annie)" htmlUrl="http://www.anniemueller.com" type="link" url="http://www.anniemueller.com"/>
+    <outline text="Halsted M. Bernard (@cygnoir)" htmlUrl="https://cygnoir.net" type="rss" xmlUrl="https://cygnoir.micro.blog/feed.json"/>
+    <outline text="Micro Monday (@monday)" htmlUrl="https://micro.blog/monday" type="rss" xmlUrl="http://monday.micro.blog/feed.json"/>
+    <outline text="Numeric Citizen (@numericcitizen)" htmlUrl="https://whois.numericcitizen.me" type="rss" xmlUrl="https://perfect-imperfections.numericcitizen.me/feed"/>
+    <outline text="Luke M. Perez (@lukemperez)" htmlUrl="https://micro.blog/lukemperez" type="rss" xmlUrl="https://lukemperez.micro.blog/feed.json"/>
+    <outline text="Jason Snell (@jsnell@zeppelin.flights)" htmlUrl="https://zeppelin.flights/@jsnell" type="rss" xmlUrl="https://zeppelin.flights/users/jsnell.rss"/>
+    <outline text="Joe Rosensteel &#x1F3F3;&#xFE0F;&#x200D;&#x1F308; (@joesteel@duck.haus)" htmlUrl="https://duck.haus/@joesteel" type="rss" xmlUrl="https://duck.haus/users/joesteel.rss"/>
+    <outline text="Todd Vaziri (@tvaziri@mastodon.social)" htmlUrl="https://mastodon.social/@tvaziri" type="rss" xmlUrl="https://mastodon.social/users/tvaziri.rss"/>
+    <outline text="Craig Hockenberry (@chockenberry@mastodon.social)" htmlUrl="https://mastodon.social/@chockenberry" type="rss" xmlUrl="https://mastodon.social/users/chockenberry.rss"/>
+    <outline text="Greg Pierce (@agiletortoise@mastodon.social)" htmlUrl="https://mastodon.social/@agiletortoise" type="rss" xmlUrl="https://mastodon.social/users/agiletortoise.rss"/>
+    <outline text="Rick Cogley (@rickcogley)" htmlUrl="https://rick.cogley.jp" type="rss" xmlUrl="https://rickcogley.micro.blog/feed.json"/>
+    <outline text="Micro.blog News (@news)" htmlUrl="https://news.micro.blog/" type="rss" xmlUrl="http://news.micro.blog/feed.json"/>
+    <outline text="John Siracusa (@siracusa@mastodon.social)" htmlUrl="https://mastodon.social/@siracusa" type="rss" xmlUrl="https://mastodon.social/users/siracusa.rss"/>
+    <outline text="John Chidgey (@johnchidgey)" htmlUrl="https://engineered.network" type="rss" xmlUrl="https://engineered.network/blog/feed"/>
+    <outline text="Sven Dahlstrand (@sod)" htmlUrl="https://dahlstrand.net" type="rss" xmlUrl="https://dahlstrand.net/categories/notes/feed.xml"/>
+    <outline text="Stratechery by Ben Thompson (@stratechery.com)" htmlUrl="http://stratechery.com/" type="link" url="http://stratechery.com/"/>
+    <outline text="Tracy Durnell (@tracydurnell)" htmlUrl="https://notes.tracydurnell.com/activitypub/tracy" type="rss" xmlUrl="https://notes.tracydurnell.com/feed.json"/>
+    <outline text="Daniel Schildt (@d2s)" htmlUrl="https://autiomaa.org" type="rss" xmlUrl="https://blog.autiomaa.org/feed.json"/>
+    <outline text="Micro.blog Community Challenges (@challenges)" htmlUrl="https://challenges.micro.blog/" type="rss" xmlUrl="https://challenges.micro.blog/feed.json"/>
+    <outline text="John Moltz (@Moltz@mastodon.social)" htmlUrl="https://mastodon.social/@Moltz" type="rss" xmlUrl="https://mastodon.social/@Moltz.rss"/>
+    <outline text="alexandra wolfe (@alexwolfe)" htmlUrl="https://micro.blog/alexwolfe" type="rss" xmlUrl="https://alexink.ca/feed.json"/>
+    <outline text="Matt Langford (@Mtt@mastodon.social)" htmlUrl="https://mastodon.social/@Mtt" type="rss" xmlUrl="https://mastodon.social/users/Mtt.rss"/>
+    <outline text="Casey Liss (@caseyliss@mastodon.social)" htmlUrl="https://mastodon.social/@caseyliss" type="rss" xmlUrl="https://mastodon.social/users/caseyliss.rss"/>
+    <outline text="Marco Arment (@marcoarment@mastodon.social)" htmlUrl="https://mastodon.social/@marcoarment" type="rss" xmlUrl="https://mastodon.social/users/marcoarment.rss"/>
+    <outline text="Christian Selig (@christianselig@mastodon.social)" htmlUrl="https://mastodon.social/@christianselig" type="rss" xmlUrl="https://mastodon.social/users/christianselig.rss"/>
+    <outline text="Uberspace Support (@hallo@uberspace.social)" htmlUrl="https://uberspace.social/@hallo" type="rss" xmlUrl="https://uberspace.social/users/hallo.rss"/>
+    <outline text="Brian Tatosky (@virtualbri@mastodon.online)" htmlUrl="https://mastodon.online/@virtualbri" type="rss" xmlUrl="https://mastodon.online/users/virtualbri.rss"/>
+    <outline text="Halide + Kino (@halide@mastodon.social)" htmlUrl="https://mastodon.social/@halide" type="rss" xmlUrl="https://mastodon.social/users/halide.rss"/>
+    <outline text="Federico Viticci :ticciseal: (@viticci@macstories.net)" htmlUrl="https://mastodon.macstories.net/@viticci" type="rss" xmlUrl="https://mastodon.macstories.net/@viticci.rss"/>
+    <outline text="Hello Weather (@helloweather@indieapps.space)" htmlUrl="https://indieapps.space/@helloweather" type="rss" xmlUrl="https://indieapps.space/@helloweather.rss"/>
+    <outline text="&#x1FAA9; The Red Panda Club &#x1FAA9; (@redpandaclub@indieapps.space)" htmlUrl="https://indieapps.space/@redpandaclub" type="rss" xmlUrl="https://indieapps.space/@redpandaclub.rss"/>
+    <outline text="Deutscher Wetterdienst (DWD) (@DeutscherWetterdienst@social.bund.de)" htmlUrl="https://social.bund.de/@DeutscherWetterdienst" type="rss" xmlUrl="https://social.bund.de/users/DeutscherWetterdienst.rss"/>
+    <outline text="Stefan Ihringer (@compfu@mograph.social)" htmlUrl="https://mograph.social/@compfu" type="rss" xmlUrl="https://mograph.social/users/compfu.rss"/>
+    <outline text="Deutsche Rentenversicherung (@die_rente@social.bund.de)" htmlUrl="https://social.bund.de/@die_rente" type="rss" xmlUrl="https://social.bund.de/users/die_rente.rss"/>
+    <outline text="Lukas Burgstaller (@voidstern@graz.social)" htmlUrl="https://graz.social/@voidstern" type="rss" xmlUrl="https://graz.social/users/voidstern.rss"/>
+    <outline text="Dr. Drang (@drdrang@fosstodon.org)" htmlUrl="https://fosstodon.org/@drdrang" type="rss" xmlUrl="https://fosstodon.org/users/drdrang.rss"/>
+    <outline text="- (@ner3y)" htmlUrl="https://micro.blog/ner3y" type="rss" xmlUrl="https://ner3y.me/feed.json"/>
+    <outline text="Dilman Dila (@dilmandila@mograph.social)" htmlUrl="https://mograph.social/@dilmandila" type="rss" xmlUrl="https://mograph.social/@dilmandila.rss"/>
+    <outline text="Micro Camp (@camp)" htmlUrl="https://micro.camp" type="rss" xmlUrl="https://micro.camp/feed.json"/>
+    <outline text="Contrariwise the Wizardly (@Contrariwise)" htmlUrl="https://thewizardly.com/" type="rss" xmlUrl="https://thegamemage.com/feed.json"/>
+    <outline text="D3 (@dnddeutsch@pnpde.social)" htmlUrl="https://mastodon.pnpde.social/@dnddeutsch" type="rss" xmlUrl="https://mastodon.pnpde.social/@dnddeutsch.rss"/>
+    <outline text="Frank Jonen (@frank@noauthority.social)" htmlUrl="https://noauthority.social/@frank" type="rss" xmlUrl="https://noauthority.social/@frank.rss"/>
+    <outline text="LegalEagle (@legaleagle.bsky.social) (@legaleagle.bsky.social)" htmlUrl="https://bsky.app/profile/legaleagle.bsky.social" type="rss" xmlUrl="https://bsky.app/profile/did:plc:7wpxcp6wyndg7ecvdunigbbz/rss"/>
+    <outline text="Robert Habeck (@robert-habeck.de)" htmlUrl="http://robert-habeck.de/" type="rss" xmlUrl="https://bsky.app/profile/did:plc:ze734g23l6ejkhq65zgdd3xs/rss"/>
+    <outline text="Glenn Fleishman (@glennf@zeppelin.flights)" htmlUrl="https://zeppelin.flights/@glennf" type="rss" xmlUrl="https://zeppelin.flights/@glennf.rss"/>
+    <outline text="Keen Maker (@keenmaker.bsky.social)" htmlUrl="https://bsky.app/profile/keenmaker.bsky.social" type="rss" xmlUrl="https://bsky.app/profile/did:plc:n4kfs25js3uos3neo3i4sel4/rss"/>
+    <outline text="Micro Social (@microsocial)" htmlUrl="https://microsocial.micro.blog/" type="rss" xmlUrl="https://microsocial.micro.blog/feed.json"/>
+    <outline text="Monika Kucera (@MoniKucera)" htmlUrl="https://moniarts.de/" type="rss" xmlUrl="https://moniarts.de/feed.json"/>
+    <outline text="Greg Morris (@gm@social.lol)" htmlUrl="https://social.lol/@gm" type="rss" xmlUrl="https://social.lol/@gm.rss"/>
+    <outline text="PixelVorschlag &#x1F579;&#xFE0F; (@PixelVorschlag@mastodon.social)" htmlUrl="https://mastodon.social/@PixelVorschlag" type="rss" xmlUrl="https://mastodon.social/@PixelVorschlag.rss"/>
+  </body>
+</opml>
