@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Follows for @AlexKucera</title>
-    <dateCreated>Thu, 15 Oct 2026 15:10:11 +0000</dateCreated>
+    <dateCreated>Mon, 19 Oct 2026 05:25:44 +0000</dateCreated>
   </head>
   <body>
     <outline text="Manton Reece (@manton)" htmlUrl="https://manton.org" type="rss" xmlUrl="https://www.manton.org/feed.json"/>
@@ -54,6 +54,7 @@
     <outline text="Matt Langford (@Mtt@mastodon.social)" htmlUrl="https://mastodon.social/@Mtt" type="rss" xmlUrl="https://mastodon.social/users/Mtt.rss"/>
     <outline text="Casey Liss (@caseyliss@mastodon.social)" htmlUrl="https://mastodon.social/@caseyliss" type="rss" xmlUrl="https://mastodon.social/users/caseyliss.rss"/>
     <outline text="Marco Arment (@marcoarment@mastodon.social)" htmlUrl="https://mastodon.social/@marcoarment" type="rss" xmlUrl="https://mastodon.social/users/marcoarment.rss"/>
+    <outline text="Merlin Mann (@hotdogsladies@mastodon.social)" htmlUrl="https://mastodon.social/@hotdogsladies" type="rss" xmlUrl="https://mastodon.social/users/hotdogsladies.rss"/>
     <outline text="Christian Selig (@christianselig@mastodon.social)" htmlUrl="https://mastodon.social/@christianselig" type="rss" xmlUrl="https://mastodon.social/users/christianselig.rss"/>
     <outline text="Uberspace Support (@hallo@uberspace.social)" htmlUrl="https://uberspace.social/@hallo" type="rss" xmlUrl="https://uberspace.social/users/hallo.rss"/>
     <outline text="Brian Tatosky (@virtualbri@mastodon.online)" htmlUrl="https://mastodon.online/@virtualbri" type="rss" xmlUrl="https://mastodon.online/users/virtualbri.rss"/>
