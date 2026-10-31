@@ -5,6 +5,15 @@
 
 ---
 
+# 2026-10-31
+
+*2026-10-31* — https://alexanderkucera.com/2026/10/31/i-find-the-lack-of.html
+
+I find the lack of understanding for AI tools and how they work is indirectly proportional to the amount of complaints/hate someone espouses. That seems to hold even more on Mastodon. 
+
+
+---
+
 # 2026-10-29
 
 *2026-10-29* — https://alexanderkucera.com/2026/10/29/vertrauenserweckend-hab-eben-eine-radioaktive.html
@@ -80,7 +89,7 @@ Matchbox the movie? Seriously?
 
 I’m sorry AirMail, but are you nuts‽ A ten fold price increase‽ 
 
-<img src="https://eu.uploads.micro.blog/239/2026/bd92d0f2-002f-441c-9606-325180992824.png" width="277" height="600" alt="">
+<img src="uploads/2026/bd92d0f2-002f-441c-9606-325180992824.png" width="277" height="600" alt="">
 
 
 ---
@@ -120,7 +129,7 @@ The Tanzwerk production of „Ronja Räubertochter“ was amazing. Much better t
 
 My daughter‘s ballet performance is about to begin. Two hours of ballet, hip hop, classical dance. Fun for all parents. Because let’s be honest, 99% of attendees will be parents and family members.
 
-<img src="https://eu.uploads.micro.blog/239/2026/f2a25845-c66e-4f20-a9b5-de12698424e7.jpg" width="600" height="197" alt="">
+<img src="uploads/2026/f2a25845-c66e-4f20-a9b5-de12698424e7.jpg" width="600" height="197" alt="">
 
 
 ---
@@ -140,7 +149,7 @@ I have a hard time deciding between Hermes Agent and Pi Coding Agent for my proj
 
 Just wachted Protector. No idea why I did that to myself. What a terrible movie.
 
-<img src="https://eu.uploads.micro.blog/239/2026/6246b2c2-4dae-4e7b-ab05-f46739bf0389.jpg" width="600" height="315" alt="">
+<img src="uploads/2026/6246b2c2-4dae-4e7b-ab05-f46739bf0389.jpg" width="600" height="315" alt="">
 
 
 ---
@@ -190,7 +199,7 @@ If your YouTube video uses a headline like „I did X. Watch what happens.“ yo
 
 Looking out the window I always think for a split second the Enterprise has landed. But alas, it’s just a helipad.
 
-<img src="https://eu.uploads.micro.blog/239/2026/a321a615-f373-465c-9d50-4a1b6415eebb.jpg" width="600" height="400" alt="">
+<img src="uploads/2026/a321a615-f373-465c-9d50-4a1b6415eebb.jpg" width="600" height="400" alt="">
 
 
 ---
@@ -277,7 +286,7 @@ I feel like I made myself smaller by using the shortform.
 
 *2026-09-05* — https://alexanderkucera.com/2026/09/05/113900.html
 
-<img src="https://eu.uploads.micro.blog/239/2026/ed5e4077-9afe-458e-9b25-db40883361b7.jpg" width="600" height="315" alt="In dem Bild sind zwei Männer vor einer Gruppe von Soldaten in Uniform zu sehen, zusammen mit einer Filmkritik zum Film Mayday aus dem Jahr 2026.">
+<img src="uploads/2026/ed5e4077-9afe-458e-9b25-db40883361b7.jpg" width="600" height="315" alt="In dem Bild sind zwei Männer vor einer Gruppe von Soldaten in Uniform zu sehen, zusammen mit einer Filmkritik zum Film Mayday aus dem Jahr 2026.">
 
 
 ---
@@ -488,7 +497,7 @@ The odds are better than they look. Enter the thing.
 
 My first iOS app is live on the App Store: dialysisPal.
 
-<img src="https://eu.uploads.micro.blog/239/2026/app-icon-256.png" alt="Zwei Nieren, eine rot und eine grau, sind vor blauem Hintergrund dargestellt." class="small"> 
+<img src="uploads/2026/app-icon-256.png" alt="Zwei Nieren, eine rot und eine grau, sind vor blauem Hintergrund dargestellt." class="small"> 
 
 It's a peritoneal dialysis tracker. Open it, enter UF, weight, blood pressure, pulse, done. Twice a day, seconds each time. Charts show the long-term trends, and one tap exports a PDF for your nephrologist. I built it because Airtable was too slow.
 
@@ -504,7 +513,7 @@ I've been using it myself for about a year and finally decided it was good enoug
 
 So here it is:
 
-<img src="https://eu.uploads.micro.blog/239/2026/app-main.png" class="small">
+<img src="uploads/2026/app-main.png" class="small">
 
 [App Store link](https://apps.apple.com/de/app/dialysepal/id6753748244) · [dialysepal.de](https://dialysepal.de/)
 
@@ -546,7 +555,7 @@ Classis now has a logo.
 
 
 
-<img src="https://eu.uploads.micro.blog/239/2026/helm-icon-1024.png" width="600" height="600" alt="">
+<img src="uploads/2026/helm-icon-1024.png" width="600" height="600" alt="">
 
 
 ---
@@ -670,7 +679,7 @@ GPT might be brilliant under the hood. I can't tell. And that's the problem.
 
 *2026-07-15* — https://alexanderkucera.com/2026/07/15/dont-prompt-loop.html
 
-![Auto-generated description: Ein Wanderer steht an einer Weggabelung vor einem Schild mit der Aufschrift PLAN und überlegt, ob er dem geraden Weg oder einem symbolischen Loop-Kreis folgen soll, der einen Umweg darstellt.](https://eu.uploads.micro.blog/239/2026/2026-07-15-helm-loop-trap-draft.png)
+![Auto-generated description: Ein Wanderer steht an einer Weggabelung vor einem Schild mit der Aufschrift PLAN und überlegt, ob er dem geraden Weg oder einem symbolischen Loop-Kreis folgen soll, der einen Umweg darstellt.](https://alexanderkucera.com/uploads/2026/2026-07-15-helm-loop-trap-draft.png)
 
 There's a phrase making the rounds in AI-assisted development circles right now: **"don't prompt, loop."** The idea is elegant on its face—stop hand-holding your LLM with step-by-step instructions. Instead, give it a goal and let an agentic loop run until the work is done. The machine figures out the steps. You review the output.
 
@@ -692,7 +701,7 @@ I can already hear the counter-argument: why not just describe what you want and
 
 Because the plan isn't overhead. The plan is the work.
 
-![Auto-generated description: Ein Schreibtisch mit Kaffeetasse, Stift, Skizzen, Notizen und Dokumenten, die verschiedene Projektphasen und Designkonzepte darstellen.](https://eu.uploads.micro.blog/239/2026/de66fa6f3e.png)
+![Auto-generated description: Ein Schreibtisch mit Kaffeetasse, Stift, Skizzen, Notizen und Dokumenten, die verschiedene Projektphasen und Designkonzepte darstellen.](https://alexanderkucera.com/uploads/2026/de66fa6f3e.png)
 
 ## Two Sides of the Same Coin
 
@@ -732,7 +741,7 @@ The culture around "looping" treats planning as failure—as evidence you haven'
 
 Today I'm going to ship an app shell with theming and a three-pane layout. It won't be impressive by demo-video standards. Nobody's going to clip it as proof that AI has changed everything.
 
-![Auto-generated description: Eine gewundene Pflastersteinspur führt durch eine offene Landschaft mit vereinzelten Pflanzen und einem einzelnen Baum.](https://eu.uploads.micro.blog/239/2026/2026-07-15-helm-measured-steps-v2-draft.png)
+![Auto-generated description: Eine gewundene Pflastersteinspur führt durch eine offene Landschaft mit vereinzelten Pflanzen und einem einzelnen Baum.](https://alexanderkucera.com/uploads/2026/2026-07-15-helm-measured-steps-v2-draft.png)
 
 But every piece of it will be there on purpose. And when I add the first real tab tomorrow, I'll know exactly where it goes and why.
 
@@ -745,7 +754,7 @@ That's the thing about measured steps. They look slow until you realize nobody e
 
 *2026-07-14* — https://alexanderkucera.com/2026/07/14/171834.html
 
-<img src="https://eu.uploads.micro.blog/239/2026/57e6b33300.jpg" width="600" height="600" alt="The purpose of a storyteller is not to tell you how to think, but to give you questions to think upon. To often we forget that. - Hoid, The Way of Kings - Brandon Sanderson">
+<img src="uploads/2026/57e6b33300.jpg" width="600" height="600" alt="The purpose of a storyteller is not to tell you how to think, but to give you questions to think upon. To often we forget that. - Hoid, The Way of Kings - Brandon Sanderson">
 
 
 ---
@@ -811,7 +820,7 @@ June gave us two answers.
 
 ## The two Fridays
 
-![Eine Gruppe von Menschen mit einer EU-Flagge steht vor einem großen Server, der mit einer Kette und einem Vorhängeschloss mit der Aufschrift „Export Control“ und einer US-Flagge gesichert ist.](https://eu.uploads.micro.blog/239/2026/2026-06-28-landlord-lock-4k.png)
+![Eine Gruppe von Menschen mit einer EU-Flagge steht vor einem großen Server, der mit einer Kette und einem Vorhängeschloss mit der Aufschrift „Export Control“ und einer US-Flagge gesichert ist.](https://alexanderkucera.com/uploads/2026/2026-06-28-landlord-lock-4k.png)
 
 **Friday, June 12th, 5:21pm ET.** A [directive lands at Anthropic from the U.S. government](https://www.anthropic.com/news/fable-mythos-access). Citing national security authorities under export control rules, they order the company to suspend *all* access to Fable 5 and Mythos 5—"by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees."
 
@@ -833,7 +842,7 @@ I'm not writing this because something broke. I'm writing this because **it coul
 
 I'd rather use something based in the EU if the option were obvious and competitive. You don't want the tools your work depends on subject to one country's bureaucratic whims.
 
-![](https://eu.uploads.micro.blog/239/2026/2026-06-28-landlord-fork-4k.png)
+![](https://alexanderkucera.com/uploads/2026/2026-06-28-landlord-fork-4k.png)
 
 So I went looking for European alternatives, expecting thin pickings. Maybe a university project or two. A handful of startups nobody's heard of.
 
@@ -870,7 +879,7 @@ China has DeepSeek and Qwen with massive domestic adoption and global mindshare.
 
 The EU is good at regulation. The AI Act exists. Horizon Europe funds research. There are working groups, compliance frameworks, ethical guidelines. What the EU hasn’t figured out is saying: *"Hey, we built this thing. Here's where you find it. Here's why you should care."*
 
-![](https://eu.uploads.micro.blog/239/2026/2026-06-28-landlord-megaphone-v2-4k-1500.webp)
+![](https://alexanderkucera.com/uploads/2026/2026-06-28-landlord-megaphone-v2-4k-1500.webp)
 
 The gap isn't R&D. It's advertising.
 
@@ -886,7 +895,7 @@ That's fixable with money the EU already spends on worse things.
 
 ## Why China Isn't the Answer Either
 
-![](https://eu.uploads.micro.blog/239/2026/2026-06-28-landlord-three-doors-v2-draft.webp)
+![](https://alexanderkucera.com/uploads/2026/2026-06-28-landlord-three-doors-v2-draft.webp)
 
 Yes, open-weight models mean anyone can run them. Download the weights, spin up a server, go. No single government can flip a switch and turn them off globally.
 
@@ -911,7 +920,7 @@ Europe built the plumbing. Now tell people where it is.
 
 [New Website is up!](https://babylondreams.de) I had to retire the old one, because we retired the company at the beginning of the year. Now it's a personal business card. It came out well, I think. 
 
-![](https://eu.uploads.micro.blog/239/2026/babylondreams-alex-landingpage.png)
+![](https://alexanderkucera.com/uploads/2026/babylondreams-alex-landingpage.png)
 
 
 ---
@@ -920,7 +929,7 @@ Europe built the plumbing. Now tell people where it is.
 
 *2026-06-27* — https://alexanderkucera.com/2026/06/27/i-automated-myself-out-of.html
 
-![](https://eu.uploads.micro.blog/239/2026/media.png)
+![](https://alexanderkucera.com/uploads/2026/media.png)
 
 I killed my Daily News post today. Not the curation—I still get that by email each morning. Just the part where it automatically published to my blog.
 
@@ -955,7 +964,7 @@ I finally figured out why they all died. It wasn't the code. It was that every d
 
 ## The mittens problem
 
-![Ein frustrierter Mann versucht mit einem langen Stock, einen kleinen Roboter zu steuern, der durch verschiedene technische Schichten wie Dashboard, UI-Layer und Abstraktion dargestellt wird.](https://eu.uploads.micro.blog/239/2026/2026-06-26-mittens-sketch.png)
+![Ein frustrierter Mann versucht mit einem langen Stock, einen kleinen Roboter zu steuern, der durch verschiedene technische Schichten wie Dashboard, UI-Layer und Abstraktion dargestellt wird.](https://alexanderkucera.com/uploads/2026/2026-06-26-mittens-sketch.png)
 
 Here's what using an AI dashboard feels like: imagine trying to guide someone who's wearing oven mittens. And you're holding a ten-foot pole. And the person can't actually feel what they're touching, so they're just sort of waving their mitten-hands in the direction you're pointing and hoping something works.
 
@@ -977,7 +986,7 @@ That's direct. That's me working *with* the agent, not managing it through an in
 
 ## Enter the orb
 
-![Ein zusammengesetztes System mit vier Ebenen zeigt, wie ein Agent eine komplexe Benutzeroberfläche mit einer „Kristallkugel“ unterstützt, die Denk- und Verarbeitungsprozesse symbolisiert.](https://eu.uploads.micro.blog/239/2026/2026-06-26-orb-dashboard-sketch.png)
+![Ein zusammengesetztes System mit vier Ebenen zeigt, wie ein Agent eine komplexe Benutzeroberfläche mit einer „Kristallkugel“ unterstützt, die Denk- und Verarbeitungsprozesse symbolisiert.](https://alexanderkucera.com/uploads/2026/2026-06-26-orb-dashboard-sketch.png)
 
 So here we are in mid-2026, and the YouTube crowd has found a new way to sell the same dashboard idea they've been pushing since OpenClaw launched. They've rebranded it.
 
@@ -1008,7 +1017,7 @@ You can't steer what you can't see. And no amount of glowing spheres changes tha
 
 *2026-06-26* — https://alexanderkucera.com/2026/06/26/the-architect-and-the-builder.html
 
-![Ein Kreislauf von Generate, Test und Fail führt dazu, dass Münzen in ein brennendes Loch mit der Aufschrift Waste fallen, umgeben von Rechnungen und einem leeren Portemonnaie.](https://eu.uploads.micro.blog/239/2026/2026-06-26-burning-tokens-sketch.png)
+![Ein Kreislauf von Generate, Test und Fail führt dazu, dass Münzen in ein brennendes Loch mit der Aufschrift Waste fallen, umgeben von Rechnungen und einem leeren Portemonnaie.](https://alexanderkucera.com/uploads/2026/2026-06-26-burning-tokens-sketch.png)
 
 There's a story making the rounds right now. You've probably seen it on YouTube, the headline promising that AI can now *build entire applications* while you watch. Or sleep. Or do whatever productive people do when their computer does all the work.
 
@@ -1026,7 +1035,7 @@ What bothers me isn't that it fails. It's the assumption underneath it. The assu
 
 I don't work that way. I don't want to.
 
-![Ein Bauarbeiter betrachtet den Ablaufplan eines Bauprojekts, der von der Vision über Analyse, Skizzen, Planung, Materialauswahl, Begutachtung, Kostenschätzung bis zur Umsetzung reicht, umgeben von Bauplänen, einem Lineal und einer Kaffeetasse.](https://eu.uploads.micro.blog/239/2026/2026-06-26-architect-desk-sketch.png)
+![Ein Bauarbeiter betrachtet den Ablaufplan eines Bauprojekts, der von der Vision über Analyse, Skizzen, Planung, Materialauswahl, Begutachtung, Kostenschätzung bis zur Umsetzung reicht, umgeben von Bauplänen, einem Lineal und einer Kaffeetasse.](https://alexanderkucera.com/uploads/2026/2026-06-26-architect-desk-sketch.png)
 
 ## How I actually work
 
@@ -3833,7 +3842,7 @@ Maimarkt Mannheim. [📍](http://maps.apple.com/?ll=49.469058,8.522821)
 
 At the Geekworld in Mannheim today with Robin and his friend…Robin. 
 
-![Geekworld Mannheim](https://eu.uploads.micro.blog/239/2026/image-20260613-102355-b4dffe7e.jpg)
+![Geekworld Mannheim](https://alexanderkucera.com/uploads/2026/image-20260613-102355-b4dffe7e.jpg)
 
 
 ---
@@ -4857,57 +4866,6 @@ The Oura Ring 5 is now available for preorder starting at $399, featuring a dram
 ---
 
 Source: [https://www.theverge.com/gadgets/938380/oura-ring-5-preorder-price-release-date-availability](https://www.theverge.com/gadgets/938380/oura-ring-5-preorder-price-release-date-availability)
-
----
-
-#### How This Newsletter Works
-
-This newsletter is automatically generated by an AI-powered workflow that:
-
-1. **Aggregates** content from 61 RSS feeds
-2. **Filters** articles from the last 24 hours
-3. **Categorizes** each story using AI (GLM-4.5 Air)
-4. **Detects similarities** and combines related stories
-5. **Selects** the top 5 most interesting stories per category
-6. **Summarizes** each story with AI (GLM-4.7)
-
-**Tech Stack**: Built with n8n, powered by Z.AI GLM-4.7 and OpenAI embeddings.
-
----
-
-**Generated with ❤️ by n8n**
-
-
----
-
-# The Daily News — 2026-05-28 Edition
-
-*2026-05-28* — https://alexanderkucera.com/2026/05/28/the-daily-news-edition.html
-
-A curated selection of today's most interesting stories from 61 RSS sources.
-
-## Entertainment
-
-### Streaming-Plattformen müssen in deutsche Produktionen investieren
-
-
-<img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/8/9/7/0/4/shutterstock_585208852-0fd0c5f36fc0c20a.jpeg">
-
-<p><a href="https://www.heise.de/news/Deutsche-kulturelle-Praegung-soll-Streaming-Pflicht-werden-11308362.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/8/9/7/0/4/shutterstock_585208852-0fd0c5f36fc0c20a.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Streamingplattformen sollen einen Teil ihrer Einnahmen in europäische und deutsche Produktionen investieren. Das hat das Bundeskabinett nun beschlossen. </p>
-
----
-
-Source: [[www.heise.de/news/Deut...](https://www.heise.de/news/Deutsche-kulturelle-Praegung-soll-Streaming-Pflicht-werden-11308362.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag](https://www.heise.de/news/Deutsche-kulturelle-Praegung-soll-Streaming-Pflicht-werden-11308362.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag)) 
-### Nach 88 Tagen beendet Iran die längste Internetsperre der Geschichte
-
-
-<img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/8/9/2/9/1/shutterstock_2635528187-6b15fffbbb0ce5a5.jpeg">
-
-<p><a href="https://www.heise.de/news/Willkommen-zurueck-Komplette-Internetsperre-im-Iran-nach-88-Tagen-beendet-11307539.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/5/0/8/9/2/9/1/shutterstock_2635528187-6b15fffbbb0ce5a5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Verschiedene Beobachtungsdaten bestätigen, dass die totale Internetblockade im Iran beendet wurde. Das heißt aber nicht, dass die Menschen alles nutzen können.</p>
-
----
-
-Source: [[www.heise.de/news/Will...](https://www.heise.de/news/Willkommen-zurueck-Komplette-Internetsperre-im-Iran-nach-88-Tagen-beendet-11307539.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag](https://www.heise.de/news/Willkommen-zurueck-Komplette-Internetsperre-im-Iran-nach-88-Tagen-beendet-11307539.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag))
 
 ---
 
