@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Follows for @AlexKucera</title>
-    <dateCreated>Sat, 31 Oct 2026 12:53:40 +0000</dateCreated>
+    <dateCreated>Sun, 1 Nov 2026 19:03:50 +0000</dateCreated>
   </head>
   <body>
     <outline text="Manton Reece (@manton)" htmlUrl="https://manton.org" type="rss" xmlUrl="https://www.manton.org/feed.json"/>
@@ -10,7 +10,7 @@
     <outline text="John Siracusa (@siracusa)" htmlUrl="https://hypercritical.co" type="rss" xmlUrl="http://siracusa.micro.blog/feed.json"/>
     <outline text="Casey Liss (@liss)" htmlUrl="https://www.caseyliss.com" type="rss" xmlUrl="https://www.caseyliss.com/rss"/>
     <outline text="Jonathan Hays (@cheesemaker)" htmlUrl="https://jonhays.me" type="rss" xmlUrl="https://rbcb.micro.blog/authors/cheesemaker/feed.xml"/>
-    <outline text="Daniel Jalkut (@danielpunkass)" htmlUrl="https://bitsplitting.org" type="rss" xmlUrl="http://danielpunkass.micro.blog/feed.json"/>
+    <outline text="Daniel Jalkut (@danielpunkass)" htmlUrl="https://bitsplitting.org" type="rss" xmlUrl="https://danielpunkass.micro.blog/feed.json"/>
     <outline text="Ben Brooks (@ben)" htmlUrl="http://brooksreview.net" type="rss" xmlUrl="http://brooksreview.net/feed/json"/>
     <outline text="Aaron Parecki (@aaronpk)" htmlUrl="https://aaronparecki.com/" type="link" url="https://aaronparecki.com/"/>
     <outline text="Jean MacDonald  (@jean)" htmlUrl="http://micro.welltempered.net" type="rss" xmlUrl="https://welcome.micro.blog/authors/jean/feed.xml"/>
