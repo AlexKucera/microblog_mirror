@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2026/11/18/205657.html",
+				
+				"content_html": "<img src=\"uploads/2026/temporaryimage.png\" width=\"600\" height=\"315\" alt=\"\">\n",
+				"content_text": "<img src=\"uploads/2026/temporaryimage.png\" width=\"600\" height=\"315\" alt=\"\">\n",
+				"date_published": "2026-11-18T20:56:57+01:00",
+				"url": "https://alexanderkucera.com/2026/11/18/205657.html"
+			},
+			{
+				"id": "http://AlexKucera.micro.blog/2026/11/15/mein-vorschlag-fr-die-bundesfinanzen.html",
+				
+				"content_html": "<p>Mein Vorschlag für die Bundesfinanzen: Erst die essenziellen Bedürfnisse des Staates decken. Was übrig bleibt, geht an Herzensprojekte. Nix mehr übrig? Schade. Keine Herzensprojekte. Was essentiell ist, ist der Knackpunkt.</p>\n",
+				"content_text": "Mein Vorschlag für die Bundesfinanzen: Erst die essenziellen Bedürfnisse des Staates decken. Was übrig bleibt, geht an Herzensprojekte. Nix mehr übrig? Schade. Keine Herzensprojekte. Was essentiell ist, ist der Knackpunkt. \n",
+				"date_published": "2026-11-15T10:33:33+01:00",
+				"url": "https://alexanderkucera.com/2026/11/15/mein-vorschlag-fr-die-bundesfinanzen.html"
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2026/11/06/i-am-not-proud-of.html",
 				
 				"content_html": "<p>I am not proud of the code I (and my LLM) creates. I am proud of the products the code produces. I use them every day and sweat the details, just not the details in code.</p>\n",
