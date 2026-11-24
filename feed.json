@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://AlexKucera.micro.blog/2026/11/24/classis-my-agentic-development-environment.html",
+				
+				"content_html": "<p>Classis, my agentic development environment, is coming along nicely. I think I’ll make it public soon. If anyone wants a test build, let me know.</p>\n",
+				"content_text": "Classis, my agentic development environment, is coming along nicely. I think I’ll make it public soon. If anyone wants a test build, let me know. \n",
+				"date_published": "2026-11-24T19:30:56+01:00",
+				"url": "https://alexanderkucera.com/2026/11/24/classis-my-agentic-development-environment.html",
+				"tags": ["Classis"]
+			},
+			{
 				"id": "http://AlexKucera.micro.blog/2026/11/23/nov-at.html",
 				"title": "23. Nov 2026 at 18:21",
 				"content_html": "<p>A quick audio test.</p>\n<p><audio controls=\"controls\" src=\"https://alexanderkucera.com/uploads/2026/23-nov-2026-at-18-21.mp3\" preload=\"metadata\"></audio></p>\n<p><a href=\"https://alexanderkucera.com/transcripts/2026/11/23/3418.html\" class=\"transcript_link\">Transcript</a></p>\n",

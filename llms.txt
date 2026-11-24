@@ -14,6 +14,7 @@
 - [Stats](https://alexanderkucera.com/stats/)
 
 ## Recent Posts
+- [Classis, my agentic development environment, is coming along …](https://alexanderkucera.com/2026/11/24/classis-my-agentic-development-environment.html): 2026-11-24 — Classis, my agentic development environment, is coming along nicely. I think I’ll make it public soon. If anyone wants a test build, let me …
 - [23. Nov 2026 at 18:21](https://alexanderkucera.com/2026/11/23/nov-at.html): 2026-11-23 — A quick audio test.
 - [I enjoy AI most when I am playing with new ideas and have a …](https://alexanderkucera.com/2026/11/19/i-enjoy-ai-most-when.html): 2026-11-19 — I enjoy AI most when I am playing with new ideas and have a “sparring” partner I can bounce ideas off of.
 - [Scheiß Wetter heute.
@@ -38,12 +39,12 @@ youtu.be/GLvFTMtw4…
 - [📍
 My daughter‘s ballet performance is about to begin. Two …](https://alexanderkucera.com/2026/09/20/my-daughters-ballet-performance-is.html): 2026-09-20 — 📍
 My daughter‘s ballet performance is about to begin. Two hours of ballet, hip hop, classical dance. Fun for all parents. Because let’s be …
-- [I have a hard time deciding between Hermes Agent and Pi …](https://alexanderkucera.com/2026/09/16/i-have-a-hard-time.html): 2026-09-16 — I have a hard time deciding between Hermes Agent and Pi Coding Agent for my projects. I love both and both have their strengths and …
 
 
 ## Archive
 
 ### 2026
+- [Classis, my agentic development environment, is coming along …](https://alexanderkucera.com/2026/11/24/classis-my-agentic-development-environment.html): 2026-11-24
 - [23. Nov 2026 at 18:21](https://alexanderkucera.com/2026/11/23/nov-at.html): 2026-11-23
 - [I enjoy AI most when I am playing with new ideas and have a …](https://alexanderkucera.com/2026/11/19/i-enjoy-ai-most-when.html): 2026-11-19
 - [Scheiß Wetter heute.
